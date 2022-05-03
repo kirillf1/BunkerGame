@@ -1,0 +1,156 @@
+﻿using BunkerGame.Domain.Bunkers;
+using BunkerGame.Domain.Catastrophes;
+using BunkerGame.Domain.Characters;
+using BunkerGame.Domain.GameSessions.ExternalSurroundings;
+
+namespace BunkerGame.Domain.GameSessions
+{
+    public class GameSession
+    {
+#pragma warning disable CS8618
+        private GameSession()
+#pragma warning restore CS8618 
+        {
+
+        }
+        public GameSession(long id, string gameName, byte playersCount)
+        {
+            Id = id;
+            GameState = GameState.Preparation;
+            Characters = new(playersCount);
+            GameName = gameName;
+            PlayersCount = playersCount;
+            externalSurroundings = new List<ExternalSurrounding>();
+        }
+        public GameSession(string gameName, byte playersCount, Bunker bunker, Catastrophe catastrophe, List<Character> characters)
+        {
+            if (characters.Count != 0 && (characters.Count > 12 || characters.Count < 6))
+            {
+                throw new ArgumentOutOfRangeException("Characters must be less than 13. Maybe need clear characters from " + nameof(GameSession));
+            }
+            Bunker = bunker;
+            Catastrophe = catastrophe;
+            GameState = GameState.Preparation;
+            Characters = characters;
+            GameName = gameName;
+            PlayersCount = playersCount;
+            externalSurroundings = new List<ExternalSurrounding>();
+        }
+        public GameSession(long id, string gameName, byte playersCount, Bunker bunker, Catastrophe catastrophe, List<Character> characters)
+        {
+            if(characters.Count != 0 && ( characters.Count > 12 || characters.Count< 6))
+            {
+                throw new ArgumentOutOfRangeException("Characters must be less than 13. Maybe need clear characters from " + nameof(GameSession));
+            }
+            Bunker = bunker;
+            setFreePlaceSize(bunker.BunkerSize);
+            Catastrophe = catastrophe;
+            GameState = GameState.Preparation;
+            Characters = characters;
+            Id = id;
+            GameName = gameName;
+            PlayersCount = playersCount;
+            externalSurroundings = new List<ExternalSurrounding>();
+        }
+        public byte FreePlaceSize { get; private set; }
+        public byte ChangedPlaceSize { get; private set; }
+        public string GameName { get; private set; }
+        public byte PlayersCount { get; }
+        public long Id { get; private set; }
+        public Catastrophe Catastrophe { get; private set; }
+        public List<Character> Characters { get; set; }
+        //public int CatastropheId { get; set; }
+        public GameState GameState { get; private set; }
+        public Bunker Bunker { get; private set; }
+        public IReadOnlyCollection<ExternalSurrounding> ExternalSurroundings { get => externalSurroundings; }
+        private List<ExternalSurrounding> externalSurroundings;
+
+        //public bool ChanceWinIncreased { get; set; } = false;
+        //public bool ChanceWinReduced { get; set; } = false;
+        public async Task<ResultGameReport> EndGame(IGameResultCounter resultCounter)
+        {
+            GameState = GameState.Ended;
+            return await resultCounter.CalculateResult(this);
+        }
+        public void ClearCharacters()
+        {
+            Characters.Clear();
+        }
+        
+        public void RemoveCharacterFromGame(Character character)
+        {
+            var characterForDelelete = Characters.FirstOrDefault(c => c.Id == character.Id);
+            if (characterForDelelete != null)
+                Characters.Remove(characterForDelelete);
+        }
+        public void AddFreePlace()
+        {
+            FreePlaceSize++;
+            ChangedPlaceSize++;
+        }
+        public void RemoveFreePlace()
+        {
+            if (FreePlaceSize > 1)
+                FreePlaceSize--;
+            ChangedPlaceSize--;
+        }
+        private void setFreePlaceSize(double bunkerSize)
+        {
+            FreePlaceSize = bunkerSize switch
+            {
+                double size when size > 400 => 4,
+                _ => 3
+            };
+            FreePlaceSize += ChangedPlaceSize;
+        }
+        public void AddCharactersInGame(IEnumerable<Character> characters)
+        {
+            var totalCharactersCount = characters.Count() + Characters.Count;
+            if (totalCharactersCount >= 13 || totalCharactersCount < 6)
+                throw new ArgumentOutOfRangeException("Characters must be less than 13. Maybe need clear characters from " + nameof(GameSession));
+            foreach (var character in characters)
+            {
+                Characters.Add(character);
+                character.RegisterCharacterInGame((byte)Characters.Count, Id);
+            }
+        }
+
+        public void ChangeGameName(string name)
+        {
+            if (string.IsNullOrEmpty(name))
+            {
+                throw new ArgumentException($"\"{nameof(name)}\" не может быть неопределенным или пустым.", nameof(name));
+            }
+
+            GameName = name;
+        }
+        public void UpdateBunker(Bunker bunker)
+        {
+            Bunker = bunker ?? throw new ArgumentNullException();
+            Bunker.RegisterBunkerInGame(Id);
+            setFreePlaceSize(bunker.BunkerSize);
+
+        }
+        public void UpdateСatastrophe(Catastrophe catastrophe)
+        {
+            Catastrophe = catastrophe ?? throw new ArgumentNullException();
+        }
+        public void AddSurrounding(ExternalSurrounding externalSurrounding)
+        {
+            if (externalSurrounding is null)
+            {
+                throw new ArgumentNullException(nameof(externalSurrounding));
+            }
+
+            externalSurroundings.Add(externalSurrounding);
+        }
+    }
+    public enum GameState
+    {
+        Preparation,
+        Started,
+        Ended
+
+    }
+}
+

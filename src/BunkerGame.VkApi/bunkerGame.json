@@ -1,0 +1,7812 @@
+﻿{
+  "AdditionalInformations": [
+    {
+      "AddInfType": 0,
+      "Id": 89,
+      "Description": "Ест обломки металла ",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 0,
+      "Id": 83,
+      "Description": "Является вегетерианцем",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 90,
+      "Description": "Вставляет предметы в анальное отверстие ",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 95,
+      "Description": "Возбужадется от горбов верблюда",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 97,
+      "Description": "Купил девственность школьницы за деньги",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 0,
+      "Id": 6,
+      "Description": "Ограбил(а) банк",
+      "Value": 0.5,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 91,
+      "Description": "Разговаривает с пупком ",
+      "Value": -1.5,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 94,
+      "Description": "Привязал к машине живого кота",
+      "Value": -2.5,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 4,
+      "Description": "Не переносит алкоголь",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 3,
+      "Description": "Был(а) вожатым в лагере",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 96,
+      "Description": "Пытался покончить жизнь самоубийством, но обосрался",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 3,
+      "Id": 7,
+      "Description": "Первое образование - химик",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 88,
+      "Description": "Гавкает на людей ",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 0,
+      "Id": 9,
+      "Description": "Профессиональный инструктор по выживанию",
+      "Value": 5,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 98,
+      "Description": "По ночам воет на луну",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 0,
+      "Id": 2,
+      "Description": "Хорошо играл в волейбол",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 0,
+      "Id": 1,
+      "Description": "В детстве стрелял из лука",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 0,
+      "Id": 5,
+      "Description": "Обладает феноменальной памятью",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 0,
+      "Id": 92,
+      "Description": "Ест хвосты ящериц",
+      "Value": 0.5,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 93,
+      "Description": "Не чистил зубы 3 года",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 8,
+      "Id": 8,
+      "Description": "Первое образование - биолог",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 0,
+      "Id": 23,
+      "Description": "HoHoL",
+      "Value": -2,
+      "IsBalance": false
+    },
+    {
+      "AddInfType": 0,
+      "Id": 17,
+      "Description": "Проходил(а) курс по самообороне",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 0,
+      "Id": 15,
+      "Description": "Продал(а) почку",
+      "Value": -4,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 0,
+      "Id": 58,
+      "Description": "Уверен(а) что эта катастрофа - заговор рептилий",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 0,
+      "Id": 36,
+      "Description": "Занял(а) первое место на марафоне",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 22,
+      "Description": "Ранее был(а) противоположного пола",
+      "Value": -1.5,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 0,
+      "Id": 26,
+      "Description": "Поставил(а) мировой рекорд по поеданию бургеров",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 0,
+      "Id": 38,
+      "Description": "Владеет хорошей спортивной подготовкой",
+      "Value": 3.5,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 0,
+      "Id": 67,
+      "Description": "Опытный путешественник по пустныням",
+      "Value": 3.5,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 0,
+      "Id": 40,
+      "Description": "Верит в пришельцев",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 0,
+      "Id": 39,
+      "Description": "Верит в сверхъестественных существ",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 0,
+      "Id": 78,
+      "Description": "Хорошо ориентируется на местности",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 42,
+      "Description": "Знаком с чомбиком",
+      "Value": -3,
+      "IsBalance": false
+    },
+    {
+      "AddInfType": 0,
+      "Id": 12,
+      "Description": "Побывал(а) на вершине Эвереста",
+      "Value": 1.5,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 0,
+      "Id": 44,
+      "Description": "Любит крыс",
+      "Value": 1.5,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 31,
+      "Description": "Имеет экстрасенсорные способности",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 0,
+      "Id": 10,
+      "Description": "Пережил(а) три покушения",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 4,
+      "Id": 18,
+      "Description": "Проходил(а) курсы кулинарии",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 20,
+      "Description": "Проходил(а) курсы парикмахера",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 51,
+      "Description": "Никогда не врет близким людям",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 35,
+      "Description": "Знает наизусть все стихи Пушкина",
+      "Value": 2.4,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 0,
+      "Id": 24,
+      "Description": "Сидел(а) в тюрьме",
+      "Value": 0.5,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 34,
+      "Description": "Знает четыре языка",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 0,
+      "Id": 27,
+      "Description": "Ебал свинью",
+      "Value": -3,
+      "IsBalance": false
+    },
+    {
+      "AddInfType": 0,
+      "Id": 47,
+      "Description": "Отменный пловец",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 76,
+      "Description": "Хорошо играет в карты",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 0,
+      "Id": 13,
+      "Description": "Делал закладки",
+      "Value": 1.5,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 32,
+      "Description": "Имеет два высших образования",
+      "Value": 3.5,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 43,
+      "Description": "Ест трупы",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 5,
+      "Id": 16,
+      "Description": "Проектировал(а) этот бункер",
+      "Value": 5,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 0,
+      "Id": 25,
+      "Description": "Спасал(а) утопающего",
+      "Value": 1.5,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 59,
+      "Description": "Презирает цыган (но сам цыган)",
+      "Value": -1,
+      "IsBalance": false
+    },
+    {
+      "AddInfType": 1,
+      "Id": 28,
+      "Description": "В 16 лет бухой обблевал простыню",
+      "Value": -3,
+      "IsBalance": false
+    },
+    {
+      "AddInfType": 1,
+      "Id": 29,
+      "Description": "Часто выебывался и получал пизды",
+      "Value": -3,
+      "IsBalance": false
+    },
+    {
+      "AddInfType": 1,
+      "Id": 30,
+      "Description": "Любит мягкие игрушки",
+      "Value": 0.1,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 7,
+      "Id": 54,
+      "Description": "Воевал на Донбассе",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 62,
+      "Description": "Вытирает жопу рукой",
+      "Value": -2,
+      "IsBalance": false
+    },
+    {
+      "AddInfType": 1,
+      "Id": 46,
+      "Description": "Ненавидит современную музыку",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 57,
+      "Description": "Ненавидит кофе",
+      "Value": -0.1,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 66,
+      "Description": "Занимался экзорцизмом",
+      "Value": 1.5,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 3,
+      "Id": 14,
+      "Description": "По первому образованию - врач",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 52,
+      "Description": "Фетиш: лизание глаз",
+      "Value": -1.5,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 11,
+      "Description": "Побывал(а) во всех странах мира",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 45,
+      "Description": "Имеет татуировку в виде рыбы",
+      "Value": 0.3,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 41,
+      "Description": "Ведёт личный дневник",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 65,
+      "Description": "Любит ебать бетон",
+      "Value": -3,
+      "IsBalance": false
+    },
+    {
+      "AddInfType": 0,
+      "Id": 64,
+      "Description": "Родился в результате инцеста",
+      "Value": -3,
+      "IsBalance": false
+    },
+    {
+      "AddInfType": 1,
+      "Id": 53,
+      "Description": "В детстве ударил мать",
+      "Value": -2.5,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 6,
+      "Id": 21,
+      "Description": "Проходил(а) курсы психолога",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 48,
+      "Description": "Продал девственность за 40 гривен",
+      "Value": -0.2,
+      "IsBalance": false
+    },
+    {
+      "AddInfType": 0,
+      "Id": 55,
+      "Description": "Страдает морской болезнью",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 19,
+      "Description": "Проходил(а) курсы массажа",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 68,
+      "Description": "Умеет жонглировать",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 9,
+      "Id": 77,
+      "Description": "Хорошо ладит с животными",
+      "Value": 1.5,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 0,
+      "Id": 37,
+      "Description": "Выиграл(а) в лотерее целое состояние",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 7,
+      "Id": 60,
+      "Description": "Ветеран Югославских Войн",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 63,
+      "Description": "Имеет связи в военных кругах",
+      "Value": 0.3,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 3,
+      "Id": 56,
+      "Description": "Умеет оказывать первую помощь",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 33,
+      "Description": "Играл(а) в театре",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 0,
+      "Id": 70,
+      "Description": "Умеет вскрывать замки",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 0,
+      "Id": 69,
+      "Description": "Любит обезьян",
+      "Value": 1.5,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 7,
+      "Id": 71,
+      "Description": "Увлекается охотой",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 9,
+      "Id": 72,
+      "Description": "Увлекается животноводством",
+      "Value": 1.5,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 4,
+      "Id": 49,
+      "Description": "Умеет хорошо готовить простые блюда",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 50,
+      "Description": "Убежденный коммунист",
+      "Value": 1.5,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 61,
+      "Description": "Играл в хеви-метал группе",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 0,
+      "Id": 74,
+      "Description": "Уверен(а) что живет в матрице",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 86,
+      "Description": "Является резидентом Comedy Club",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 7,
+      "Id": 87,
+      "Description": "Призер чемпионата по спортивной стрельбе",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 79,
+      "Description": "Читал(а) книгу про выживание на необитаемом острове",
+      "Value": 1.3,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 1,
+      "Id": 84,
+      "Description": "Является копрофилом",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 0,
+      "Id": 85,
+      "Description": "Является мастером спорта по боксу",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "AddInfType": 2,
+      "Id": 82,
+      "Description": "Управлял поездом",
+      "Value": 1.5,
+      "IsBalance": true
+    }
+  ],
+  "BunkerWalls": [
+    {
+      "BunkerState": 2,
+      "Id": 7,
+      "Value": 9,
+      "Description": "Убежище в хорошем состоянии. Существам и другим выжившим которые настроены враждебно попасть вряд ли получится потому что убежище достаточно спрятано и защищено Все системы жизнеобеспечения в норме работают в автономном режиме и вряд ли могут дать сбой"
+    },
+    {
+      "BunkerState": 0,
+      "Id": 2,
+      "Value": -8,
+      "Description": "Убежище в плохом состоянии, недостаточно защищен и при огромном желании враждебные существа и другие выжившие могут попасть внутрь. Системы жизнеобеспечения в исправности и работают в автономном режиме, но в любой момент могут отказать. Все схемы и документация о починке механизмов присутствуют. "
+    },
+    {
+      "BunkerState": 0,
+      "Id": 8,
+      "Value": -10,
+      "Description": "Убежище в плохом состоянии, в убежище множество дыр и при огромном желании враждебные существа и другие выжившие могут попасть внутрь. Системы жизнеобеспечения не работают Все схемы и документация о починке механизмов присутствуют. "
+    },
+    {
+      "BunkerState": 2,
+      "Id": 1,
+      "Value": 8,
+      "Description": "Убежище в хорошем состоянии. Существам и другим выжившим которые настроены враждебно попасть вряд ли получится потому что убежище достаточно спрятано и защищено Все системы жизнеобеспечения в норме работают в автономном режиме и вряд ли могут дать сбой"
+    },
+    {
+      "BunkerState": 0,
+      "Id": 9,
+      "Value": -8,
+      "Description": "Убежище в хорошем состоянии.  Существам и другим выжившим которые настроены враждебно попасть получится. Потому в что убежище основная дверь бункера не закрывается. Все системы жизнеобеспечения в норме работают в автономном режиме и вряд ли могут дать сбой"
+    },
+    {
+      "BunkerState": 2,
+      "Id": 6,
+      "Value": 10,
+      "Description": "Убежище находится в прекрасном состоянии надежно спрятан и хорошо защищен внутри от недоброжелателей защитно-герметическими дверями Все системы жизнеобеспечения в норме и работают в автономном режиме. В таком убежище можно жить и не бояться за себя"
+    }
+  ],
+  "BunkerEnviroments": [
+    {
+      "EnviromentBehavior": 2,
+      "EnviromentType": 1,
+      "Id": 15,
+      "Value": -4.5,
+      "Description": "Крысы"
+    },
+    {
+      "EnviromentBehavior": 0,
+      "EnviromentType": 1,
+      "Id": 11,
+      "Value": -2,
+      "Description": "Осы и муравьи"
+    },
+    {
+      "EnviromentBehavior": 2,
+      "EnviromentType": 2,
+      "Id": 5,
+      "Value": 3,
+      "Description": "Робот, который управляет убежищем и настроен на помощь людям (может в любой момент выйти из строя)"
+    },
+    {
+      "EnviromentBehavior": 2,
+      "EnviromentType": 0,
+      "Id": 13,
+      "Value": 0,
+      "Description": "Никто"
+    },
+    {
+      "EnviromentBehavior": 1,
+      "EnviromentType": 3,
+      "Id": 8,
+      "Value": 2,
+      "Description": "Добрый кот"
+    },
+    {
+      "EnviromentBehavior": 0,
+      "EnviromentType": 3,
+      "Id": 1,
+      "Value": -5,
+      "Description": "Змеи"
+    },
+    {
+      "EnviromentBehavior": 0,
+      "EnviromentType": 3,
+      "Id": 16,
+      "Value": -3,
+      "Description": "Агрессивные крабы"
+    },
+    {
+      "EnviromentBehavior": 0,
+      "EnviromentType": 3,
+      "Id": 9,
+      "Value": -2,
+      "Description": "Дикая обезьяна"
+    },
+    {
+      "EnviromentBehavior": 2,
+      "EnviromentType": 1,
+      "Id": 14,
+      "Value": -2,
+      "Description": "Тараканы"
+    },
+    {
+      "EnviromentBehavior": 0,
+      "EnviromentType": 4,
+      "Id": 3,
+      "Value": -7,
+      "Description": "Безумный строитель бункера(вооружен)"
+    },
+    {
+      "EnviromentBehavior": 0,
+      "EnviromentType": 3,
+      "Id": 6,
+      "Value": -4,
+      "Description": "Летучие мыши"
+    },
+    {
+      "EnviromentBehavior": 0,
+      "EnviromentType": 2,
+      "Id": 2,
+      "Value": -10,
+      "Description": "Агрессивный киборг убийца"
+    },
+    {
+      "EnviromentBehavior": 2,
+      "EnviromentType": 1,
+      "Id": 12,
+      "Value": -5,
+      "Description": "Пауки"
+    },
+    {
+      "EnviromentBehavior": 1,
+      "EnviromentType": 2,
+      "Id": 10,
+      "Value": 2,
+      "Description": "Робот-пылесос"
+    },
+    {
+      "EnviromentBehavior": 2,
+      "EnviromentType": 1,
+      "Id": 7,
+      "Value": -2,
+      "Description": "Клопы"
+    },
+    {
+      "EnviromentBehavior": 0,
+      "EnviromentType": 4,
+      "Id": 4,
+      "Value": -9,
+      "Description": "Рейдеры"
+    }
+  ],
+  "BunkerObjects": [
+    {
+      "BunkerObjectType": 6,
+      "Id": 5,
+      "Value": 3,
+      "Description": "Барьер для животных"
+    },
+    {
+      "BunkerObjectType": 5,
+      "Id": 19,
+      "Value": 4,
+      "Description": "Комната управления бункером"
+    },
+    {
+      "BunkerObjectType": 1,
+      "Id": 20,
+      "Value": -2,
+      "Description": "Команта пыток"
+    },
+    {
+      "BunkerObjectType": 7,
+      "Id": 7,
+      "Value": 2.5,
+      "Description": "Мастерская"
+    },
+    {
+      "BunkerObjectType": 1,
+      "Id": 10,
+      "Value": 4,
+      "Description": "Комната развлечений"
+    },
+    {
+      "BunkerObjectType": 8,
+      "Id": 14,
+      "Value": 2.5,
+      "Description": "Архив с секретными данными"
+    },
+    {
+      "BunkerObjectType": 0,
+      "Id": 8,
+      "Value": 4.5,
+      "Description": "Химическая лаборатория"
+    },
+    {
+      "BunkerObjectType": 3,
+      "Id": 12,
+      "Value": 3,
+      "Description": "Гараж с танком"
+    },
+    {
+      "BunkerObjectType": 8,
+      "Id": 6,
+      "Value": 2,
+      "Description": "Библиотека"
+    },
+    {
+      "BunkerObjectType": 2,
+      "Id": 13,
+      "Value": 4.5,
+      "Description": "Склад с оружием"
+    },
+    {
+      "BunkerObjectType": 1,
+      "Id": 16,
+      "Value": 1,
+      "Description": "Оборудованное помещение для мастурбации"
+    },
+    {
+      "BunkerObjectType": 1,
+      "Id": 17,
+      "Value": -1,
+      "Description": "Разрушенный отсек"
+    },
+    {
+      "BunkerObjectType": 1,
+      "Id": 1,
+      "Value": -4,
+      "Description": "Морг с трупами"
+    },
+    {
+      "BunkerObjectType": 0,
+      "Id": 4,
+      "Value": 4,
+      "Description": "Медкабинет"
+    },
+    {
+      "BunkerObjectType": 3,
+      "Id": 11,
+      "Value": 3.5,
+      "Description": "Гараж с машиной"
+    },
+    {
+      "BunkerObjectType": 1,
+      "Id": 15,
+      "Value": 2,
+      "Description": "Кухня-столовая"
+    },
+    {
+      "BunkerObjectType": 4,
+      "Id": 3,
+      "Value": 4,
+      "Description": "Теплица"
+    },
+    {
+      "BunkerObjectType": 5,
+      "Id": 2,
+      "Value": 3,
+      "Description": "Тренажерный зал"
+    },
+    {
+      "BunkerObjectType": 8,
+      "Id": 9,
+      "Value": 2.5,
+      "Description": "Школьный класс"
+    },
+    {
+      "BunkerObjectType": 1,
+      "Id": 18,
+      "Value": -5,
+      "Description": "Склад с гнилыми животными"
+    }
+  ],
+  "Cards": [
+    {
+      "CardMethod": {
+        "CardId": 129,
+        "MethodType": 2,
+        "MethodDirection": 6,
+        "ItemId": 0
+      },
+      "IsSpecial": true,
+      "Id": 129,
+      "Description": "Изменить пол игрока на жещина",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 130,
+        "MethodType": 2,
+        "MethodDirection": 6,
+        "ItemId": 1
+      },
+      "IsSpecial": true,
+      "Id": 130,
+      "Description": "Изменить пол игрока на мужчина",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 127,
+        "MethodType": 4,
+        "MethodDirection": 8,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 127,
+      "Description": "Поменяться чертой характера с игроком",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 131,
+        "MethodType": 2,
+        "MethodDirection": 11,
+        "ItemId": 98
+      },
+      "IsSpecial": true,
+      "Id": 131,
+      "Description": "Изменить предмет игрока на набор медицинских инструментов",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 132,
+        "MethodType": 4,
+        "MethodDirection": 2,
+        "ItemId": null
+      },
+      "IsSpecial": true,
+      "Id": 132,
+      "Description": "Поменяться доп. информацией с игроком",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 133,
+        "MethodType": 4,
+        "MethodDirection": 8,
+        "ItemId": null
+      },
+      "IsSpecial": true,
+      "Id": 133,
+      "Description": "Поменяться чертой харктера с игроком",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 20,
+        "MethodType": 2,
+        "MethodDirection": 6,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 20,
+      "Description": "Изменить пол игрока на выбор",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 23,
+        "MethodType": 2,
+        "MethodDirection": 10,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 23,
+      "Description": "Изменить возраст игрока на выбор",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 4,
+        "MethodType": 1,
+        "MethodDirection": 4,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 4,
+      "Description": "Ты можешь поменять свою карту профессии на новую",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 17,
+        "MethodType": 2,
+        "MethodDirection": 12,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 17,
+      "Description": "Изменить деторождение игрока (случайное)",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 18,
+        "MethodType": 1,
+        "MethodDirection": 2,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 18,
+      "Description": "Ты можешь поменять свою карту дополнительной информации на новую",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 6,
+        "MethodType": 0,
+        "MethodDirection": 0,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 6,
+      "Description": "Каждый человек делает комплимент соседу за 5 секунд (по часовой стрелке, кто не сказал тот выбывает из игры) ",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 128,
+        "MethodType": 4,
+        "MethodDirection": 6,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 128,
+      "Description": "Поменяться полами с игроком на выбор",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 13,
+        "MethodType": 3,
+        "MethodDirection": 21,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 13,
+      "Description": "В 30 метрах от вашего бункера склад с оружием",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 8,
+        "MethodType": 3,
+        "MethodDirection": 21,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 8,
+      "Description": "Все узнают, что рядом с убежищем склад с оружием",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 19,
+        "MethodType": 1,
+        "MethodDirection": 8,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 19,
+      "Description": "Изменить изменить себе черту характера",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 27,
+        "MethodType": 2,
+        "MethodDirection": 10,
+        "ItemId": 70
+      },
+      "IsSpecial": false,
+      "Id": 27,
+      "Description": "Изменить возраст игрока на 70 лет",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 26,
+        "MethodType": 3,
+        "MethodDirection": 21,
+        "ItemId": 2
+      },
+      "IsSpecial": false,
+      "Id": 26,
+      "Description": "Игроки узнают, что рядом с убежищем располагается рота беларусского спецназа с полным вооружением, которые планируют нападение на ваш бункер",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 30,
+        "MethodType": 2,
+        "MethodDirection": 4,
+        "ItemId": 124
+      },
+      "IsSpecial": false,
+      "Id": 30,
+      "Description": "Изменить профессию игрока на бомж",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 1,
+        "MethodType": 4,
+        "MethodDirection": 4,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 1,
+      "Description": "Поменяться профессией с выбранным игроком",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 15,
+        "MethodType": 3,
+        "MethodDirection": 21,
+        "ItemId": 3
+      },
+      "IsSpecial": false,
+      "Id": 15,
+      "Description": "Возле вас находится бункер с двумя женщинами-химиками(Полностью здоровые/возраст: 25-45 лет)",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 9,
+        "MethodType": 0,
+        "MethodDirection": 0,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 9,
+      "Description": "Карта молчания: (всем молчать, изъясняться жестами, нарушившие вылетают)",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 21,
+        "MethodType": 2,
+        "MethodDirection": 19,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 21,
+      "Description": "Изменить обитателей бункера",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 32,
+        "MethodType": 2,
+        "MethodDirection": 3,
+        "ItemId": 26
+      },
+      "IsSpecial": false,
+      "Id": 32,
+      "Description": "Изменить здоровье игрока на ДЦП",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 12,
+        "MethodType": 1,
+        "MethodDirection": 12,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 12,
+      "Description": "Перегенировать деторождение себе",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 24,
+        "MethodType": 0,
+        "MethodDirection": 0,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 24,
+      "Description": "Маховик времени и пространства: актуальное голосование разворачивается в обратную сторону. Все уже проголосовавшие получают право на ещё один голос. Это голосование закончится на том же, кто начинал.",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 2,
+        "MethodType": 3,
+        "MethodDirection": 21,
+        "ItemId": 1
+      },
+      "IsSpecial": false,
+      "Id": 2,
+      "Description": "Возле вас находится бункер с двумя мужчинами-химиками(Полностью здоровые/возраст: 25-45 лет)",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 126,
+        "MethodType": 2,
+        "MethodDirection": 14,
+        "ItemId": 4
+      },
+      "IsSpecial": false,
+      "Id": 126,
+      "Description": "Изменить состояние бункера на плохое",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 3,
+        "MethodType": 1,
+        "MethodDirection": 5,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 3,
+      "Description": "Данная карта дает возможность перегенировать себе фобию",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 44,
+        "MethodType": 0,
+        "MethodDirection": 0,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 44,
+      "Description": "Начинается срочное голосование, круг раскрытия характеристик обнуляется",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 40,
+        "MethodType": 0,
+        "MethodDirection": 0,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 40,
+      "Description": "Ты лжец ( начиная с момента использования карты ты врёшь 2 круга  о своих характеристиках; а на 3-ом вскрываешь эту карту и говоришь настоящие)",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 41,
+        "MethodType": 5,
+        "MethodDirection": 1,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 41,
+      "Description": "Вы убиваете выбранного вами игрока, но при этом вы не можете иметь право голоса в этой игре",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 45,
+        "MethodType": 3,
+        "MethodDirection": 21,
+        "ItemId": 6
+      },
+      "IsSpecial": false,
+      "Id": 45,
+      "Description": "Все узнают, что рядом с бункером находится заброшенная теплица",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 39,
+        "MethodType": 2,
+        "MethodDirection": 17,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 39,
+      "Description": "Изменить первый пердмет в бункере",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 47,
+        "MethodType": 4,
+        "MethodDirection": 12,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 47,
+      "Description": "Обменяться деторождением с игроком на выбор",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 49,
+        "MethodType": 0,
+        "MethodDirection": 0,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 49,
+      "Description": "Данная карта дает вам возможность поменяться всеми голосами с другим игроком(с другим игроком у которого тоже есть голоса)",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 35,
+        "MethodType": 0,
+        "MethodDirection": 0,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 35,
+      "Description": "Заставляет на следующем ходу  игрока вскрыть 2 характеристики",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 57,
+        "MethodType": 1,
+        "MethodDirection": 9,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 57,
+      "Description": "Перегенировать себе хобби",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 48,
+        "MethodType": 2,
+        "MethodDirection": 12,
+        "ItemId": 0
+      },
+      "IsSpecial": false,
+      "Id": 48,
+      "Description": "Изменить деторождение игрока на childfree",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 69,
+        "MethodType": 4,
+        "MethodDirection": 10,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 69,
+      "Description": "Обменяться возрастом с игроком",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 51,
+        "MethodType": 2,
+        "MethodDirection": 18,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 51,
+      "Description": "Изменить первый отсек бункера",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 64,
+        "MethodType": 2,
+        "MethodDirection": 5,
+        "ItemId": 86
+      },
+      "IsSpecial": false,
+      "Id": 64,
+      "Description": "Изменить фобию игрока на Базофобия - боязнь ходьбы",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 60,
+        "MethodType": 2,
+        "MethodDirection": 19,
+        "ItemId": 2
+      },
+      "IsSpecial": false,
+      "Id": 60,
+      "Description": "Заселяет бункер киборгом-убийцей",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 62,
+        "MethodType": 1,
+        "MethodDirection": 3,
+        "ItemId": 87
+      },
+      "IsSpecial": false,
+      "Id": 62,
+      "Description": "Данная карта дает возможность вылечить тебя от любого недуга",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 46,
+        "MethodType": 3,
+        "MethodDirection": 21,
+        "ItemId": 7
+      },
+      "IsSpecial": false,
+      "Id": 46,
+      "Description": "Все узнают, что рядом с бункером находится заброшенная ферма с животными",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 52,
+        "MethodType": 2,
+        "MethodDirection": 14,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 52,
+      "Description": "Изменить состояние бункера",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 38,
+        "MethodType": 3,
+        "MethodDirection": 21,
+        "ItemId": 2
+      },
+      "IsSpecial": false,
+      "Id": 38,
+      "Description": "Возле убежища появляется банда из 10 террористов, готовящаяся напасть на него",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 43,
+        "MethodType": 3,
+        "MethodDirection": 21,
+        "ItemId": 5
+      },
+      "IsSpecial": false,
+      "Id": 43,
+      "Description": "Все узнают, что рядом с бункером находится супермутант-убийца",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 37,
+        "MethodType": 1,
+        "MethodDirection": 4,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 37,
+      "Description": "Изменить себе профессию",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 36,
+        "MethodType": 2,
+        "MethodDirection": 10,
+        "ItemId": 30
+      },
+      "IsSpecial": false,
+      "Id": 36,
+      "Description": "Изменить возраст игрока на 30 лет",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 55,
+        "MethodType": 2,
+        "MethodDirection": 13,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 55,
+      "Description": "Изменить бункер",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 42,
+        "MethodType": 3,
+        "MethodDirection": 21,
+        "ItemId": 4
+      },
+      "IsSpecial": false,
+      "Id": 42,
+      "Description": "Все узнают, что рядом с бункером находится улей пчел-мутантов",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 56,
+        "MethodType": 2,
+        "MethodDirection": 14,
+        "ItemId": 1
+      },
+      "IsSpecial": false,
+      "Id": 56,
+      "Description": "Изменить состояние бункера на хорошее",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 59,
+        "MethodType": 4,
+        "MethodDirection": 2,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 59,
+      "Description": "Обменяться доп. информацией с выбранным игроком",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 65,
+        "MethodType": 2,
+        "MethodDirection": 7,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 65,
+      "Description": "Изменить телосложение игрока",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 66,
+        "MethodType": 4,
+        "MethodDirection": 7,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 66,
+      "Description": "Обменяться телосложением с игроком",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 14,
+        "MethodType": 3,
+        "MethodDirection": 21,
+        "ItemId": 1
+      },
+      "IsSpecial": false,
+      "Id": 14,
+      "Description": "Рядом с вами второй бункер и он настроен недоброжелательно",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 101,
+        "MethodType": 5,
+        "MethodDirection": 22,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 101,
+      "Description": "-1 слот в бункере",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 117,
+        "MethodType": 0,
+        "MethodDirection": 0,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 117,
+      "Description": "Разговор по душам: узнаете одну характеристку у выбранного игрока( указанный игрок выбирает характеристику сам)",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 11,
+        "MethodType": 5,
+        "MethodDirection": 1,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 11,
+      "Description": "Исключить игрока на выбор",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 75,
+        "MethodType": 0,
+        "MethodDirection": 0,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 75,
+      "Description": "Аннулировать любой 1 голос за себя",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 50,
+        "MethodType": 1,
+        "MethodDirection": 5,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 50,
+      "Description": "Перегенировать себе фобию",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 97,
+        "MethodType": 0,
+        "MethodDirection": 0,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 97,
+      "Description": "Вы аннулируете все голоса за себя",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 10,
+        "MethodType": 0,
+        "MethodDirection": 0,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 10,
+      "Description": "Карта поэта: (выбранный игрок читает стих известного поэта наизусть, если не может \u2014 вылетает)",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 115,
+        "MethodType": 0,
+        "MethodDirection": 0,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 115,
+      "Description": "Проклятие: на один ход голоса против игрока умножаются на 2",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 78,
+        "MethodType": 2,
+        "MethodDirection": 20,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 78,
+      "Description": "Сгенерировать новую катастрофу",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 103,
+        "MethodType": 3,
+        "MethodDirection": 22,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 103,
+      "Description": "Добавляет новый слот в бункере",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 31,
+        "MethodType": 4,
+        "MethodDirection": 3,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 31,
+      "Description": "Обменяться здоровьем с выбранным игроком",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 70,
+        "MethodType": 3,
+        "MethodDirection": 21,
+        "ItemId": 8
+      },
+      "IsSpecial": false,
+      "Id": 70,
+      "Description": "Все узнают, что рядом с бункером находится склад с оружием",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 125,
+        "MethodType": 0,
+        "MethodDirection": 0,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 125,
+      "Description": "Откуп: отменяет голоса против вас в этом ходу, но в следующем голоса против вас умножаются на 2",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 71,
+        "MethodType": 3,
+        "MethodDirection": 21,
+        "ItemId": 9
+      },
+      "IsSpecial": false,
+      "Id": 71,
+      "Description": "Все узнают, что рядом находится склад с едой",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 25,
+        "MethodType": 1,
+        "MethodDirection": 12,
+        "ItemId": 1
+      },
+      "IsSpecial": false,
+      "Id": 25,
+      "Description": "Изменить себе деторождение на не childfree",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 54,
+        "MethodType": 2,
+        "MethodDirection": 19,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 54,
+      "Description": "Изменить население бункера",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 58,
+        "MethodType": 2,
+        "MethodDirection": 3,
+        "ItemId": 28
+      },
+      "IsSpecial": false,
+      "Id": 58,
+      "Description": "Изменить здоровье игрока на Туберкулез",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 61,
+        "MethodType": 0,
+        "MethodDirection": 0,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 61,
+      "Description": "Заставляет игрока вскрыть свои карты(но не использовать)",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 7,
+        "MethodType": 1,
+        "MethodDirection": 2,
+        "ItemId": 7
+      },
+      "IsSpecial": false,
+      "Id": 7,
+      "Description": "Измените свою доп. информацию на Первое образование - химик",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 22,
+        "MethodType": 1,
+        "MethodDirection": 10,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 22,
+      "Description": "Изменить себе возраст ",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 81,
+        "MethodType": 6,
+        "MethodDirection": 1,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 81,
+      "Description": "Враг - случайный игрок не попадает в бункер (пассивная карта)",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 29,
+        "MethodType": 4,
+        "MethodDirection": 9,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 29,
+      "Description": "Обменяться хобби с выбранным игроком",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 33,
+        "MethodType": 2,
+        "MethodDirection": 8,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 33,
+      "Description": "Изменить черту характера игрока",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 34,
+        "MethodType": 0,
+        "MethodDirection": 0,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 34,
+      "Description": "Карта Чомбик: идешь нахуй(бесполезная карта) ",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 67,
+        "MethodType": 2,
+        "MethodDirection": 19,
+        "ItemId": 16
+      },
+      "IsSpecial": false,
+      "Id": 67,
+      "Description": "Заселяет убежище агрессивными крабами",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 53,
+        "MethodType": 1,
+        "MethodDirection": 11,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 53,
+      "Description": "Перегенерируйте себе багаж",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 63,
+        "MethodType": 2,
+        "MethodDirection": 5,
+        "ItemId": 109
+      },
+      "IsSpecial": false,
+      "Id": 63,
+      "Description": "Убрать фобию выбранного игрока",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 73,
+        "MethodType": 2,
+        "MethodDirection": 11,
+        "ItemId": 34
+      },
+      "IsSpecial": false,
+      "Id": 73,
+      "Description": "Изменить предмет игрока на говно в кармане",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 105,
+        "MethodType": 0,
+        "MethodDirection": 0,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 105,
+      "Description": "Защита на 1 ход от выбывания",
+      "Value": 0,
+      "IsBalance": true
+    }
+  ],
+  "CharacterItems": [
+    {
+      "CharacterItemType": 2,
+      "Id": 30,
+      "Description": "Книга (Мастер класс по пикапу)",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 32,
+      "Description": "Туалетная бумага",
+      "Value": 1.5,
+      "IsBalance": false
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 34,
+      "Description": "говно в кармане",
+      "Value": -5,
+      "IsBalance": false
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 36,
+      "Description": "фонарики",
+      "Value": 3.9,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 41,
+      "Description": "домашний халат",
+      "Value": 0.4,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 46,
+      "Description": "ракетки для бадминтона",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 0,
+      "Id": 61,
+      "Description": "семена пшеницы",
+      "Value": 3.9,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 65,
+      "Description": "грудной ребенок",
+      "Value": 4,
+      "IsBalance": false
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 66,
+      "Description": "использованный презерватив",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 5,
+      "Id": 71,
+      "Description": "набор юный химик",
+      "Value": 2.6,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 6,
+      "Id": 111,
+      "Description": "дедовское ружьё",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 117,
+      "Description": "бутылка шампанского",
+      "Value": 1.5,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 118,
+      "Description": "газовая горелка",
+      "Value": 3.7,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 5,
+      "Id": 128,
+      "Description": "аптечки (5 штук)",
+      "Value": 3.7,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 142,
+      "Description": "Видеокамера",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 151,
+      "Description": "Стопка листов A4",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 158,
+      "Description": "Капитал Маркса(книга)",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 159,
+      "Description": "Бронежилет",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 163,
+      "Description": "Набор парикмахера( машинка, ножницы)",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 0,
+      "Id": 73,
+      "Description": "различные семена и саженцы",
+      "Value": 4.2,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 0,
+      "Id": 37,
+      "Description": "картошка 10 (кг)",
+      "Value": 4.5,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 42,
+      "Description": "ящик с различным алкоголем",
+      "Value": 3.9,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 7,
+      "Id": 60,
+      "Description": "сотовый телефон",
+      "Value": 3.5,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 120,
+      "Description": "Тактический рюкзак",
+      "Value": 3.8,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 53,
+      "Description": "фонарик и запасные батарейки",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 131,
+      "Description": "питбуль",
+      "Value": 3.8,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 144,
+      "Description": "Костюм клоуна",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 5,
+      "Id": 59,
+      "Description": "стерильные одноразовые шприцы",
+      "Value": 3.7,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 47,
+      "Description": "футбольный мяч",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 4,
+      "Id": 64,
+      "Description": "сварочный аппарат",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 153,
+      "Description": "Пачка денег",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 6,
+      "Id": 133,
+      "Description": "FN SCAR (винтовка)",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 124,
+      "Description": "будильник",
+      "Value": 0.2,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 31,
+      "Description": "несколько чистых листов пергамента",
+      "Value": 1.8,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 130,
+      "Description": "немецкая овчарка(мертвая)",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 6,
+      "Id": 145,
+      "Description": "М4A1",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 110,
+      "Description": "десять одноразовых медицинских масок",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 146,
+      "Description": "Защитная обувь",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 8,
+      "Id": 157,
+      "Description": "мышьяк",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 5,
+      "Id": 72,
+      "Description": "бинты и антисептики",
+      "Value": 4.5,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 134,
+      "Description": "Военная каска",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 57,
+      "Description": "телевизор",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 50,
+      "Description": "компас",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 148,
+      "Description": "Набор винодела( 2 бутылки вина и 2 открывашки)",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 114,
+      "Description": "гитара",
+      "Value": 3.5,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 48,
+      "Description": "тело мертвого человека",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 135,
+      "Description": "Литр святой воды",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 9,
+      "Id": 56,
+      "Description": "топор и веревка",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 6,
+      "Id": 127,
+      "Description": "Винтовка мосина",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 44,
+      "Description": "монеты",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 1,
+      "Id": 109,
+      "Description": "говяжьи анусы",
+      "Value": 2,
+      "IsBalance": false
+    },
+    {
+      "CharacterItemType": 1,
+      "Id": 155,
+      "Description": "3 упаковки черного шоколада",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 4,
+      "Id": 43,
+      "Description": "набор строительных инструментов",
+      "Value": 5,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 108,
+      "Description": "2 киллограма динамита",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 5,
+      "Id": 138,
+      "Description": "Лекарства сделанные из целебных трав",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 0,
+      "Id": 63,
+      "Description": "семена картофеля",
+      "Value": 3.9,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 1,
+      "Id": 149,
+      "Description": "5 кг сала",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 6,
+      "Id": 67,
+      "Description": "пистолет-пулемёт Шмайсер",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 0,
+      "Id": 62,
+      "Description": "семена моркови",
+      "Value": 3.9,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 129,
+      "Description": "немецкая овчарка(живая)",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 52,
+      "Description": "фотоаппарат",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 161,
+      "Description": "Костюм закрытой системы дыхания",
+      "Value": 3.7,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 6,
+      "Id": 49,
+      "Description": "Дробовик",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 9,
+      "Id": 70,
+      "Description": "топор",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 54,
+      "Description": "флейта",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 5,
+      "Id": 69,
+      "Description": "Набор лекарств из целебных растений",
+      "Value": 3.7,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 136,
+      "Description": "Набор для игры в покер",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 150,
+      "Description": "Сборник стихов",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 112,
+      "Description": "губная гармошка",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 6,
+      "Id": 123,
+      "Description": "АК 74",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 0,
+      "Id": 40,
+      "Description": "покупная почва и мешочек семян пшеницы",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 55,
+      "Description": "три респираторные маски",
+      "Value": 1.7,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 132,
+      "Description": "беспроводная колонка",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 141,
+      "Description": "Фалос",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 38,
+      "Description": "стопка порножурналов",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 39,
+      "Description": "книжки по выживанию",
+      "Value": 3.3,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 6,
+      "Description": "противогаз",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 3,
+      "Description": "персидский кот",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 19,
+      "Description": "набор кухонных инструментов",
+      "Value": 2.2,
+      "IsBalance": false
+    },
+    {
+      "CharacterItemType": 9,
+      "Id": 12,
+      "Description": "Металлическое копье",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 6,
+      "Id": 4,
+      "Description": "пневматический пистолет",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 22,
+      "Description": "музыкальная шкатулка",
+      "Value": 1.6,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 0,
+      "Id": 9,
+      "Description": "семена капусты",
+      "Value": 3.8,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 9,
+      "Id": 24,
+      "Description": "лук и стрелы",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 7,
+      "Id": 15,
+      "Description": "ноутбук",
+      "Value": 4.1,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 18,
+      "Description": "настольные игры",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 2,
+      "Description": "пустая коробка",
+      "Value": 0.5,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 165,
+      "Description": "Набор японской манги",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 13,
+      "Description": "открывалка",
+      "Value": 1.2,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 4,
+      "Id": 23,
+      "Description": "молоток и гвозди",
+      "Value": 2.2,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 28,
+      "Description": "коробок спичек",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 9,
+      "Id": 7,
+      "Description": "Рыболовная сеть",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 26,
+      "Description": "ледоруб и трос",
+      "Value": 2.9,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 17,
+      "Description": "немецкая овчарка",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 27,
+      "Description": "косметическое зеркало",
+      "Value": 1,
+      "IsBalance": false
+    },
+    {
+      "CharacterItemType": 4,
+      "Id": 20,
+      "Description": "набор инструментов",
+      "Value": 4.5,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 5,
+      "Description": "презервативы",
+      "Value": 1.4,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 25,
+      "Description": "лейка",
+      "Value": 1,
+      "IsBalance": false
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 1,
+      "Description": "пачка сигарет",
+      "Value": 0.6,
+      "IsBalance": false
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 33,
+      "Description": "четыре рации",
+      "Value": 5,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 8,
+      "Description": "рулоны туалетной бумаги",
+      "Value": 1.5,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 7,
+      "Id": 14,
+      "Description": "радио",
+      "Value": 4.1,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 10,
+      "Description": "Воздушный шар",
+      "Value": 0.5,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 11,
+      "Description": "Металлическая дверь",
+      "Value": 1,
+      "IsBalance": false
+    },
+    {
+      "CharacterItemType": 1,
+      "Id": 16,
+      "Description": "консервы 20 шт",
+      "Value": 4.3,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 21,
+      "Description": "набор для шитья",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 6,
+      "Id": 29,
+      "Description": "Револьвер",
+      "Value": 2.9,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 74,
+      "Description": "надувная лодка",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 93,
+      "Description": "респираторные маски",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 96,
+      "Description": "армейский нож",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 79,
+      "Description": "бинокль",
+      "Value": 2.7,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 86,
+      "Description": "набор для дартса",
+      "Value": 2.4,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 92,
+      "Description": "защитный костюм",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 95,
+      "Description": "протез руки",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 78,
+      "Description": "спальный мешок",
+      "Value": 1.7,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 4,
+      "Id": 102,
+      "Description": "паяльник",
+      "Value": 2.7,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 103,
+      "Description": "кассеты с фильмами",
+      "Value": 1.5,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 6,
+      "Id": 97,
+      "Description": "пистолет",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 105,
+      "Description": "карманные часы",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 77,
+      "Description": "коллекция из 30 порно-журналов",
+      "Value": 3.2,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 6,
+      "Id": 83,
+      "Description": "Пулемёт калашникова",
+      "Value": 3.9,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 90,
+      "Description": "блок сигарет",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 107,
+      "Description": "дублёнка",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 100,
+      "Description": "ящик пива",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 106,
+      "Description": "зажигалка",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 8,
+      "Id": 75,
+      "Description": "банка ртути",
+      "Value": 3.5,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 84,
+      "Description": "набор картин",
+      "Value": 3.5,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 85,
+      "Description": "обезьяна",
+      "Value": 3.8,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 104,
+      "Description": "карта местности",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 101,
+      "Description": "1кг кокса",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 8,
+      "Id": 76,
+      "Description": "отрава для крыс и для насекомых",
+      "Value": 3.5,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 99,
+      "Description": "книжки по похудению",
+      "Value": 2.4,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 2,
+      "Id": 82,
+      "Description": "набор для рисования красками",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 5,
+      "Id": 98,
+      "Description": "набор медицинских инструментов",
+      "Value": 4.9,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 1,
+      "Id": 91,
+      "Description": "коробка с печеньем",
+      "Value": 1.4,
+      "IsBalance": true
+    },
+    {
+      "CharacterItemType": 3,
+      "Id": 89,
+      "Description": "собака по кличке кантимот",
+      "Value": 3,
+      "IsBalance": true
+    }
+  ],
+  "Healths": [
+    {
+      "HealthType": 2,
+      "Id": 11,
+      "Description": "Сифилис",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 2,
+      "Id": 2,
+      "Description": "Собачий трипер",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 2,
+      "Id": 9,
+      "Description": "СOVID-19",
+      "Value": -5,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 39,
+      "Description": "Дифаллия",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 10,
+      "Description": "Травма глаза",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 0,
+      "Id": 7,
+      "Description": "Рак лёгкого",
+      "Value": -5,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 67,
+      "Description": "Косоглазие",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 17,
+      "Description": "Немой",
+      "Value": -1.5,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 8,
+      "Description": "Полидактилия",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 12,
+      "Description": "Глухой на одно ухо",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 1,
+      "Id": 13,
+      "Description": "Психопатия",
+      "Value": -5,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 38,
+      "Description": "Волосатость зубов",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 83,
+      "Description": "Дальтонизм",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 3,
+      "Description": "Эпилепсия",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 1,
+      "Id": 4,
+      "Description": "Шизофрения",
+      "Value": -4,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 5,
+      "Description": "Цинга",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 6,
+      "Description": "Слепота",
+      "Value": -5,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 0,
+      "Id": 1,
+      "Description": "Умственная отсталость",
+      "Value": -5,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 14,
+      "Description": "Простужен",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 1,
+      "Id": 15,
+      "Description": "Депрессия",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 16,
+      "Description": "Абсолютно глухой",
+      "Value": -4,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 1,
+      "Id": 18,
+      "Description": "Синдром туретта",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 23,
+      "Description": "Ячмень",
+      "Value": -1.5,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 0,
+      "Id": 25,
+      "Description": "Синдром Дауна",
+      "Value": -5,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 1,
+      "Id": 27,
+      "Description": "Паранойя (сильная)",
+      "Value": -5,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 29,
+      "Description": "Отсутствие ноги",
+      "Value": -5,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 1,
+      "Id": 31,
+      "Description": "Некрофилия",
+      "Value": -2.9,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 34,
+      "Description": "Анальный глаз",
+      "Value": -3,
+      "IsBalance": false
+    },
+    {
+      "HealthType": 3,
+      "Id": 35,
+      "Description": "Назальный гельментоз",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 37,
+      "Description": "Кровавый понос",
+      "Value": -2.5,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 1,
+      "Id": 40,
+      "Description": "Педофилия",
+      "Value": -4,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 1,
+      "Id": 41,
+      "Description": "Аутизм",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 42,
+      "Description": "Кариес",
+      "Value": -0.5,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 0,
+      "Id": 47,
+      "Description": "Цирроз печени",
+      "Value": -5,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 48,
+      "Description": "Остеохондроз",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 1,
+      "Id": 49,
+      "Description": "Паранойя",
+      "Value": -3.5,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 56,
+      "Description": "Сахарный диабет первого типа",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 57,
+      "Description": "Тропическая гемангиома Мовсесяна",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 58,
+      "Description": "Синдром д\u0027Акосты",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 65,
+      "Description": "Мигрень",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 2,
+      "Id": 69,
+      "Description": "Ангина",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 0,
+      "Id": 71,
+      "Description": "Рак (начальная стадия)",
+      "Value": -5,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 72,
+      "Description": "Перелом руки (правой)",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 1,
+      "Id": 74,
+      "Description": "Алкоголизм",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 75,
+      "Description": "Аллергия на животных",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 76,
+      "Description": "Астма",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 1,
+      "Id": 84,
+      "Description": "Заикание",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 0,
+      "Id": 85,
+      "Description": "Гемофилия",
+      "Value": -5,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 86,
+      "Description": "Гастрит",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 0,
+      "Id": 33,
+      "Description": "Анальный разрыв",
+      "Value": -5,
+      "IsBalance": false
+    },
+    {
+      "HealthType": 0,
+      "Id": 44,
+      "Description": "Инсульт (нарушение кровообращения в мозгу)",
+      "Value": -5,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 20,
+      "Description": "Сколиоз",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 50,
+      "Description": "Плоскостопие",
+      "Value": -0.7,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 2,
+      "Id": 81,
+      "Description": "Ветрянка",
+      "Value": -4,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 0,
+      "Id": 78,
+      "Description": "Болезнь альцгеймера",
+      "Value": -5,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 46,
+      "Description": "Увечье лица",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 80,
+      "Description": "Гайморит",
+      "Value": -1.4,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 36,
+      "Description": "Анальное кровотечение",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 82,
+      "Description": "Диарея",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 63,
+      "Description": "Цистит (воспаление мочевого пузыря)",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 2,
+      "Id": 30,
+      "Description": "СПИД",
+      "Value": -5,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 32,
+      "Description": "Анальный свищ",
+      "Value": -5,
+      "IsBalance": false
+    },
+    {
+      "HealthType": 3,
+      "Id": 73,
+      "Description": "Авитаминоз",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 2,
+      "Id": 66,
+      "Description": "Птичий грипп",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 53,
+      "Description": "Псориаз",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 0,
+      "Id": 54,
+      "Description": "Рак крови",
+      "Value": -5,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 2,
+      "Id": 51,
+      "Description": "Пневмония",
+      "Value": -3.5,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 2,
+      "Id": 79,
+      "Description": "Желтуха",
+      "Value": -4,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 21,
+      "Description": "Грыжа",
+      "Value": -4,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 1,
+      "Id": 59,
+      "Description": "Синдром Агасфера",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 1,
+      "Id": 77,
+      "Description": "Бессонница",
+      "Value": -2.5,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 24,
+      "Description": "Отит (воспаление уха)",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 1,
+      "Id": 43,
+      "Description": "Биполярное расстройство",
+      "Value": -3.5,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 4,
+      "Id": 87,
+      "Description": "Полностью здоров",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 45,
+      "Description": "Медвежья болезнь (Непроизвольное выделение мочи)",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 0,
+      "Id": 26,
+      "Description": "ДЦП",
+      "Value": -5,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 68,
+      "Description": "Межпозвоночная грыжа",
+      "Value": -4,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 64,
+      "Description": "Мочекаменная болезнь",
+      "Value": -0.5,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 2,
+      "Id": 28,
+      "Description": "Туберкулёз",
+      "Value": -4,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 1,
+      "Id": 19,
+      "Description": "Паранойя (лёгкая)",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 2,
+      "Id": 52,
+      "Description": "Простуда",
+      "Value": -1.2,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 3,
+      "Id": 55,
+      "Description": "Сахарный диабет второго типа",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "HealthType": 0,
+      "Id": 22,
+      "Description": "Поражение сердечной мышцы",
+      "Value": -5,
+      "IsBalance": true
+    }
+  ],
+  "Hobbies": [
+    {
+      "HobbyType": 1,
+      "Id": 1,
+      "Description": "Фотография и фотокниги",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 2,
+      "Description": "Мода",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 4,
+      "Description": "Гадание на картах",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 5,
+      "Description": "Наблюдение за птицами",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 72,
+      "Description": "Стрельба из лука",
+      "Value": 3.5,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 171,
+      "Description": "Нудизм",
+      "Value": -1.5,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 172,
+      "Description": "Собачий кайф",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 173,
+      "Description": "Прыжки через детей",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 174,
+      "Description": "Имитация смерти",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 176,
+      "Description": "Трейнсерфинг (проезд снаружи поездов) ",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 168,
+      "Description": "Коллекционирование черепов людей",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 108,
+      "Description": "Настольные игры",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 175,
+      "Description": "Собирание пупочного пуха",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 169,
+      "Description": "Сатанизм",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 170,
+      "Description": "Мазахизм",
+      "Value": -2.5,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 3,
+      "Description": "Ребусы",
+      "Value": 1.7,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 9,
+      "Description": "Футбол",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 17,
+      "Description": "Стекло (изготовление украшений и предметов интерьера)",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 8,
+      "Id": 32,
+      "Description": "Садоводство",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 31,
+      "Description": "Музыка",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 6,
+      "Description": "Чтение книг",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 11,
+      "Description": "Татуировки и пирсинг",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 7,
+      "Id": 16,
+      "Description": "Стрельба",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 18,
+      "Description": "Спорт-фанат",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 12,
+      "Id": 19,
+      "Description": "Собирание грибов и ягод",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 20,
+      "Description": "Каратэ",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 5,
+      "Id": 26,
+      "Description": "Оброботка металла",
+      "Value": 3.9,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 6,
+      "Id": 27,
+      "Description": "Изучение психологии",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 3,
+      "Id": 29,
+      "Description": "Занимается изучением медицины",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 7,
+      "Id": 71,
+      "Description": "Стрелять из оружия",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 22,
+      "Description": "Теквандо",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 21,
+      "Description": "Фейерверки",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 24,
+      "Description": "Бодибилдинг",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 97,
+      "Description": "Изготовлять куклы",
+      "Value": 1.5,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 14,
+      "Description": "Театр (театральный кружок)",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 25,
+      "Description": "Битбокс",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 10,
+      "Description": "Фокусы",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 12,
+      "Description": "Файер-шоу",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 8,
+      "Description": "Шитье и вышивание",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 15,
+      "Description": "Танцы и балет",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 13,
+      "Description": "Теннис",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 8,
+      "Id": 7,
+      "Description": "Флористика",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 23,
+      "Description": "Сноуборд",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 8,
+      "Id": 28,
+      "Description": "Изучение почвоведения",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 30,
+      "Description": "Кунг-Фу",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 81,
+      "Description": "Бить женщин",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 40,
+      "Description": "Скалолазание",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 104,
+      "Description": "Моделирование",
+      "Value": 1.5,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 42,
+      "Description": "Арктические экспедиции",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 43,
+      "Description": "Карточное шулерство",
+      "Value": 1.5,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 45,
+      "Description": "Силовые тренировки",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 53,
+      "Description": "Астрономия",
+      "Value": 1.7,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 47,
+      "Description": "Плевать другим людям в рот",
+      "Value": -2.5,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 111,
+      "Description": "Открытки (изготовление своими руками/обмен (посткроссинг))",
+      "Value": 1.7,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 10,
+      "Id": 77,
+      "Description": "Математика",
+      "Value": 3.6,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 103,
+      "Description": "Диггерство",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 12,
+      "Id": 127,
+      "Description": "Пчеловодство",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 54,
+      "Description": "Батут",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 2,
+      "Id": 52,
+      "Description": "Автомобили",
+      "Value": 2.8,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 64,
+      "Description": "Вязание",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 57,
+      "Description": "Дайвинг",
+      "Value": 2.8,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 59,
+      "Description": "Горные лыжи",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 61,
+      "Description": "Головоломки",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 88,
+      "Description": "Волейбол",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 65,
+      "Description": "Видеомонтаж",
+      "Value": 1.5,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 39,
+      "Description": "Парусный спорт",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 4,
+      "Id": 37,
+      "Description": "Сыроварение",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 93,
+      "Description": "Коллекционирует монеты",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 4,
+      "Id": 91,
+      "Description": "Готовка",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 74,
+      "Description": "Картография",
+      "Value": 3.6,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 107,
+      "Description": "Дерево (выжигание и резьба)",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 10,
+      "Id": 78,
+      "Description": "Программирование",
+      "Value": 3.6,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 79,
+      "Description": "Писательство",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 80,
+      "Description": "Рисование",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 60,
+      "Description": "Гольф",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 67,
+      "Description": "Боевые искусства",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 86,
+      "Description": "Бег",
+      "Value": 3.6,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 87,
+      "Description": "Верховая езда",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 96,
+      "Description": "Плетение корзин из любых веток",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 58,
+      "Description": "Граффити",
+      "Value": 1.8,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 84,
+      "Description": "Дартс",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 10,
+      "Id": 63,
+      "Description": "Разрабатывание сайтов",
+      "Value": 1.4,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 83,
+      "Description": "Скейтборд",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 12,
+      "Id": 33,
+      "Description": "Сбор грибов",
+      "Value": 3.5,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 8,
+      "Id": 73,
+      "Description": "Биология",
+      "Value": 3.6,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 106,
+      "Description": "Музыка (написание ремиксы)",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 90,
+      "Description": "Альпинизм",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 110,
+      "Description": "Серфинг",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 7,
+      "Id": 112,
+      "Description": "Охота",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 113,
+      "Description": "Пазлы",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 114,
+      "Description": "Парашютный спорт",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 101,
+      "Description": "Декупаж",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 34,
+      "Description": "Косметология",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 117,
+      "Description": "Пение и караоке",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 120,
+      "Description": "Пилатес",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 10,
+      "Id": 124,
+      "Description": "Робототехника",
+      "Value": 3.6,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 109,
+      "Description": "Оригами",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 35,
+      "Description": "Космология",
+      "Value": 1.5,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 11,
+      "Id": 70,
+      "Description": "Увлекается иностранными языками",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 4,
+      "Id": 36,
+      "Description": "Домохозяйство",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 129,
+      "Description": "Предпринимательство",
+      "Value": 2.6,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 133,
+      "Description": "Писательская деятельность и журналистика",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 152,
+      "Description": "Каллиграфия",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 156,
+      "Description": "Кроссворды (составление и разгадывание)",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 11,
+      "Id": 148,
+      "Description": "Иностранные языки",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 166,
+      "Description": "Карвинг",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 10,
+      "Id": 167,
+      "Description": "Компьютерная графика",
+      "Value": 1.9,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 157,
+      "Description": "Клоунада",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 155,
+      "Description": "Кайтинг",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 56,
+      "Description": "Блоггерство",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 7,
+      "Id": 44,
+      "Description": "Страйкбол",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 9,
+      "Id": 48,
+      "Description": "Разводить животных",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 50,
+      "Description": "Спорт",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 51,
+      "Description": "Дрочка",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 66,
+      "Description": "Велосипед",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 68,
+      "Description": "Бодиарт",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 75,
+      "Description": "Интересуется светскими новостями",
+      "Value": 1.4,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 76,
+      "Description": "Танцы",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 92,
+      "Description": "Делать мозайки",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 105,
+      "Description": "Музеи и выставки",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 118,
+      "Description": "Переписка по обычной почте",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 119,
+      "Description": "Пикап",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 126,
+      "Description": "Массаж",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 132,
+      "Description": "Плавание",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 134,
+      "Description": "Путешествия",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 4,
+      "Id": 135,
+      "Description": "Мыловарение",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 102,
+      "Description": "Коллекционирует сушеных насекомых",
+      "Value": 2.4,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 149,
+      "Description": "Йога",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 13,
+      "Id": 141,
+      "Description": "Мастурбация двойным хватом",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 62,
+      "Description": "Гербарий",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 138,
+      "Description": "Дизайн одежды",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 9,
+      "Id": 95,
+      "Description": "Животноводство",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 46,
+      "Description": "Лепит горшки и посуду из глины",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 85,
+      "Description": "Делать украшения из бисера",
+      "Value": 1.2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 161,
+      "Description": "Коллекционирование",
+      "Value": 1.5,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 115,
+      "Description": "Паркур",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 4,
+      "Id": 154,
+      "Description": "Кулинария",
+      "Value": 5,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 55,
+      "Description": "Бильярд",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 130,
+      "Description": "Получение научных званий и степеней",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 8,
+      "Id": 69,
+      "Description": "Выращивание растений и цветов",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 136,
+      "Description": "Лепка",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 144,
+      "Description": "Игры на компьютерах и приставках",
+      "Value": 1.5,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 8,
+      "Id": 94,
+      "Description": "Выращивание растений",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 158,
+      "Description": "Косплей",
+      "Value": 1.5,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 6,
+      "Id": 128,
+      "Description": "Психология и тренинги",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 98,
+      "Description": "Шутки шутить",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 5,
+      "Id": 121,
+      "Description": "Самодельные вещи: одежда обувь аксессуары",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 160,
+      "Description": "Коньки и ролики",
+      "Value": 1.5,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 147,
+      "Description": "Икебана",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 99,
+      "Description": "Азартные игры",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 12,
+      "Id": 122,
+      "Description": "Рыбалка",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 164,
+      "Description": "Квест-комнаты",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 150,
+      "Description": "Исторические реконструкции",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 5,
+      "Id": 145,
+      "Description": "Изделия из металла и кузнечное дело",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 82,
+      "Description": "Лечебное голодание",
+      "Value": 1.5,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 131,
+      "Description": "Плетение",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 49,
+      "Description": "Плаванье",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 140,
+      "Description": "Жонглирование",
+      "Value": 1.5,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 153,
+      "Description": "Лазертаг",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 2,
+      "Id": 165,
+      "Description": "Картинг и квадроциклы",
+      "Value": 3.5,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 159,
+      "Description": "Концерты (посещение)",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 41,
+      "Description": "Пранки",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 137,
+      "Description": "Дизайн интерьера",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 162,
+      "Description": "Клубный отдых",
+      "Value": 2.5,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 7,
+      "Id": 116,
+      "Description": "Пейнтбол",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 5,
+      "Id": 123,
+      "Description": "Рукоделия из кожи (одежда аксессуары)",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 142,
+      "Description": "Игра на музыкальных инструментах",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 10,
+      "Id": 151,
+      "Description": "Изучение новых компьютерных программ",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 11,
+      "Id": 125,
+      "Description": "Радиовещание",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 89,
+      "Description": "Баскетбол",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 0,
+      "Id": 143,
+      "Description": "Игрушки и куклы",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 38,
+      "Description": "Викторины",
+      "Value": 1.7,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 100,
+      "Description": "Занимается ювелирством",
+      "Value": 1.3,
+      "IsBalance": true
+    },
+    {
+      "HobbyType": 1,
+      "Id": 163,
+      "Description": "Кладоискательство и археология",
+      "Value": 3,
+      "IsBalance": true
+    }
+  ],
+  "ItemBunkers": [
+    {
+      "ItemBunkerType": 1,
+      "Id": 15,
+      "Value": 5,
+      "Description": "Набор защитных костюмов"
+    },
+    {
+      "ItemBunkerType": 0,
+      "Id": 24,
+      "Value": -3,
+      "Description": "Мертвое тело создателя бункера"
+    },
+    {
+      "ItemBunkerType": 3,
+      "Id": 8,
+      "Value": 3.6,
+      "Description": "Учебные пособия для изучения"
+    },
+    {
+      "ItemBunkerType": 1,
+      "Id": 16,
+      "Value": 4,
+      "Description": "Инструкция по выживанию"
+    },
+    {
+      "ItemBunkerType": 0,
+      "Id": 11,
+      "Value": 3.5,
+      "Description": "Набор духовых инструментов"
+    },
+    {
+      "ItemBunkerType": 0,
+      "Id": 12,
+      "Value": 2,
+      "Description": "Шахматы"
+    },
+    {
+      "ItemBunkerType": 0,
+      "Id": 3,
+      "Value": 2,
+      "Description": "Фортепиано"
+    },
+    {
+      "ItemBunkerType": 6,
+      "Id": 7,
+      "Value": 3.5,
+      "Description": "Книги по ремонту электроники"
+    },
+    {
+      "ItemBunkerType": 0,
+      "Id": 1,
+      "Value": 2,
+      "Description": "Шашки"
+    },
+    {
+      "ItemBunkerType": 5,
+      "Id": 9,
+      "Value": 1,
+      "Description": "Набор столовых приборов"
+    },
+    {
+      "ItemBunkerType": 7,
+      "Id": 6,
+      "Value": 2,
+      "Description": "Книги по технологии строительства"
+    },
+    {
+      "ItemBunkerType": 4,
+      "Id": 2,
+      "Value": 3,
+      "Description": "Телеграф"
+    },
+    {
+      "ItemBunkerType": 0,
+      "Id": 13,
+      "Value": 2,
+      "Description": "Детские игрушки"
+    },
+    {
+      "ItemBunkerType": 2,
+      "Id": 18,
+      "Value": 4,
+      "Description": "Инструменты"
+    },
+    {
+      "ItemBunkerType": 2,
+      "Id": 5,
+      "Value": 1.5,
+      "Description": "Разобранный двигатель"
+    },
+    {
+      "ItemBunkerType": 1,
+      "Id": 23,
+      "Value": -5,
+      "Description": "Бочка с химичискими отходами"
+    },
+    {
+      "ItemBunkerType": 5,
+      "Id": 10,
+      "Value": 1,
+      "Description": "Книга про зоологию"
+    },
+    {
+      "ItemBunkerType": 0,
+      "Id": 20,
+      "Value": 1.5,
+      "Description": "Книга про динозавров"
+    },
+    {
+      "ItemBunkerType": 1,
+      "Id": 22,
+      "Value": 4,
+      "Description": "Чертежи и инструкции использования бункера"
+    },
+    {
+      "ItemBunkerType": 0,
+      "Id": 14,
+      "Value": 3,
+      "Description": "Телевизор"
+    },
+    {
+      "ItemBunkerType": 0,
+      "Id": 19,
+      "Value": 1,
+      "Description": "Пособие по выращиванию марихуаны"
+    },
+    {
+      "ItemBunkerType": 0,
+      "Id": 21,
+      "Value": 1.5,
+      "Description": "Игровые карты"
+    },
+    {
+      "ItemBunkerType": 1,
+      "Id": 4,
+      "Value": 3,
+      "Description": "Топографическая карта местности"
+    },
+    {
+      "ItemBunkerType": 0,
+      "Id": 17,
+      "Value": 1,
+      "Description": "Овсежитель воздуха"
+    }
+  ],
+  "Phobias": [
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 1,
+      "Description": "Робофобия - страх по отношению к любой робототехнике",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 53,
+      "Description": "Лифтофобия - боязнь лифтов",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 4,
+      "Description": "Айлурофобия - боязнь кошек",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 60,
+      "Description": "Гетерофобия - боязнь противоположного пола",
+      "Value": -4,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 2,
+      "Description": "Аматофобия - боязнь пыли",
+      "Value": -4,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 3,
+      "Description": "Фазмофобия - боязнь призраков и духов",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 5,
+      "Description": "Акарофобия - боязнь клещей",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 52,
+      "Description": "Лалофобия - боязнь говорить из-за опасения возможного заикания",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 6,
+      "Description": "Акнефобия - боязнь появления угрей (акне)",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 7,
+      "Description": "Алгофобия - боязнь боли",
+      "Value": -5,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 12,
+      "Description": "Астрофобия - боязнь звёзд и звёздного пространства",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 10,
+      "Description": "Айхмофобия - боязнь острых предметов",
+      "Value": -4,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 2,
+      "Id": 109,
+      "Description": "Нет фобий",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 8,
+      "Description": "Аутомизофобия - боязнь загрязнить своё тело",
+      "Value": -3.6,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 9,
+      "Description": "Антофобия - боязнь цветов",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 11,
+      "Description": "Анемофобия - боязнь бури (сильного ветра)",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 13,
+      "Description": "Акротомофобия - боязнь ампутации",
+      "Value": -1.5,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 14,
+      "Description": "Гомофобия-боязнь любого проявления гомосексуальности",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 15,
+      "Description": "Апопатофобия - боязнь заходить в туалеты",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 16,
+      "Description": "Верминофобия - боязнь бактерий, микробов, червей, заразиться",
+      "Value": -3.8,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 18,
+      "Description": "Бромгидрофобия - боязнь, что окружающие могут заметить неприятный запах тела или потливость больного данной фобий",
+      "Value": -1.6,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 19,
+      "Description": "Баллистофобия - боязнь поражения пулей, бомбой или снарядом",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 20,
+      "Description": "Аутофобия - страх одиночества",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 22,
+      "Description": "Канцерофобия - боязнь заболевания раком",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 23,
+      "Description": "Акрофобия - страх высоты",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 24,
+      "Description": "Клептофобия - боязнь украсть, либо страх быть обокраденным",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 26,
+      "Description": "Гидрофобия (аквафобия)  боязнь воды, сырости, жидкостей",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 27,
+      "Description": "Гидрозофобия -боязнь вспотеть",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 28,
+      "Description": "Гнозиофобия (эпистемофобия) - боязнь знания/познания",
+      "Value": -4,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 29,
+      "Description": "Гелотофобия - страх оказаться объектом юмора, насмешек",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 30,
+      "Description": "Герпетофобия - боязнь рептилий, пресмыкающихся, змей; частный случай зоофобии",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 31,
+      "Description": "Винофобия - боязнь употребления вина",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 32,
+      "Description": "Дисморфофобия - боязнь физических недостатков в собственной внешности",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 33,
+      "Description": "Геронтофобия - страх общения с пожилыми людьми или собственного старения",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 36,
+      "Description": "Хроматофобия - боязнь какого-либо цвета и окрашенных в него предметов",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 37,
+      "Description": "Топофобия - боязнь остаться одному в помещении",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 41,
+      "Description": "Педофобия - навязчивый страх детей или имитирующих их изделий",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 42,
+      "Description": "Параскаведекатриафобия - боязнь пятницы, 13-го дня месяца",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 43,
+      "Description": "Панофобия - боязнь всего или постоянный страх по неизвестной причине",
+      "Value": -5,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 46,
+      "Description": "Нозокомефобия - боязнь больниц",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 47,
+      "Description": "Неофобия - боязнь нового, перемен",
+      "Value": -4,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 50,
+      "Description": "Менофобия - боязнь менструаций и связанных с ними неприятных ощущений",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 51,
+      "Description": "Маниофобия - боязнь психически заболеть",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 54,
+      "Description": "Кристаллофобия - боязнь прикосновения к стеклянным предметам",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 55,
+      "Description": "Кремнофобия - боязнь смотреть в бездну, пропасть",
+      "Value": -1.6,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 56,
+      "Description": "Коулрофобия - боязнь клоунов",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 59,
+      "Description": "Бронтофобия - боязнь грома",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 61,
+      "Description": "Гиерофобия - боязнь предметов религиозного культа",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 62,
+      "Description": "Гилофобия (ксилофобия, никтогилофобия, хилофобия) - боязнь леса, заблудиться в лесу",
+      "Value": -2.5,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 64,
+      "Description": "Блаптофобия - боязнь нанести кому-либо повреждение",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 67,
+      "Description": "Гипнофобия - боязнь заснуть",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 40,
+      "Description": "Радиофобия - боязнь радиации",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 34,
+      "Description": "Эротофобия - боязнь секса или вопросов о сексе",
+      "Value": -4,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 25,
+      "Description": "Графофобия - боязнь писать или брать в руки письменные принадлежности",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 66,
+      "Description": "Аклиофобия - боязнь глухоты",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 57,
+      "Description": "Копрофобия - боязнь фекалий",
+      "Value": -2.6,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 44,
+      "Description": "Орнитофобия - боязнь птиц",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 38,
+      "Description": "Трипанофобия - боязнь игл и уколов",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 48,
+      "Description": "Гаптофобия - боязнь прикосновения окружающих людей",
+      "Value": -3.8,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 65,
+      "Description": "Дентофобия (одонтофобия) - боязнь стоматологов, лечения зубов",
+      "Value": -1.7,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 39,
+      "Description": "Тениофобия - боязнь заразиться глистами",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 68,
+      "Description": "Аэроэмфиземофобия - боязнь кессонной болезни",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 17,
+      "Description": "Вакцинофобия - боязнь прививок и связанных с ними неврологических осложнений",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 35,
+      "Description": "Эквинофобия - боязнь лошадей; частный случай зоофобии",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 58,
+      "Description": "Кенофобия - боязнь больших незаполненных пространств (например, пустого зала театра)",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 45,
+      "Description": "Осмофобия - боязнь телесных запахов",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 49,
+      "Description": "Морфинофобия - боязнь стать морфинистом",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 63,
+      "Description": "Мирмекофобия - боязнь муравьёв; частный случай зоофобии",
+      "Value": -1.6,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 69,
+      "Description": "Скабиофобия - боязнь заболеть чесоткой",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 70,
+      "Description": "Токсикофобия - боязнь отравления",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 71,
+      "Description": "Гамофобия - боязнь вступить в брак",
+      "Value": -3.5,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 72,
+      "Description": "Мизофобия - боязнь заразиться инфекционным заболеванием",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 73,
+      "Description": "Теофобия - боязнь бога",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 75,
+      "Description": "Педиофобия - боязнь предметов имитирующих человеческий облик",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 76,
+      "Description": "Авиафобия - боязнь полетов",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 78,
+      "Description": "Агирофобия - боязнь улиц",
+      "Value": -1.7,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 79,
+      "Description": "Термофобия - Боязнь жары и натопленных помещений",
+      "Value": -2.6,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 80,
+      "Description": "Декстрофобия - боязнь вещей расположенных справа",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 81,
+      "Description": "Клаустрофобия - боязнь закрытых пространств и помещений",
+      "Value": -5,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 82,
+      "Description": "Арахнофобия - боязнь пауков",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 84,
+      "Description": "Танатофобия - боязнь смерти",
+      "Value": -5,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 86,
+      "Description": "Базофобия - боязнь ходьбы",
+      "Value": -4,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 87,
+      "Description": "Тетрафобия - боязнь числа 4",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 88,
+      "Description": "Патройофобия (Patroiophobia) - боязнь наследственности",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 90,
+      "Description": "Погонофобия (Pogonophobia) - боязнь бородатых (страх перед бородами)",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 91,
+      "Description": "Херофобия (Cherophobia) - боязнь веселья",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 92,
+      "Description": "Метрофобия (Metrophobia) - боязнь поэзии",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 94,
+      "Description": "Электрофобия (Electrophobia) - боязнь электричества",
+      "Value": -4,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 96,
+      "Description": "Текстофобия (Textophobia) - боязнь тканей",
+      "Value": -3.6,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 97,
+      "Description": "Виргинитифобия (Virginitiphobia) - боязнь изнасилования",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 99,
+      "Description": "Малевзиофобия (Maleusiophobia) - страх перед родами",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 101,
+      "Description": "Земмифобия - боязнь кротов",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 102,
+      "Description": "Зоофобия - боязнь животных",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 105,
+      "Description": "Децидофобия - боязнь принимать решения",
+      "Value": -3.3,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 108,
+      "Description": "Филофобия - боязнь влюбиться",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 21,
+      "Description": "Ахлуофобия (никтофобия, скотофобия, эклуофобия) - боязнь темноты, ночи",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 85,
+      "Description": "Пирофобия - боязнь огня и пожаров",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 83,
+      "Description": "Ангинофобия - боязнь приступа стенокардии",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 89,
+      "Description": "Спермофобия - боязнь микробов",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 100,
+      "Description": "Ранидофобия - боязнь лягушек",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 95,
+      "Description": "Металлофобия (Metallophobia) - боязнь металлических предметов",
+      "Value": -5,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 107,
+      "Description": "Некрофобия - боязнь трупов и похоронных принадлежностей",
+      "Value": -2.5,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 0,
+      "Id": 98,
+      "Description": "Иофобия - боязнь ядов",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 106,
+      "Description": "Аграфобия - боязнь сексуальных домогательств, секса",
+      "Value": -4,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 103,
+      "Description": "Дорофобия - боязнь получать или делать подарки",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 77,
+      "Description": "Венерофобия - боязнь заболеть венерической болезнью",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 74,
+      "Description": "Эротофобия - боязнь секса",
+      "Value": -5,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 104,
+      "Description": "Демонофобия (cатанофобия) - боязнь Дьявола, демонов и другой нечистой силы",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "PhobiaDebuffType": 1,
+      "Id": 93,
+      "Description": "Фотофобия (Photophobia) - боязнь света",
+      "Value": -5,
+      "IsBalance": true
+    }
+  ],
+  "Professions": [
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 70,
+      "Description": "Снайпер",
+      "Value": 7,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 1,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 72,
+      "Description": "Преподаватель мед. училища",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 47,
+      "Description": " Уборщик говна ",
+      "Value": 2,
+      "IsBalance": false
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 96,
+      "Description": " Художник",
+      "Value": 5,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 98,
+      "Description": " Режиссёр",
+      "Value": 5,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 3,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 103,
+      "Description": " Инженер",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 107,
+      "Description": "Фитнес-тренер",
+      "Value": 5,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 114,
+      "Description": "Исполнитель музыки в жанре шансон",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 5,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 121,
+      "Description": "Полковник запаса",
+      "Value": 8,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 8,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 124,
+      "Description": " Бомж",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 8,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 127,
+      "Description": " Браконьер",
+      "Value": 5,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 129,
+      "Description": " Шахтер ",
+      "Value": 5,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 131,
+      "Description": "Блогер",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 135,
+      "Description": " Грузчик",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 137,
+      "Description": " Порноактрер ",
+      "Value": 5,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 138,
+      "Description": " Гробовщик",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 139,
+      "Description": " Игрок казино",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 11,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 143,
+      "Description": " Президент",
+      "Value": 9.9,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 11,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 144,
+      "Description": " Дипломат",
+      "Value": 8,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 145,
+      "Description": " Учитель",
+      "Value": 7,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 146,
+      "Description": " Стриптизёр",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 67,
+      "Description": "Тюремный надзиратель",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 7,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 111,
+      "Description": "Дрессировщик свиней",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 150,
+      "Description": "Главный по открыванию двери",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 76,
+      "Description": "Актер-аниматор Шрека",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 136,
+      "Description": " Бармен",
+      "Value": 5,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 81,
+      "Description": "Гейша",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 90,
+      "Description": "Диджей",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 1,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 1,
+      "Description": "Химик",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 1,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 142,
+      "Description": " Акушер",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 109,
+      "Description": "Куртизанка",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 92,
+      "Description": "Модель",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 152,
+      "Description": "Переворачиватель пингвинов",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 6,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 2,
+      "Description": "Ботаник",
+      "Value": 7,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 0,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 141,
+      "Description": "Военный лётчик",
+      "Value": 7,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 95,
+      "Description": " Кассир",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 130,
+      "Description": "Аналитик военный",
+      "Value": 7,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 99,
+      "Description": " Писатель",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 65,
+      "Description": "Педагог",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 77,
+      "Description": "Сомалийский пират",
+      "Value": 7,
+      "IsBalance": false
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 1,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 132,
+      "Description": "Терапевт",
+      "Value": 7,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 3,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 5,
+      "Description": "Автоэлектрик",
+      "Value": 5,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 2,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 6,
+      "Description": "Технолог пищевой промышленности",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 73,
+      "Description": "Фотомодель",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 140,
+      "Description": " Священник ",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 7,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 3,
+      "Description": "Зоолог",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 5,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 69,
+      "Description": "Командир полка",
+      "Value": 8,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 97,
+      "Description": "Предприниматель",
+      "Value": 5,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 149,
+      "Description": "Экстрасенс для животных",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 91,
+      "Description": "Журналист",
+      "Value": 5.5,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 2,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 66,
+      "Description": "Кондитер",
+      "Value": 5,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 1,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 110,
+      "Description": "Врач-венеролог",
+      "Value": 7,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 89,
+      "Description": "Визажист",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 5,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 104,
+      "Description": " Агент ФБР",
+      "Value": 10,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 11,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 133,
+      "Description": " Переводчик",
+      "Value": 5,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 128,
+      "Description": "Аниматор",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 119,
+      "Description": "Сапожник",
+      "Value": 5,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 102,
+      "Description": "Банкир",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 151,
+      "Description": "Стояльщик в очереди",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 3,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 105,
+      "Description": " Охранник",
+      "Value": 5,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 64,
+      "Description": "Каскадёр",
+      "Value": 6.5,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 4,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 100,
+      "Description": " Психолог",
+      "Value": 8,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 5,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 122,
+      "Description": "Военный",
+      "Value": 7,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 11,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 123,
+      "Description": " Адвокат",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 93,
+      "Description": "Татуировщик",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 11,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 106,
+      "Description": "Депутат  ",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 4,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 118,
+      "Description": " Гендерный учёный",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 3,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 125,
+      "Description": " Строитель",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 10,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 4,
+      "Description": "Робототехник",
+      "Value": 7,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 8,
+      "Description": "Менеджер",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 44,
+      "Description": " Парикмахер",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 5,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 18,
+      "Description": " Полицейский",
+      "Value": 9,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 3,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 30,
+      "Description": " Сварщик",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 23,
+      "Description": "Самбист",
+      "Value": 8,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 1,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 28,
+      "Description": " Нейрохирург",
+      "Value": 7,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 34,
+      "Description": "Историк",
+      "Value": 7,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 5,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 36,
+      "Description": "Конструктор вооружения",
+      "Value": 7,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 10,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 25,
+      "Description": " Программист",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 3,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 42,
+      "Description": "Сантехник",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 48,
+      "Description": "Продавец",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 11,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 33,
+      "Description": "Лингвист",
+      "Value": 5,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 46,
+      "Description": "Прораб",
+      "Value": 5,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 49,
+      "Description": "Инкассатор",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 32,
+      "Description": "Метеоролог",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 45,
+      "Description": "Аквалангист",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 1,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 31,
+      "Description": " Военный врач",
+      "Value": 10,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 10,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 20,
+      "Description": " Хакер",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 2,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 24,
+      "Description": " Повар",
+      "Value": 10,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 2,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 9,
+      "Description": "Пекарь",
+      "Value": 10,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 8,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 37,
+      "Description": "Охотник на обезьян",
+      "Value": 7,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 5,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 21,
+      "Description": "Боец секретного армейского спецназа",
+      "Value": 10,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 1,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 51,
+      "Description": "Анестезиолог ",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 3,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 40,
+      "Description": "Монтажник",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 3,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 38,
+      "Description": "Машинист",
+      "Value": 5,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 3,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 19,
+      "Description": " Физик",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 10,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 22,
+      "Description": "Специалист по кибернетике",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 3,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 15,
+      "Description": " Электрик",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 17,
+      "Description": " Матрос",
+      "Value": 9,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 14,
+      "Description": "Поэт",
+      "Value": 9,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 3,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 29,
+      "Description": " Плотник",
+      "Value": 8,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 5,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 27,
+      "Description": " Спецназовец",
+      "Value": 9,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 26,
+      "Description": " Космонавт",
+      "Value": 10,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 1,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 7,
+      "Description": "Врач скорой помощи",
+      "Value": 7,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 11,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 39,
+      "Description": "Нацистский пропагандист",
+      "Value": 5,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 0,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 13,
+      "Description": "Лётчик",
+      "Value": 10,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 16,
+      "Description": " Логист",
+      "Value": 7,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 50,
+      "Description": "Экономист ",
+      "Value": 5,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 43,
+      "Description": "Знаток анимэ",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 3,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 41,
+      "Description": "Радиомеханик",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 35,
+      "Description": "Географ",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 6,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 10,
+      "Description": "Агроном",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 11,
+      "Description": "Военнослужащий",
+      "Value": 8,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 12,
+      "Description": "Пожарный",
+      "Value": 9,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 3,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 126,
+      "Description": "Архитектор",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 1,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 53,
+      "Description": "Гастроэнтеролог ",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 3,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 82,
+      "Description": "Токарь",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 68,
+      "Description": "Водолаз",
+      "Value": 7,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 2,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 60,
+      "Description": "Официант",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 86,
+      "Description": "Проводник (ЖД)",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 6,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 113,
+      "Description": "Эколог",
+      "Value": 5,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 74,
+      "Description": "Фотограф",
+      "Value": 5,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 85,
+      "Description": "Кондуктор",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 87,
+      "Description": "Экспедитор",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 4,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 78,
+      "Description": "Гипнотезер",
+      "Value": 7,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 10,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 80,
+      "Description": "Разработчик Warcraft",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 8,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 55,
+      "Description": "Укротитель зверей",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 11,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 84,
+      "Description": "Диспетчер",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 58,
+      "Description": "Няня",
+      "Value": 7,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 134,
+      "Description": "Звукооператор",
+      "Value": 5,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 94,
+      "Description": " Дегустатор",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 61,
+      "Description": "Дворник ",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 5,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 101,
+      "Description": " Продавец оружия ",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 2,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 57,
+      "Description": "Горничная",
+      "Value": 5,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 83,
+      "Description": "Швея",
+      "Value": 5,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 63,
+      "Description": "Воспитатель",
+      "Value": 7,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 5,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 79,
+      "Description": "Конструктор ворот и дверей",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 2,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 116,
+      "Description": "Пивовар",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 108,
+      "Description": "Тестер презервативов",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 0,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 71,
+      "Description": "Танкист",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 6,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 75,
+      "Description": "Флорист",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 88,
+      "Description": "Стюардесса",
+      "Value": 5.5,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 112,
+      "Description": "Дезинсектор",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 2,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 117,
+      "Description": " Винодел ",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 7,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 120,
+      "Description": "Кинолог",
+      "Value": 5,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 6,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 62,
+      "Description": "Садовник",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 1,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 52,
+      "Description": "Вирусолог",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 1,
+      "ProfessionType": 1,
+      "CharacterItem": null,
+      "Id": 54,
+      "Description": "Хирург ",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 56,
+      "Description": "Библиотекарь",
+      "Value": 6,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 59,
+      "Description": "Оператор колл-центра",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 115,
+      "Description": "Вор",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 2,
+      "CharacterItem": null,
+      "Id": 148,
+      "Description": "Гид",
+      "Value": 7,
+      "IsBalance": true
+    },
+    {
+      "Card": null,
+      "ProfessionSkill": 12,
+      "ProfessionType": 0,
+      "CharacterItem": null,
+      "Id": 147,
+      "Description": " Владелец гей-клуба",
+      "Value": 5,
+      "IsBalance": true
+    }
+  ],
+  "GameSessions": [],
+  "Bunkers": [],
+  "Characters": [],
+  "Traits": [
+    {
+      "TraitType": 1,
+      "Id": 14,
+      "Description": "доверчивость",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 0,
+      "Id": 16,
+      "Description": "осторожность",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 0,
+      "Id": 28,
+      "Description": "самостоятельность",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 1,
+      "Id": 29,
+      "Description": "самовлюбленность",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 1,
+      "Id": 47,
+      "Description": "ворчливость",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 0,
+      "Id": 17,
+      "Description": "слабохарактерность",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 0,
+      "Id": 23,
+      "Description": "тревожность",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 0,
+      "Id": 34,
+      "Description": "эгоизм",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 0,
+      "Id": 41,
+      "Description": "боязливость",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 1,
+      "Id": 42,
+      "Description": "буйность",
+      "Value": -4,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 1,
+      "Id": 49,
+      "Description": "гостеприимность",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 0,
+      "Id": 38,
+      "Description": "авантюризм",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 1,
+      "Id": 9,
+      "Description": "истеричность",
+      "Value": -4,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 1,
+      "Id": 13,
+      "Description": "обидчивость",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 0,
+      "Id": 3,
+      "Description": "ненадёжность",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 1,
+      "Id": 10,
+      "Description": "жизнерадостность",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 1,
+      "Id": 31,
+      "Description": "равнодушие",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 1,
+      "Id": 50,
+      "Description": "крысятничество",
+      "Value": -4,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 0,
+      "Id": 40,
+      "Description": "безынициативность",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 1,
+      "Id": 51,
+      "Description": "весёлость",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 1,
+      "Id": 33,
+      "Description": "добродушие",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 1,
+      "Id": 2,
+      "Description": "неравнодушие",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 1,
+      "Id": 6,
+      "Description": "надёжность",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 0,
+      "Id": 12,
+      "Description": "жадность",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 0,
+      "Id": 37,
+      "Description": "храбрость",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 0,
+      "Id": 45,
+      "Description": "внимательность",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 1,
+      "Id": 48,
+      "Description": "доступность",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 1,
+      "Id": 20,
+      "Description": "харизматичность",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 1,
+      "Id": 4,
+      "Description": "нежность",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 0,
+      "Id": 22,
+      "Description": "трусость",
+      "Value": -3,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 1,
+      "Id": 11,
+      "Description": "жестокость",
+      "Value": -2.5,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 0,
+      "Id": 30,
+      "Description": "расчётливость",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 0,
+      "Id": 1,
+      "Description": "неусидчивость",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 1,
+      "Id": 35,
+      "Description": "грубость",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 0,
+      "Id": 43,
+      "Description": "благоразумность",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 1,
+      "Id": 44,
+      "Description": "властность",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 1,
+      "Id": 15,
+      "Description": "любезность",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 0,
+      "Id": 46,
+      "Description": "внушаемость",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 0,
+      "Id": 24,
+      "Description": "пофигизм",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 1,
+      "Id": 8,
+      "Description": "лицемерие",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 0,
+      "Id": 18,
+      "Description": "предприимчивость",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 1,
+      "Id": 21,
+      "Description": "флегматичность",
+      "Value": -1,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 1,
+      "Id": 26,
+      "Description": "скандальность",
+      "Value": -2,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 1,
+      "Id": 19,
+      "Description": "доброта",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 1,
+      "Id": 27,
+      "Description": "сдержанность",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 0,
+      "Id": 32,
+      "Description": "собранность",
+      "Value": 4,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 0,
+      "Id": 39,
+      "Description": "безотказность",
+      "Value": 1,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 1,
+      "Id": 36,
+      "Description": "деликатность",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 0,
+      "Id": 25,
+      "Description": "терпеливость",
+      "Value": 2,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 0,
+      "Id": 5,
+      "Description": "невозмутимость",
+      "Value": 3,
+      "IsBalance": true
+    },
+    {
+      "TraitType": 1,
+      "Id": 7,
+      "Description": "конфликтность",
+      "Value": -3,
+      "IsBalance": true
+    }
+  ],
+  "Catastrophes": [
+    {
+      "Id": 1,
+      "Description": "Эксперименты с генно-модифицированными организмами привели к ускорению мутаций и эволюции флоры и фауны земли. Все растения (и семена) на планете стремительно мутировали в чудовищные формы, вследствие чего не представляется, возможным употребление их пищи, в виду угрозы жизни и здоровью. Нехватка продовольствия повлекла за собой уничтожение мирового общества посредством конфликтов и войн. ",
+      "CatastropheType": 1,
+      "HidingTerm": 10,
+      "DestructionPercent": 75,
+      "SurvivedPopulationPercent": 25,
+      "Value": -5
+    },
+    {
+      "Id": 2,
+      "Description": "Инопланетная цивилизация Икс поработила землю на год, привнеся рабство, садизм и иррациональное насилие в культуру управления обществом. Спустя 5 лет все представители цивилизации погибли от воздействия земной микрофлоры, деградировавшее человечество впало в первобытное состояние анархии и войны каждого с каждым. Государства, правительства, логистические, энергетические и коммуникационные системы полностью уничтожены как институты. ",
+      "CatastropheType": 0,
+      "HidingTerm": 9,
+      "DestructionPercent": 65,
+      "SurvivedPopulationPercent": 45,
+      "Value": -8
+    },
+    {
+      "Id": 3,
+      "Description": "Детонация экспериментального термоядерного реактора (сконструированного для решения глобальной энергетической проблемы). Колоссальный взрыв раскаленной плазмы полностью выжег всю поверхность южного полушария земли и пробил воронку к литосфере, вызвав выбросы магмы в атмосферу. Северное полушарие уцелело на 8%. Низины оказались затопленными растаявшими ледниками, а горы и плато превратились в обугленные обсидиановые пустыни, непригодные для жизни и агрономии. Вращение планеты замедлилось на 27%, что повлекло колоссальные возмущения в электромагнитном поле земли: использование электрических приборов не представляется возможным, поверхность земли подвергается воздействию солнечной радиации. Длительность суток возросла до 27 часов. ",
+      "CatastropheType": 1,
+      "HidingTerm": 9,
+      "DestructionPercent": 90,
+      "SurvivedPopulationPercent": 2,
+      "Value": -7
+    },
+    {
+      "Id": 4,
+      "Description": "COVID-19 мутировал и теперь стал еще смертельней(человек умирает от осложнений за 5 дней). При этом теперь животные являются носителями вируса, который может с легкостью передаться человеку, но у животных он проходит в легкой форме.После мутации каждый день начали умирали миллионы людей. Люди пытались уничтожать животных, но их усилия были бесполезными ",
+      "CatastropheType": 0,
+      "HidingTerm": 5,
+      "DestructionPercent": 2,
+      "SurvivedPopulationPercent": 3,
+      "Value": -8
+    },
+    {
+      "Id": 5,
+      "Description": "Симианский грипп Созданный учеными штамм \u0022лекарства\u0022 от болезни Альцгеймера в итоге стал смертельным для людей что привело к пандемии симианского гриппа и восходу эволюционировавших обезьян У всех оставшихся людей есть иммунитет к вирусу но он способен мутировать Больший процент обезьян настроен враждебно по отношению к людям",
+      "CatastropheType": 0,
+      "HidingTerm": 5,
+      "DestructionPercent": 24,
+      "SurvivedPopulationPercent": 4,
+      "Value": -6.5
+    },
+    {
+      "Id": 6,
+      "Description": "Метеорит. На планету падает космический объект огромных размеров создавая мощную ударную волну которая сносит все на своем пути На месте падения образовывается масштабный кратер Повсюду проходят сильные землетрясения и цунами Пожары охватывают всю Землю а из-за количество пыли которое поднялось в атмосферу на планете настает долгая \u0022ядерная зима\u0022",
+      "CatastropheType": 1,
+      "HidingTerm": 10,
+      "DestructionPercent": 22,
+      "SurvivedPopulationPercent": 30,
+      "Value": -6
+    },
+    {
+      "Id": 7,
+      "Description": "Зомби-апокалипсис. Неизвестный возбудитель стал причиной превращения людей в кровожадных зомби. Коллапс, системы больницы более не функционируют. Тотальная паника армия начинает стрелять на поражение при попытке покинуть карантинную зону. Власть уже не может контролировать ситуацию Начинается тотальное мародерство и анархия После выхода из бункера малый процент зомби останется в живых",
+      "CatastropheType": 0,
+      "HidingTerm": 4,
+      "DestructionPercent": 12,
+      "SurvivedPopulationPercent": 21,
+      "Value": -8
+    },
+    {
+      "Id": 8,
+      "Description": "Биотерроризм. Создавая более заразный и смертоносный штамм вируса в стенах исследовательской лабораторий один из работников случайно им заразился в результате чего вирус вышел из-под контроля и очень быстро распространился по всей планете. Большой процент всех живых существ погибли. У остальных существ и растений развились мутации",
+      "CatastropheType": 0,
+      "HidingTerm": 6,
+      "DestructionPercent": 10,
+      "SurvivedPopulationPercent": 29,
+      "Value": -5
+    },
+    {
+      "Id": 9,
+      "Description": "Ядерная война Несколько противоборствующих сторон одновременно запустили друг на друга залп ядерных боеголовок После взрывов погибло большое количество людей и разразились огромные пожары Всю планету окутала ядерная пыль закрывшая солнечный свет и приведшая к долгой ядерной зиме Наблюдаются проблемы с почвой водой и растительностью на поверхности нужна химическая обработка",
+      "CatastropheType": 1,
+      "HidingTerm": 10,
+      "DestructionPercent": 44,
+      "SurvivedPopulationPercent": 28,
+      "Value": -7
+    },
+    {
+      "Id": 10,
+      "Description": "Инопланетная раса решила захватить Землю Межпланетные аппараты падают на поверхность планеты один за другим Оружие военных оказывается бессильным против них и постепенно пришельцы истребляют большую часть населения После выхода из бункера подавляющее большинство инопланетян погибло из-за неприспособленности к микроорганизмами населяющими Землю",
+      "CatastropheType": 0,
+      "HidingTerm": 7,
+      "DestructionPercent": 18,
+      "SurvivedPopulationPercent": 1,
+      "Value": -8
+    },
+    {
+      "Id": 11,
+      "Description": "Химическая война В результате применения химического и бактериологического оружия был нарушен микробиологический состав почв значительно изменился экологический баланс растения почва и вода были отравлены На Земле остался малый процент населяющих её живых существ",
+      "CatastropheType": 1,
+      "HidingTerm": 10,
+      "DestructionPercent": 10,
+      "SurvivedPopulationPercent": 1,
+      "Value": -6
+    },
+    {
+      "Id": 12,
+      "Description": "Проект \u00ABСтрела\u00BB Военные работавшие над проектом нечаянно открыли вхоныед в иное измерение Густой неестественный белый туман медленно начал заполонять огромные участки поверхности Видимость практически нулевая По миру стали бродить неведомые чудовища которые могут уничтожить все человечество Разрушения глобаль",
+      "CatastropheType": 0,
+      "HidingTerm": 3,
+      "DestructionPercent": 10,
+      "SurvivedPopulationPercent": 1,
+      "Value": -8
+    },
+    {
+      "Id": 13,
+      "Description": "Экологическая катастрофа и глобальный голод Интенсивное ведение сельского хозяйства и деградация почв вкупе с засухой привели к пыльным бурям которые массово уничтожают посевы и приводят к неурожаю и значительному уменьшению запасов пищи Концентрация кислорода в атмосфере падает и климат значительно ухудшается",
+      "CatastropheType": 1,
+      "HidingTerm": 5,
+      "DestructionPercent": 4,
+      "SurvivedPopulationPercent": 17,
+      "Value": -5
+    },
+    {
+      "Id": 14,
+      "Description": "Супервулкан Взрыв Йеллоустонского супервулкана пошатнул Землю выброшенный в атмосферу пепел закрыл Солнце на несколько месяцев. На планете началась \u0022ядерная зима\u0022 средняя температура опустилась на 11 градусов погибли пять из каждых шести населявших. Землю существ Климат существенно изменился. На планете теперь царит глобальная засуха",
+      "CatastropheType": 1,
+      "HidingTerm": 7,
+      "DestructionPercent": 9,
+      "SurvivedPopulationPercent": 7,
+      "Value": -4
+    },
+    {
+      "Id": 15,
+      "Description": "Глобальный потоп. Из-за деятельности человека все полярные снега растаяли покрыв всю Землю водой Климат серьезно нарушился тропики теперь повсюду Появились новые виды растений и насекомые крупных размеров После выхода из бункера многие выжившие переквалифицировались в менял торговцев и бандитов которые бороздят водные просторы и совершают разбои организованными группами",
+      "CatastropheType": 0,
+      "HidingTerm": 4,
+      "DestructionPercent": 1,
+      "SurvivedPopulationPercent": 37,
+      "Value": -5
+    },
+    {
+      "Id": 16,
+      "Description": "Суперкомпьютер. Искусственный интеллект который задумывался для управления системами обороны вышел из строя и посчитал человечество большой опасностью Это привело к тому что искусственный интеллект отключил инструкцию \u0022не убивать человека\u0022 и взял под контроль процедуры управления военными роботами которые начали истреблять человечество Суперкомпьютер захватил власть над планетой выжившим людям пришлось прятаться в старых бункерах",
+      "CatastropheType": 0,
+      "HidingTerm": 5,
+      "DestructionPercent": 32,
+      "SurvivedPopulationPercent": 4,
+      "Value": -10
+    }
+  ],
+  "Players": [],
+  "GameResults": [],
+  "ExternalSurroundings": [
+    {
+      "Id": 1,
+      "Description": "Бункер с двумя мужчинами-химиками(Полностью здоровые/возраст: 25-45 лет)",
+      "Value": 3,
+      "SurroundingType": 6
+    },
+    {
+      "Id": 2,
+      "Description": "Агрессивные люди",
+      "Value": -5,
+      "SurroundingType": 1
+    },
+    {
+      "Id": 3,
+      "Description": "Бункер с женщинами-химиками(Полностью здоровые/возраст: 25-45 лет)",
+      "Value": 3,
+      "SurroundingType": 5
+    },
+    {
+      "Id": 4,
+      "Description": "Пчелы мутанты",
+      "Value": -4,
+      "SurroundingType": 7
+    },
+    {
+      "Id": 5,
+      "Description": "Супер мутант убийца",
+      "Value": -6,
+      "SurroundingType": 7
+    },
+    {
+      "Id": 8,
+      "Description": "Склад с оружием",
+      "Value": 4,
+      "SurroundingType": 2
+    },
+    {
+      "Id": 6,
+      "Description": "Заброшенная теплица",
+      "Value": 3,
+      "SurroundingType": 4
+    },
+    {
+      "Id": 7,
+      "Description": "Заброшенная ферма с животными",
+      "Value": 3,
+      "SurroundingType": 3
+    },
+    {
+      "Id": 9,
+      "Description": "Склад с едой",
+      "Value": 2,
+      "SurroundingType": 3
+    }
+  ]
+}
