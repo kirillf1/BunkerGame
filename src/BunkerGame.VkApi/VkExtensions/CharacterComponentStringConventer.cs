@@ -5,18 +5,7 @@ namespace BunkerGame.VkApi.VkExtensions
 {
     public static class CharacterComponentStringConventer
     {
-        //public static string ConvertCharacterComponent<T>()  where T : CharacterComponent
-        //{
-        //    var type = typeof(T);
-        //}
-        //public static string ConvertCharacterComponent(Type type,object value)
-        //{
-        //    switch (type)
-        //    {
-        //        case typeof(CharacterItem):
-        //            break;
-        //    }
-        //}
+       
         public static string CovertCharacterItem(IEnumerable<CharacterItem> characterItems)
         {
             int itemCount = 1;

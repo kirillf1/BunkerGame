@@ -1,4 +1,5 @@
 ﻿using BunkerGame.Application.Characters.UserCard.Notifications;
+using BunkerGame.Domain.Players;
 using MediatR;
 using VkNet.Abstractions;
 
@@ -7,22 +8,24 @@ namespace BunkerGame.VkApi.NotificationHandlers
     public class CardUsedNotificationHandler : INotificationHandler<CardUsedNotificationMessage>
     {
         private readonly IVkApi vkApi;
-        private readonly IConversationRepository conversationRepository;
+        private readonly IPlayerRepository playerRepository;
 
-        public CardUsedNotificationHandler(IVkApi vkApi, IConversationRepository conversationRepository)
+        public CardUsedNotificationHandler(IVkApi vkApi, IPlayerRepository playerRepository)
         {
             this.vkApi = vkApi;
-            this.conversationRepository = conversationRepository;
+            this.playerRepository = playerRepository;
         }
         public async Task Handle(CardUsedNotificationMessage notification, CancellationToken cancellationToken)
         {
-            var conversation = await conversationRepository.GetConversation(notification.GameSessionId);
-            if (conversation == null)
-                throw new ArgumentNullException(nameof(conversation));
-            var usedCardCharacter = conversation!.Users.Find(c => c.UserId == notification.UsedCardCharacter!.PlayerId);
-            var targetUser = notification.TargetPlayerId.HasValue ? conversation.Users.Find(u => u.UserId == notification.TargetPlayerId) : null;
-            var text = $"&#128266; Игрок {usedCardCharacter!.UserName} использовал карту {notification.CardDescription}" +
-                (targetUser != null ? $" на игрока {targetUser!.UserName}" : "");
+            var cardUserPlayer = await playerRepository.GetPlayerByCharacterId(notification.UsedCardCharacter.Id);
+            if (cardUserPlayer == null)
+                throw new ArgumentNullException(nameof(cardUserPlayer));
+
+            var targetPlayer =  notification.TargetCharacterId.HasValue
+                ? await playerRepository.GetPlayerByCharacterId(notification.TargetCharacterId.Value)
+                : default;
+            var text = $"&#128266; Игрок {cardUserPlayer.FirstName} {cardUserPlayer.LastName} использовал карту {notification.CardDescription}" +
+                (targetPlayer != default ? $" на игрока {targetPlayer.FirstName} {targetPlayer.LastName}" : "");
             await vkApi.Messages.SendAsync(VkMessageParamsFactory.CreateMessageSendParams(text, notification.GameSessionId));
         }
     }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BunkerGame.Domain.Bunkers.BunkerComponents
 {
-    public abstract class BunkerComponentEntity
+    public abstract class BunkerComponentEntity : BunkerComponent
     {
         public BunkerComponentEntity(double value, string description)
         {
@@ -20,9 +20,9 @@ namespace BunkerGame.Domain.Bunkers.BunkerComponents
         }
         public int Id { get; set; }
 
-        public double Value { get; private set; }
+        public double Value { get;  set; }
 
-        public string Description { get; private set; } = string.Empty;
+        public string Description { get;  set; } = string.Empty;
         public virtual void UpdateValue(double value)
         {
             Value = value;

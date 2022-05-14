@@ -33,7 +33,8 @@ namespace BunkerGame.Application.Bunkers.BunkerFactories
             var bunkerEnviroment = await bunkerComponentRepositoryLocator.GetBunkerComponent<BunkerEnviroment>();
             var bunkerWall = await bunkerComponentRepositoryLocator.GetBunkerComponent<BunkerWall>();
 
-            return new Bunker(bunkerSize, random.Next(5,10), bunkerWall, bunkerItems, bunkerObjects, bunkerEnviroment);
+            return new Bunker(new BunkerSize(bunkerSize), new Supplies(random.Next(5,10)), 
+                bunkerWall, bunkerItems, bunkerObjects, bunkerEnviroment);
         }
     }
 }

@@ -18,6 +18,8 @@ namespace BunkerGame.Application.Configuration.TextConventers
                 "bunkerobject" => typeof(BunkerObject),
                 "bunkerwall" => typeof(BunkerWall),
                 "itembunker" => typeof(ItemBunker),
+                "bunkersize" => typeof(BunkerSize),
+                "supplies" => typeof(Supplies),
                 _ => null,
             };
         }

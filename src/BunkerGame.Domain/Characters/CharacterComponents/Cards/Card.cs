@@ -32,7 +32,7 @@ namespace BunkerGame.Domain.Characters.CharacterComponents
             var methodGroup = CardMethod.DefineDirectionGroup();
             if (CardMethod.MethodType == MethodType.None)
                 return requiremnts;
-            if (CardMethod.MethodType == MethodType.Update)
+            if (CardMethod.MethodType == MethodType.Update || CardMethod.MethodType == MethodType.SpyYourself)
             {
                 switch (methodGroup)
                 {
@@ -41,6 +41,7 @@ namespace BunkerGame.Domain.Characters.CharacterComponents
                         return requiremnts;
                 }
             }
+            
 
             switch (methodGroup)
             {

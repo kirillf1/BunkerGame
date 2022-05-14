@@ -11,6 +11,7 @@ namespace BunkerGame.Domain.Players
     public interface IPlayerRepository
     {
         public Task<Player> GetPlayer(long id);
+        public Task<Player?> GetPlayerByCharacterId(int characterId);
         public Task<IEnumerable<Player>> GetPlayers(Expression<Func<Player, bool>>? predicate = null);
         public Task<IEnumerable<int>> GetCharactersIds(long playerId, Expression<Func<Character, bool>>? predicate = null);
         /// <summary>

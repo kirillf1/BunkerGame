@@ -15,7 +15,7 @@ namespace BunkerGame.Domain.Bunkers
         {
 
         }
-        public Bunker(double bunkerSize, int suppliesYear, BunkerWall bunkerWall, IEnumerable<ItemBunker> itemBunkers,
+        public Bunker(BunkerSize bunkerSize, Supplies supplies, BunkerWall bunkerWall, IEnumerable<ItemBunker> itemBunkers,
             IEnumerable<BunkerObject> bunkerObjects, BunkerEnviroment bunkerEnviroment)
         {
             if (itemBunkers is null)
@@ -28,17 +28,17 @@ namespace BunkerGame.Domain.Bunkers
                 throw new ArgumentNullException(nameof(bunkerObjects));
             }
 
-            BunkerSize = bunkerSize;
-            SuppliesYear = suppliesYear;
+            BunkerSize = bunkerSize ?? throw new ArgumentNullException(nameof(bunkerSize));
+            Supplies = supplies ?? throw new ArgumentNullException(nameof(supplies));
             BunkerWall = bunkerWall ?? throw new ArgumentNullException(nameof(bunkerWall));
             ItemBunkers = new(itemBunkers);
             BunkerObjects = new(bunkerObjects);
             BunkerEnviroment = bunkerEnviroment ?? throw new ArgumentNullException(nameof(bunkerEnviroment));
         }
         public int Id { get; private set; }
-        public double BunkerSize { get; private set; }
+        public BunkerSize BunkerSize { get; private set; }
         public long? GameSessionId { get; private set; }
-        public int SuppliesYear { get; private set; }
+        public Supplies Supplies { get; private set; }
         //public int BunkerWallId { get; private set; }
         public BunkerWall BunkerWall { get; private set; }
         public List<ItemBunker> ItemBunkers { get; private set; } = new List<ItemBunker>();
@@ -47,7 +47,7 @@ namespace BunkerGame.Domain.Bunkers
         public BunkerEnviroment BunkerEnviroment { get; private set; }
         //public int GameSessionId { get; private set; }
 
-        public void UpdateBunkerComponent<T>(T bunkerComponent) where T : BunkerComponentEntity
+        public void UpdateBunkerComponent<T>(T bunkerComponent) where T : BunkerComponent
         {
             UpdateBunkerComponent(bunkerComponent);
         }
@@ -59,13 +59,11 @@ namespace BunkerGame.Domain.Bunkers
             }
             else if (bunkerComponent is BunkerWall bunkerWall)
             {
-                BunkerWall = bunkerWall;
-
+                BunkerWall = bunkerWall ?? throw new ArgumentNullException(nameof(bunkerWall));
             }
             else if (bunkerComponent is BunkerEnviroment enviroment)
             {
-                BunkerEnviroment = enviroment;
-
+                BunkerEnviroment = enviroment ?? throw new ArgumentNullException(nameof(enviroment));
             }
             else if (bunkerComponent is ItemBunker itemBunker)
             {
@@ -81,7 +79,6 @@ namespace BunkerGame.Domain.Bunkers
                 if (ItemBunkers.Count > 0)
                 {
                     BunkerObjects.Remove(BunkerObjects.First());
-
                 }
                 BunkerObjects.Add(bunkerObject);
                 return;
@@ -91,13 +88,13 @@ namespace BunkerGame.Domain.Bunkers
         {
             GameSessionId = gameId;
         }
-        public void UpdateSuppliesYear(int years)
+        public void UpdateSupplies(Supplies supplies)
         {
-            SuppliesYear = years;
+            Supplies = supplies ?? throw new ArgumentNullException(nameof(supplies));
         }
-        public void UpdateBunkerSize(double size)
+        public void UpdateBunkerSize(BunkerSize bunkerSize)
         {
-            BunkerSize = Math.Round(size, 2);
+            BunkerSize = bunkerSize ?? throw new ArgumentNullException(nameof(bunkerSize));
         }
 
     }
