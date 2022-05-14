@@ -3,6 +3,7 @@ using System;
 using BunkerGame.Infrastructure.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,10 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace BunkerGame.Infrastructure.Migrations
 {
     [DbContext(typeof(BunkerGameDbContext))]
-    partial class BunkerGameDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220514081432_bunkerSizeSupplies")]
+    partial class bunkerSizeSupplies
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -721,9 +723,6 @@ namespace BunkerGame.Infrastructure.Migrations
                             b1.Property<int>("BunkerId")
                                 .HasColumnType("integer");
 
-                            b1.Property<double>("Value")
-                                .HasColumnType("double precision");
-
                             b1.HasKey("BunkerId");
 
                             b1.ToTable("Bunkers");
@@ -735,9 +734,6 @@ namespace BunkerGame.Infrastructure.Migrations
                     b.OwnsOne("BunkerGame.Domain.Bunkers.BunkerComponents.Supplies", "Supplies", b1 =>
                         {
                             b1.Property<int>("BunkerId")
-                                .HasColumnType("integer");
-
-                            b1.Property<int>("SuplliesYears")
                                 .HasColumnType("integer");
 
                             b1.HasKey("BunkerId");
