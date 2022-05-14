@@ -15,9 +15,8 @@ namespace BunkerGame.Tests.DatabaseTests
         public async void AddGameSession_ShouldSaveInDb()
         {
             using var context = DbCreator.CreateInMemoryContext();
-            var gameSession = new GameSession(DateTime.Now.Millisecond, "TestGameName",10, BunkerCreator.CreateBunker(),
-                new Catastrophe(CatastropheType.None, 10, 10, "Catastrophe", 10, 10),new List<Character>());
-            gameSession.AddCharactersInGame(CharacterCreator.CreateCharacters(5));
+            var gameSession = new GameSession(DateTime.Now.Millisecond, "TestGameName", BunkerCreator.CreateBunker(),
+                new Catastrophe(CatastropheType.None, 10, 10, "Catastrophe", 10, 10), CharacterCreator.CreateCharacters(6).ToList());
             context.Add(gameSession);
             await context.SaveChangesAsync();
             context.ChangeTracker.Clear();
@@ -34,8 +33,8 @@ namespace BunkerGame.Tests.DatabaseTests
         public async void AddGameSession_And_RemoveCharacter_ChangeBunker_ShouldDeleteCharacterFromDb()
         {
             using var context = DbCreator.CreateInMemoryContext();
-            var gameSession = new GameSession("TestGameName",10, BunkerCreator.CreateBunker(),
-                new Catastrophe(CatastropheType.None, 10, 10, "Catastrophe", 10, 10), new List<Character>(CharacterCreator.CreateCharacters(5)));
+            var gameSession = new GameSession("TestGameName", BunkerCreator.CreateBunker(),
+                new Catastrophe(CatastropheType.None, 10, 10, "Catastrophe", 10, 10), new List<Character>(CharacterCreator.CreateCharacters(6)));
             context.Add(gameSession);
             await context.SaveChangesAsync();
 

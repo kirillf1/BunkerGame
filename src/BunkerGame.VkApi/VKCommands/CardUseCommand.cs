@@ -103,7 +103,9 @@ namespace BunkerGame.VkApi.VKCommands
             var requirements = card.GetActivateRequirements();
             if (!requirements.Any())
             {
-                await mediator.Send(new UseCardCommand(character.Id, cardNumber, cardUseParams));
+                await mediator.Send(cardUseParams.TargetCharacterId.HasValue
+                  ? new UseCardOnOtherCharacterCommand(cardNumber, character.Id, cardUseParams.TargetCharacterId.Value)
+                  : new UseCardNoneTargetCommand(character.Id, cardNumber));
 
                 //await SendCardExecuteResult(result, conversationId, card, conversation.Users.First(c => c.UserId == userId).UserName);
             }
@@ -128,40 +130,11 @@ namespace BunkerGame.VkApi.VKCommands
 
                     }
                 }
-                var result = await mediator.Send(new UseCardCommand(character.Id, cardNumber, cardUseParams));
-                //await SendCardExecuteResult(result, conversationId, card, conversation.Users.First(c => c.UserId == userId).UserName);
 
+                await mediator.Send(cardUseParams.TargetCharacterId.HasValue
+                    ? new UseCardOnOtherCharacterCommand(cardNumber,character.Id,cardUseParams.TargetCharacterId.Value)
+                    : new UseCardNoneTargetCommand(character.Id, cardNumber));
             }
         }
-        //private async Task<bool> SendCardExecuteResult(Tuple<Type, object> cardResult, long gameId, Card card, string userName)
-        //{
-        //    await SendVkMessage($"Игрок {userName} использовал карту: {card.Description}", gameId);
-        //    if (cardResult.Item1 == typeof(Character))
-        //    {
-        //        var character = (Character)cardResult.Item2;
-        //        await SendVkMessage($"Ваши характеристики: {GameComponentsConventer.ConvertCharacter(character)}", character.PlayerId!.Value);
-        //    }
-        //    else if (cardResult.Item1 == typeof(Tuple<Character, Character>))
-        //    {
-        //        var characters = (Tuple<Character, Character>)cardResult.Item2;
-        //        await SendVkMessage($"Ваши характеристики: {GameComponentsConventer.ConvertCharacter(characters.Item1)}", characters.Item1.PlayerId!.Value,
-        //            VkKeyboardFactory.BuildPersonalButtons());
-        //        await SendVkMessage($"Ваши характеристики: {GameComponentsConventer.ConvertCharacter(characters.Item2)}",
-        //            characters.Item2.PlayerId!.Value);
-        //    }
-        //    else if (cardResult.Item1 == typeof(byte))
-        //    {
-        //        await SendVkMessage($"Игрок под номером {(byte)cardResult.Item2} исключен", gameId);
-        //    }
-        //    else if (cardResult.Item1 == typeof(Bunker))
-        //    {
-        //        await SendVkMessage($"Бункер изменился: {GameComponentsConventer.ConvertBunker((Bunker)cardResult.Item2)}", gameId);
-        //    }
-        //    else if (cardResult.Item1 == typeof(Catastrophe))
-        //    {
-        //        await SendVkMessage($"Катаклизм изменился: {GameComponentsConventer.ConvertCatastrophe((Catastrophe)cardResult.Item2)}", gameId);
-        //    }
-        //    return true;
-        //}
     }
 }
