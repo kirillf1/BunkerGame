@@ -17,7 +17,8 @@ namespace BunkerGame.Infrastructure.Database.Configurations
             builder.HasOne(c => c.BunkerWall).WithMany();
             builder.HasMany(c => c.BunkerObjects).WithMany("Bunkers");
             builder.HasMany(c => c.ItemBunkers).WithMany("Bunkers");
-
+            builder.OwnsOne(c => c.Supplies);
+            builder.OwnsOne(b => b.BunkerSize);
             builder.Navigation(c => c.BunkerEnviroment).AutoInclude();
             builder.Navigation(c => c.BunkerObjects).AutoInclude();
             builder.Navigation(c => c.BunkerWall).AutoInclude();
