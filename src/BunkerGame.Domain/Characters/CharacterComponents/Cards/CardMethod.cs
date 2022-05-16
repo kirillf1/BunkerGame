@@ -39,7 +39,7 @@ namespace BunkerGame.Domain.Characters.CharacterComponents.Cards
                 MethodDirection.Bunker => DirectionGroup.Bunker,
                 MethodDirection.BunkerWall => DirectionGroup.Bunker,
                 MethodDirection.BunkerSize => DirectionGroup.Bunker,
-                MethodDirection.BunkerSupply => DirectionGroup.Bunker,
+                MethodDirection.Supplies => DirectionGroup.Bunker,
                 MethodDirection.BunkerObject => DirectionGroup.Bunker,
                 MethodDirection.ItemBunker => DirectionGroup.Bunker,
                 MethodDirection.BunkerEnviroment => DirectionGroup.Bunker,
@@ -74,9 +74,13 @@ namespace BunkerGame.Domain.Characters.CharacterComponents.Cards
         Remove,
         PassiveRemove,
         /// <summary>
-        /// not implemented
+        /// target
         /// </summary>
-        Spy
+        Spy,
+        /// <summary>
+        /// on yourself
+        /// </summary>
+        SpyYourself
     }
     public enum MethodDirection
     {
@@ -96,7 +100,7 @@ namespace BunkerGame.Domain.Characters.CharacterComponents.Cards
         Bunker,
         BunkerWall,
         BunkerSize,
-        BunkerSupply,
+        Supplies,
         ItemBunker,
         BunkerObject,
         BunkerEnviroment,

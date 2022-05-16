@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BunkerGame.Application.GameSessions.ResultCounters
+namespace BunkerGame.Domain.Bunkers.BunkerComponents
 {
-    public enum Difficulty
+    public abstract class BunkerComponent
     {
-        Easy=0,
-        Medium,
-        Hard
     }
 }

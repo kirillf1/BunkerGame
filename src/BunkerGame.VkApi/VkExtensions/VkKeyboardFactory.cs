@@ -34,6 +34,10 @@ namespace BunkerGame.VkApi.VkExtensions
             {
                 keyboardBuilder.AddButton("Бот,создать новую игру", "игра", KeyboardButtonColor.Primary);
                 keyboardBuilder.AddLine();
+                keyboardBuilder.AddButton("Бот,установить сложность", "сложность", KeyboardButtonColor.Negative);
+                keyboardBuilder.AddLine();
+                keyboardBuilder.AddButton("Бот,количество игроков", "сложность", KeyboardButtonColor.Primary);
+                keyboardBuilder.AddLine();
                 keyboardBuilder.AddButton("Бот, статистика", "статистика", KeyboardButtonColor.Default);
             }
             keyboardBuilder.AddLine();

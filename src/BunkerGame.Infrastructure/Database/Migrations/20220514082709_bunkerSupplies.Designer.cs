@@ -3,6 +3,7 @@ using System;
 using BunkerGame.Infrastructure.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,10 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace BunkerGame.Infrastructure.Migrations
 {
     [DbContext(typeof(BunkerGameDbContext))]
-    partial class BunkerGameDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220514082709_bunkerSupplies")]
+    partial class bunkerSupplies
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -571,9 +573,6 @@ namespace BunkerGame.Infrastructure.Migrations
                     b.Property<byte>("ChangedPlaceSize")
                         .HasColumnType("smallint");
 
-                    b.Property<int>("Difficulty")
-                        .HasColumnType("integer");
-
                     b.Property<byte>("FreePlaceSize")
                         .HasColumnType("smallint");
 
@@ -719,47 +718,9 @@ namespace BunkerGame.Infrastructure.Migrations
                         .HasForeignKey("BunkerGame.Domain.Bunkers.Bunker", "GameSessionId")
                         .OnDelete(DeleteBehavior.Cascade);
 
-                    b.OwnsOne("BunkerGame.Domain.Bunkers.BunkerComponents.BunkerSize", "BunkerSize", b1 =>
-                        {
-                            b1.Property<int>("BunkerId")
-                                .HasColumnType("integer");
-
-                            b1.Property<double>("Value")
-                                .HasColumnType("double precision");
-
-                            b1.HasKey("BunkerId");
-
-                            b1.ToTable("Bunkers");
-
-                            b1.WithOwner()
-                                .HasForeignKey("BunkerId");
-                        });
-
-                    b.OwnsOne("BunkerGame.Domain.Bunkers.BunkerComponents.Supplies", "Supplies", b1 =>
-                        {
-                            b1.Property<int>("BunkerId")
-                                .HasColumnType("integer");
-
-                            b1.Property<int>("SuplliesYears")
-                                .HasColumnType("integer");
-
-                            b1.HasKey("BunkerId");
-
-                            b1.ToTable("Bunkers");
-
-                            b1.WithOwner()
-                                .HasForeignKey("BunkerId");
-                        });
-
                     b.Navigation("BunkerEnviroment");
 
-                    b.Navigation("BunkerSize")
-                        .IsRequired();
-
                     b.Navigation("BunkerWall");
-
-                    b.Navigation("Supplies")
-                        .IsRequired();
                 });
 
             modelBuilder.Entity("BunkerGame.Domain.Characters.Character", b =>

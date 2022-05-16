@@ -33,7 +33,7 @@ namespace BunkerGame.VkApi.VKCommands
             if (text.Contains("исключить персонажей", StringComparison.OrdinalIgnoreCase))
             {
                 var aliveCharacters = await characterRepository.GetCharacters(16, false, c => c.IsAlive && c.GameSessionId == peerId);
-                var aliveUsersNames = aliveCharacters.Join(conversation.Users, c => c.PlayerId, u => u.UserId, (_, c) => c.UserName);
+                var aliveUsersNames = aliveCharacters.Join(conversation.Users, c => c.PlayerId, u => u.UserId, (_, c) => c.FirstName + " " + c.LastName);
                 await SendVkMessage("Выберете игрока для исключения", peerId, VkKeyboardFactory.BuildOptionsButtoms(aliveUsersNames.ToList(), "!исключить: "));
                 return true;
 
@@ -41,7 +41,7 @@ namespace BunkerGame.VkApi.VKCommands
             else if (text.Contains("исключить", StringComparison.OrdinalIgnoreCase))
             {
                 text = text.Replace("!исключить: ", "");
-                var user = conversation.Users.Find(c => c.UserName.Contains(text,StringComparison.OrdinalIgnoreCase));
+                var user = conversation.Users.Find(c => (c.FirstName + " "+ c.LastName).Contains(text,StringComparison.OrdinalIgnoreCase));
                 if (user == null)
                 {
                     await SendVkMessage($"Игрока с именем {text} не существует", peerId);
@@ -49,7 +49,7 @@ namespace BunkerGame.VkApi.VKCommands
                 }
                 var character = await characterRepository.GetCharacters(1, false, c => c.PlayerId == user.UserId);
                 await mediator.Send(new KickCharacterCommand(peerId, character.First().Id));
-                await SendVkMessage($"Игрок {user.UserName} исключен!", peerId);
+                await SendVkMessage($"Игрок {user.FirstName} исключен!", peerId);
             }
 
             return false;

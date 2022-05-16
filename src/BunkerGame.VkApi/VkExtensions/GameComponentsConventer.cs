@@ -22,8 +22,8 @@ namespace BunkerGame.VkApi.VkExtensions
         {
             StringBuilder stringBuilder = new StringBuilder();
             _ = stringBuilder.AppendLine("&#128333; Убежище:\n");
-            stringBuilder.Append("Площадь убежища ").Append(bunker.BunkerSize).AppendLine(" квадратных метров");
-            stringBuilder.Append("Припасов хватит на ").Append(bunker.SuppliesYear).Append(' ').AppendLine(TextConventer.ConvertNumberToYears(bunker.SuppliesYear));
+            stringBuilder.Append("Площадь убежища ").Append(bunker.BunkerSize.Value).AppendLine(" квадратных метров");
+            stringBuilder.Append("Припасов хватит на ").Append(bunker.Supplies.SuplliesYears).Append(' ').AppendLine(TextConventer.ConvertNumberToYears(bunker.Supplies.SuplliesYears));
             stringBuilder.AppendLine(BunkerComponentsStringConventer.ConvertBunkerWall(bunker.BunkerWall));
             stringBuilder.AppendLine(BunkerComponentsStringConventer.ConvertBunkerObjects(bunker.BunkerObjects));
             stringBuilder.AppendLine(BunkerComponentsStringConventer.ConvertBunkerItems(bunker.ItemBunkers));
@@ -52,8 +52,11 @@ namespace BunkerGame.VkApi.VkExtensions
         }
         public static string ConvertGameSession(GameSession gameSession)
         {
-            return ConvertCatastrophe(gameSession.Catastrophe) + "\n" + ConvertBunker(gameSession.Bunker) + "\nКоличество мест: "
-                + gameSession.FreePlaceSize;
+            StringBuilder stringBuilder = new StringBuilder();
+            stringBuilder.AppendLine(ConvertCatastrophe(gameSession.Catastrophe));
+            stringBuilder.AppendLine(ConvertBunker(gameSession.Bunker));
+            stringBuilder.Append("Количество мест: ").Append(gameSession.FreePlaceSize);
+            return stringBuilder.ToString();
         }
     }
 }

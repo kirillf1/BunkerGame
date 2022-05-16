@@ -22,7 +22,6 @@ namespace BunkerGame.VkApi.VKCommands
             var peerId = message.PeerId.GetValueOrDefault();
             var result = await mediator.Send(new EndGameCommand(peerId));
             await SendVkMessage(result.GameReport, peerId, VkKeyboardFactory.BuildConversationButtons(false));
-            await conversationRepository.DeleteConversation(peerId);
             return true;
         }
     }

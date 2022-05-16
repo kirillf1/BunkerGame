@@ -27,8 +27,7 @@ namespace BunkerGame.Application.GameSessions.GameSessionsFactories
 
         public async Task<GameSession> CreateGameSession(GameSessionCreateOptions gameSessionOptions)
         {
-            var gameSession = new GameSession(gameSessionOptions.GameId.GetValueOrDefault(), gameSessionOptions.GameName,
-                gameSessionOptions.CharactersCount, await CreateBunker(),
+            var gameSession = new GameSession(gameSessionOptions.GameId.GetValueOrDefault(), gameSessionOptions.GameName, await CreateBunker(),
                 await catastropheRepository.GetRandomCatastrophe(),
                 new List<Character>()
                 );

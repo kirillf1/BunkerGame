@@ -50,6 +50,14 @@ namespace BunkerGame.Infrastructure.Domain.Players
             return await players.FirstAsync(c => c.Id == id);
         }
 
+        public async Task<Player?> GetPlayerByCharacterId(int characterId)
+        {
+            var playerId = await bunkerGameDbContext.Characters.Select(c => new { c.PlayerId, c.Id }).SingleOrDefaultAsync(c => c.Id == characterId);
+            if (playerId == null || !playerId.PlayerId.HasValue)
+                return null;
+            return await players.SingleOrDefaultAsync(c => c.Id == playerId.PlayerId.Value);
+        }
+
         public async Task<IEnumerable<Player>> GetPlayers(Expression<Func<Player, bool>>? predicate = null)
         {
             var query = players.AsQueryable();

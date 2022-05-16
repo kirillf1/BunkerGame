@@ -1,4 +1,11 @@
-﻿namespace BunkerGame.VkApi.ConversationRepositories
+﻿using BunkerGame.Application.GameSessions.ResultCounters;
+using BunkerGame.Application.Players.AddNewPlayers;
+using BunkerGame.Domain.GameSessions;
+using BunkerGame.Domain.Players;
+using MediatR;
+using VkNet.Abstractions;
+
+namespace BunkerGame.VkApi.ConversationRepositories
 {
     public class Conversation
     {
@@ -14,5 +21,17 @@
         public byte PlayersCount { get; set; }
         public string ConversationName { get; set; }
         public List<User> Users { get; set; }
+        public Difficulty Difficulty { get; set; } = Difficulty.Easy;
+
+        public static async Task<Conversation> CreateConversation(IVkApi vkApi,long peerId)
+        {
+            var usersTask = vkApi.Messages.GetConversationMembersAsync(peerId);
+            var convNameTask = vkApi.Messages.GetConversationsByIdAsync(new List<long> { peerId });
+            await Task.WhenAll(usersTask, convNameTask);
+            var users = usersTask.Result.Profiles.Select(c => new User(c.Id, c.FirstName,c.LastName));
+            var conversationName = convNameTask.Result.Items.First().ChatSettings.Title;
+            return new Conversation(peerId, conversationName, users, (byte)users.Count());
+        }
+       
     }
 }

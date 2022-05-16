@@ -19,7 +19,7 @@ namespace BunkerGame.VkApi.NotificationHandlers
             var character = notification.Character;
             var conversation = await conversationRepository.GetConversation(notification.GameSessionId);
             var user = conversation!.Users.Find(c => c.UserId == character.PlayerId)!;
-            await vkApi.Messages.SendAsync(VkMessageParamsFactory.CreateMessageSendParams($"Игрок: {user.UserName} исключен",
+            await vkApi.Messages.SendAsync(VkMessageParamsFactory.CreateMessageSendParams($"Игрок: {user.FirstName} исключен",
                 notification.GameSessionId));
         }
     }

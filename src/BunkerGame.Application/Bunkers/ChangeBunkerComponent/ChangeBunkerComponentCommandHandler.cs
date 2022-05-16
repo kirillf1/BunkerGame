@@ -48,9 +48,18 @@ namespace BunkerGame.Application.Bunkers.ChangeBunkerComponent
                     bunkerComponent = await bunkerComponentRepositoryLocator.GetBunkerComponent<ItemBunker>(true,
                         b => targetComponentId.HasValue ? b.Id == targetComponentId.Value : !bunker.ItemBunkers.Any(c => c.Id != b.Id));
                     break;
+                case Type t when t == typeof(Supplies):
+                    bunkerComponent = new Supplies(new Random().Next(5, 10));
+                    break;
+                case Type t when t == typeof(BunkerSize):
+                    var bunkerSizeValue = new Random().Next(200, 600);
+                    bunkerComponent = new BunkerSize(bunkerSizeValue);
+                    gameSession.RefreshFreePlaceSize(bunkerSizeValue);
+                    break;
             }
             
             bunker.UpdateBunkerComponent(bunkerComponent ?? throw new ArgumentNullException("Can't find BunkerComponent"));
+            await gameSessionRepository.CommitChanges();
             return bunker;
         }
         

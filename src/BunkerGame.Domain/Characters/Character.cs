@@ -84,11 +84,7 @@ namespace BunkerGame.Domain.Characters
         }
         public void SetCharacterExpirience(byte hobbyExp, byte profExp)
         {
-            if (profExp < 0)
-                throw new ArgumentException("ExperienceProfession must be more than or equals 0");
             ExperienceProfession = profExp;
-            if (hobbyExp < 0)
-                throw new ArgumentException("HobbyExperience must be more than or equals 0");
             Age = new Age(Age.Count + profExp);
             ExperienceHobby = hobbyExp;
         }
@@ -220,6 +216,6 @@ namespace BunkerGame.Domain.Characters
             if (cardNumber > UsedCards.Count || cardNumber < 1)
                 throw new ArgumentOutOfRangeException("value must be 1 or 3");
             return UsedCards.First(c => c.CardNumber == cardNumber).CardUsed;
-        }
+        }     
     }
 }

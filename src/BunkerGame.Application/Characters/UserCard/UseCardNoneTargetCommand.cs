@@ -9,16 +9,14 @@ using System.Threading.Tasks;
 
 namespace BunkerGame.Application.Characters.UserCard
 {
-    public class UseCardCommand : IRequest
+    public class UseCardNoneTargetCommand : IRequest<Unit>
     {
-        public UseCardCommand(int characterId, byte cardNumber,CardUseParams cardUseParams)
+        public UseCardNoneTargetCommand(int characterId, byte cardNumber)
         {
             CharacterId = characterId;
             CardNumber = cardNumber;
-            CardUseParams = cardUseParams;
         }
         public int CharacterId { get; }
         public byte CardNumber { get; }
-        public CardUseParams CardUseParams { get; }
     }
 }

@@ -936,27 +936,27 @@
   "Cards": [
     {
       "CardMethod": {
-        "CardId": 129,
-        "MethodType": 2,
-        "MethodDirection": 6,
-        "ItemId": 0
-      },
-      "IsSpecial": true,
-      "Id": 129,
-      "Description": "Изменить пол игрока на жещина",
-      "Value": 0,
-      "IsBalance": true
-    },
-    {
-      "CardMethod": {
         "CardId": 130,
         "MethodType": 2,
         "MethodDirection": 6,
         "ItemId": 1
       },
-      "IsSpecial": true,
+      "IsSpecial": false,
       "Id": 130,
       "Description": "Изменить пол игрока на мужчина",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 131,
+        "MethodType": 2,
+        "MethodDirection": 11,
+        "ItemId": 98
+      },
+      "IsSpecial": false,
+      "Id": 131,
+      "Description": "Изменить предмет игрока на набор медицинских инструментов",
       "Value": 0,
       "IsBalance": true
     },
@@ -975,40 +975,14 @@
     },
     {
       "CardMethod": {
-        "CardId": 131,
-        "MethodType": 2,
-        "MethodDirection": 11,
-        "ItemId": 98
-      },
-      "IsSpecial": true,
-      "Id": 131,
-      "Description": "Изменить предмет игрока на набор медицинских инструментов",
-      "Value": 0,
-      "IsBalance": true
-    },
-    {
-      "CardMethod": {
         "CardId": 132,
         "MethodType": 4,
         "MethodDirection": 2,
         "ItemId": null
       },
-      "IsSpecial": true,
+      "IsSpecial": false,
       "Id": 132,
       "Description": "Поменяться доп. информацией с игроком",
-      "Value": 0,
-      "IsBalance": true
-    },
-    {
-      "CardMethod": {
-        "CardId": 133,
-        "MethodType": 4,
-        "MethodDirection": 8,
-        "ItemId": null
-      },
-      "IsSpecial": true,
-      "Id": 133,
-      "Description": "Поменяться чертой харктера с игроком",
       "Value": 0,
       "IsBalance": true
     },
@@ -1035,6 +1009,32 @@
       "IsSpecial": false,
       "Id": 23,
       "Description": "Изменить возраст игрока на выбор",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 133,
+        "MethodType": 4,
+        "MethodDirection": 8,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 133,
+      "Description": "Поменяться чертой харктера с игроком",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 140,
+        "MethodType": 7,
+        "MethodDirection": 8,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 140,
+      "Description": "Раскрыть черту характера выбранного персонажа всем игрокам",
       "Value": 0,
       "IsBalance": true
     },
@@ -1222,6 +1222,19 @@
     },
     {
       "CardMethod": {
+        "CardId": 134,
+        "MethodType": 7,
+        "MethodDirection": 6,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 134,
+      "Description": "Раскрыть пол выбранного игрока всем игрокам",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
         "CardId": 21,
         "MethodType": 2,
         "MethodDirection": 19,
@@ -1248,6 +1261,58 @@
     },
     {
       "CardMethod": {
+        "CardId": 135,
+        "MethodType": 7,
+        "MethodDirection": 2,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 135,
+      "Description": "Раскрыть доп информацию выбранного персонажа всем игрокам",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 136,
+        "MethodType": 7,
+        "MethodDirection": 10,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 136,
+      "Description": "Раскрыть возраст выбранного персонажа всем игрокам",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 138,
+        "MethodType": 7,
+        "MethodDirection": 3,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 138,
+      "Description": "Раскрыть здоровье выбранного персонажа всем игрокам",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 139,
+        "MethodType": 7,
+        "MethodDirection": 5,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 139,
+      "Description": "Раскрыть фобию выбранного персонажа всем игрокам",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
         "CardId": 12,
         "MethodType": 1,
         "MethodDirection": 12,
@@ -1256,6 +1321,19 @@
       "IsSpecial": false,
       "Id": 12,
       "Description": "Перегенировать деторождение себе",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 141,
+        "MethodType": 8,
+        "MethodDirection": 8,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 141,
+      "Description": "Раскрыть свою черту характера всем игрокам",
       "Value": 0,
       "IsBalance": true
     },
@@ -1287,6 +1365,19 @@
     },
     {
       "CardMethod": {
+        "CardId": 142,
+        "MethodType": 7,
+        "MethodDirection": 7,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 142,
+      "Description": "Раскрыть телосложение выбранного персонажа всем игрокам",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
         "CardId": 126,
         "MethodType": 2,
         "MethodDirection": 14,
@@ -1300,6 +1391,19 @@
     },
     {
       "CardMethod": {
+        "CardId": 143,
+        "MethodType": 7,
+        "MethodDirection": 9,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 143,
+      "Description": "Раскрыть хобби выбранного персонажа всем игрокам",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
         "CardId": 3,
         "MethodType": 1,
         "MethodDirection": 5,
@@ -1308,6 +1412,110 @@
       "IsSpecial": false,
       "Id": 3,
       "Description": "Данная карта дает возможность перегенировать себе фобию",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 129,
+        "MethodType": 2,
+        "MethodDirection": 6,
+        "ItemId": 0
+      },
+      "IsSpecial": false,
+      "Id": 129,
+      "Description": "Изменить пол игрока на жещина",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 144,
+        "MethodType": 8,
+        "MethodDirection": 9,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 144,
+      "Description": "Раскрыть свое хобби всем игрокам",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 145,
+        "MethodType": 8,
+        "MethodDirection": 7,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 145,
+      "Description": "Раскрыть свое телосложение всем игрокам",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 146,
+        "MethodType": 8,
+        "MethodDirection": 6,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 146,
+      "Description": "Раскрыть свой пол всем игрокам",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 147,
+        "MethodType": 8,
+        "MethodDirection": 2,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 147,
+      "Description": "Раскрыть свою доп информацию всем игрокам",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 149,
+        "MethodType": 8,
+        "MethodDirection": 12,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 149,
+      "Description": "Раскрыть свое деторождение всем игрокам",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 150,
+        "MethodType": 7,
+        "MethodDirection": 12,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 150,
+      "Description": "Раскрыть деторождение персонажа всем игрокам",
+      "Value": 0,
+      "IsBalance": true
+    },
+    {
+      "CardMethod": {
+        "CardId": 151,
+        "MethodType": 8,
+        "MethodDirection": 10,
+        "ItemId": null
+      },
+      "IsSpecial": false,
+      "Id": 151,
+      "Description": "Раскрыть свой возраст всем игрокам",
       "Value": 0,
       "IsBalance": true
     },

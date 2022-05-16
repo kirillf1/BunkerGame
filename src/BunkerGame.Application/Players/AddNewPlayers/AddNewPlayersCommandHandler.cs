@@ -20,7 +20,7 @@ namespace BunkerGame.Application.Players.AddNewPlayers
         {
             var newPlayers = request.Players.Where(p => p.Id == 0).ToList();
             var playersForAdd = request.Players;
-            if (newPlayers.Any())
+            if (newPlayers.Count > 0)
             {
                 newPlayers.ForEach(async c => await playerRepository.AddPlayer(c));
                 playersForAdd = playersForAdd.DistinctBy(c => newPlayers.Any(p => p.Id == c.Id));

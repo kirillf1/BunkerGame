@@ -7,24 +7,17 @@ namespace BunkerGame.Domain.GameSessions
 {
     public class GameSession
     {
+        public const int MinCharactersInGame = 6;
+        public const int MaxCharactersInGame = 12; 
 #pragma warning disable CS8618
         private GameSession()
 #pragma warning restore CS8618 
         {
 
         }
-        public GameSession(long id, string gameName, byte playersCount)
+        public GameSession(string gameName, Bunker bunker, Catastrophe catastrophe, List<Character> characters)
         {
-            Id = id;
-            GameState = GameState.Preparation;
-            Characters = new(playersCount);
-            GameName = gameName;
-            PlayersCount = playersCount;
-            externalSurroundings = new List<ExternalSurrounding>();
-        }
-        public GameSession(string gameName, byte playersCount, Bunker bunker, Catastrophe catastrophe, List<Character> characters)
-        {
-            if (characters.Count != 0 && (characters.Count > 12 || characters.Count < 6))
+            if (characters.Count != 0 && (characters.Count > MaxCharactersInGame || characters.Count < MinCharactersInGame))
             {
                 throw new ArgumentOutOfRangeException("Characters must be less than 13. Maybe need clear characters from " + nameof(GameSession));
             }
@@ -33,40 +26,40 @@ namespace BunkerGame.Domain.GameSessions
             GameState = GameState.Preparation;
             Characters = characters;
             GameName = gameName;
-            PlayersCount = playersCount;
             externalSurroundings = new List<ExternalSurrounding>();
         }
-        public GameSession(long id, string gameName, byte playersCount, Bunker bunker, Catastrophe catastrophe, List<Character> characters)
+        public GameSession(long id, string gameName, Bunker bunker, Catastrophe catastrophe, List<Character> characters)
         {
-            if(characters.Count != 0 && ( characters.Count > 12 || characters.Count< 6))
+            if(characters.Count != 0 && ( characters.Count > MaxCharactersInGame || characters.Count< MinCharactersInGame))
             {
                 throw new ArgumentOutOfRangeException("Characters must be less than 13. Maybe need clear characters from " + nameof(GameSession));
             }
             Bunker = bunker;
-            setFreePlaceSize(bunker.BunkerSize);
+            RefreshFreePlaceSize(bunker.BunkerSize.Value);
             Catastrophe = catastrophe;
             GameState = GameState.Preparation;
             Characters = characters;
             Id = id;
             GameName = gameName;
-            PlayersCount = playersCount;
             externalSurroundings = new List<ExternalSurrounding>();
         }
         public byte FreePlaceSize { get; private set; }
         public byte ChangedPlaceSize { get; private set; }
         public string GameName { get; private set; }
-        public byte PlayersCount { get; }
         public long Id { get; private set; }
         public Catastrophe Catastrophe { get; private set; }
         public List<Character> Characters { get; set; }
         //public int CatastropheId { get; set; }
         public GameState GameState { get; private set; }
         public Bunker Bunker { get; private set; }
+        public Difficulty Difficulty { get; private set; } = Difficulty.Easy;
         public IReadOnlyCollection<ExternalSurrounding> ExternalSurroundings { get => externalSurroundings; }
         private List<ExternalSurrounding> externalSurroundings;
 
-        //public bool ChanceWinIncreased { get; set; } = false;
-        //public bool ChanceWinReduced { get; set; } = false;
+        public void UpdateDifficulty(Difficulty difficulty)
+        {
+            Difficulty = difficulty;
+        }
         public async Task<ResultGameReport> EndGame(IGameResultCounter resultCounter)
         {
             GameState = GameState.Ended;
@@ -94,7 +87,7 @@ namespace BunkerGame.Domain.GameSessions
                 FreePlaceSize--;
             ChangedPlaceSize--;
         }
-        private void setFreePlaceSize(double bunkerSize)
+        public void RefreshFreePlaceSize(double bunkerSize)
         {
             FreePlaceSize = bunkerSize switch
             {
@@ -106,8 +99,8 @@ namespace BunkerGame.Domain.GameSessions
         public void AddCharactersInGame(IEnumerable<Character> characters)
         {
             var totalCharactersCount = characters.Count() + Characters.Count;
-            if (totalCharactersCount >= 13 || totalCharactersCount < 6)
-                throw new ArgumentOutOfRangeException("Characters must be less than 13. Maybe need clear characters from " + nameof(GameSession));
+            if (totalCharactersCount > MaxCharactersInGame || totalCharactersCount < MinCharactersInGame)
+                throw new ArgumentOutOfRangeException("Characters must be less than 13 or more then 5. Maybe need clear characters from " + nameof(GameSession));
             foreach (var character in characters)
             {
                 Characters.Add(character);
@@ -128,7 +121,7 @@ namespace BunkerGame.Domain.GameSessions
         {
             Bunker = bunker ?? throw new ArgumentNullException();
             Bunker.RegisterBunkerInGame(Id);
-            setFreePlaceSize(bunker.BunkerSize);
+            RefreshFreePlaceSize(bunker.BunkerSize.Value);
 
         }
         public void UpdateСatastrophe(Catastrophe catastrophe)
@@ -151,6 +144,12 @@ namespace BunkerGame.Domain.GameSessions
         Started,
         Ended
 
+    }
+    public enum Difficulty
+    {
+        Easy = 0,
+        Medium,
+        Hard
     }
 }
 

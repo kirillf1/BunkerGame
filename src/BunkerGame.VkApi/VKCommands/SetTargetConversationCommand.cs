@@ -16,7 +16,7 @@ namespace BunkerGame.VkApi.VKCommands
 
         public override async Task<bool> SendAsync(Message message)
         {
-            var text = message.Text.ToLower();
+            var text = message.Text;
             var userId = message.FromId.GetValueOrDefault();
             if (text.Contains("Выбрать игру",StringComparison.OrdinalIgnoreCase))
             {
@@ -35,7 +35,7 @@ namespace BunkerGame.VkApi.VKCommands
             }
             else if (text.Contains("Беседа: ", StringComparison.OrdinalIgnoreCase))
             {
-                var conversationName = text.Replace("Беседа: ", "");
+                var conversationName = text.Replace("Беседа: ", "",StringComparison.OrdinalIgnoreCase);
                 var conversation = await conversationRepository.GetConversation(conversationName);
                 if (conversation == null)
                 {
