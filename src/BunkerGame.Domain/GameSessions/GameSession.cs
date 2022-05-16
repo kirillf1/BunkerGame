@@ -52,8 +52,14 @@ namespace BunkerGame.Domain.GameSessions
         //public int CatastropheId { get; set; }
         public GameState GameState { get; private set; }
         public Bunker Bunker { get; private set; }
+        public Difficulty Difficulty { get; private set; } = Difficulty.Easy;
         public IReadOnlyCollection<ExternalSurrounding> ExternalSurroundings { get => externalSurroundings; }
         private List<ExternalSurrounding> externalSurroundings;
+
+        public void UpdateDifficulty(Difficulty difficulty)
+        {
+            Difficulty = difficulty;
+        }
         public async Task<ResultGameReport> EndGame(IGameResultCounter resultCounter)
         {
             GameState = GameState.Ended;
@@ -138,6 +144,12 @@ namespace BunkerGame.Domain.GameSessions
         Started,
         Ended
 
+    }
+    public enum Difficulty
+    {
+        Easy = 0,
+        Medium,
+        Hard
     }
 }
 

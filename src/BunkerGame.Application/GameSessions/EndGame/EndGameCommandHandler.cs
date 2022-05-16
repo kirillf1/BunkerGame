@@ -24,7 +24,7 @@ namespace BunkerGame.Application.GameSessions.EndGame
             var gameSession = await gameSessionRepository.GetGameSession(command.GameSessionId);
             if (gameSession == null)
                 throw new ArgumentNullException(nameof(gameSession));
-            var resultCounter = resultCounterFactory.CreateResultCounter(Difficulty.Easy);
+            var resultCounter = resultCounterFactory.CreateResultCounter(gameSession.Difficulty);
             var result = await gameSession.EndGame(resultCounter);
             var gameResult = await gameResultRepository.GetGameResult(gameSession.Id);
             if (gameResult == null)
