@@ -1,4 +1,7 @@
-﻿using BunkerGame.VkApi.VKCommands;
+﻿using BunkerGame.Application.Players.AddNewPlayers;
+using BunkerGame.Domain.Players;
+using BunkerGame.VkApi.VKCommands;
+using MediatR;
 using System.Text.RegularExpressions;
 using VkNet.Abstractions;
 using VkNet.Model;
@@ -25,6 +28,15 @@ namespace BunkerGame.VkApi.Services.MessageServices
         }
         public async Task SendMessage(Message message)
         {
+            if (message.Action == null)
+                await Answer(message);
+            else if (message.Action.Type.ToString() == "chat_title_update")
+                await UpdateConversationName(message.FromId!.Value);
+            else if (message.Action.Type.ToString() == "chat_kick_user" || message.Action.Type.ToString() == "chat_invite_user")
+                await UpdateConversationUsers(message.FromId!.Value);
+        }
+        private async Task Answer(Message message)
+        {
             message.Text = Regex.Replace(message.Text, @"\[.+\]", "").TrimStart();
             bool isConversation = message.PeerId > 2000000000;
             var vkCommandType = FindVkCommandType(message.Text, isConversation);
@@ -49,14 +61,13 @@ namespace BunkerGame.VkApi.Services.MessageServices
             {
                 logger.LogError("{Error} from messsage: {message}, source:{source}", ex.Message, message.Text, ex.Source);
             }
-
         }
         protected Type? FindVkCommandType(string message, bool isConversation)
         {
             Type? vkCommandType = null;
             if (isConversation && Regex.IsMatch(message, @"\bбот\b|^!|^отмена|^правила", RegexOptions.IgnoreCase))
             {
-                vkCommandType = vkCommandsConversation.FirstOrDefault(c => Regex.IsMatch(message, c.Key,RegexOptions.IgnoreCase)).Value;
+                vkCommandType = vkCommandsConversation.FirstOrDefault(c => Regex.IsMatch(message, c.Key, RegexOptions.IgnoreCase)).Value;
             }
             else if (!isConversation)
             {
@@ -65,6 +76,35 @@ namespace BunkerGame.VkApi.Services.MessageServices
             }
             return vkCommandType;
 
+        }
+        private async Task UpdateConversationUsers(long peerId)
+        {
+            using var serviceScope = serviceFactory.CreateScope();
+            var provider = serviceScope.ServiceProvider;
+            var conversationRepository = provider.GetRequiredService<IConversationRepository>();
+            var conversation = await conversationRepository.GetConversation(peerId);
+            if (conversation == null)
+                return;
+            var vkApi = provider.GetRequiredService<IVkApi>();
+            var users = await vkApi.Messages.GetConversationMembersAsync(peerId);
+            conversation.Users.Clear();
+            conversation.Users.AddRange(users.Profiles.Select(c => new ConversationRepositories.User(c.Id, c.FirstName, c.LastName)));
+            await conversationRepository.UpdateConversation(conversation);
+            var players = users.Profiles.Select(p => new Player(p.FirstName) { Id = p.Id, LastName = p.LastName });
+            await provider.GetRequiredService<IMediator>().Send(new AddNewPlayersCommand(players));
+        }
+        private async Task UpdateConversationName(long peerId)
+        {
+            using var serviceScope = serviceFactory.CreateScope();
+            var provider = serviceScope.ServiceProvider;
+            var conversationRepository = provider.GetRequiredService<IConversationRepository>();
+            var conversation = await conversationRepository.GetConversation(peerId);
+            if (conversation == null)
+                return;
+            var vkApi = provider.GetRequiredService<IVkApi>();
+            var convResult = await vkApi.Messages.GetConversationsByIdAsync(new List<long> { peerId });
+            conversation.ConversationName = convResult.Items.First().ChatSettings.Title;
+            await conversationRepository.UpdateConversation(conversation);
         }
         private static Dictionary<string, Type> InitConversationCommands()
         {
@@ -75,9 +115,9 @@ namespace BunkerGame.VkApi.Services.MessageServices
                 ["итоги"] = typeof(EndGameSessionCommand),
                 ["статистика"] = typeof(StatisticsCommand),
                 ["количество мест"] = typeof(CharacterSizeCommand),
-                //["бункер"] = typeof(BunkerChangeCommand),
-                //["катаклизм"] = typeof(CatastropheChangeCommand),
-                ["правила|отмена"] = typeof(AnswerCommand)
+                ["правила|отмена"] = typeof(AnswerCommand),
+                ["количество игроков|игроков:"] = typeof(ChangeCharactersCountCommand),
+                ["установить сложность|сложность:"] = typeof(ChangeDifficultyCommand)
             };
 
         }

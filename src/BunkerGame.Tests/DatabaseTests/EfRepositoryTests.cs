@@ -1,5 +1,7 @@
 ﻿using BunkerGame.Domain.Characters.CharacterComponents;
+using BunkerGame.Domain.Players;
 using BunkerGame.Infrastructure.Domain.CharacterComponents;
+using BunkerGame.Infrastructure.Domain.Players;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +28,24 @@ namespace BunkerGame.Tests.DatabaseTests
             Assert.Equal(addInfId.Value, addInfFromDb.Id);
 
        
+        }
+        [Fact]
+        public async Task GetPlayerByCharacterId_FromRepository_ShouldReturnPlayer()
+        {
+            using var context = DbCreator.CreateInMemoryContext();
+            var playerRepository = new PlayerRepositoryEf(context);
+            var character = CharacterCreator.CreateCharacter();
+            var player = new Player("testName");
+            await playerRepository.AddPlayer(player);
+            await playerRepository.CommitChanges();
+            character.SetPlayerId(player.Id);
+            context.Add(character);
+            context.SaveChanges();
+
+            var playerFromRep = await playerRepository.GetPlayerByCharacterId(character.Id);
+
+            Assert.NotNull(playerFromRep);
+            Assert.Equal(player.FirstName, playerFromRep!.FirstName);
         }
     }
 }

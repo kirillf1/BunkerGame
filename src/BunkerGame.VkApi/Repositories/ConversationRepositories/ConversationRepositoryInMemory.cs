@@ -20,7 +20,7 @@
 
         public Task DeleteConversation(long id)
         {
-            var conversation = _conversations.FirstOrDefault(c => c.ConversationId == id);
+            var conversation = _conversations.Find(c => c.ConversationId == id);
             if (conversation != null)
                 _conversations.Remove(conversation);
             return Task.CompletedTask;
@@ -48,6 +48,8 @@
             {
                 conversationUpdate.Users = conversation.Users;
                 conversationUpdate.ConversationName = conversation.ConversationName;
+                conversationUpdate.PlayersCount = conversation.PlayersCount;
+                conversationUpdate.Difficulty = conversation.Difficulty;
             }
             return Task.CompletedTask;
                 

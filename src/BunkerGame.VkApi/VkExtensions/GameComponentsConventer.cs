@@ -23,7 +23,7 @@ namespace BunkerGame.VkApi.VkExtensions
             StringBuilder stringBuilder = new StringBuilder();
             _ = stringBuilder.AppendLine("&#128333; Убежище:\n");
             stringBuilder.Append("Площадь убежища ").Append(bunker.BunkerSize.Value).AppendLine(" квадратных метров");
-            stringBuilder.Append("Припасов хватит на ").Append(bunker.Supplies).Append(' ').AppendLine(TextConventer.ConvertNumberToYears(bunker.Supplies.SuplliesYears));
+            stringBuilder.Append("Припасов хватит на ").Append(bunker.Supplies.SuplliesYears).Append(' ').AppendLine(TextConventer.ConvertNumberToYears(bunker.Supplies.SuplliesYears));
             stringBuilder.AppendLine(BunkerComponentsStringConventer.ConvertBunkerWall(bunker.BunkerWall));
             stringBuilder.AppendLine(BunkerComponentsStringConventer.ConvertBunkerObjects(bunker.BunkerObjects));
             stringBuilder.AppendLine(BunkerComponentsStringConventer.ConvertBunkerItems(bunker.ItemBunkers));

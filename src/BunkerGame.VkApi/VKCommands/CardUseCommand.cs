@@ -65,7 +65,7 @@ namespace BunkerGame.VkApi.VKCommands
             else if (text.Contains("карта на:"))
             {
                 var userName = text.Replace("карта на: ", "");
-                var targetUserId = conversation.Users.Find(c => string.Equals(c.UserName, userName, StringComparison.OrdinalIgnoreCase))?.UserId;
+                var targetUserId = conversation.Users.Find(c => string.Equals(c.FirstName + " "+ c.LastName, userName, StringComparison.OrdinalIgnoreCase))?.UserId;
                 if (targetUserId == null)
                     await SendVkMessage("Введите имя игрока правильно!", userId);
                 var targetCharacter = await characterRepository.GetCharacter(conversation.ConversationId, targetUserId!.Value, false);
@@ -123,7 +123,8 @@ namespace BunkerGame.VkApi.VKCommands
                         {
                             var aliveCharacters = await characterRepository.GetCharacters(16, false, c => c.GameSessionId == conversationId);
                             await SendVkMessage("Выберете игрока на которого будет применена карта",
-                                userId, VkKeyboardFactory.BuildOptionsButtoms(aliveCharacters.Join(conversation.Users.Where(c => c.UserId != userId), c => c.PlayerId, u => u.UserId, (_, c) => c.UserName).ToList(), "карта на: "));
+                                userId, VkKeyboardFactory.BuildOptionsButtoms(aliveCharacters.Join(conversation.Users.Where(c => c.UserId != userId), c => c.PlayerId, u => u.UserId, 
+                                (_, c) => c.FirstName + " "+ c.LastName).ToList(), "карта на: "));
                             await userOptionsService.SetOperation(userId, UserOperationType.CardNumber, cardNumber.ToString());
                             return;
                         }

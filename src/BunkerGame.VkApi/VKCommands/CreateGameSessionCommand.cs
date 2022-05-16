@@ -29,30 +29,30 @@ namespace BunkerGame.VkApi.VKCommands
                 return true;
             }
             byte charactersCount = default;
-            if( message.Text.Contains("новую игру на",StringComparison.OrdinalIgnoreCase))
+            if (message.Text.Contains("новую игру на", StringComparison.OrdinalIgnoreCase))
             {
                 var matchNumber = Regex.Match(message.Text, @"\d+");
-                if (!(matchNumber.Success && byte.TryParse(matchNumber.ValueSpan,out charactersCount)))
+                if (!(matchNumber.Success && byte.TryParse(matchNumber.ValueSpan, out charactersCount)))
                 {
                     await SendVkMessage("Введите количество игроков корректно", peerId);
                     return true;
                 }
-     
+
             }
-            var usersTask = vkApi.Messages.GetConversationMembersAsync(peerId);
-            var convNameTask = vkApi.Messages.GetConversationsByIdAsync(new List<long> { peerId });
-            Task.WaitAll(usersTask, convNameTask);
-            var users = usersTask.Result.Profiles;
-            var conversationName = convNameTask.Result.Items.First().ChatSettings.Title;
+            var conversation = await conversationRepository.GetConversation(peerId);
+            if (conversation == null)
+            {
+                conversation = await ConversationRepositories.Conversation.CreateConversation(vkApi, peerId);
+                await conversationRepository.AddConversation(conversation);
+                await AddNewPlayers(conversation.Users);
+            }
             try
             {
-                if(charactersCount == default)
-                    charactersCount = (byte)users.Count;
-                var gameSession = await mediator.Send(new CreateGameCommand(false,charactersCount, conversationName, peerId));
+                if (charactersCount == default)
+                    charactersCount = conversation.PlayersCount;
+                var gameSession = await mediator.Send(new CreateGameCommand(false, charactersCount, conversation.ConversationName, peerId));
                 await SendVkMessage(GameComponentsConventer.ConvertGameSession(gameSession), peerId,
                     VkKeyboardFactory.BuildConversationButtons(true));
-                await conversationRepository.AddConversation(new VkApi.ConversationRepositories.Conversation(peerId, conversationName, users.
-                    Select(c => new ConversationRepositories.User(c.Id, c.FirstName + " " + c.LastName)),charactersCount));
             }
             catch (InvalidOperationException)
             {
@@ -61,14 +61,13 @@ namespace BunkerGame.VkApi.VKCommands
             }
             catch (ArgumentOutOfRangeException)
             {
-                await SendVkMessage("Слишком мало, много игроков в беседе (минимум 6, максимум 12). Напишите боту: новую игру на {количество} человек",peerId);
+                await SendVkMessage("Слишком мало, много игроков в беседе (минимум 6, максимум 12). Напишите боту: новую игру на {количество} человек", peerId);
             }
-            await AddNewPlayers(users);
             return true;
         }
-        private async Task AddNewPlayers(IEnumerable<VkNet.Model.User> users)
+        private async Task AddNewPlayers(IEnumerable<ConversationRepositories.User> users)
         {
-            var players = users.Select(u => new Player(u.FirstName) { Id = u.Id, LastName = u.LastName });
+            var players = users.Select(u => new Player(u.FirstName) { Id = u.UserId, LastName = u.LastName });
             await mediator.Send(new AddNewPlayersCommand(players));
         }
     }
