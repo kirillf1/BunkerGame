@@ -31,8 +31,7 @@ namespace BunkerGame.VkApi.VKCommands
             {
                 if (conversations.Count() > 1)
                 {
-                    await SendVkMessage("Выберете беседу в которой будет Вам присвоен персонаж", userId,
-                        VkKeyboardFactory.BuildOptionsButtoms(conversations.Select(c => c.ConversationName).ToList(), "Персонаж для: "));
+                    await SendVkMessage("Выберете беседу в которой будет Вам присвоен персонаж (кнопка: выбрать игру)", userId);
                     return true;
                 }
                 else if (conversations.Count() == 1)

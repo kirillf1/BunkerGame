@@ -24,8 +24,9 @@ namespace BunkerGame.VkApi
         {
             System.Reflection.Assembly.GetExecutingAssembly()
            .GetTypes()
-           .Where(item => !item.IsAbstract && item.BaseType == typeof(VkCommand))
+           .Where(item => !item.IsAbstract && item.IsSubclassOf(typeof(VkCommand)))
            .ToList().ForEach(item => serviceCollection.AddScoped(item));
+
         }
         private static void AddServices(IServiceCollection serviceCollection)
         {

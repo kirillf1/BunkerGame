@@ -4,11 +4,11 @@ using VkNet.Model;
 
 namespace BunkerGame.VkApi.VKCommands
 {
-    public class CharacterSizeCommand : VkCommand
+    public class GetCharacterSizeCommand : VkCommand
     {
         private readonly IGameSessionRepository gameSessionRepository;
 
-        public CharacterSizeCommand(IVkApi vkApi, IGameSessionRepository gameSessionRepository) : base(vkApi)
+        public GetCharacterSizeCommand(IVkApi vkApi, IGameSessionRepository gameSessionRepository) : base(vkApi)
         {
             this.gameSessionRepository = gameSessionRepository;
         }

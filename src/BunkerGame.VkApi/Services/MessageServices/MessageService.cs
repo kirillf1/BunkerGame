@@ -1,6 +1,11 @@
 ﻿using BunkerGame.Application.Players.AddNewPlayers;
 using BunkerGame.Domain.Players;
 using BunkerGame.VkApi.VKCommands;
+using BunkerGame.VkApi.VKCommands.CancelKeyboardCommands;
+using BunkerGame.VkApi.VKCommands.CardCommands;
+using BunkerGame.VkApi.VKCommands.CharacterCountCommands;
+using BunkerGame.VkApi.VKCommands.SetDifficultyCommands;
+using BunkerGame.VkApi.VKCommands.SetTargetConversationCommands;
 using MediatR;
 using System.Text.RegularExpressions;
 using VkNet.Abstractions;
@@ -110,14 +115,17 @@ namespace BunkerGame.VkApi.Services.MessageServices
         {
             return new Dictionary<string, Type>
             {
+                ["отмена"] = typeof(CancelConversationKeyboardCommand),
                 ["новую игру"] = typeof(CreateGameSessionCommand),
                 ["исключить"] = typeof(KickCommand),
                 ["итоги"] = typeof(EndGameSessionCommand),
                 ["статистика"] = typeof(StatisticsCommand),
-                ["количество мест"] = typeof(CharacterSizeCommand),
-                ["правила|отмена"] = typeof(AnswerCommand),
-                ["количество игроков|игроков:"] = typeof(ChangeCharactersCountCommand),
-                ["установить сложность|сложность:"] = typeof(ChangeDifficultyCommand)
+                ["количество мест"] = typeof(GetCharacterSizeCommand),
+                ["игроков:"] = typeof(ChangeCharactersCountCommand),
+                ["количество игроков"] = typeof(GetAvailableCharactersCountCommand),
+                ["сложность:"] = typeof(ChangeDifficultyCommand),
+                ["установить сложность"] = typeof(GetAvailableDifficultiesCommand),
+                ["правила"] = typeof(AnswerCommand)
             };
 
         }
@@ -125,11 +133,14 @@ namespace BunkerGame.VkApi.Services.MessageServices
         {
             return new Dictionary<string, Type>
             {
-                ["характеристики|хар:"] = typeof(CharacteristicChangeCommand),
+                ["отмена"] = typeof(CancelPersonalKeyboardCommand),
                 ["персонаж|персонажа"] = typeof(CharacterGetCommand),
-                [@"использовать карты|использовать карту №\d|карта на:"] = typeof(CardUseCommand),
-                ["Выбрать игру|Беседа:"] = typeof(SetTargetConversationCommand),
-                ["правила|отмена"] = typeof(AnswerCommand)
+                ["использовать карты"] = typeof(GetAvailableCardsCommand),
+                [@"использовать карту №\d"] = typeof(TryUseCardCommand),
+                ["карта на: "] = typeof(UseCardOnCharacterCommand),
+                ["Выбрать игру"] = typeof(GetUserConversationsCommand),
+                ["Беседа:"] = typeof(SetTargetConversationCommand),
+                ["правила"] = typeof(AnswerCommand)
             };
 
         }

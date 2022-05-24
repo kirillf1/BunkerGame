@@ -22,7 +22,7 @@ namespace BunkerGame.VkApi.VKCommands
                 await SendVkMessage("Вы не сыграли ни одной игры", peerId);
                 return true;
             }
-            await SendVkMessage($"Игр сыграно:{gameResult.GamesCount}. Выиграно игр:{gameResult.WinGames}, проиграно:{gameResult.WinGames}",peerId);
+            await SendVkMessage($"Игр сыграно:{gameResult.GamesCount}. Выиграно игр:{gameResult.WinGames}, проиграно:{gameResult.LostGames}",peerId);
             return true;
         }
     }

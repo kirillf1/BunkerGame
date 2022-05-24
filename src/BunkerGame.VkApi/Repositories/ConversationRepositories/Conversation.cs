@@ -1,9 +1,6 @@
-﻿using BunkerGame.Application.GameSessions.ResultCounters;
-using BunkerGame.Application.Players.AddNewPlayers;
-using BunkerGame.Domain.GameSessions;
-using BunkerGame.Domain.Players;
-using MediatR;
+﻿using BunkerGame.Domain.GameSessions;
 using VkNet.Abstractions;
+using VkNet.Model.Keyboard;
 
 namespace BunkerGame.VkApi.ConversationRepositories
 {
@@ -22,7 +19,26 @@ namespace BunkerGame.VkApi.ConversationRepositories
         public string ConversationName { get; set; }
         public List<User> Users { get; set; }
         public Difficulty Difficulty { get; set; } = Difficulty.Easy;
+        private LinkedList<MessageKeyboard> KeyboardList = new LinkedList<MessageKeyboard>();
 
+       
+        public void PushKeyboard(MessageKeyboard messageKeyboard)
+        {
+            if(KeyboardList.Count > 5)
+            {
+                KeyboardList.RemoveFirst();
+            }
+            KeyboardList.AddLast(messageKeyboard);
+        }
+       
+        public MessageKeyboard? PopLastKeyboard()
+        {
+            if (KeyboardList.Last == null)
+                return null;
+            var keyboard = KeyboardList.Last;
+            KeyboardList.RemoveLast();
+            return keyboard.Value;
+        }
         public static async Task<Conversation> CreateConversation(IVkApi vkApi,long peerId)
         {
             var usersTask = vkApi.Messages.GetConversationMembersAsync(peerId);
