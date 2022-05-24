@@ -25,7 +25,19 @@ namespace BunkerGame.Domain.Characters.CharacterComponents
         {
             return Description;
         }
+        public bool IsTargetCharacterCard()
+        {
+            var methodGroup = CardMethod.DefineDirectionGroup();
 
+            if(methodGroup == DirectionGroup.Character)
+            {
+                if (CardMethod.MethodType == MethodType.Update || CardMethod.MethodType == MethodType.SpyYourself)
+                    return false;
+                return true;
+            }
+            return false;
+            
+        }
         public IEnumerable<CardActivateRequirement> GetActivateRequirements()
         {
             var requiremnts = new List<CardActivateRequirement>();
