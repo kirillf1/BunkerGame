@@ -39,7 +39,7 @@ namespace BunkerGame.Tests.ApplicationCommandTests
             var result = await cardUseCommand.Handle(new UseCardNoneTargetCommand(character.Id, 1),default);
             Assert.Equal(Unit.Value, result);
 
-            mediator.Verify(x => x.Send(It.IsAny<ChangeCharacteristicCommand>(),default),Times.Once) ;
+            mediator.Verify(x => x.Send(It.Is<object>(c=>c.GetType() == typeof(ChangeCharacteristicCommand)),default),Times.Once);
         }
         [Theory]
         [InlineData(MethodDirection.Trait)]
@@ -59,11 +59,10 @@ namespace BunkerGame.Tests.ApplicationCommandTests
             var mediator = new Mock<IMediator>();
             IRequestHandler<UseCardOnOtherCharacterCommand, Unit> cardUseCommand =
                 new UseCardOnOtherCharacterCommandHandler(characterRepository.Object, mediator.Object);
-
             var result = await cardUseCommand.Handle(new UseCardOnOtherCharacterCommand( 1, characterCardUser.Id, characterTarget.Id), default);
             Assert.Equal(Unit.Value, result);
 
-            mediator.Verify(x => x.Send(It.IsAny<ChangeCharacteristicCommand>(), default), Times.Once);
+            mediator.Verify(x => x.Send(It.Is<object>(c => c.GetType() == typeof(ChangeCharacteristicCommand)), default), Times.Once);
         }
         [Theory]
         [InlineData(MethodDirection.BunkerEnviroment)]
@@ -82,7 +81,7 @@ namespace BunkerGame.Tests.ApplicationCommandTests
             var result = await cardUseCommand.Handle(new UseCardNoneTargetCommand(character.Id,1), default);
             Assert.Equal(Unit.Value, result);
 
-            mediator.Verify(x => x.Send(It.IsAny<ChangeBunkerComponentCommand>(), default), Times.Once);
+            mediator.Verify(x => x.Send(It.Is<object>(c => c.GetType() == typeof(ChangeBunkerComponentCommand)), default), Times.Once);
         }
         [Theory]
         [InlineData(MethodDirection.Trait)]
@@ -105,7 +104,7 @@ namespace BunkerGame.Tests.ApplicationCommandTests
             var result = await cardUseCommand.Handle(new UseCardOnOtherCharacterCommand(1, character.Id,character.Id), default);
             Assert.Equal(Unit.Value, result);
 
-            mediator.Verify(x => x.Send(It.IsAny<SpyCharacterComponentCommand>(), default), Times.Once);
+            mediator.Verify(x => x.Send(It.Is<object>(c => c.GetType() == typeof(SpyCharacterComponentCommand)), default), Times.Once);
         }
         public static Character GetCharacterWithConcreteCard(MethodDirection methodDirection,MethodType methodType)
         {
@@ -116,6 +115,5 @@ namespace BunkerGame.Tests.ApplicationCommandTests
             character.RegisterCharacterInGame(1, 0);
             return character;
         }
-
     }
 }
