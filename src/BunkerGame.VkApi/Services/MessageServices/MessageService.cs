@@ -70,6 +70,7 @@ namespace BunkerGame.VkApi.Services.MessageServices
         protected Type? FindVkCommandType(string message, bool isConversation)
         {
             Type? vkCommandType = null;
+            // if conversation and message starts with "бот","отмена","правила" finds in conversation conversation commands
             if (isConversation && Regex.IsMatch(message, @"\bбот\b|^!|^отмена|^правила", RegexOptions.IgnoreCase))
             {
                 vkCommandType = vkCommandsConversation.FirstOrDefault(c => Regex.IsMatch(message, c.Key, RegexOptions.IgnoreCase)).Value;

@@ -6,7 +6,7 @@ namespace BunkerGame.VkApi.VkExtensions
     public static class CharacterComponentStringConventer
     {
        
-        public static string CovertCharacterItem(IEnumerable<CharacterItem> characterItems)
+        public static string ConvertCharacterItem(IEnumerable<CharacterItem> characterItems)
         {
             int itemCount = 1;
             string str = string.Empty;
@@ -17,7 +17,7 @@ namespace BunkerGame.VkApi.VkExtensions
             }
             return str;
         }
-        public static string CovertCharacterCards(IEnumerable<Card> characterCards)
+        public static string ConvertCharacterCards(IEnumerable<Card> characterCards)
         {
             int itemCount = 1;
             string str = string.Empty;
@@ -54,6 +54,12 @@ namespace BunkerGame.VkApi.VkExtensions
             var sexEmojii = sex.Name == "мужчина" ? "&#128102;" : "&#128105;";
             return $"{sexEmojii} Пол: {sex.Name}";
         }
+
+        internal static string ConvertSex<Sex>(Sex? component)
+        {
+            throw new NotImplementedException();
+        }
+
         public static string ConvertSize(Size size)
         {
             return $"&#128170; Телосложение: вес: {size.Weight} кг., рост: {size.Height} см. - {size.GetAvagereIndexBody()}";

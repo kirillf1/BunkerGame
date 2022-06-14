@@ -16,18 +16,10 @@ namespace BunkerGame.VkApi.VkExtensions
 
             if (isGameStarted)
             {
-
-                //keyboardBuilder.AddButton("Бот,генерировать бункер", "убежище", KeyboardButtonColor.Positive);
-                //keyboardBuilder.AddLine();
                 keyboardBuilder.AddButton("Бот,количество мест", "места", KeyboardButtonColor.Negative);
                 keyboardBuilder.AddLine();
                 keyboardBuilder.AddButton("Бот, исключить персонажей", "исключить", KeyboardButtonColor.Primary);
-                keyboardBuilder.AddLine();
-                //keyboardBuilder.AddButton("Бот, уменьшить шанс победы", "уменьшить", KeyboardButtonColor.Negative);
-                //keyboardBuilder.AddButton("Бот, увеличить шанс победы", "увеличить", KeyboardButtonColor.Positive);
-                //keyboardBuilder.AddLine();
-                //keyboardBuilder.AddButton("!Поменяться характеристиками", "обмен", KeyboardButtonColor.Negative);
-                //keyboardBuilder.AddLine();
+                keyboardBuilder.AddLine();           
                 keyboardBuilder.AddButton("Бот, подвести итоги", "итоги", KeyboardButtonColor.Primary);
             }
             else

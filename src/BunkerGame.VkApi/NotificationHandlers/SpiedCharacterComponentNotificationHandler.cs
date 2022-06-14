@@ -1,4 +1,5 @@
-﻿using BunkerGame.Application.Characters.UserCard.Notifications;
+﻿using BunkerGame.Application.Characters.SpyCharacterComponent;
+using BunkerGame.Domain.Characters;
 using BunkerGame.Domain.Characters.CharacterComponents;
 using BunkerGame.Domain.Players;
 using MediatR;
@@ -6,41 +7,107 @@ using VkNet.Abstractions;
 
 namespace BunkerGame.VkApi.NotificationHandlers
 {
-    public class SpiedCharacterComponentNotificationHandler : INotificationHandler<SpiedCharacterComponentNotification>
+    public abstract class SpiedCharacterComponentNotificationHandlerBase<T> : INotificationHandler<SpiedCharacterComponentNotification<T>>
+        where T : CharacterComponent
     {
-        private readonly IVkApi vkApi;
-        private readonly IPlayerRepository playerRepository;
+        protected readonly IVkApi vkApi;
+        protected readonly IPlayerRepository playerRepository;
 
-        public SpiedCharacterComponentNotificationHandler(IVkApi vkApi, IPlayerRepository playerRepository)
+        protected SpiedCharacterComponentNotificationHandlerBase(IVkApi vkApi, IPlayerRepository playerRepository)
         {
-            this.vkApi = vkApi;
             this.playerRepository = playerRepository;
+            this.vkApi = vkApi;
         }
-
-        public async Task Handle(SpiedCharacterComponentNotification notification, CancellationToken cancellationToken)
+        public virtual async Task Handle(SpiedCharacterComponentNotification<T> notification, CancellationToken cancellationToken)
         {
-            var description = GetCharacterComponentDescription(notification.CharacterComponent);
             var player = await playerRepository.GetPlayerByCharacterId(notification.CharacterId);
             if (player == null)
                 throw new ArgumentNullException(nameof(player));
-            await vkApi.Messages.SendAsync(VkMessageParamsFactory.CreateMessageSendParams($"Характеристика игрока: {Environment.NewLine}" +
-                description,
+            await vkApi.Messages.SendAsync(VkMessageParamsFactory.CreateMessageSendParams($"Характеристика игрока: " +
+                $"{Environment.NewLine}" + GetComponentDescription(notification.CharacterComponent),
                 notification.GameSessionId, VkKeyboardFactory.BuildConversationButtons(false)));
         }
-        private string GetCharacterComponentDescription(CharacterComponent characterComponent)
+        public abstract string GetComponentDescription(T component);
+    }
+    public class SpiedCharacterComponentNotificationHandler<T> : SpiedCharacterComponentNotificationHandlerBase<T>
+        where T : CharacterComponent
+    {
+        public SpiedCharacterComponentNotificationHandler(IVkApi vkApi, IPlayerRepository playerRepository) : base(vkApi, playerRepository)
         {
-            if (characterComponent is CharacterEntity entity)
-                return entity.Description;
-            else if (characterComponent is Sex sex)
-                return CharacterComponentStringConventer.ConvertSex(sex);
-            else if (characterComponent is Childbearing childbearing)
-                return CharacterComponentStringConventer.ConvertChildbearing(childbearing);
-            else if (characterComponent is Age age)
-                return CharacterComponentStringConventer.ConvertAge(age);
-            else if (characterComponent is Size size)
-                return CharacterComponentStringConventer.ConvertSize(size);
-            else
-                throw new ArgumentException(nameof(CharacterComponent));
         }
+
+        public override string GetComponentDescription(T component) => component.ToString() ?? "unknown component";
+    }
+    public class SpiedSexNotificationHandler : SpiedCharacterComponentNotificationHandlerBase<Sex>
+    {
+        public SpiedSexNotificationHandler(IVkApi vkApi, IPlayerRepository playerRepository) : base(vkApi, playerRepository)
+        {
+        }
+
+        public override string GetComponentDescription(Sex component) => CharacterComponentStringConventer.ConvertSex(component);
+    }
+    public class SpiedProfessionNotificationHandler : SpiedCharacterComponentNotificationHandlerBase<Profession>
+    {
+        public SpiedProfessionNotificationHandler(IVkApi vkApi, IPlayerRepository playerRepository) : base(vkApi, playerRepository)
+        {
+        }
+        public override string GetComponentDescription(Profession component) =>
+            CharacterComponentStringConventer.ConvertProfession(component,0);   
+    }
+    public class SpiedTraitNotificationHandler : SpiedCharacterComponentNotificationHandlerBase<Trait>
+    {
+        public SpiedTraitNotificationHandler(IVkApi vkApi, IPlayerRepository playerRepository) : base(vkApi, playerRepository)
+        {
+        }
+        public override string GetComponentDescription(Trait component) => CharacterComponentStringConventer.ConvertTrait(component);
+    }
+    public class SpiedSizeNotificationHandler : SpiedCharacterComponentNotificationHandlerBase<Size>
+    {
+        public SpiedSizeNotificationHandler(IVkApi vkApi, IPlayerRepository playerRepository) : base(vkApi, playerRepository)
+        {
+        }
+
+        public override string GetComponentDescription(Size component) => CharacterComponentStringConventer.ConvertSize(component);
+    }
+    public class SpiedHealthNotificationHandler : SpiedCharacterComponentNotificationHandlerBase<Health>
+    {
+        public SpiedHealthNotificationHandler(IVkApi vkApi, IPlayerRepository playerRepository) : base(vkApi, playerRepository)
+        {
+        }
+
+        public override string GetComponentDescription(Health component) => CharacterComponentStringConventer.ConvertHealth(component);
+    }
+    public class SpiedHobbyNotificationHandler : SpiedCharacterComponentNotificationHandlerBase<Hobby>
+    {
+        public SpiedHobbyNotificationHandler(IVkApi vkApi, IPlayerRepository playerRepository) : base(vkApi, playerRepository)
+        {
+        }
+
+        public override string GetComponentDescription(Hobby component) => CharacterComponentStringConventer.ConvertHobby(component,0);
+    }
+    public class SpiedAgeNotificationHandler : SpiedCharacterComponentNotificationHandlerBase<Age>
+    {
+        public SpiedAgeNotificationHandler(IVkApi vkApi, IPlayerRepository playerRepository) : base(vkApi, playerRepository)
+        {
+        }
+
+        public override string GetComponentDescription(Age component) => CharacterComponentStringConventer.ConvertAge(component);
+    }
+    public class SpiedChildbearingNotificationHandler : SpiedCharacterComponentNotificationHandlerBase<Childbearing>
+    {
+        public SpiedChildbearingNotificationHandler(IVkApi vkApi, IPlayerRepository playerRepository) : base(vkApi, playerRepository)
+        {
+        }
+
+        public override string GetComponentDescription(Childbearing component) => CharacterComponentStringConventer.ConvertChildbearing(component);      
+    }
+    public class SpiedAdditionalInfNotificationHandler : SpiedCharacterComponentNotificationHandlerBase<AdditionalInformation>
+    {
+        public SpiedAdditionalInfNotificationHandler(IVkApi vkApi, IPlayerRepository playerRepository) : base(vkApi, playerRepository)
+        {
+        }
+
+        public override string GetComponentDescription(AdditionalInformation component)
+            => CharacterComponentStringConventer.ConvertAddInf(component);
     }
 }

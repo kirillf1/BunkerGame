@@ -1,4 +1,4 @@
-﻿using BunkerGame.Application.Characters.UserCard.Notifications;
+﻿using BunkerGame.Application.Characters.ExchangeCharacter;
 using MediatR;
 using VkNet.Abstractions;
 
@@ -15,7 +15,7 @@ namespace BunkerGame.VkApi.NotificationHandlers
         public async Task Handle(CharactersExchangedNotification notification, CancellationToken cancellationToken)
         {
             await vkApi.Messages.SendAsync(VkMessageParamsFactory.CreateMessageSendParams("Ваш персонаж изменился:" +
-               $" {GameComponentsConventer.ConvertCharacter(notification.CharacterFist)}", notification.CharacterFist.PlayerId!.Value));
+               $" {GameComponentsConventer.ConvertCharacter(notification.CharacterFirst)}", notification.CharacterFirst.PlayerId!.Value));
             await vkApi.Messages.SendAsync(VkMessageParamsFactory.CreateMessageSendParams("Ваш персонаж изменился:" +
                $" {GameComponentsConventer.ConvertCharacter(notification.CharacterSecond)}", notification.CharacterSecond.PlayerId!.Value));
         }

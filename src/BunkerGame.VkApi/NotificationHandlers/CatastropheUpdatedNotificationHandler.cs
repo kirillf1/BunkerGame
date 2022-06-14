@@ -1,4 +1,4 @@
-﻿using BunkerGame.Application.Characters.UserCard.Notifications;
+﻿using BunkerGame.Application.GameSessions.ChangeCatastophe;
 using MediatR;
 using VkNet.Abstractions;
 

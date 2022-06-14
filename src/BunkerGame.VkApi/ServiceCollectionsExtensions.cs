@@ -32,13 +32,14 @@ namespace BunkerGame.VkApi
         {
             serviceCollection.AddScoped<IMessageService, MessageService>();
             serviceCollection.AddScoped<IUserOptionsService, UserOptionsService>();
+          
         }
         private static void AddRepositories(IServiceCollection serviceCollection)
         {
             serviceCollection.AddMemoryCache();
             serviceCollection.AddSingleton<IConversationRepository, ConversationRepositoryInMemory>();
             serviceCollection.AddScoped<IUserOperationRepository, UserStateRepositoryInMemory>();
-
         }
+      
     }
 }

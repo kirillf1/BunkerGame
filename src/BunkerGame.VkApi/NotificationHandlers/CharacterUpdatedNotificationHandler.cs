@@ -1,4 +1,4 @@
-﻿using BunkerGame.Application.Characters.UserCard.Notifications;
+﻿using BunkerGame.Application.Characters.ChangeCharacteristic;
 using MediatR;
 using VkNet.Abstractions;
 

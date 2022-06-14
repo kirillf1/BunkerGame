@@ -44,9 +44,10 @@ namespace BunkerGame.VkApi.VkExtensions
             stringBuilder.AppendLine(CharacterComponentStringConventer.ConvertPhobia(character.Phobia));
             stringBuilder.AppendLine(CharacterComponentStringConventer.ConvertHobby(character.Hobby, character.ExperienceHobby));
             stringBuilder.AppendLine(CharacterComponentStringConventer.ConvertAddInf(character.AdditionalInformation));
-            stringBuilder.AppendLine(CharacterComponentStringConventer.CovertCharacterItem(character.CharacterItems));
-            stringBuilder.AppendLine(CharacterComponentStringConventer.CovertCharacterCards(
-                character.Cards.Join(character.UsedCards,c=>c.Id, usedCard => usedCard.CardId, (c, u) => new { card = c,u.CardNumber}).
+            stringBuilder.AppendLine(CharacterComponentStringConventer.ConvertCharacterItem(character.CharacterItems));
+            stringBuilder.AppendLine(CharacterComponentStringConventer.ConvertCharacterCards(
+                character.Cards.Join(character.UsedCards,c=>c.Id, usedCard => usedCard.CardId, 
+                (c, u) => new { card = c,u.CardNumber}).
                 OrderBy(c=>c.CardNumber).Select(c=> c.card )));
             return stringBuilder.ToString();
         }
