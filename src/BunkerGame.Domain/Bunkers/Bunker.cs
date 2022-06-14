@@ -39,63 +39,53 @@ namespace BunkerGame.Domain.Bunkers
         public BunkerSize BunkerSize { get; private set; }
         public long? GameSessionId { get; private set; }
         public Supplies Supplies { get; private set; }
-        //public int BunkerWallId { get; private set; }
         public BunkerWall BunkerWall { get; private set; }
         public List<ItemBunker> ItemBunkers { get; private set; } = new List<ItemBunker>();
         public List<BunkerObject> BunkerObjects { get; private set; } = new List<BunkerObject>();
-        //public int BunkerEnviromentId { get; private set; }
         public BunkerEnviroment BunkerEnviroment { get; private set; }
-        //public int GameSessionId { get; private set; }
-
-        public void UpdateBunkerComponent<T>(T bunkerComponent) where T : BunkerComponent
+        public void UpdateBunkerSize(BunkerSize bunkerSize)
         {
-            UpdateBunkerComponent(bunkerComponent);
+            BunkerSize = bunkerSize ?? throw new ArgumentNullException(nameof(bunkerSize));
         }
-        public void UpdateBunkerComponent(object bunkerComponent)
+        public void UpdateBunkerObjects(IEnumerable<BunkerObject> bunkerObjects)
         {
-            if (bunkerComponent is null)
-            {
-                throw new ArgumentNullException(nameof(bunkerComponent));
-            }
-            else if (bunkerComponent is BunkerWall bunkerWall)
-            {
-                BunkerWall = bunkerWall ?? throw new ArgumentNullException(nameof(bunkerWall));
-            }
-            else if (bunkerComponent is BunkerEnviroment enviroment)
-            {
-                BunkerEnviroment = enviroment ?? throw new ArgumentNullException(nameof(enviroment));
-            }
-            else if (bunkerComponent is ItemBunker itemBunker)
-            {
-                if (ItemBunkers.Count > 0)
-                {
-                    ItemBunkers.Remove(ItemBunkers.First());
-                }
-                ItemBunkers.Add(itemBunker);
-                return;
-            }
-            else if (bunkerComponent is BunkerObject bunkerObject)
-            {
-                if (ItemBunkers.Count > 0)
-                {
-                    BunkerObjects.Remove(BunkerObjects.First());
-                }
-                BunkerObjects.Add(bunkerObject);
-                return;
-            }
+            UpdateComponentCollection(BunkerObjects, bunkerObjects);
         }
-        public void RegisterBunkerInGame(long gameId)
+        public void UpdateItemsBunker(IEnumerable<ItemBunker> items)
         {
-            GameSessionId = gameId;
+            UpdateComponentCollection(ItemBunkers, items);
+        }
+        public void UpdateBunkerWall(BunkerWall bunkerWall)
+        {
+            BunkerWall = bunkerWall ?? throw new ArgumentNullException(nameof(bunkerWall));
+        }
+        public void UpdateBunkerEnviroment(BunkerEnviroment bunkerEnviroment)
+        {
+            BunkerEnviroment = bunkerEnviroment ?? throw new ArgumentNullException(nameof(bunkerEnviroment));
         }
         public void UpdateSupplies(Supplies supplies)
         {
             Supplies = supplies ?? throw new ArgumentNullException(nameof(supplies));
         }
-        public void UpdateBunkerSize(BunkerSize bunkerSize)
+        public void RegisterBunkerInGame(long gameId)
         {
-            BunkerSize = bunkerSize ?? throw new ArgumentNullException(nameof(bunkerSize));
+            GameSessionId = gameId;
         }
+        private static void UpdateComponentCollection<T>(List<T> oldComponents, IEnumerable<T> newComponents) where T : BunkerComponent
+        {
+            var newComponentsCount = newComponents.Count();
+            if (oldComponents.Count == newComponentsCount || newComponentsCount > oldComponents.Count)
+            {
+                oldComponents.Clear();
+                oldComponents.AddRange(newComponents);
+            }
+            else if (oldComponents.Count > newComponentsCount)
+            {
+                oldComponents.RemoveRange(0, newComponentsCount);
+                oldComponents.AddRange(newComponents);
+            }
+        }
+
 
     }
 }

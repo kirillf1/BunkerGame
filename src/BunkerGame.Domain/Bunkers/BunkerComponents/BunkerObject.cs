@@ -17,7 +17,10 @@ namespace BunkerGame.Domain.Bunkers.BunkerComponents
         {
             BunkerObjectType = bunkerObjectType;
         }
-
+        public override string ToString()
+        {
+            return Description;
+        }
     }
     public enum BunkerObjectType
     {

@@ -39,7 +39,8 @@ namespace BunkerGame.Tests.ApplicationCommandTests
             var result = await cardUseCommand.Handle(new UseCardNoneTargetCommand(character.Id, 1),default);
             Assert.Equal(Unit.Value, result);
 
-            mediator.Verify(x => x.Send(It.Is<object>(c=>c.GetType() == typeof(ChangeCharacteristicCommand)),default),Times.Once);
+            mediator.Verify(x => x.Send(It.Is<object>(c=>c.GetType().GetGenericTypeDefinition() 
+            == typeof(ChangeCharacteristicCommand<>)),default),Times.Once);
         }
         [Theory]
         [InlineData(MethodDirection.Trait)]
@@ -62,13 +63,13 @@ namespace BunkerGame.Tests.ApplicationCommandTests
             var result = await cardUseCommand.Handle(new UseCardOnOtherCharacterCommand( 1, characterCardUser.Id, characterTarget.Id), default);
             Assert.Equal(Unit.Value, result);
 
-            mediator.Verify(x => x.Send(It.Is<object>(c => c.GetType() == typeof(ChangeCharacteristicCommand)), default), Times.Once);
+            mediator.Verify(x => x.Send(It.Is<object>(c => c.GetType().GetGenericTypeDefinition() == typeof(ChangeCharacteristicCommand<>)), default), Times.Once);
         }
         [Theory]
         [InlineData(MethodDirection.BunkerEnviroment)]
-        [InlineData(MethodDirection.BunkerObject)]
+        [InlineData(MethodDirection.Supplies)]
         [InlineData(MethodDirection.BunkerWall)]
-        [InlineData(MethodDirection.ItemBunker)]
+        [InlineData(MethodDirection.BunkerSize)]
         public async void UseChangeBunkerComponentCard_ShouldInvoke_ChangeBunkerComponentCommand(MethodDirection methodDirection)
         {
             var character = GetCharacterWithConcreteCard(methodDirection, MethodType.Change);
@@ -81,7 +82,7 @@ namespace BunkerGame.Tests.ApplicationCommandTests
             var result = await cardUseCommand.Handle(new UseCardNoneTargetCommand(character.Id,1), default);
             Assert.Equal(Unit.Value, result);
 
-            mediator.Verify(x => x.Send(It.Is<object>(c => c.GetType() == typeof(ChangeBunkerComponentCommand)), default), Times.Once);
+            mediator.Verify(x => x.Send(It.Is<object>(c => c.GetType().GetGenericTypeDefinition() == typeof(ChangeBunkerComponentCommand<>)), default), Times.Once);
         }
         [Theory]
         [InlineData(MethodDirection.Trait)]
@@ -104,7 +105,7 @@ namespace BunkerGame.Tests.ApplicationCommandTests
             var result = await cardUseCommand.Handle(new UseCardOnOtherCharacterCommand(1, character.Id,character.Id), default);
             Assert.Equal(Unit.Value, result);
 
-            mediator.Verify(x => x.Send(It.Is<object>(c => c.GetType() == typeof(SpyCharacterComponentCommand)), default), Times.Once);
+            mediator.Verify(x => x.Send(It.Is<object>(c => c.GetType().GetGenericTypeDefinition() == typeof(SpyCharacterComponentCommand<>)), default), Times.Once);
         }
         public static Character GetCharacterWithConcreteCard(MethodDirection methodDirection,MethodType methodType)
         {

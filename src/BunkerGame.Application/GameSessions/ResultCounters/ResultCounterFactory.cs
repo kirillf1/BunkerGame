@@ -9,9 +9,19 @@ namespace BunkerGame.Application.GameSessions.ResultCounters
 {
     public class ResultCounterFactory : IResultCounterFactory
     {
-        public IGameResultCounter CreateResultCounter(Difficulty difficulty)
+        public IGameResultCounter CreateResultCounter(GameSession gameSession)
         {
-            return new GameResultCounterEasy();
+            switch (gameSession.Difficulty)
+            {
+                case Difficulty.Easy:
+                    return new GameResultCounterEasy(gameSession);
+                case Difficulty.Medium:
+                    return new GameResultCounterMedium(gameSession);
+                case Difficulty.Hard:
+                    return new GameResultCounterMedium(gameSession);
+                default:
+                    throw new NotImplementedException($"No such difficullty in {nameof(gameSession)}");
+            }
         }
     }
 }

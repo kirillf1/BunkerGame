@@ -16,6 +16,10 @@ namespace BunkerGame.Domain.Bunkers.BunkerComponents
         {
             BunkerState = bunkerState;
         }
+        public override string ToString()
+        {
+            return Description;
+        }
     }
     public enum BunkerState
     {

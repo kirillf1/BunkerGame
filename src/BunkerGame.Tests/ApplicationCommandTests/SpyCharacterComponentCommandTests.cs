@@ -1,59 +1,50 @@
 ﻿using BunkerGame.Application.Characters.SpyCharacterComponent;
+using BunkerGame.Application.Characters.SpyCharacterComponent.SpyComponentCommandHandlers;
 using BunkerGame.Domain.Characters;
 using BunkerGame.Domain.Characters.CharacterComponents;
-using BunkerGame.Domain.Characters.CharacterComponents.Cards;
+using MediatR;
 using Moq;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace BunkerGame.Tests.ApplicationCommandTests
 {
     public class SpyCharacterComponentCommandTests
     {
-        [Theory]
-        [InlineData(MethodDirection.Health)]
-        [InlineData(MethodDirection.Sex)]
-        [InlineData(MethodDirection.Size)]
-        [InlineData(MethodDirection.Phobia)]
-        [InlineData(MethodDirection.Profession)]
-        [InlineData(MethodDirection.Hobby)]
-        [InlineData(MethodDirection.Trait)]
-        [InlineData(MethodDirection.CharacterItem)]
-        [InlineData(MethodDirection.Age)]
-        [InlineData(MethodDirection.AdditionalInformation)]
-        
-        public async Task SpyCharacterComponent_ShouldReturnSame(MethodDirection methodDirection)
+
+        public async Task SpyCharacterComponentHelper<T>(SpyCharacterComponentCommandHandler<T> commandHandler, Character character) where T : CharacterComponent
+        {
+            var result = await commandHandler.Handle(new SpyCharacterComponentCommand<T>(character.Id), default);
+            var propertyName = typeof(T).Name;
+            object? characterComponent;
+            // we can spy only one component
+            if (typeof(T) == typeof(CharacterItem))
+                characterComponent = character.CharacterItems.FirstOrDefault(c => result == c);
+            else if (typeof(T) == typeof(Card))
+                characterComponent = character.Cards.FirstOrDefault(c => result == c);
+            else
+                characterComponent = character.GetType().GetProperty(propertyName)?.GetValue(character);
+
+            Assert.NotNull(characterComponent);
+            Assert.Equal(result, characterComponent);
+        }
+        [Fact]
+        public async Task SpyCharacterComponents_ShouldReturnSameComponent()
         {
             var character = CharacterCreator.CreateCharacter();
             var characterRepository = new Mock<ICharacterRepository>();
-            characterRepository.Setup(c=>c.GetCharacterById(character.Id,true)).ReturnsAsync(character);
+            characterRepository.Setup(c => c.GetCharacterById(character.Id, true)).ReturnsAsync(character);
+            var mediator = new Mock<IMediator>().Object;
 
-            var spyCharacterComponentCommandHandler = new SpyCharacterComponentCommandHandler(characterRepository.Object);
-            var result = await spyCharacterComponentCommandHandler.Handle(new SpyCharacterComponentCommand(character.Id, methodDirection),default);
-
-            Assert.Equal(result.ToString(), GetCharacterComponentDescription(character, methodDirection).ToString());
-        }
-        public static CharacterComponent GetCharacterComponentDescription(Character character, MethodDirection methodDirection)
-        {
-           return methodDirection switch
-            {
-                MethodDirection.AdditionalInformation => character.AdditionalInformation,
-                MethodDirection.Health => character.Health,
-                MethodDirection.Profession => character.Profession,
-                MethodDirection.Phobia => character.Phobia,
-                MethodDirection.Sex => character.Sex,
-                MethodDirection.Size => character.Size,
-                MethodDirection.Trait => character.Trait,
-                MethodDirection.Hobby => character.Hobby,
-                MethodDirection.Age => character.Age,
-                MethodDirection.CharacterItem => character.CharacterItems.First(),
-                MethodDirection.Childbearing => character.Childbearing,
-                _ => throw new ArgumentException(),
-            };
-            
+            await SpyCharacterComponentHelper(new SpySexCommandHandler(characterRepository.Object,mediator), character);
+            await SpyCharacterComponentHelper(new SpySizeCommandHandler(characterRepository.Object,mediator), character);
+            await SpyCharacterComponentHelper(new SpyAgeCommandHandler(characterRepository.Object,mediator), character);
+            await SpyCharacterComponentHelper(new SpyCardCommandHandler(characterRepository.Object,mediator), character);
+            await SpyCharacterComponentHelper(new SpyCharacterItemCommandHandler(characterRepository.Object,mediator), character);
+            await SpyCharacterComponentHelper(new SpyProfessionCommandHandler(characterRepository.Object,mediator), character);
+            await SpyCharacterComponentHelper(new SpyHobbyCommandHandler(characterRepository.Object,mediator), character);
+            await SpyCharacterComponentHelper(new SpyTraitCommandHandler(characterRepository.Object,mediator), character);
+            await SpyCharacterComponentHelper(new SpyHealthCommandHandler(characterRepository.Object,mediator), character);
         }
     }
 }

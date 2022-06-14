@@ -63,7 +63,7 @@ namespace BunkerGame.Domain.GameSessions
         public async Task<ResultGameReport> EndGame(IGameResultCounter resultCounter)
         {
             GameState = GameState.Ended;
-            return await resultCounter.CalculateResult(this);
+            return await resultCounter.CalculateResult();
         }
         public void ClearCharacters()
         {

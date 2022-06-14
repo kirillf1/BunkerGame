@@ -54,13 +54,15 @@ namespace BunkerGame.Infrastructure
 
             serviceCollection.AddScoped<ICatastropheRepository, CatastropheRepositoryEf>();
             serviceCollection.AddScoped<ICharacterRepository, CharactersRepositoryEf>();
-            serviceCollection.AddScoped(typeof(IBunkerComponentRepository<>), typeof(BunkerComponentRepositoryEf<>));
             serviceCollection.AddScoped<IGameResultRepository, GameResultRepositoryEf>();
             serviceCollection.AddScoped<IPlayerRepository, PlayerRepositoryEf>();
             serviceCollection.AddScoped<IGameSessionRepository, GameSessionRepositoryEf>();
             serviceCollection.AddScoped<IExternalSurroundingRepository, ExternalSurroundingsRepositoryEf>();
 
             serviceCollection.AddScoped<IBunkerComponentRepositoryLocator, BunkerComponentRepLocatorEf>();
+            serviceCollection.AddScoped(typeof(IBunkerComponentRepository<>), typeof(BunkerComponentRepositoryEf<>));
+            serviceCollection.AddScoped<IBunkerComponentRepository<Supplies>, SuppliesRepository>();
+            serviceCollection.AddScoped<IBunkerComponentRepository<BunkerSize>, BunkerSizeRepository>();
             serviceCollection.AddScoped<ICharacterComponentRepLocator, CharacterComponentRepLocatorEf>();
         }
     }

@@ -11,9 +11,9 @@ namespace BunkerGame.Domain.Characters
 {
     public class Character
     {
-#pragma warning disable CS8618 // Поле, не допускающее значения NULL, должно содержать значение, отличное от NULL, при выходе из конструктора. Возможно, стоит объявить поле как допускающее значения NULL.
+#pragma warning disable CS8618
         private Character()
-#pragma warning restore CS8618 // Поле, не допускающее значения NULL, должно содержать значение, отличное от NULL, при выходе из конструктора. Возможно, стоит объявить поле как допускающее значения NULL.
+#pragma warning restore CS8618
         {
 
         }
@@ -82,6 +82,7 @@ namespace BunkerGame.Domain.Characters
         {
             IsAlive = isAlive;
         }
+
         public void SetCharacterExpirience(byte hobbyExp, byte profExp)
         {
             ExperienceProfession = profExp;
@@ -209,13 +210,13 @@ namespace BunkerGame.Domain.Characters
         {
             if (cardNumber > UsedCards.Count || cardNumber < 1)
                 throw new ArgumentOutOfRangeException("value must be 1 or 3");
-            return UsedCards.Join(Cards,u=>u.CardId, c => c.Id, (u, c) => new {u.CardNumber, c}).First(c=>c.CardNumber == cardNumber).c;
+            return UsedCards.Join(Cards, u => u.CardId, c => c.Id, (u, c) => new { u.CardNumber, c }).First(c => c.CardNumber == cardNumber).c;
         }
         public bool CheckCardUsed(byte cardNumber)
         {
             if (cardNumber > UsedCards.Count || cardNumber < 1)
                 throw new ArgumentOutOfRangeException("value must be 1 or 3");
             return UsedCards.First(c => c.CardNumber == cardNumber).CardUsed;
-        }     
+        }
     }
 }

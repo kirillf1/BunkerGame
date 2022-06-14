@@ -9,6 +9,6 @@ namespace BunkerGame.Application.GameSessions.ResultCounters
 {
     public interface IResultCounterFactory
     {
-        public IGameResultCounter CreateResultCounter(Difficulty difficulty);
+        public IGameResultCounter CreateResultCounter(GameSession gameSession);
     }
 }

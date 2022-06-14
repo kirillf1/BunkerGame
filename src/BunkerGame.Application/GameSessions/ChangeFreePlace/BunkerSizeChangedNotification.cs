@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BunkerGame.Application.Characters.UserCard.Notifications
+namespace BunkerGame.Application.GameSessions.ChangeFreePlace
 {
     public class BunkerSizeChangedNotification : INotification
     {

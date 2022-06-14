@@ -8,11 +8,13 @@ namespace BunkerGame.Application.GameSessions.ChangeBunker
     {
         private readonly IGameSessionRepository gameSessionRepository;
         private readonly IBunkerFactory bunkerFactory;
+        private readonly IMediator mediator;
 
-        public ChangeBunkerCommandHandler(IGameSessionRepository gameSessionRepository,IBunkerFactory bunkerFactory)
+        public ChangeBunkerCommandHandler(IGameSessionRepository gameSessionRepository,IBunkerFactory bunkerFactory,IMediator mediator)
         {
             this.gameSessionRepository = gameSessionRepository;
             this.bunkerFactory = bunkerFactory;
+            this.mediator = mediator;
         }
         public async Task<Bunker> Handle(ChangeBunkerCommand command, CancellationToken cancellationToken)
         {
@@ -20,6 +22,8 @@ namespace BunkerGame.Application.GameSessions.ChangeBunker
             if (gameSession == null)
                 throw new ArgumentNullException(nameof(gameSession));
             gameSession.UpdateBunker(await bunkerFactory.CreateBunker(new BunkerCreateOptions()));
+            await gameSessionRepository.CommitChanges();
+            await mediator.Publish(new BunkerUpdatedNotification(gameSession.Id, gameSession.Bunker));
             return gameSession.Bunker;
         }
     }

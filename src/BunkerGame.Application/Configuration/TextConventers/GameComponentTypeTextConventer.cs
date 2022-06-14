@@ -1,5 +1,6 @@
 ﻿using BunkerGame.Domain.Bunkers.BunkerComponents;
 using BunkerGame.Domain.Characters.CharacterComponents;
+using BunkerGame.Domain.Characters.CharacterComponents.Cards;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,8 @@ namespace BunkerGame.Application.Configuration.TextConventers
 {
     public static class GameComponentTypeTextConventer
     {
-        public static Type? ConvertTextToBunkerComponentTypeEn(string textType)
+      
+        public static Type ConvertTextToBunkerComponentType(string textType)
         {
             return textType.ToLower() switch
             {
@@ -20,10 +22,10 @@ namespace BunkerGame.Application.Configuration.TextConventers
                 "itembunker" => typeof(ItemBunker),
                 "bunkersize" => typeof(BunkerSize),
                 "supplies" => typeof(Supplies),
-                _ => null,
+                _ => throw new ArgumentException(),
             };
         }
-        public static Type? ConvertTextToCharacteristicTypeEn(string textType)
+        public static Type ConvertTextToCharacteristicType(string textType)
         {
             return textType.ToLower() switch
             {
@@ -38,10 +40,10 @@ namespace BunkerGame.Application.Configuration.TextConventers
                 "sex" => typeof(Sex),
                 "size" => typeof(Size),
                 "hobby" => typeof(Hobby),
-                _ => null,
+                _ => throw new ArgumentException(),
             };
         }
-        public static Type? ConvertTextToCharacteristicTypeRussian(string textType)
+        public static Type ConvertTextToCharacteristicTypeRussian(string textType)
         {
             return textType.ToLower() switch
             {
@@ -56,7 +58,7 @@ namespace BunkerGame.Application.Configuration.TextConventers
                 "пол" => typeof(Sex),
                 "масса и рост" => typeof(Size),
                 "хобби" => typeof(Hobby),
-                _ => null,
+                _ => throw new ArgumentException(),
             };
         }
     }

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BunkerGame.Application.Characters.UserCard.Notifications
+namespace BunkerGame.Application.GameSessions.KickCharacter
 {
     public class CharacterKickedNotification : INotification
     {

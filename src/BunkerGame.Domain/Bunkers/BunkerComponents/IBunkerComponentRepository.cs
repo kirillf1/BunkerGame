@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BunkerGame.Domain.Bunkers.BunkerComponents
 {
-    public interface IBunkerComponentRepository<T> where T: BunkerComponentEntity
+    public interface IBunkerComponentRepository<T> where T: BunkerComponent
     {
         public Task<T> GetBunkerComponent(bool needShuffle = true, Expression<Func<T, bool>>? predicate = null);
         public Task<IEnumerable<T>> GetBunkerComponents(int count, bool needShuffle = true, Expression<Func<T, bool>>? predicate = null);

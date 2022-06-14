@@ -13,7 +13,7 @@ namespace BunkerGame.Domain.Characters.CharacterComponents
         public string Description { get; set; }
         public double Value { get; set; }
 
-        public CharacterEntity(string description, bool isBalance, double value = 0)
+        protected CharacterEntity(string description, bool isBalance, double value = 0)
         {
             if (string.IsNullOrWhiteSpace(description))
             {

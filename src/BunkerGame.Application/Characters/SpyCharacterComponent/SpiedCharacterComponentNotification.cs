@@ -6,11 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BunkerGame.Application.Characters.UserCard.Notifications
+namespace BunkerGame.Application.Characters.SpyCharacterComponent
 {
-    public class SpiedCharacterComponentNotification : INotification
+    public class SpiedCharacterComponentNotification<T> : INotification
     {
-        public SpiedCharacterComponentNotification(int characterId,long gameSessionId,CharacterComponent characterComponent)
+        public SpiedCharacterComponentNotification(int characterId, long gameSessionId, T characterComponent)
         {
             CharacterId = characterId;
             GameSessionId = gameSessionId;
@@ -19,6 +19,6 @@ namespace BunkerGame.Application.Characters.UserCard.Notifications
 
         public int CharacterId { get; }
         public long GameSessionId { get; }
-        public CharacterComponent CharacterComponent { get; }
+        public T CharacterComponent { get; }
     }
 }

@@ -8,6 +8,6 @@ namespace BunkerGame.Domain.GameSessions
 {
     public interface IGameResultCounter
     {
-        Task<ResultGameReport> CalculateResult(GameSession gameSession);
+        Task<ResultGameReport> CalculateResult();
     }
 }

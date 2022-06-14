@@ -36,8 +36,8 @@ namespace BunkerGame.Application.Characters.UserCard.CardCommandExplorer.NoneTar
             }
             else
             {
-                return new ChangeBunkerComponentCommand(gameSessionId,
-                    GameComponentTypeTextConventer.ConvertTextToBunkerComponentType(methodDirection.ToString())!,cardMethod.ItemId.GetValueOrDefault());
+                var componentId = cardMethod.ItemId;
+                return ChangeBunkerComponentCommandFactory.CreateChangeBunkerComponentCommand(gameSessionId,componentId,methodDirection);
             }
         }
     }

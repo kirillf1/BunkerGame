@@ -13,11 +13,14 @@ namespace BunkerGame.Application.GameSessions.AddExternalSurroundingInGame
     {
         private readonly IGameSessionRepository gameSessionRepository;
         private readonly IExternalSurroundingRepository externalSurroundingRepository;
+        private readonly IMediator mediator;
 
-        public AddExternalSurroundingCommandHandler(IGameSessionRepository gameSessionRepository, IExternalSurroundingRepository externalSurroundingRepository)
+        public AddExternalSurroundingCommandHandler(IGameSessionRepository gameSessionRepository, IExternalSurroundingRepository externalSurroundingRepository,
+            IMediator mediator)
         {
             this.gameSessionRepository = gameSessionRepository;
             this.externalSurroundingRepository = externalSurroundingRepository;
+            this.mediator = mediator;
         }
         public async Task<ExternalSurrounding> Handle(AddExternalSurroundingCommand request, CancellationToken cancellationToken)
         {
@@ -29,6 +32,7 @@ namespace BunkerGame.Application.GameSessions.AddExternalSurroundingInGame
                 throw new ArgumentNullException(nameof(gameSession));
             gameSession.AddSurrounding(surrounding);
             await gameSessionRepository.CommitChanges();
+            await mediator.Publish(new ExternalSurroundingUpdatedNotification(gameSession.Id, surrounding));
             return surrounding;
         }
     }

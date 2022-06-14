@@ -1,4 +1,5 @@
 ﻿using BunkerGame.Application.Characters.SpyCharacterComponent;
+using BunkerGame.Domain.Characters.CharacterComponents;
 using BunkerGame.Domain.Characters.CharacterComponents.Cards;
 using System;
 using System.Collections.Generic;
@@ -16,7 +17,7 @@ namespace BunkerGame.Application.Characters.UserCard.CardCommandExplorer.TargetC
             var targetCharacterId = cardArgs.TargetCharacterId;
             if (methodDirection != MethodDirection.Character)
             {
-               return new SpyCharacterComponentCommand(targetCharacterId, methodDirection);
+                return FindCommandForCharacterComponent(targetCharacterId, methodDirection);
                
             }
             else
@@ -25,5 +26,10 @@ namespace BunkerGame.Application.Characters.UserCard.CardCommandExplorer.TargetC
                 return null;
             }
         }
+        private static object FindCommandForCharacterComponent(int characterId,MethodDirection methodDirection)
+        {
+            return SpyCharacterComponentCommandFactory.CreateSpyCharacterComponentCommand(characterId, methodDirection);
+        }
+        
     }
 }

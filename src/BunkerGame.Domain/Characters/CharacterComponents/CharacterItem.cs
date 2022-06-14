@@ -30,6 +30,10 @@ namespace BunkerGame.Domain.Characters.CharacterComponents
         {
             CharacterItemType = characterItemType;
         }
+        public override string ToString()
+        {
+            return Description;
+        }
     }
     public enum CharacterItemType
     {

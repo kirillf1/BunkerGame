@@ -25,6 +25,7 @@ namespace BunkerGame.Application.GameSessions.KickCharacter
                 throw new ArgumentNullException($"Can't find character in {nameof(gameSession)}");
             character.ChangeLive(false);
             await gameSessionRepository.CommitChanges();
+            await mediator.Publish(new CharacterKickedNotification(gameSession.Id, character));
             if (gameSession.Characters.Count(c => c.IsAlive) <= gameSession.FreePlaceSize)
                 await mediator.Publish(new EmptyFreePlaceNotificationMessage(gameSession.Id, gameSession.FreePlaceSize), cancellationToken);
             return character;

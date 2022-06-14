@@ -10,19 +10,13 @@ using System.Threading.Tasks;
 
 namespace BunkerGame.Application.Characters.SpyCharacterComponent
 {
-    public class SpyCharacterComponentCommand : IRequest<CharacterComponent>
+    public class SpyCharacterComponentCommand<T> : IRequest<T> where T : CharacterComponent
     {
-        public SpyCharacterComponentCommand(int characterId, MethodDirection methodDirection)
+        public SpyCharacterComponentCommand(int characterId)
         {
             CharacterId = characterId;
-            var type = GameComponentTypeTextConventer.ConvertTextToCharacteristicTypeEn(methodDirection.ToString());
-            if (type == null)
-                throw new InvalidOperationException(nameof(methodDirection));
-            MethodDirection = methodDirection;
-            ComponentType = type;
+            
         }
-        public Type ComponentType { get; }
         public int CharacterId { get; }
-        public MethodDirection MethodDirection { get; }
     }
 }

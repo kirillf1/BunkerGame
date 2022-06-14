@@ -18,6 +18,7 @@ namespace BunkerGame.Application.Characters.GetCharacterCommand
             var gameSession = await gameSessionRepository.GetGameSessionWithCharacters(command.GameSessionId);
             if (gameSession == null)
                 throw new ArgumentNullException(nameof(gameSession));
+            // if character was given
             var character = gameSession.Characters.FirstOrDefault(c => c.PlayerId == command.PlayerId);
             if (character != null)
                 return character;

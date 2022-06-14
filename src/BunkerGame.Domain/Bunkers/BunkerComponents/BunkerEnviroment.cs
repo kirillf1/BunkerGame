@@ -23,6 +23,10 @@ namespace BunkerGame.Domain.Bunkers.BunkerComponents
         {
             EnviromentType = enviromentType;
         }
+        public override string ToString()
+        {
+            return $"В бункере живут: {Description}";
+        }
     }
     public enum EnviromentBehavior
     {

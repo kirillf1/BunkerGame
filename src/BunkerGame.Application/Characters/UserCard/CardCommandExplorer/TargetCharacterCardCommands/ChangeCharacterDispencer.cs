@@ -13,11 +13,7 @@ namespace BunkerGame.Application.Characters.UserCard.CardCommandExplorer.TargetC
             if (methodDirection != MethodDirection.Character)
             {
                 int? componentId = cardArgs.CardMethod.ItemId;
-                var characterComponentType = GameComponentTypeTextConventer.ConvertTextToCharacteristicType(methodDirection.ToString());
-                return new ChangeCharacteristicCommand(targetCharacterId, characterComponentType!)
-                {
-                    CharacteristicId = componentId
-                };
+                return ChangeCharacterComponentCommandFactory.CreateChangeCharacterComponentCommand(targetCharacterId, componentId, methodDirection);
             }
             else
             {

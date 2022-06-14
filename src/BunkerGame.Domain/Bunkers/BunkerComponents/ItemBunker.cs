@@ -20,10 +20,10 @@ namespace BunkerGame.Domain.Bunkers.BunkerComponents
         ////to 5
 
         //public List<Bunker> Bunkers { get; set; }
-        //public override string ToString()
-        //{
-        //    return Description;
-        //}
+        public override string ToString()
+        {
+            return Description;
+        }
     }
     public enum ItemBunkerType
     {

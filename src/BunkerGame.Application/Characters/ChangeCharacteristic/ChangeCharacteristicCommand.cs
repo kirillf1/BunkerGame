@@ -9,19 +9,17 @@ using System.Threading.Tasks;
 
 namespace BunkerGame.Application.Characters.ChangeCharacteristic
 {
-    public class ChangeCharacteristicCommand : IRequest<Character>
+    public class ChangeCharacteristicCommand<T> : IRequest<Character> where T : CharacterComponent
     {
-        public ChangeCharacteristicCommand(int characterId, Type characteristicType)
-        { 
-            //if((characteristicType != typeof(CharacterComponent)) )
-            //    throw new ArgumentException( nameof(characteristicType));
+        public ChangeCharacteristicCommand(int characterId,int? characterComponentId, 
+            Func<Character,int?, ICharacterComponentRepository<T>,Task<T>> changeMethod)
+        {
             CharacterId = characterId;
-            CharacteristicType = characteristicType;
-            
+            CharacterComponentId = characterComponentId;
+            ChangeMethod = changeMethod;
         }
-
+        public Func<Character,int?,ICharacterComponentRepository<T>,Task<T>> ChangeMethod { get; }
         public int CharacterId { get; }
-        public Type CharacteristicType { get; }
-        public int? CharacteristicId { get; set; }
+        public int? CharacterComponentId { get; }
     }
 }

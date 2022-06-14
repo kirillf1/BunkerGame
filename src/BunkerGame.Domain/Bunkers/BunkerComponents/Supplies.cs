@@ -18,5 +18,9 @@ namespace BunkerGame.Domain.Bunkers.BunkerComponents
         }
 
         public int SuplliesYears { get; private set; }
+        public override string ToString()
+        {
+            return "Припасы на срок:" + SuplliesYears;
+        }
     }
 }

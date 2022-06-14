@@ -24,12 +24,8 @@ namespace BunkerGame.Application.Characters.UserCard.CardCommandExplorer.NoneTar
         {
             if (cardMethod.MethodDirection != MethodDirection.Character)
             {
-                // Update character component
-                var characterComponentType = GameComponentTypeTextConventer.ConvertTextToCharacteristicType(cardMethod.MethodDirection.ToString());
-                return new ChangeCharacteristicCommand(characterId, characterComponentType!)
-                {
-                    CharacteristicId = cardMethod.ItemId
-                };
+                var componentId = cardMethod.ItemId;
+                return ChangeCharacterComponentCommandFactory.CreateChangeCharacterComponentCommand(characterId,componentId,cardMethod.MethodDirection);
             }
             else
             {

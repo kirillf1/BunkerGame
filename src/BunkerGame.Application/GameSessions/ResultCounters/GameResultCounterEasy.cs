@@ -13,88 +13,24 @@ using System.Threading.Tasks;
 
 namespace BunkerGame.Application.GameSessions.ResultCounters
 {
-    public class GameResultCounterEasy : IGameResultCounter
+    public class GameResultCounterEasy : ResultCounterBase, IGameResultCounter
     {
-        Random random;
-        private const int withoutDebuffGiveBirthAge = 55;
-        private const double oldAgeCanBirthDebuffPercent = 0.6;
-        public GameResultCounterEasy()
+        public GameResultCounterEasy(GameSession gameSession) : base(gameSession)
         {
-            random = new Random();
         }
-        public Task<ResultGameReport> CalculateResult(GameSession gameSession)
+
+        public Task<ResultGameReport> CalculateResult()
         {
             return Task.Run(() =>
              {
-
                  var resultTextBuilder = new StringBuilder();
-                 var aliveCharacters = gameSession.Characters.Where(c => c.IsAlive).ToList();
-                 aliveCharacters.UsePassiveCards(resultTextBuilder);
-                 aliveCharacters.RemoveCharactersWithDeathDesease(resultTextBuilder);
-                 aliveCharacters.TrySpreadDesease(resultTextBuilder);
+                 var aliveCharacters = base.ExecuteAllCharacterEvents(resultTextBuilder, gameSession.Characters);
                  var totalValue = CalculateAllValues(aliveCharacters, gameSession.Bunker, gameSession.Catastrophe,gameSession.ExternalSurroundings, resultTextBuilder);
                  bool isWinGame = totalValue > 0 && CheckCanGiveBirth(aliveCharacters, gameSession.ExternalSurroundings, resultTextBuilder);
                  return new ResultGameReport(resultTextBuilder.ToString(), totalValue, totalValue, totalValue, isWinGame, gameSession.GameName);
              });
         }
-        private bool CheckCanGiveBirth(List<Character> characters, IEnumerable<ExternalSurrounding> externalSurroundings, StringBuilder stringBuilder)
-        {
-            // стоит доработать, сделать проверку приоритетов, если 1 старый, то лучше с вшнешними продолжать род
-            bool canGiveBirth = false;
-            var canGiveLifeCharacters = characters.FindGiveBirthCharacters();
-            var canGiveLifeMen = canGiveLifeCharacters.canGiveBirthMen;
-            var canGiveLifeWomen = canGiveLifeCharacters.canGiveBirthWomen;
-            if (canGiveLifeMen.Count > 0 && canGiveLifeWomen.Count > 0)
-            {
-                var youngerMen = canGiveLifeMen.MinBy(c => c.Age.Count)!;
-                var youngerWomen = canGiveLifeWomen.MinBy(c => c.Age.Count)!;
-                canGiveBirth = calculateGiveBirthChance(youngerMen.Age.Count, youngerWomen.Age.Count);
-                if (canGiveBirth)
-                {
-                    stringBuilder.Append("Игроки под номерами ").Append(youngerMen.CharacterNumber)
-                        .Append(" и ").Append(youngerWomen.CharacterNumber).AppendLine(" дадут потомство");
-                    return true;
-                }
-            }
-            else if (canGiveLifeMen.Count > 0 && canGiveLifeWomen.Count == 0
-                && externalSurroundings.Any(c => c.SurroundingType == SurroundingType.PeacefulWomen))
-            {
-                var man = canGiveLifeMen.MinBy(c => c.Age.Count)!;
-                var surrounding = externalSurroundings.First(c => c.SurroundingType == SurroundingType.PeacefulWomen);
-                canGiveBirth = calculateGiveBirthChance(man.Age.Count, withoutDebuffGiveBirthAge - 1);
-                if (canGiveBirth)
-                {
-                    stringBuilder.Append("Хоть нет в бункере плодовитых женщин, но вы знаете что есть ")
-                        .Append(surrounding.Description).Append(" Игрок №").Append(man.CharacterNumber).AppendLine(" продолжает потомство");
-                    return true;
-                }
-            }
-            else if (canGiveLifeMen.Count == 0 && canGiveLifeWomen.Count == 1
-                && externalSurroundings.Any(c => c.SurroundingType == SurroundingType.PeacefulMen))
-            {
-                var woman = canGiveLifeWomen.MinBy(c => c.Age.Count)!;
-                var surrounding = externalSurroundings.First(c => c.SurroundingType == SurroundingType.PeacefulWomen);
-                canGiveBirth = calculateGiveBirthChance(woman.Age.Count, withoutDebuffGiveBirthAge - 1);
-                if (canGiveBirth)
-                {
-                    stringBuilder.Append("Хоть нет в бункере плодовитых мужчин, но вы знаете что есть ")
-                        .Append(surrounding.Description).Append(" Игрок №").Append(woman.CharacterNumber).AppendLine(" продолжает потомство");
-                    return true;
-                }
-            }
-
-            stringBuilder.AppendLine("В бункере нет плодовитых пар!");
-            return false;
-        }
-        private bool calculateGiveBirthChance(int characterFirstAge, int characterSecondAge)
-        {
-            double canGiveBirthChance = 100;
-            if (characterFirstAge > withoutDebuffGiveBirthAge)
-                canGiveBirthChance *= oldAgeCanBirthDebuffPercent - ((double)(characterFirstAge - withoutDebuffGiveBirthAge) / 50);
-            if (characterSecondAge > withoutDebuffGiveBirthAge)
-                canGiveBirthChance *= oldAgeCanBirthDebuffPercent - ((double)(characterSecondAge - withoutDebuffGiveBirthAge) / 50);
-            return random.Next(0, 100) <= canGiveBirthChance;
-        }
+        
         /// <summary>
         /// Calculate all values in game
         /// </summary>
@@ -125,10 +61,6 @@ namespace BunkerGame.Application.GameSessions.ResultCounters
                 + CalculateCatastropheValue(catastrophe,bunkerIsBroken);
 
         }
-        private double CalculateCatastropheValue(Catastrophe catastrophe, bool bunkerIsBroken)
-        {
-            return bunkerIsBroken ? catastrophe.Value * 1.5 : catastrophe.Value;
-        }
         private double GetTotalHealthValue(IEnumerable<Character> characters, Bunker bunker, StringBuilder stringBuilder)
         {
             if (ResultCounterExtensions.CanHealDesease(characters, bunker, stringBuilder))
@@ -145,22 +77,7 @@ namespace BunkerGame.Application.GameSessions.ResultCounters
             }
             return characters.Sum(c => c.Phobia.Value);
         }
-        private double GetTotalExternalSurroundingValue(Bunker bunker,bool canFixBunker, IEnumerable<ExternalSurrounding> externalSurroundings)
-        {
-            double totalValue = 0;
-            var bunkerIsBroken = bunker.BunkerWall.BunkerState == BunkerState.Broken && !canFixBunker;
-            foreach (var externalSurrounding in externalSurroundings)
-            {
-                var surroundingType = externalSurrounding.SurroundingType;
-                if (surroundingType == SurroundingType.AgressiveCreatures || surroundingType == SurroundingType.AgressivePeople)
-                {
-                    totalValue += bunkerIsBroken ? externalSurrounding.Value * 1.5 : externalSurrounding.Value;
-                }
-                else
-                    totalValue += externalSurrounding.Value;
-            }
-            return totalValue;
-        }
+       
         private double GetTotalProfessionValue(IEnumerable<Character> characters)
         {
             double professionTotalValue = 0;

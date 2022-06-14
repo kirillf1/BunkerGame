@@ -1,11 +1,7 @@
-﻿using BunkerGame.Application.Characters.ExchangeCharacteristic;
+﻿using BunkerGame.Application.Characters.ExchangeCharacter;
 using BunkerGame.Application.Configuration.TextConventers;
+using BunkerGame.Domain.Characters.CharacterComponents;
 using BunkerGame.Domain.Characters.CharacterComponents.Cards;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BunkerGame.Application.Characters.UserCard.CardCommandExplorer.TargetCharacterCardCommands
 {
@@ -24,9 +20,31 @@ namespace BunkerGame.Application.Characters.UserCard.CardCommandExplorer.TargetC
             }
             else
             {
-                var characterComponentType = GameComponentTypeTextConventer.ConvertTextToCharacteristicType(methodDirection.ToString());
-                return new ExchangeCharacteristicCommand(targetCharacterId, cardUserId, characterComponentType!);
+                return GetExchangeCharactesticCommand(methodDirection,cardUserId, targetCharacterId);
             }
+        }
+        private object GetExchangeCharactesticCommand(MethodDirection methodDirection,int characterFirst,int characterSecond)
+        {
+            Func<int, int, object> command = methodDirection switch
+            {
+                MethodDirection.AdditionalInformation => GetCharacteristicCommand<AdditionalInformation>,
+                MethodDirection.Health => GetCharacteristicCommand<Health>,
+                MethodDirection.Profession => GetCharacteristicCommand<Profession>,
+                MethodDirection.Phobia => GetCharacteristicCommand<Phobia>,
+                MethodDirection.Sex => GetCharacteristicCommand<Sex>,
+                MethodDirection.Size => GetCharacteristicCommand<Size>,
+                MethodDirection.Trait => GetCharacteristicCommand<Trait>,
+                MethodDirection.Hobby => GetCharacteristicCommand<Hobby>,
+                MethodDirection.Age => GetCharacteristicCommand<Age>,
+                MethodDirection.CharacterItem => GetCharacteristicCommand<CharacterItem>,
+                MethodDirection.Childbearing => command = GetCharacteristicCommand<Childbearing>,
+                _ => throw new NotImplementedException($"Character does not contain a property {methodDirection}"),
+            };
+            return command.Invoke(characterFirst,characterSecond);
+        }
+        private static ExchangeCharacteristicCommand<T> GetCharacteristicCommand<T>(int characterFirst,int characterSecond) where T : CharacterComponent
+        {
+            return new ExchangeCharacteristicCommand<T>(characterFirst, characterSecond);
         }
     }
 }
