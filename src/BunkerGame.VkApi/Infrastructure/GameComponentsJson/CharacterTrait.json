@@ -1,0 +1,410 @@
+﻿[
+  {
+    "TraitType": 1,
+    "Value": 2,
+    "Description": "доверчивость",
+    "Id": {
+      "Id": 14
+    }
+  },
+  {
+    "TraitType": 0,
+    "Value": 1,
+    "Description": "осторожность",
+    "Id": {
+      "Id": 16
+    }
+  },
+  {
+    "TraitType": 0,
+    "Value": 3,
+    "Description": "самостоятельность",
+    "Id": {
+      "Id": 28
+    }
+  },
+  {
+    "TraitType": 1,
+    "Value": -2,
+    "Description": "самовлюбленность",
+    "Id": {
+      "Id": 29
+    }
+  },
+  {
+    "TraitType": 1,
+    "Value": -2,
+    "Description": "ворчливость",
+    "Id": {
+      "Id": 47
+    }
+  },
+  {
+    "TraitType": 0,
+    "Value": -2,
+    "Description": "слабохарактерность",
+    "Id": {
+      "Id": 17
+    }
+  },
+  {
+    "TraitType": 0,
+    "Value": -2,
+    "Description": "тревожность",
+    "Id": {
+      "Id": 23
+    }
+  },
+  {
+    "TraitType": 0,
+    "Value": -3,
+    "Description": "эгоизм",
+    "Id": {
+      "Id": 34
+    }
+  },
+  {
+    "TraitType": 0,
+    "Value": -3,
+    "Description": "боязливость",
+    "Id": {
+      "Id": 41
+    }
+  },
+  {
+    "TraitType": 1,
+    "Value": -4,
+    "Description": "буйность",
+    "Id": {
+      "Id": 42
+    }
+  },
+  {
+    "TraitType": 1,
+    "Value": 2,
+    "Description": "гостеприимность",
+    "Id": {
+      "Id": 49
+    }
+  },
+  {
+    "TraitType": 0,
+    "Value": 3,
+    "Description": "авантюризм",
+    "Id": {
+      "Id": 38
+    }
+  },
+  {
+    "TraitType": 1,
+    "Value": -4,
+    "Description": "истеричность",
+    "Id": {
+      "Id": 9
+    }
+  },
+  {
+    "TraitType": 1,
+    "Value": -2,
+    "Description": "обидчивость",
+    "Id": {
+      "Id": 13
+    }
+  },
+  {
+    "TraitType": 0,
+    "Value": -3,
+    "Description": "ненадёжность",
+    "Id": {
+      "Id": 3
+    }
+  },
+  {
+    "TraitType": 1,
+    "Value": 3,
+    "Description": "жизнерадостность",
+    "Id": {
+      "Id": 10
+    }
+  },
+  {
+    "TraitType": 1,
+    "Value": -2,
+    "Description": "равнодушие",
+    "Id": {
+      "Id": 31
+    }
+  },
+  {
+    "TraitType": 1,
+    "Value": -4,
+    "Description": "крысятничество",
+    "Id": {
+      "Id": 50
+    }
+  },
+  {
+    "TraitType": 0,
+    "Value": -2,
+    "Description": "безынициативность",
+    "Id": {
+      "Id": 40
+    }
+  },
+  {
+    "TraitType": 1,
+    "Value": 4,
+    "Description": "весёлость",
+    "Id": {
+      "Id": 51
+    }
+  },
+  {
+    "TraitType": 1,
+    "Value": 3,
+    "Description": "добродушие",
+    "Id": {
+      "Id": 33
+    }
+  },
+  {
+    "TraitType": 1,
+    "Value": 2,
+    "Description": "неравнодушие",
+    "Id": {
+      "Id": 2
+    }
+  },
+  {
+    "TraitType": 1,
+    "Value": 4,
+    "Description": "надёжность",
+    "Id": {
+      "Id": 6
+    }
+  },
+  {
+    "TraitType": 0,
+    "Value": -3,
+    "Description": "жадность",
+    "Id": {
+      "Id": 12
+    }
+  },
+  {
+    "TraitType": 0,
+    "Value": 3,
+    "Description": "храбрость",
+    "Id": {
+      "Id": 37
+    }
+  },
+  {
+    "TraitType": 0,
+    "Value": 4,
+    "Description": "внимательность",
+    "Id": {
+      "Id": 45
+    }
+  },
+  {
+    "TraitType": 1,
+    "Value": 3,
+    "Description": "доступность",
+    "Id": {
+      "Id": 48
+    }
+  },
+  {
+    "TraitType": 1,
+    "Value": 4,
+    "Description": "харизматичность",
+    "Id": {
+      "Id": 20
+    }
+  },
+  {
+    "TraitType": 1,
+    "Value": 2,
+    "Description": "нежность",
+    "Id": {
+      "Id": 4
+    }
+  },
+  {
+    "TraitType": 0,
+    "Value": -3,
+    "Description": "трусость",
+    "Id": {
+      "Id": 22
+    }
+  },
+  {
+    "TraitType": 1,
+    "Value": -2.5,
+    "Description": "жестокость",
+    "Id": {
+      "Id": 11
+    }
+  },
+  {
+    "TraitType": 0,
+    "Value": 3,
+    "Description": "расчётливость",
+    "Id": {
+      "Id": 30
+    }
+  },
+  {
+    "TraitType": 0,
+    "Value": -2,
+    "Description": "неусидчивость",
+    "Id": {
+      "Id": 1
+    }
+  },
+  {
+    "TraitType": 1,
+    "Value": -1,
+    "Description": "грубость",
+    "Id": {
+      "Id": 35
+    }
+  },
+  {
+    "TraitType": 0,
+    "Value": 3,
+    "Description": "благоразумность",
+    "Id": {
+      "Id": 43
+    }
+  },
+  {
+    "TraitType": 1,
+    "Value": -2,
+    "Description": "властность",
+    "Id": {
+      "Id": 44
+    }
+  },
+  {
+    "TraitType": 1,
+    "Value": 2,
+    "Description": "любезность",
+    "Id": {
+      "Id": 15
+    }
+  },
+  {
+    "TraitType": 0,
+    "Value": -1,
+    "Description": "внушаемость",
+    "Id": {
+      "Id": 46
+    }
+  },
+  {
+    "TraitType": 0,
+    "Value": -2,
+    "Description": "пофигизм",
+    "Id": {
+      "Id": 24
+    }
+  },
+  {
+    "TraitType": 1,
+    "Value": -2,
+    "Description": "лицемерие",
+    "Id": {
+      "Id": 8
+    }
+  },
+  {
+    "TraitType": 0,
+    "Value": 3,
+    "Description": "предприимчивость",
+    "Id": {
+      "Id": 18
+    }
+  },
+  {
+    "TraitType": 1,
+    "Value": -1,
+    "Description": "флегматичность",
+    "Id": {
+      "Id": 21
+    }
+  },
+  {
+    "TraitType": 1,
+    "Value": -2,
+    "Description": "скандальность",
+    "Id": {
+      "Id": 26
+    }
+  },
+  {
+    "TraitType": 1,
+    "Value": 2,
+    "Description": "доброта",
+    "Id": {
+      "Id": 19
+    }
+  },
+  {
+    "TraitType": 1,
+    "Value": 3,
+    "Description": "сдержанность",
+    "Id": {
+      "Id": 27
+    }
+  },
+  {
+    "TraitType": 0,
+    "Value": 4,
+    "Description": "собранность",
+    "Id": {
+      "Id": 32
+    }
+  },
+  {
+    "TraitType": 0,
+    "Value": 1,
+    "Description": "безотказность",
+    "Id": {
+      "Id": 39
+    }
+  },
+  {
+    "TraitType": 1,
+    "Value": 2,
+    "Description": "деликатность",
+    "Id": {
+      "Id": 36
+    }
+  },
+  {
+    "TraitType": 0,
+    "Value": 2,
+    "Description": "терпеливость",
+    "Id": {
+      "Id": 25
+    }
+  },
+  {
+    "TraitType": 0,
+    "Value": 3,
+    "Description": "невозмутимость",
+    "Id": {
+      "Id": 5
+    }
+  },
+  {
+    "TraitType": 1,
+    "Value": -3,
+    "Description": "конфликтность",
+    "Id": {
+      "Id": 7
+    }
+  }
+]

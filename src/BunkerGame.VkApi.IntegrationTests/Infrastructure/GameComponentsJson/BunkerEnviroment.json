@@ -1,0 +1,146 @@
+﻿[
+  {
+    "EnviromentBehavior": 2,
+    "EnviromentType": 1,
+    "Value": -4.5,
+    "Description": "Крысы",
+    "Id": {
+      "Id": 15
+    }
+  },
+  {
+    "EnviromentBehavior": 0,
+    "EnviromentType": 1,
+    "Value": -2,
+    "Description": "Осы и муравьи",
+    "Id": {
+      "Id": 11
+    }
+  },
+  {
+    "EnviromentBehavior": 2,
+    "EnviromentType": 2,
+    "Value": 3,
+    "Description": "Робот, который управляет убежищем и настроен на помощь людям (может в любой момент выйти из строя)",
+    "Id": {
+      "Id": 5
+    }
+  },
+  {
+    "EnviromentBehavior": 2,
+    "EnviromentType": 0,
+    "Value": 0,
+    "Description": "Никто",
+    "Id": {
+      "Id": 13
+    }
+  },
+  {
+    "EnviromentBehavior": 1,
+    "EnviromentType": 3,
+    "Value": 2,
+    "Description": "Добрый кот",
+    "Id": {
+      "Id": 8
+    }
+  },
+  {
+    "EnviromentBehavior": 0,
+    "EnviromentType": 3,
+    "Value": -5,
+    "Description": "Змеи",
+    "Id": {
+      "Id": 1
+    }
+  },
+  {
+    "EnviromentBehavior": 0,
+    "EnviromentType": 3,
+    "Value": -3,
+    "Description": "Агрессивные крабы",
+    "Id": {
+      "Id": 16
+    }
+  },
+  {
+    "EnviromentBehavior": 0,
+    "EnviromentType": 3,
+    "Value": -2,
+    "Description": "Дикая обезьяна",
+    "Id": {
+      "Id": 9
+    }
+  },
+  {
+    "EnviromentBehavior": 2,
+    "EnviromentType": 1,
+    "Value": -2,
+    "Description": "Тараканы",
+    "Id": {
+      "Id": 14
+    }
+  },
+  {
+    "EnviromentBehavior": 0,
+    "EnviromentType": 4,
+    "Value": -7,
+    "Description": "Безумный строитель бункера(вооружен)",
+    "Id": {
+      "Id": 3
+    }
+  },
+  {
+    "EnviromentBehavior": 0,
+    "EnviromentType": 3,
+    "Value": -4,
+    "Description": "Летучие мыши",
+    "Id": {
+      "Id": 6
+    }
+  },
+  {
+    "EnviromentBehavior": 0,
+    "EnviromentType": 2,
+    "Value": -10,
+    "Description": "Агрессивный киборг убийца",
+    "Id": {
+      "Id": 2
+    }
+  },
+  {
+    "EnviromentBehavior": 2,
+    "EnviromentType": 1,
+    "Value": -5,
+    "Description": "Пауки",
+    "Id": {
+      "Id": 12
+    }
+  },
+  {
+    "EnviromentBehavior": 1,
+    "EnviromentType": 2,
+    "Value": 2,
+    "Description": "Робот-пылесос",
+    "Id": {
+      "Id": 10
+    }
+  },
+  {
+    "EnviromentBehavior": 2,
+    "EnviromentType": 1,
+    "Value": -2,
+    "Description": "Клопы",
+    "Id": {
+      "Id": 7
+    }
+  },
+  {
+    "EnviromentBehavior": 0,
+    "EnviromentType": 4,
+    "Value": -9,
+    "Description": "Рейдеры",
+    "Id": {
+      "Id": 4
+    }
+  }
+]

@@ -1,23 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
+﻿using BunkerGame.GameTypes.CharacterTypes;
 
 namespace BunkerGame.Domain.Characters.CharacterComponents
 {
-    public class Phobia : CharacterEntity
+    public class Phobia : CharacterComponent<Phobia>
     {
-        public PhobiaDebuffType PhobiaDebuffType { get; set; } = PhobiaDebuffType.None;
-        
-        public Phobia(string description, bool isBalance, PhobiaDebuffType phobiaDebuffType = default) : base(description, isBalance)
+        private Phobia() { }
+        public static readonly Phobia DefaultPhobia = new Phobia("unknown", 0, PhobiaDebuffType.None);
+        public Phobia(string description, double value, PhobiaDebuffType phobiaDebuffType) : base(description, value)
         {
             PhobiaDebuffType = phobiaDebuffType;
         }
+        public PhobiaDebuffType PhobiaDebuffType { get; }
+
     }
-    public enum PhobiaDebuffType
-    {
-        Surviving,
-        Entertainment,
-        None
-    }
+
 }

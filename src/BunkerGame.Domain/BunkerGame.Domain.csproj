@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BunkerGame.Framework\BunkerGame.Framework.csproj" />
+    <ProjectReference Include="..\BunkerGame.GameTypes\BunkerGame.GameTypes.csproj" />
+  </ItemGroup>
+
 </Project>

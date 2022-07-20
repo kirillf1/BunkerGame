@@ -1,23 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BunkerGame.Domain.Characters.CharacterComponents
+﻿namespace BunkerGame.Domain.Characters.CharacterComponents
 {
-    public class Age : CharacterComponent
+    public class Age : Value<Age>
     {
         public Age()
         {
-            Count = 16;
+            Years = 16;
         }
-        public Age(int age)
+        public Age(int years)
         {
-            if (age <= 10)
-                throw new ArgumentException("Age must be more than 10");
-            Count = age;
+            if (years <= 16)
+                throw new ArgumentException("Age must be more than 16");
+            Years = years;
         }
-        public int Count { get; private set; }
+        public int Years { get; }
     }
 }

@@ -1,0 +1,874 @@
+﻿[
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -1,
+    "Description": "Робофобия - страх по отношению к любой робототехнике",
+    "Id": {
+      "Id": 1
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -1,
+    "Description": "Лифтофобия - боязнь лифтов",
+    "Id": {
+      "Id": 53
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -2,
+    "Description": "Айлурофобия - боязнь кошек",
+    "Id": {
+      "Id": 4
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -4,
+    "Description": "Гетерофобия - боязнь противоположного пола",
+    "Id": {
+      "Id": 60
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -4,
+    "Description": "Аматофобия - боязнь пыли",
+    "Id": {
+      "Id": 2
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -1,
+    "Description": "Фазмофобия - боязнь призраков и духов",
+    "Id": {
+      "Id": 3
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -3,
+    "Description": "Акарофобия - боязнь клещей",
+    "Id": {
+      "Id": 5
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -3,
+    "Description": "Лалофобия - боязнь говорить из-за опасения возможного заикания",
+    "Id": {
+      "Id": 52
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -1,
+    "Description": "Акнефобия - боязнь появления угрей (акне)",
+    "Id": {
+      "Id": 6
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -5,
+    "Description": "Алгофобия - боязнь боли",
+    "Id": {
+      "Id": 7
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -1,
+    "Description": "Астрофобия - боязнь звёзд и звёздного пространства",
+    "Id": {
+      "Id": 12
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -4,
+    "Description": "Айхмофобия - боязнь острых предметов",
+    "Id": {
+      "Id": 10
+    }
+  },
+  {
+    "PhobiaDebuffType": 2,
+    "Value": 0,
+    "Description": "Нет фобий",
+    "Id": {
+      "Id": 109
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -3.6,
+    "Description": "Аутомизофобия - боязнь загрязнить своё тело",
+    "Id": {
+      "Id": 8
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -3,
+    "Description": "Антофобия - боязнь цветов",
+    "Id": {
+      "Id": 9
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -2,
+    "Description": "Анемофобия - боязнь бури (сильного ветра)",
+    "Id": {
+      "Id": 11
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -1.5,
+    "Description": "Акротомофобия - боязнь ампутации",
+    "Id": {
+      "Id": 13
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -1,
+    "Description": "Гомофобия-боязнь любого проявления гомосексуальности",
+    "Id": {
+      "Id": 14
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -1,
+    "Description": "Апопатофобия - боязнь заходить в туалеты",
+    "Id": {
+      "Id": 15
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -3.8,
+    "Description": "Верминофобия - боязнь бактерий, микробов, червей, заразиться",
+    "Id": {
+      "Id": 16
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -1.6,
+    "Description": "Бромгидрофобия - боязнь, что окружающие могут заметить неприятный запах тела или потливость больного данной фобий",
+    "Id": {
+      "Id": 18
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -2,
+    "Description": "Баллистофобия - боязнь поражения пулей, бомбой или снарядом",
+    "Id": {
+      "Id": 19
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -1,
+    "Description": "Аутофобия - страх одиночества",
+    "Id": {
+      "Id": 20
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -1,
+    "Description": "Канцерофобия - боязнь заболевания раком",
+    "Id": {
+      "Id": 22
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -1,
+    "Description": "Акрофобия - страх высоты",
+    "Id": {
+      "Id": 23
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -1,
+    "Description": "Клептофобия - боязнь украсть, либо страх быть обокраденным",
+    "Id": {
+      "Id": 24
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -3,
+    "Description": "Гидрофобия (аквафобия)  боязнь воды, сырости, жидкостей",
+    "Id": {
+      "Id": 26
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -2,
+    "Description": "Гидрозофобия -боязнь вспотеть",
+    "Id": {
+      "Id": 27
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -4,
+    "Description": "Гнозиофобия (эпистемофобия) - боязнь знания/познания",
+    "Id": {
+      "Id": 28
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -2,
+    "Description": "Гелотофобия - страх оказаться объектом юмора, насмешек",
+    "Id": {
+      "Id": 29
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -3,
+    "Description": "Герпетофобия - боязнь рептилий, пресмыкающихся, змей; частный случай зоофобии",
+    "Id": {
+      "Id": 30
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -1,
+    "Description": "Винофобия - боязнь употребления вина",
+    "Id": {
+      "Id": 31
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -1,
+    "Description": "Дисморфофобия - боязнь физических недостатков в собственной внешности",
+    "Id": {
+      "Id": 32
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -1,
+    "Description": "Геронтофобия - страх общения с пожилыми людьми или собственного старения",
+    "Id": {
+      "Id": 33
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -2,
+    "Description": "Хроматофобия - боязнь какого-либо цвета и окрашенных в него предметов",
+    "Id": {
+      "Id": 36
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -2,
+    "Description": "Топофобия - боязнь остаться одному в помещении",
+    "Id": {
+      "Id": 37
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -2,
+    "Description": "Педофобия - навязчивый страх детей или имитирующих их изделий",
+    "Id": {
+      "Id": 41
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -1,
+    "Description": "Параскаведекатриафобия - боязнь пятницы, 13-го дня месяца",
+    "Id": {
+      "Id": 42
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -5,
+    "Description": "Панофобия - боязнь всего или постоянный страх по неизвестной причине",
+    "Id": {
+      "Id": 43
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -1,
+    "Description": "Нозокомефобия - боязнь больниц",
+    "Id": {
+      "Id": 46
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -4,
+    "Description": "Неофобия - боязнь нового, перемен",
+    "Id": {
+      "Id": 47
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -2,
+    "Description": "Менофобия - боязнь менструаций и связанных с ними неприятных ощущений",
+    "Id": {
+      "Id": 50
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -2,
+    "Description": "Маниофобия - боязнь психически заболеть",
+    "Id": {
+      "Id": 51
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -2,
+    "Description": "Кристаллофобия - боязнь прикосновения к стеклянным предметам",
+    "Id": {
+      "Id": 54
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -1.6,
+    "Description": "Кремнофобия - боязнь смотреть в бездну, пропасть",
+    "Id": {
+      "Id": 55
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -1,
+    "Description": "Коулрофобия - боязнь клоунов",
+    "Id": {
+      "Id": 56
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -2,
+    "Description": "Бронтофобия - боязнь грома",
+    "Id": {
+      "Id": 59
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -1,
+    "Description": "Гиерофобия - боязнь предметов религиозного культа",
+    "Id": {
+      "Id": 61
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -2.5,
+    "Description": "Гилофобия (ксилофобия, никтогилофобия, хилофобия) - боязнь леса, заблудиться в лесу",
+    "Id": {
+      "Id": 62
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -3,
+    "Description": "Блаптофобия - боязнь нанести кому-либо повреждение",
+    "Id": {
+      "Id": 64
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -3,
+    "Description": "Гипнофобия - боязнь заснуть",
+    "Id": {
+      "Id": 67
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -1,
+    "Description": "Радиофобия - боязнь радиации",
+    "Id": {
+      "Id": 40
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -4,
+    "Description": "Эротофобия - боязнь секса или вопросов о сексе",
+    "Id": {
+      "Id": 34
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -1,
+    "Description": "Графофобия - боязнь писать или брать в руки письменные принадлежности",
+    "Id": {
+      "Id": 25
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -1,
+    "Description": "Аклиофобия - боязнь глухоты",
+    "Id": {
+      "Id": 66
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -2.6,
+    "Description": "Копрофобия - боязнь фекалий",
+    "Id": {
+      "Id": 57
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -2,
+    "Description": "Орнитофобия - боязнь птиц",
+    "Id": {
+      "Id": 44
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -1,
+    "Description": "Трипанофобия - боязнь игл и уколов",
+    "Id": {
+      "Id": 38
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -3.8,
+    "Description": "Гаптофобия - боязнь прикосновения окружающих людей",
+    "Id": {
+      "Id": 48
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -1.7,
+    "Description": "Дентофобия (одонтофобия) - боязнь стоматологов, лечения зубов",
+    "Id": {
+      "Id": 65
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -2,
+    "Description": "Тениофобия - боязнь заразиться глистами",
+    "Id": {
+      "Id": 39
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -1,
+    "Description": "Аэроэмфиземофобия - боязнь кессонной болезни",
+    "Id": {
+      "Id": 68
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -1,
+    "Description": "Вакцинофобия - боязнь прививок и связанных с ними неврологических осложнений",
+    "Id": {
+      "Id": 17
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -2,
+    "Description": "Эквинофобия - боязнь лошадей; частный случай зоофобии",
+    "Id": {
+      "Id": 35
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -3,
+    "Description": "Кенофобия - боязнь больших незаполненных пространств (например, пустого зала театра)",
+    "Id": {
+      "Id": 58
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -2,
+    "Description": "Осмофобия - боязнь телесных запахов",
+    "Id": {
+      "Id": 45
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -1,
+    "Description": "Морфинофобия - боязнь стать морфинистом",
+    "Id": {
+      "Id": 49
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -1.6,
+    "Description": "Мирмекофобия - боязнь муравьёв; частный случай зоофобии",
+    "Id": {
+      "Id": 63
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -2,
+    "Description": "Скабиофобия - боязнь заболеть чесоткой",
+    "Id": {
+      "Id": 69
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -3,
+    "Description": "Токсикофобия - боязнь отравления",
+    "Id": {
+      "Id": 70
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -3.5,
+    "Description": "Гамофобия - боязнь вступить в брак",
+    "Id": {
+      "Id": 71
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -3,
+    "Description": "Мизофобия - боязнь заразиться инфекционным заболеванием",
+    "Id": {
+      "Id": 72
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -1,
+    "Description": "Теофобия - боязнь бога",
+    "Id": {
+      "Id": 73
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -2,
+    "Description": "Педиофобия - боязнь предметов имитирующих человеческий облик",
+    "Id": {
+      "Id": 75
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -1,
+    "Description": "Авиафобия - боязнь полетов",
+    "Id": {
+      "Id": 76
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -1.7,
+    "Description": "Агирофобия - боязнь улиц",
+    "Id": {
+      "Id": 78
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -2.6,
+    "Description": "Термофобия - Боязнь жары и натопленных помещений",
+    "Id": {
+      "Id": 79
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -3,
+    "Description": "Декстрофобия - боязнь вещей расположенных справа",
+    "Id": {
+      "Id": 80
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -5,
+    "Description": "Клаустрофобия - боязнь закрытых пространств и помещений",
+    "Id": {
+      "Id": 81
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -3,
+    "Description": "Арахнофобия - боязнь пауков",
+    "Id": {
+      "Id": 82
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -5,
+    "Description": "Танатофобия - боязнь смерти",
+    "Id": {
+      "Id": 84
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -4,
+    "Description": "Базофобия - боязнь ходьбы",
+    "Id": {
+      "Id": 86
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -1,
+    "Description": "Тетрафобия - боязнь числа 4",
+    "Id": {
+      "Id": 87
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -3,
+    "Description": "Патройофобия (Patroiophobia) - боязнь наследственности",
+    "Id": {
+      "Id": 88
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -1,
+    "Description": "Погонофобия (Pogonophobia) - боязнь бородатых (страх перед бородами)",
+    "Id": {
+      "Id": 90
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -3,
+    "Description": "Херофобия (Cherophobia) - боязнь веселья",
+    "Id": {
+      "Id": 91
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -1,
+    "Description": "Метрофобия (Metrophobia) - боязнь поэзии",
+    "Id": {
+      "Id": 92
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -4,
+    "Description": "Электрофобия (Electrophobia) - боязнь электричества",
+    "Id": {
+      "Id": 94
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -3.6,
+    "Description": "Текстофобия (Textophobia) - боязнь тканей",
+    "Id": {
+      "Id": 96
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -2,
+    "Description": "Виргинитифобия (Virginitiphobia) - боязнь изнасилования",
+    "Id": {
+      "Id": 97
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -3,
+    "Description": "Малевзиофобия (Maleusiophobia) - страх перед родами",
+    "Id": {
+      "Id": 99
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -2,
+    "Description": "Земмифобия - боязнь кротов",
+    "Id": {
+      "Id": 101
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -3,
+    "Description": "Зоофобия - боязнь животных",
+    "Id": {
+      "Id": 102
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -3.3,
+    "Description": "Децидофобия - боязнь принимать решения",
+    "Id": {
+      "Id": 105
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -2,
+    "Description": "Филофобия - боязнь влюбиться",
+    "Id": {
+      "Id": 108
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -3,
+    "Description": "Ахлуофобия (никтофобия, скотофобия, эклуофобия) - боязнь темноты, ночи",
+    "Id": {
+      "Id": 21
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -3,
+    "Description": "Пирофобия - боязнь огня и пожаров",
+    "Id": {
+      "Id": 85
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -1,
+    "Description": "Ангинофобия - боязнь приступа стенокардии",
+    "Id": {
+      "Id": 83
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -2,
+    "Description": "Спермофобия - боязнь микробов",
+    "Id": {
+      "Id": 89
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -2,
+    "Description": "Ранидофобия - боязнь лягушек",
+    "Id": {
+      "Id": 100
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -5,
+    "Description": "Металлофобия (Metallophobia) - боязнь металлических предметов",
+    "Id": {
+      "Id": 95
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -2.5,
+    "Description": "Некрофобия - боязнь трупов и похоронных принадлежностей",
+    "Id": {
+      "Id": 107
+    }
+  },
+  {
+    "PhobiaDebuffType": 0,
+    "Value": -2,
+    "Description": "Иофобия - боязнь ядов",
+    "Id": {
+      "Id": 98
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -4,
+    "Description": "Аграфобия - боязнь сексуальных домогательств, секса",
+    "Id": {
+      "Id": 106
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -1,
+    "Description": "Дорофобия - боязнь получать или делать подарки",
+    "Id": {
+      "Id": 103
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -2,
+    "Description": "Венерофобия - боязнь заболеть венерической болезнью",
+    "Id": {
+      "Id": 77
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -5,
+    "Description": "Эротофобия - боязнь секса",
+    "Id": {
+      "Id": 74
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -1,
+    "Description": "Демонофобия (cатанофобия) - боязнь Дьявола, демонов и другой нечистой силы",
+    "Id": {
+      "Id": 104
+    }
+  },
+  {
+    "PhobiaDebuffType": 1,
+    "Value": -5,
+    "Description": "Фотофобия (Photophobia) - боязнь света",
+    "Id": {
+      "Id": 93
+    }
+  }
+]

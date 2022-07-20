@@ -1,0 +1,1388 @@
+﻿[
+  {
+    "CardMethod": {
+      "MethodType": 2,
+      "MethodDirection": 6,
+      "ItemId": {
+        "Id": 1
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Изменить пол игрока на мужчина",
+    "Id": {
+      "Id": 130
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 2,
+      "MethodDirection": 11,
+      "ItemId": {
+        "Id": 98
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Изменить предмет игрока на набор медицинских инструментов",
+    "Id": {
+      "Id": 131
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 4,
+      "MethodDirection": 8,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Поменяться чертой характера с игроком",
+    "Id": {
+      "Id": 127
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 4,
+      "MethodDirection": 2,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Поменяться доп. информацией с игроком",
+    "Id": {
+      "Id": 132
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 2,
+      "MethodDirection": 6,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Изменить пол игрока на выбор",
+    "Id": {
+      "Id": 20
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 2,
+      "MethodDirection": 10,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Изменить возраст игрока на выбор",
+    "Id": {
+      "Id": 23
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 4,
+      "MethodDirection": 8,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Поменяться чертой харктера с игроком",
+    "Id": {
+      "Id": 133
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 7,
+      "MethodDirection": 8,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Раскрыть черту характера выбранного персонажа всем игрокам",
+    "Id": {
+      "Id": 140
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 1,
+      "MethodDirection": 4,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Ты можешь поменять свою карту профессии на новую",
+    "Id": {
+      "Id": 4
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 2,
+      "MethodDirection": 12,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Изменить деторождение игрока (случайное)",
+    "Id": {
+      "Id": 17
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 1,
+      "MethodDirection": 2,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Ты можешь поменять свою карту дополнительной информации на новую",
+    "Id": {
+      "Id": 18
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 0,
+      "MethodDirection": 0,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Каждый человек делает комплимент соседу за 5 секунд (по часовой стрелке, кто не сказал тот выбывает из игры) ",
+    "Id": {
+      "Id": 6
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 4,
+      "MethodDirection": 6,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Поменяться полами с игроком на выбор",
+    "Id": {
+      "Id": 128
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 3,
+      "MethodDirection": 21,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "В 30 метрах от вашего бункера склад с оружием",
+    "Id": {
+      "Id": 13
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 3,
+      "MethodDirection": 21,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Все узнают, что рядом с убежищем склад с оружием",
+    "Id": {
+      "Id": 8
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 1,
+      "MethodDirection": 8,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Изменить изменить себе черту характера",
+    "Id": {
+      "Id": 19
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 2,
+      "MethodDirection": 10,
+      "ItemId": {
+        "Id": 70
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Изменить возраст игрока на 70 лет",
+    "Id": {
+      "Id": 27
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 3,
+      "MethodDirection": 21,
+      "ItemId": {
+        "Id": 2
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Игроки узнают, что рядом с убежищем располагается рота беларусского спецназа с полным вооружением, которые планируют нападение на ваш бункер",
+    "Id": {
+      "Id": 26
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 2,
+      "MethodDirection": 4,
+      "ItemId": {
+        "Id": 124
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Изменить профессию игрока на бомж",
+    "Id": {
+      "Id": 30
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 4,
+      "MethodDirection": 4,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Поменяться профессией с выбранным игроком",
+    "Id": {
+      "Id": 1
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 3,
+      "MethodDirection": 21,
+      "ItemId": {
+        "Id": 3
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Возле вас находится бункер с двумя женщинами-химиками(Полностью здоровые/возраст: 25-45 лет)",
+    "Id": {
+      "Id": 15
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 0,
+      "MethodDirection": 0,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Карта молчания: (всем молчать, изъясняться жестами, нарушившие вылетают)",
+    "Id": {
+      "Id": 9
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 7,
+      "MethodDirection": 6,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Раскрыть пол выбранного игрока всем игрокам",
+    "Id": {
+      "Id": 134
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 2,
+      "MethodDirection": 19,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Изменить обитателей бункера",
+    "Id": {
+      "Id": 21
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 2,
+      "MethodDirection": 3,
+      "ItemId": {
+        "Id": 26
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Изменить здоровье игрока на ДЦП",
+    "Id": {
+      "Id": 32
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 7,
+      "MethodDirection": 2,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Раскрыть доп информацию выбранного персонажа всем игрокам",
+    "Id": {
+      "Id": 135
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 7,
+      "MethodDirection": 10,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Раскрыть возраст выбранного персонажа всем игрокам",
+    "Id": {
+      "Id": 136
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 7,
+      "MethodDirection": 3,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Раскрыть здоровье выбранного персонажа всем игрокам",
+    "Id": {
+      "Id": 138
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 7,
+      "MethodDirection": 5,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Раскрыть фобию выбранного персонажа всем игрокам",
+    "Id": {
+      "Id": 139
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 1,
+      "MethodDirection": 12,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Перегенировать деторождение себе",
+    "Id": {
+      "Id": 12
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 8,
+      "MethodDirection": 8,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Раскрыть свою черту характера всем игрокам",
+    "Id": {
+      "Id": 141
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 0,
+      "MethodDirection": 0,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Маховик времени и пространства: актуальное голосование разворачивается в обратную сторону. Все уже проголосовавшие получают право на ещё один голос. Это голосование закончится на том же, кто начинал.",
+    "Id": {
+      "Id": 24
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 3,
+      "MethodDirection": 21,
+      "ItemId": {
+        "Id": 1
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Возле вас находится бункер с двумя мужчинами-химиками(Полностью здоровые/возраст: 25-45 лет)",
+    "Id": {
+      "Id": 2
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 7,
+      "MethodDirection": 7,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Раскрыть телосложение выбранного персонажа всем игрокам",
+    "Id": {
+      "Id": 142
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 2,
+      "MethodDirection": 14,
+      "ItemId": {
+        "Id": 4
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Изменить состояние бункера на плохое",
+    "Id": {
+      "Id": 126
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 7,
+      "MethodDirection": 9,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Раскрыть хобби выбранного персонажа всем игрокам",
+    "Id": {
+      "Id": 143
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 1,
+      "MethodDirection": 5,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Данная карта дает возможность перегенировать себе фобию",
+    "Id": {
+      "Id": 3
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 2,
+      "MethodDirection": 6,
+      "ItemId": {
+        "Id": 0
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Изменить пол игрока на жещина",
+    "Id": {
+      "Id": 129
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 8,
+      "MethodDirection": 9,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Раскрыть свое хобби всем игрокам",
+    "Id": {
+      "Id": 144
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 8,
+      "MethodDirection": 7,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Раскрыть свое телосложение всем игрокам",
+    "Id": {
+      "Id": 145
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 8,
+      "MethodDirection": 6,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Раскрыть свой пол всем игрокам",
+    "Id": {
+      "Id": 146
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 8,
+      "MethodDirection": 2,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Раскрыть свою доп информацию всем игрокам",
+    "Id": {
+      "Id": 147
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 8,
+      "MethodDirection": 12,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Раскрыть свое деторождение всем игрокам",
+    "Id": {
+      "Id": 149
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 7,
+      "MethodDirection": 12,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Раскрыть деторождение персонажа всем игрокам",
+    "Id": {
+      "Id": 150
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 8,
+      "MethodDirection": 10,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Раскрыть свой возраст всем игрокам",
+    "Id": {
+      "Id": 151
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 0,
+      "MethodDirection": 0,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Начинается срочное голосование, круг раскрытия характеристик обнуляется",
+    "Id": {
+      "Id": 44
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 0,
+      "MethodDirection": 0,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Ты лжец ( начиная с момента использования карты ты врёшь 2 круга  о своих характеристиках; а на 3-ом вскрываешь эту карту и говоришь настоящие)",
+    "Id": {
+      "Id": 40
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 5,
+      "MethodDirection": 1,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Вы убиваете выбранного вами игрока, но при этом вы не можете иметь право голоса в этой игре",
+    "Id": {
+      "Id": 41
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 3,
+      "MethodDirection": 21,
+      "ItemId": {
+        "Id": 6
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Все узнают, что рядом с бункером находится заброшенная теплица",
+    "Id": {
+      "Id": 45
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 2,
+      "MethodDirection": 17,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Изменить первый пердмет в бункере",
+    "Id": {
+      "Id": 39
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 4,
+      "MethodDirection": 12,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Обменяться деторождением с игроком на выбор",
+    "Id": {
+      "Id": 47
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 0,
+      "MethodDirection": 0,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Данная карта дает вам возможность поменяться всеми голосами с другим игроком(с другим игроком у которого тоже есть голоса)",
+    "Id": {
+      "Id": 49
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 0,
+      "MethodDirection": 0,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Заставляет на следующем ходу  игрока вскрыть 2 характеристики",
+    "Id": {
+      "Id": 35
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 1,
+      "MethodDirection": 9,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Перегенировать себе хобби",
+    "Id": {
+      "Id": 57
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 2,
+      "MethodDirection": 12,
+      "ItemId": {
+        "Id": 0
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Изменить деторождение игрока на childfree",
+    "Id": {
+      "Id": 48
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 4,
+      "MethodDirection": 10,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Обменяться возрастом с игроком",
+    "Id": {
+      "Id": 69
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 2,
+      "MethodDirection": 18,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Изменить первый отсек бункера",
+    "Id": {
+      "Id": 51
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 2,
+      "MethodDirection": 5,
+      "ItemId": {
+        "Id": 86
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Изменить фобию игрока на Базофобия - боязнь ходьбы",
+    "Id": {
+      "Id": 64
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 2,
+      "MethodDirection": 19,
+      "ItemId": {
+        "Id": 2
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Заселяет бункер киборгом-убийцей",
+    "Id": {
+      "Id": 60
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 1,
+      "MethodDirection": 3,
+      "ItemId": {
+        "Id": 87
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Данная карта дает возможность вылечить тебя от любого недуга",
+    "Id": {
+      "Id": 62
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 3,
+      "MethodDirection": 21,
+      "ItemId": {
+        "Id": 7
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Все узнают, что рядом с бункером находится заброшенная ферма с животными",
+    "Id": {
+      "Id": 46
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 2,
+      "MethodDirection": 14,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Изменить состояние бункера",
+    "Id": {
+      "Id": 52
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 3,
+      "MethodDirection": 21,
+      "ItemId": {
+        "Id": 2
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Возле убежища появляется банда из 10 террористов, готовящаяся напасть на него",
+    "Id": {
+      "Id": 38
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 3,
+      "MethodDirection": 21,
+      "ItemId": {
+        "Id": 5
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Все узнают, что рядом с бункером находится супермутант-убийца",
+    "Id": {
+      "Id": 43
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 1,
+      "MethodDirection": 4,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Изменить себе профессию",
+    "Id": {
+      "Id": 37
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 2,
+      "MethodDirection": 10,
+      "ItemId": {
+        "Id": 30
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Изменить возраст игрока на 30 лет",
+    "Id": {
+      "Id": 36
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 2,
+      "MethodDirection": 13,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Изменить бункер",
+    "Id": {
+      "Id": 55
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 3,
+      "MethodDirection": 21,
+      "ItemId": {
+        "Id": 4
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Все узнают, что рядом с бункером находится улей пчел-мутантов",
+    "Id": {
+      "Id": 42
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 2,
+      "MethodDirection": 14,
+      "ItemId": {
+        "Id": 1
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Изменить состояние бункера на хорошее",
+    "Id": {
+      "Id": 56
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 4,
+      "MethodDirection": 2,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Обменяться доп. информацией с выбранным игроком",
+    "Id": {
+      "Id": 59
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 2,
+      "MethodDirection": 7,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Изменить телосложение игрока",
+    "Id": {
+      "Id": 65
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 4,
+      "MethodDirection": 7,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Обменяться телосложением с игроком",
+    "Id": {
+      "Id": 66
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 3,
+      "MethodDirection": 21,
+      "ItemId": {
+        "Id": 1
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Рядом с вами второй бункер и он настроен недоброжелательно",
+    "Id": {
+      "Id": 14
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 5,
+      "MethodDirection": 22,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "-1 слот в бункере",
+    "Id": {
+      "Id": 101
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 0,
+      "MethodDirection": 0,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Разговор по душам: узнаете одну характеристку у выбранного игрока( указанный игрок выбирает характеристику сам)",
+    "Id": {
+      "Id": 117
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 5,
+      "MethodDirection": 1,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Исключить игрока на выбор",
+    "Id": {
+      "Id": 11
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 0,
+      "MethodDirection": 0,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Аннулировать любой 1 голос за себя",
+    "Id": {
+      "Id": 75
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 1,
+      "MethodDirection": 5,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Перегенировать себе фобию",
+    "Id": {
+      "Id": 50
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 0,
+      "MethodDirection": 0,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Вы аннулируете все голоса за себя",
+    "Id": {
+      "Id": 97
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 0,
+      "MethodDirection": 0,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Карта поэта: (выбранный игрок читает стих известного поэта наизусть, если не может \u2014 вылетает)",
+    "Id": {
+      "Id": 10
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 0,
+      "MethodDirection": 0,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Проклятие: на один ход голоса против игрока умножаются на 2",
+    "Id": {
+      "Id": 115
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 2,
+      "MethodDirection": 20,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Сгенерировать новую катастрофу",
+    "Id": {
+      "Id": 78
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 3,
+      "MethodDirection": 22,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Добавляет новый слот в бункере",
+    "Id": {
+      "Id": 103
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 4,
+      "MethodDirection": 3,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Обменяться здоровьем с выбранным игроком",
+    "Id": {
+      "Id": 31
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 3,
+      "MethodDirection": 21,
+      "ItemId": {
+        "Id": 8
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Все узнают, что рядом с бункером находится склад с оружием",
+    "Id": {
+      "Id": 70
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 0,
+      "MethodDirection": 0,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Откуп: отменяет голоса против вас в этом ходу, но в следующем голоса против вас умножаются на 2",
+    "Id": {
+      "Id": 125
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 3,
+      "MethodDirection": 21,
+      "ItemId": {
+        "Id": 9
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Все узнают, что рядом находится склад с едой",
+    "Id": {
+      "Id": 71
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 1,
+      "MethodDirection": 12,
+      "ItemId": {
+        "Id": 1
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Изменить себе деторождение на не childfree",
+    "Id": {
+      "Id": 25
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 2,
+      "MethodDirection": 19,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Изменить население бункера",
+    "Id": {
+      "Id": 54
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 2,
+      "MethodDirection": 3,
+      "ItemId": {
+        "Id": 28
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Изменить здоровье игрока на Туберкулез",
+    "Id": {
+      "Id": 58
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 0,
+      "MethodDirection": 0,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Заставляет игрока вскрыть свои карты(но не использовать)",
+    "Id": {
+      "Id": 61
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 1,
+      "MethodDirection": 2,
+      "ItemId": {
+        "Id": 7
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Измените свою доп. информацию на Первое образование - химик",
+    "Id": {
+      "Id": 7
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 1,
+      "MethodDirection": 10,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Изменить себе возраст ",
+    "Id": {
+      "Id": 22
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 6,
+      "MethodDirection": 1,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Враг - случайный игрок не попадает в бункер (пассивная карта)",
+    "Id": {
+      "Id": 81
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 4,
+      "MethodDirection": 9,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Обменяться хобби с выбранным игроком",
+    "Id": {
+      "Id": 29
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 2,
+      "MethodDirection": 8,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Изменить черту характера игрока",
+    "Id": {
+      "Id": 33
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 0,
+      "MethodDirection": 0,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Карта Чомбик: идешь нахуй(бесполезная карта) ",
+    "Id": {
+      "Id": 34
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 2,
+      "MethodDirection": 19,
+      "ItemId": {
+        "Id": 16
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Заселяет убежище агрессивными крабами",
+    "Id": {
+      "Id": 67
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 1,
+      "MethodDirection": 11,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Перегенерируйте себе багаж",
+    "Id": {
+      "Id": 53
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 2,
+      "MethodDirection": 5,
+      "ItemId": {
+        "Id": 109
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Убрать фобию выбранного игрока",
+    "Id": {
+      "Id": 63
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 2,
+      "MethodDirection": 11,
+      "ItemId": {
+        "Id": 34
+      }
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Изменить предмет игрока на говно в кармане",
+    "Id": {
+      "Id": 73
+    }
+  },
+  {
+    "CardMethod": {
+      "MethodType": 0,
+      "MethodDirection": 0,
+      "ItemId": null
+    },
+    "IsSpecial": false,
+    "Value": 0,
+    "Description": "Защита на 1 ход от выбывания",
+    "Id": {
+      "Id": 105
+    }
+  }
+]

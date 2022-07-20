@@ -1,0 +1,1090 @@
+﻿[
+  {
+    "CharacterItemType": 2,
+    "Value": 2,
+    "Description": "Книга (Мастер класс по пикапу)",
+    "Id": {
+      "Id": 30
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 1.5,
+    "Description": "Туалетная бумага",
+    "Id": {
+      "Id": 32
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": -5,
+    "Description": "говно в кармане",
+    "Id": {
+      "Id": 34
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 3.9,
+    "Description": "фонарики",
+    "Id": {
+      "Id": 36
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 0.4,
+    "Description": "домашний халат",
+    "Id": {
+      "Id": 41
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 2,
+    "Description": "ракетки для бадминтона",
+    "Id": {
+      "Id": 46
+    }
+  },
+  {
+    "CharacterItemType": 0,
+    "Value": 3.9,
+    "Description": "семена пшеницы",
+    "Id": {
+      "Id": 61
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 4,
+    "Description": "грудной ребенок",
+    "Id": {
+      "Id": 65
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": -1,
+    "Description": "использованный презерватив",
+    "Id": {
+      "Id": 66
+    }
+  },
+  {
+    "CharacterItemType": 5,
+    "Value": 2.6,
+    "Description": "набор юный химик",
+    "Id": {
+      "Id": 71
+    }
+  },
+  {
+    "CharacterItemType": 6,
+    "Value": 3,
+    "Description": "дедовское ружьё",
+    "Id": {
+      "Id": 111
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 1.5,
+    "Description": "бутылка шампанского",
+    "Id": {
+      "Id": 117
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 3.7,
+    "Description": "газовая горелка",
+    "Id": {
+      "Id": 118
+    }
+  },
+  {
+    "CharacterItemType": 5,
+    "Value": 3.7,
+    "Description": "аптечки (5 штук)",
+    "Id": {
+      "Id": 128
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 2,
+    "Description": "Видеокамера",
+    "Id": {
+      "Id": 142
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 2,
+    "Description": "Стопка листов A4",
+    "Id": {
+      "Id": 151
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 2,
+    "Description": "Капитал Маркса(книга)",
+    "Id": {
+      "Id": 158
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 3,
+    "Description": "Бронежилет",
+    "Id": {
+      "Id": 159
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 3,
+    "Description": "Набор парикмахера( машинка, ножницы)",
+    "Id": {
+      "Id": 163
+    }
+  },
+  {
+    "CharacterItemType": 0,
+    "Value": 4.2,
+    "Description": "различные семена и саженцы",
+    "Id": {
+      "Id": 73
+    }
+  },
+  {
+    "CharacterItemType": 0,
+    "Value": 4.5,
+    "Description": "картошка 10 (кг)",
+    "Id": {
+      "Id": 37
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 3.9,
+    "Description": "ящик с различным алкоголем",
+    "Id": {
+      "Id": 42
+    }
+  },
+  {
+    "CharacterItemType": 7,
+    "Value": 3.5,
+    "Description": "сотовый телефон",
+    "Id": {
+      "Id": 60
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 3.8,
+    "Description": "Тактический рюкзак",
+    "Id": {
+      "Id": 120
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 3,
+    "Description": "фонарик и запасные батарейки",
+    "Id": {
+      "Id": 53
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 3.8,
+    "Description": "питбуль",
+    "Id": {
+      "Id": 131
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 2,
+    "Description": "Костюм клоуна",
+    "Id": {
+      "Id": 144
+    }
+  },
+  {
+    "CharacterItemType": 5,
+    "Value": 3.7,
+    "Description": "стерильные одноразовые шприцы",
+    "Id": {
+      "Id": 59
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 2,
+    "Description": "футбольный мяч",
+    "Id": {
+      "Id": 47
+    }
+  },
+  {
+    "CharacterItemType": 4,
+    "Value": 3,
+    "Description": "сварочный аппарат",
+    "Id": {
+      "Id": 64
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 1,
+    "Description": "Пачка денег",
+    "Id": {
+      "Id": 153
+    }
+  },
+  {
+    "CharacterItemType": 6,
+    "Value": 4,
+    "Description": "FN SCAR (винтовка)",
+    "Id": {
+      "Id": 133
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 0.2,
+    "Description": "будильник",
+    "Id": {
+      "Id": 124
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 1.8,
+    "Description": "несколько чистых листов пергамента",
+    "Id": {
+      "Id": 31
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": -3,
+    "Description": "немецкая овчарка(мертвая)",
+    "Id": {
+      "Id": 130
+    }
+  },
+  {
+    "CharacterItemType": 6,
+    "Value": 4,
+    "Description": "М4A1",
+    "Id": {
+      "Id": 145
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 2.5,
+    "Description": "десять одноразовых медицинских масок",
+    "Id": {
+      "Id": 110
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 2.5,
+    "Description": "Защитная обувь",
+    "Id": {
+      "Id": 146
+    }
+  },
+  {
+    "CharacterItemType": 8,
+    "Value": 2,
+    "Description": "мышьяк",
+    "Id": {
+      "Id": 157
+    }
+  },
+  {
+    "CharacterItemType": 5,
+    "Value": 4.5,
+    "Description": "бинты и антисептики",
+    "Id": {
+      "Id": 72
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 2,
+    "Description": "Военная каска",
+    "Id": {
+      "Id": 134
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 3,
+    "Description": "телевизор",
+    "Id": {
+      "Id": 57
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 2.5,
+    "Description": "компас",
+    "Id": {
+      "Id": 50
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 3,
+    "Description": "Набор винодела( 2 бутылки вина и 2 открывашки)",
+    "Id": {
+      "Id": 148
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 3.5,
+    "Description": "гитара",
+    "Id": {
+      "Id": 114
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": -3,
+    "Description": "тело мертвого человека",
+    "Id": {
+      "Id": 48
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 1,
+    "Description": "Литр святой воды",
+    "Id": {
+      "Id": 135
+    }
+  },
+  {
+    "CharacterItemType": 9,
+    "Value": 2.5,
+    "Description": "топор и веревка",
+    "Id": {
+      "Id": 56
+    }
+  },
+  {
+    "CharacterItemType": 6,
+    "Value": 3,
+    "Description": "Винтовка мосина",
+    "Id": {
+      "Id": 127
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 1,
+    "Description": "монеты",
+    "Id": {
+      "Id": 44
+    }
+  },
+  {
+    "CharacterItemType": 1,
+    "Value": 2,
+    "Description": "говяжьи анусы",
+    "Id": {
+      "Id": 109
+    }
+  },
+  {
+    "CharacterItemType": 1,
+    "Value": 1,
+    "Description": "3 упаковки черного шоколада",
+    "Id": {
+      "Id": 155
+    }
+  },
+  {
+    "CharacterItemType": 4,
+    "Value": 5,
+    "Description": "набор строительных инструментов",
+    "Id": {
+      "Id": 43
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 4,
+    "Description": "2 киллограма динамита",
+    "Id": {
+      "Id": 108
+    }
+  },
+  {
+    "CharacterItemType": 5,
+    "Value": 2.5,
+    "Description": "Лекарства сделанные из целебных трав",
+    "Id": {
+      "Id": 138
+    }
+  },
+  {
+    "CharacterItemType": 0,
+    "Value": 3.9,
+    "Description": "семена картофеля",
+    "Id": {
+      "Id": 63
+    }
+  },
+  {
+    "CharacterItemType": 1,
+    "Value": 3,
+    "Description": "5 кг сала",
+    "Id": {
+      "Id": 149
+    }
+  },
+  {
+    "CharacterItemType": 6,
+    "Value": 4,
+    "Description": "пистолет-пулемёт Шмайсер",
+    "Id": {
+      "Id": 67
+    }
+  },
+  {
+    "CharacterItemType": 0,
+    "Value": 3.9,
+    "Description": "семена моркови",
+    "Id": {
+      "Id": 62
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 4,
+    "Description": "немецкая овчарка(живая)",
+    "Id": {
+      "Id": 129
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 2,
+    "Description": "фотоаппарат",
+    "Id": {
+      "Id": 52
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 3.7,
+    "Description": "Костюм закрытой системы дыхания",
+    "Id": {
+      "Id": 161
+    }
+  },
+  {
+    "CharacterItemType": 6,
+    "Value": 3,
+    "Description": "Дробовик",
+    "Id": {
+      "Id": 49
+    }
+  },
+  {
+    "CharacterItemType": 9,
+    "Value": 2,
+    "Description": "топор",
+    "Id": {
+      "Id": 70
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 2.5,
+    "Description": "флейта",
+    "Id": {
+      "Id": 54
+    }
+  },
+  {
+    "CharacterItemType": 5,
+    "Value": 3.7,
+    "Description": "Набор лекарств из целебных растений",
+    "Id": {
+      "Id": 69
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 3,
+    "Description": "Набор для игры в покер",
+    "Id": {
+      "Id": 136
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 3,
+    "Description": "Сборник стихов",
+    "Id": {
+      "Id": 150
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 2.5,
+    "Description": "губная гармошка",
+    "Id": {
+      "Id": 112
+    }
+  },
+  {
+    "CharacterItemType": 6,
+    "Value": 4,
+    "Description": "АК 74",
+    "Id": {
+      "Id": 123
+    }
+  },
+  {
+    "CharacterItemType": 0,
+    "Value": 3,
+    "Description": "покупная почва и мешочек семян пшеницы",
+    "Id": {
+      "Id": 40
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 1.7,
+    "Description": "три респираторные маски",
+    "Id": {
+      "Id": 55
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 2,
+    "Description": "беспроводная колонка",
+    "Id": {
+      "Id": 132
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 1,
+    "Description": "Фалос",
+    "Id": {
+      "Id": 141
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 3,
+    "Description": "стопка порножурналов",
+    "Id": {
+      "Id": 38
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 3.3,
+    "Description": "книжки по выживанию",
+    "Id": {
+      "Id": 39
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 2.5,
+    "Description": "противогаз",
+    "Id": {
+      "Id": 6
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 2,
+    "Description": "персидский кот",
+    "Id": {
+      "Id": 3
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 2.2,
+    "Description": "набор кухонных инструментов",
+    "Id": {
+      "Id": 19
+    }
+  },
+  {
+    "CharacterItemType": 9,
+    "Value": 2.5,
+    "Description": "Металлическое копье",
+    "Id": {
+      "Id": 12
+    }
+  },
+  {
+    "CharacterItemType": 6,
+    "Value": 2.5,
+    "Description": "пневматический пистолет",
+    "Id": {
+      "Id": 4
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 1.6,
+    "Description": "музыкальная шкатулка",
+    "Id": {
+      "Id": 22
+    }
+  },
+  {
+    "CharacterItemType": 0,
+    "Value": 3.8,
+    "Description": "семена капусты",
+    "Id": {
+      "Id": 9
+    }
+  },
+  {
+    "CharacterItemType": 9,
+    "Value": 3,
+    "Description": "лук и стрелы",
+    "Id": {
+      "Id": 24
+    }
+  },
+  {
+    "CharacterItemType": 7,
+    "Value": 4.1,
+    "Description": "ноутбук",
+    "Id": {
+      "Id": 15
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 4,
+    "Description": "настольные игры",
+    "Id": {
+      "Id": 18
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 0.5,
+    "Description": "пустая коробка",
+    "Id": {
+      "Id": 2
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 2,
+    "Description": "Набор японской манги",
+    "Id": {
+      "Id": 165
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 1.2,
+    "Description": "открывалка",
+    "Id": {
+      "Id": 13
+    }
+  },
+  {
+    "CharacterItemType": 4,
+    "Value": 2.2,
+    "Description": "молоток и гвозди",
+    "Id": {
+      "Id": 23
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 3,
+    "Description": "коробок спичек",
+    "Id": {
+      "Id": 28
+    }
+  },
+  {
+    "CharacterItemType": 9,
+    "Value": 2,
+    "Description": "Рыболовная сеть",
+    "Id": {
+      "Id": 7
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 2.9,
+    "Description": "ледоруб и трос",
+    "Id": {
+      "Id": 26
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 4,
+    "Description": "немецкая овчарка",
+    "Id": {
+      "Id": 17
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 1,
+    "Description": "косметическое зеркало",
+    "Id": {
+      "Id": 27
+    }
+  },
+  {
+    "CharacterItemType": 4,
+    "Value": 4.5,
+    "Description": "набор инструментов",
+    "Id": {
+      "Id": 20
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 1.4,
+    "Description": "презервативы",
+    "Id": {
+      "Id": 5
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 1,
+    "Description": "лейка",
+    "Id": {
+      "Id": 25
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 0.6,
+    "Description": "пачка сигарет",
+    "Id": {
+      "Id": 1
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 5,
+    "Description": "четыре рации",
+    "Id": {
+      "Id": 33
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 1.5,
+    "Description": "рулоны туалетной бумаги",
+    "Id": {
+      "Id": 8
+    }
+  },
+  {
+    "CharacterItemType": 7,
+    "Value": 4.1,
+    "Description": "радио",
+    "Id": {
+      "Id": 14
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 0.5,
+    "Description": "Воздушный шар",
+    "Id": {
+      "Id": 10
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 1,
+    "Description": "Металлическая дверь",
+    "Id": {
+      "Id": 11
+    }
+  },
+  {
+    "CharacterItemType": 1,
+    "Value": 4.3,
+    "Description": "консервы 20 шт",
+    "Id": {
+      "Id": 16
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 2.5,
+    "Description": "набор для шитья",
+    "Id": {
+      "Id": 21
+    }
+  },
+  {
+    "CharacterItemType": 6,
+    "Value": 2.9,
+    "Description": "Револьвер",
+    "Id": {
+      "Id": 29
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 1,
+    "Description": "надувная лодка",
+    "Id": {
+      "Id": 74
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 2,
+    "Description": "респираторные маски",
+    "Id": {
+      "Id": 93
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 2,
+    "Description": "армейский нож",
+    "Id": {
+      "Id": 96
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 2.7,
+    "Description": "бинокль",
+    "Id": {
+      "Id": 79
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 2.4,
+    "Description": "набор для дартса",
+    "Id": {
+      "Id": 86
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 4,
+    "Description": "защитный костюм",
+    "Id": {
+      "Id": 92
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 1,
+    "Description": "протез руки",
+    "Id": {
+      "Id": 95
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 1.7,
+    "Description": "спальный мешок",
+    "Id": {
+      "Id": 78
+    }
+  },
+  {
+    "CharacterItemType": 4,
+    "Value": 2.7,
+    "Description": "паяльник",
+    "Id": {
+      "Id": 102
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 1.5,
+    "Description": "кассеты с фильмами",
+    "Id": {
+      "Id": 103
+    }
+  },
+  {
+    "CharacterItemType": 6,
+    "Value": 4,
+    "Description": "пистолет",
+    "Id": {
+      "Id": 97
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 2,
+    "Description": "карманные часы",
+    "Id": {
+      "Id": 105
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 3.2,
+    "Description": "коллекция из 30 порно-журналов",
+    "Id": {
+      "Id": 77
+    }
+  },
+  {
+    "CharacterItemType": 6,
+    "Value": 3.9,
+    "Description": "Пулемёт калашникова",
+    "Id": {
+      "Id": 83
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 2.5,
+    "Description": "блок сигарет",
+    "Id": {
+      "Id": 90
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 2.5,
+    "Description": "дублёнка",
+    "Id": {
+      "Id": 107
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 2.5,
+    "Description": "ящик пива",
+    "Id": {
+      "Id": 100
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 3,
+    "Description": "зажигалка",
+    "Id": {
+      "Id": 106
+    }
+  },
+  {
+    "CharacterItemType": 8,
+    "Value": 3.5,
+    "Description": "банка ртути",
+    "Id": {
+      "Id": 75
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 3.5,
+    "Description": "набор картин",
+    "Id": {
+      "Id": 84
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 3.8,
+    "Description": "обезьяна",
+    "Id": {
+      "Id": 85
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 3,
+    "Description": "карта местности",
+    "Id": {
+      "Id": 104
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 3,
+    "Description": "1кг кокса",
+    "Id": {
+      "Id": 101
+    }
+  },
+  {
+    "CharacterItemType": 8,
+    "Value": 3.5,
+    "Description": "отрава для крыс и для насекомых",
+    "Id": {
+      "Id": 76
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 2.4,
+    "Description": "книжки по похудению",
+    "Id": {
+      "Id": 99
+    }
+  },
+  {
+    "CharacterItemType": 2,
+    "Value": 2,
+    "Description": "набор для рисования красками",
+    "Id": {
+      "Id": 82
+    }
+  },
+  {
+    "CharacterItemType": 5,
+    "Value": 4.9,
+    "Description": "набор медицинских инструментов",
+    "Id": {
+      "Id": 98
+    }
+  },
+  {
+    "CharacterItemType": 1,
+    "Value": 1.4,
+    "Description": "коробка с печеньем",
+    "Id": {
+      "Id": 91
+    }
+  },
+  {
+    "CharacterItemType": 3,
+    "Value": 3,
+    "Description": "собака по кличке кантимот",
+    "Id": {
+      "Id": 89
+    }
+  }
+]

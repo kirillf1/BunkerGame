@@ -1,0 +1,194 @@
+﻿[
+  {
+    "ItemBunkerType": 1,
+    "Value": 5,
+    "Description": "Набор защитных костюмов",
+    "Id": {
+      "Id": 15
+    }
+  },
+  {
+    "ItemBunkerType": 0,
+    "Value": -3,
+    "Description": "Мертвое тело создателя бункера",
+    "Id": {
+      "Id": 24
+    }
+  },
+  {
+    "ItemBunkerType": 3,
+    "Value": 3.6,
+    "Description": "Учебные пособия для изучения",
+    "Id": {
+      "Id": 8
+    }
+  },
+  {
+    "ItemBunkerType": 1,
+    "Value": 4,
+    "Description": "Инструкция по выживанию",
+    "Id": {
+      "Id": 16
+    }
+  },
+  {
+    "ItemBunkerType": 0,
+    "Value": 3.5,
+    "Description": "Набор духовых инструментов",
+    "Id": {
+      "Id": 11
+    }
+  },
+  {
+    "ItemBunkerType": 0,
+    "Value": 2,
+    "Description": "Шахматы",
+    "Id": {
+      "Id": 12
+    }
+  },
+  {
+    "ItemBunkerType": 0,
+    "Value": 2,
+    "Description": "Фортепиано",
+    "Id": {
+      "Id": 3
+    }
+  },
+  {
+    "ItemBunkerType": 6,
+    "Value": 3.5,
+    "Description": "Книги по ремонту электроники",
+    "Id": {
+      "Id": 7
+    }
+  },
+  {
+    "ItemBunkerType": 0,
+    "Value": 2,
+    "Description": "Шашки",
+    "Id": {
+      "Id": 1
+    }
+  },
+  {
+    "ItemBunkerType": 5,
+    "Value": 1,
+    "Description": "Набор столовых приборов",
+    "Id": {
+      "Id": 9
+    }
+  },
+  {
+    "ItemBunkerType": 7,
+    "Value": 2,
+    "Description": "Книги по технологии строительства",
+    "Id": {
+      "Id": 6
+    }
+  },
+  {
+    "ItemBunkerType": 4,
+    "Value": 3,
+    "Description": "Телеграф",
+    "Id": {
+      "Id": 2
+    }
+  },
+  {
+    "ItemBunkerType": 0,
+    "Value": 2,
+    "Description": "Детские игрушки",
+    "Id": {
+      "Id": 13
+    }
+  },
+  {
+    "ItemBunkerType": 2,
+    "Value": 4,
+    "Description": "Инструменты",
+    "Id": {
+      "Id": 18
+    }
+  },
+  {
+    "ItemBunkerType": 2,
+    "Value": 1.5,
+    "Description": "Разобранный двигатель",
+    "Id": {
+      "Id": 5
+    }
+  },
+  {
+    "ItemBunkerType": 1,
+    "Value": -5,
+    "Description": "Бочка с химичискими отходами",
+    "Id": {
+      "Id": 23
+    }
+  },
+  {
+    "ItemBunkerType": 5,
+    "Value": 1,
+    "Description": "Книга про зоологию",
+    "Id": {
+      "Id": 10
+    }
+  },
+  {
+    "ItemBunkerType": 0,
+    "Value": 1.5,
+    "Description": "Книга про динозавров",
+    "Id": {
+      "Id": 20
+    }
+  },
+  {
+    "ItemBunkerType": 1,
+    "Value": 4,
+    "Description": "Чертежи и инструкции использования бункера",
+    "Id": {
+      "Id": 22
+    }
+  },
+  {
+    "ItemBunkerType": 0,
+    "Value": 3,
+    "Description": "Телевизор",
+    "Id": {
+      "Id": 14
+    }
+  },
+  {
+    "ItemBunkerType": 0,
+    "Value": 1,
+    "Description": "Пособие по выращиванию марихуаны",
+    "Id": {
+      "Id": 19
+    }
+  },
+  {
+    "ItemBunkerType": 0,
+    "Value": 1.5,
+    "Description": "Игровые карты",
+    "Id": {
+      "Id": 21
+    }
+  },
+  {
+    "ItemBunkerType": 1,
+    "Value": 3,
+    "Description": "Топографическая карта местности",
+    "Id": {
+      "Id": 4
+    }
+  },
+  {
+    "ItemBunkerType": 0,
+    "Value": 1,
+    "Description": "Овсежитель воздуха",
+    "Id": {
+      "Id": 17
+    }
+  }
+]

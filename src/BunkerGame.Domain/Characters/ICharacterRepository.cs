@@ -9,9 +9,10 @@ namespace BunkerGame.Domain.Characters
 {
     public interface ICharacterRepository
     {
-        public Task<Character?> GetCharacterById(int id,bool withComponents = true);
-        public Task<Character?> GetCharacter(long gameSessionId,long playerId, bool withComponents = true);
-        public Task<IEnumerable<Character>> GetCharacters(int count, bool withComponents = true, Expression<Func<Character, bool>>? predicate = null);
-        public Task CommitChanges();
+        public Task<Character> GetCharacter(CharacterId characterId);
+        public Task<IEnumerable<Character>> GetCharacters(Expression<Func<Character, bool>>? predicate = null);
+        public Task AddCharacter(Character character);
+        public Task RemoveCharacter(Character character);
+        public Task RemoveCharacters(IEnumerable<Character> characters);
     }
 }

@@ -24,9 +24,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BunkerGame.Application\BunkerGame.Application.csproj" />
     <ProjectReference Include="..\BunkerGame.Domain\BunkerGame.Domain.csproj" />
-    <ProjectReference Include="..\BunkerGame.Infrastructure\BunkerGame.Infrastructure.csproj" />
+    <ProjectReference Include="..\BunkerGame.VkApi\BunkerGame.VkApi.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DatabaseTests\GameComponentDbContextTests\" />
   </ItemGroup>
 
 </Project>

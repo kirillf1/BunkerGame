@@ -1,31 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
+﻿using BunkerGame.GameTypes.CharacterTypes;
 
 namespace BunkerGame.Domain.Characters.CharacterComponents
 {
-    public class Health : CharacterEntity
+    public class Health : CharacterComponent<Health>
     {
-        public HealthType HealthType { get; set; } = HealthType.FullHealth;
-       
-        public Health(string description, bool isBalance, HealthType healthType = HealthType.FullHealth) : base(description, isBalance)
+        private Health() { }
+        public static readonly Health DefaultHealth = new Health("unknown", 0, HealthType.FullHealth);
+        public Health(string description, double value, HealthType healthType) : base(description, value)
         {
             HealthType = healthType;
         }
-        public void UpdateHealthType(HealthType healthType)
-        {
-            HealthType = healthType; 
-        }
-    }
-    public enum HealthType
-    {
-        DeadDesease,
-        Psychological,
-        SpreadDisease,
-        LiteDesease,
-        FullHealth
-
-
+        public HealthType HealthType { get; }
     }
 }
