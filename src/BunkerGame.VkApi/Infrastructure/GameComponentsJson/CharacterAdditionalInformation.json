@@ -1,0 +1,754 @@
+﻿[
+  {
+    "AddInfType": 0,
+    "Value": -2,
+    "Description": "Ест обломки металла ",
+    "Id": {
+      "Id": 89
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": 0,
+    "Description": "Является вегетерианцем",
+    "Id": {
+      "Id": 83
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": -3,
+    "Description": "Вставляет предметы в анальное отверстие ",
+    "Id": {
+      "Id": 90
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": -1,
+    "Description": "Возбужадется от горбов верблюда",
+    "Id": {
+      "Id": 95
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": -2,
+    "Description": "Купил девственность школьницы за деньги",
+    "Id": {
+      "Id": 97
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": 0.5,
+    "Description": "Ограбил(а) банк",
+    "Id": {
+      "Id": 6
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": -1.5,
+    "Description": "Разговаривает с пупком ",
+    "Id": {
+      "Id": 91
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": -2.5,
+    "Description": "Привязал к машине живого кота",
+    "Id": {
+      "Id": 94
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": -1,
+    "Description": "Не переносит алкоголь",
+    "Id": {
+      "Id": 4
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": 2.5,
+    "Description": "Был(а) вожатым в лагере",
+    "Id": {
+      "Id": 3
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": -2,
+    "Description": "Пытался покончить жизнь самоубийством, но обосрался",
+    "Id": {
+      "Id": 96
+    }
+  },
+  {
+    "AddInfType": 3,
+    "Value": 3,
+    "Description": "Первое образование - химик",
+    "Id": {
+      "Id": 7
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": -2,
+    "Description": "Гавкает на людей ",
+    "Id": {
+      "Id": 88
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": 5,
+    "Description": "Профессиональный инструктор по выживанию",
+    "Id": {
+      "Id": 9
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": -1,
+    "Description": "По ночам воет на луну",
+    "Id": {
+      "Id": 98
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": 2,
+    "Description": "Хорошо играл в волейбол",
+    "Id": {
+      "Id": 2
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": 2,
+    "Description": "В детстве стрелял из лука",
+    "Id": {
+      "Id": 1
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": 3,
+    "Description": "Обладает феноменальной памятью",
+    "Id": {
+      "Id": 5
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": 0.5,
+    "Description": "Ест хвосты ящериц",
+    "Id": {
+      "Id": 92
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": -1,
+    "Description": "Не чистил зубы 3 года",
+    "Id": {
+      "Id": 93
+    }
+  },
+  {
+    "AddInfType": 8,
+    "Value": 3,
+    "Description": "Первое образование - биолог",
+    "Id": {
+      "Id": 8
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": -2,
+    "Description": "HoHoL",
+    "Id": {
+      "Id": 23
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": 2.5,
+    "Description": "Проходил(а) курс по самообороне",
+    "Id": {
+      "Id": 17
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": -4,
+    "Description": "Продал(а) почку",
+    "Id": {
+      "Id": 15
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": -1,
+    "Description": "Уверен(а) что эта катастрофа - заговор рептилий",
+    "Id": {
+      "Id": 58
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": 4,
+    "Description": "Занял(а) первое место на марафоне",
+    "Id": {
+      "Id": 36
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": -1.5,
+    "Description": "Ранее был(а) противоположного пола",
+    "Id": {
+      "Id": 22
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": -2,
+    "Description": "Поставил(а) мировой рекорд по поеданию бургеров",
+    "Id": {
+      "Id": 26
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": 3.5,
+    "Description": "Владеет хорошей спортивной подготовкой",
+    "Id": {
+      "Id": 38
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": 3.5,
+    "Description": "Опытный путешественник по пустныням",
+    "Id": {
+      "Id": 67
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": -1,
+    "Description": "Верит в пришельцев",
+    "Id": {
+      "Id": 40
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": -1,
+    "Description": "Верит в сверхъестественных существ",
+    "Id": {
+      "Id": 39
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": 3,
+    "Description": "Хорошо ориентируется на местности",
+    "Id": {
+      "Id": 78
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": -3,
+    "Description": "Знаком с чомбиком",
+    "Id": {
+      "Id": 42
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": 1.5,
+    "Description": "Побывал(а) на вершине Эвереста",
+    "Id": {
+      "Id": 12
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": 1.5,
+    "Description": "Любит крыс",
+    "Id": {
+      "Id": 44
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": 2.5,
+    "Description": "Имеет экстрасенсорные способности",
+    "Id": {
+      "Id": 31
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": 4,
+    "Description": "Пережил(а) три покушения",
+    "Id": {
+      "Id": 10
+    }
+  },
+  {
+    "AddInfType": 4,
+    "Value": 2,
+    "Description": "Проходил(а) курсы кулинарии",
+    "Id": {
+      "Id": 18
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": 3,
+    "Description": "Проходил(а) курсы парикмахера",
+    "Id": {
+      "Id": 20
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": 2,
+    "Description": "Никогда не врет близким людям",
+    "Id": {
+      "Id": 51
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": 2.4,
+    "Description": "Знает наизусть все стихи Пушкина",
+    "Id": {
+      "Id": 35
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": 0.5,
+    "Description": "Сидел(а) в тюрьме",
+    "Id": {
+      "Id": 24
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": 2.5,
+    "Description": "Знает четыре языка",
+    "Id": {
+      "Id": 34
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": -3,
+    "Description": "Ебал свинью",
+    "Id": {
+      "Id": 27
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": 3,
+    "Description": "Отменный пловец",
+    "Id": {
+      "Id": 47
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": 3,
+    "Description": "Хорошо играет в карты",
+    "Id": {
+      "Id": 76
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": 1.5,
+    "Description": "Делал закладки",
+    "Id": {
+      "Id": 13
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": 3.5,
+    "Description": "Имеет два высших образования",
+    "Id": {
+      "Id": 32
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": -3,
+    "Description": "Ест трупы",
+    "Id": {
+      "Id": 43
+    }
+  },
+  {
+    "AddInfType": 5,
+    "Value": 5,
+    "Description": "Проектировал(а) этот бункер",
+    "Id": {
+      "Id": 16
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": 1.5,
+    "Description": "Спасал(а) утопающего",
+    "Id": {
+      "Id": 25
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": -1,
+    "Description": "Презирает цыган (но сам цыган)",
+    "Id": {
+      "Id": 59
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": -3,
+    "Description": "В 16 лет бухой обблевал простыню",
+    "Id": {
+      "Id": 28
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": -3,
+    "Description": "Часто выебывался и получал пизды",
+    "Id": {
+      "Id": 29
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": 0.1,
+    "Description": "Любит мягкие игрушки",
+    "Id": {
+      "Id": 30
+    }
+  },
+  {
+    "AddInfType": 7,
+    "Value": 4,
+    "Description": "Воевал на Донбассе",
+    "Id": {
+      "Id": 54
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": -2,
+    "Description": "Вытирает жопу рукой",
+    "Id": {
+      "Id": 62
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": -1,
+    "Description": "Ненавидит современную музыку",
+    "Id": {
+      "Id": 46
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": -0.1,
+    "Description": "Ненавидит кофе",
+    "Id": {
+      "Id": 57
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": 1.5,
+    "Description": "Занимался экзорцизмом",
+    "Id": {
+      "Id": 66
+    }
+  },
+  {
+    "AddInfType": 3,
+    "Value": 3,
+    "Description": "По первому образованию - врач",
+    "Id": {
+      "Id": 14
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": -1.5,
+    "Description": "Фетиш: лизание глаз",
+    "Id": {
+      "Id": 52
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": 2.5,
+    "Description": "Побывал(а) во всех странах мира",
+    "Id": {
+      "Id": 11
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": 0.3,
+    "Description": "Имеет татуировку в виде рыбы",
+    "Id": {
+      "Id": 45
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": 1,
+    "Description": "Ведёт личный дневник",
+    "Id": {
+      "Id": 41
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": -3,
+    "Description": "Любит ебать бетон",
+    "Id": {
+      "Id": 65
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": -3,
+    "Description": "Родился в результате инцеста",
+    "Id": {
+      "Id": 64
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": -2.5,
+    "Description": "В детстве ударил мать",
+    "Id": {
+      "Id": 53
+    }
+  },
+  {
+    "AddInfType": 6,
+    "Value": 2,
+    "Description": "Проходил(а) курсы психолога",
+    "Id": {
+      "Id": 21
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": -0.2,
+    "Description": "Продал девственность за 40 гривен",
+    "Id": {
+      "Id": 48
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": -2,
+    "Description": "Страдает морской болезнью",
+    "Id": {
+      "Id": 55
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": 3,
+    "Description": "Проходил(а) курсы массажа",
+    "Id": {
+      "Id": 19
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": 2.5,
+    "Description": "Умеет жонглировать",
+    "Id": {
+      "Id": 68
+    }
+  },
+  {
+    "AddInfType": 9,
+    "Value": 1.5,
+    "Description": "Хорошо ладит с животными",
+    "Id": {
+      "Id": 77
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": 3,
+    "Description": "Выиграл(а) в лотерее целое состояние",
+    "Id": {
+      "Id": 37
+    }
+  },
+  {
+    "AddInfType": 7,
+    "Value": 4,
+    "Description": "Ветеран Югославских Войн",
+    "Id": {
+      "Id": 60
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": 0.3,
+    "Description": "Имеет связи в военных кругах",
+    "Id": {
+      "Id": 63
+    }
+  },
+  {
+    "AddInfType": 3,
+    "Value": 2.5,
+    "Description": "Умеет оказывать первую помощь",
+    "Id": {
+      "Id": 56
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": 3,
+    "Description": "Играл(а) в театре",
+    "Id": {
+      "Id": 33
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": 2,
+    "Description": "Умеет вскрывать замки",
+    "Id": {
+      "Id": 70
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": 1.5,
+    "Description": "Любит обезьян",
+    "Id": {
+      "Id": 69
+    }
+  },
+  {
+    "AddInfType": 7,
+    "Value": 4,
+    "Description": "Увлекается охотой",
+    "Id": {
+      "Id": 71
+    }
+  },
+  {
+    "AddInfType": 9,
+    "Value": 1.5,
+    "Description": "Увлекается животноводством",
+    "Id": {
+      "Id": 72
+    }
+  },
+  {
+    "AddInfType": 4,
+    "Value": 2,
+    "Description": "Умеет хорошо готовить простые блюда",
+    "Id": {
+      "Id": 49
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": 1.5,
+    "Description": "Убежденный коммунист",
+    "Id": {
+      "Id": 50
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": 3,
+    "Description": "Играл в хеви-метал группе",
+    "Id": {
+      "Id": 61
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": -2,
+    "Description": "Уверен(а) что живет в матрице",
+    "Id": {
+      "Id": 74
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": 4,
+    "Description": "Является резидентом Comedy Club",
+    "Id": {
+      "Id": 86
+    }
+  },
+  {
+    "AddInfType": 7,
+    "Value": 3,
+    "Description": "Призер чемпионата по спортивной стрельбе",
+    "Id": {
+      "Id": 87
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": 1.3,
+    "Description": "Читал(а) книгу про выживание на необитаемом острове",
+    "Id": {
+      "Id": 79
+    }
+  },
+  {
+    "AddInfType": 1,
+    "Value": -3,
+    "Description": "Является копрофилом",
+    "Id": {
+      "Id": 84
+    }
+  },
+  {
+    "AddInfType": 0,
+    "Value": 4,
+    "Description": "Является мастером спорта по боксу",
+    "Id": {
+      "Id": 85
+    }
+  },
+  {
+    "AddInfType": 2,
+    "Value": 1.5,
+    "Description": "Управлял поездом",
+    "Id": {
+      "Id": 82
+    }
+  }
+]

@@ -8,9 +8,11 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["src/BunkerGame.VkApi/BunkerGame.VkApi.csproj", "src/BunkerGame.VkApi/"]
-COPY ["src/BunkerGame.Infrastructure/BunkerGame.Infrastructure.csproj", "src/BunkerGame.Infrastructure/"]
+COPY ["src/BunkerGameComponents.Infrastructure/BunkerGameComponents.Infrastructure.csproj", "src/BunkerGameComponents.Infrastructure/"]
+COPY ["src/BunkerGame.Framework/BunkerGame.Framework.csproj", "src/BunkerGame.Framework/"]
+COPY ["src/BunkerGameComponents.Domain/BunkerGameComponents.Domain.csproj", "src/BunkerGameComponents.Domain/"]
+COPY ["src/BunkerGame.GameTypes/BunkerGame.GameTypes.csproj", "src/BunkerGame.GameTypes/"]
 COPY ["src/BunkerGame.Domain/BunkerGame.Domain.csproj", "src/BunkerGame.Domain/"]
-COPY ["src/BunkerGame.Application/BunkerGame.Application.csproj", "src/BunkerGame.Application/"]
 RUN dotnet restore "src/BunkerGame.VkApi/BunkerGame.VkApi.csproj"
 COPY . .
 WORKDIR "/src/src/BunkerGame.VkApi"
@@ -23,4 +25,3 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 CMD ["dotnet", "BunkerGame.VkApi.dll", "--environment=Production"]
-#CMD ASPNETCORE_URLS=http://*:$PORT dotnet BunkerGame.VkApi.dll

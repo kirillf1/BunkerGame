@@ -1,0 +1,162 @@
+﻿[
+  {
+    "BunkerObjectType": 6,
+    "Value": 3,
+    "Description": "Барьер для животных",
+    "Id": {
+      "Id": 5
+    }
+  },
+  {
+    "BunkerObjectType": 5,
+    "Value": 4,
+    "Description": "Комната управления бункером",
+    "Id": {
+      "Id": 19
+    }
+  },
+  {
+    "BunkerObjectType": 1,
+    "Value": -2,
+    "Description": "Команта пыток",
+    "Id": {
+      "Id": 20
+    }
+  },
+  {
+    "BunkerObjectType": 7,
+    "Value": 2.5,
+    "Description": "Мастерская",
+    "Id": {
+      "Id": 7
+    }
+  },
+  {
+    "BunkerObjectType": 1,
+    "Value": 4,
+    "Description": "Комната развлечений",
+    "Id": {
+      "Id": 10
+    }
+  },
+  {
+    "BunkerObjectType": 8,
+    "Value": 2.5,
+    "Description": "Архив с секретными данными",
+    "Id": {
+      "Id": 14
+    }
+  },
+  {
+    "BunkerObjectType": 0,
+    "Value": 4.5,
+    "Description": "Химическая лаборатория",
+    "Id": {
+      "Id": 8
+    }
+  },
+  {
+    "BunkerObjectType": 3,
+    "Value": 3,
+    "Description": "Гараж с танком",
+    "Id": {
+      "Id": 12
+    }
+  },
+  {
+    "BunkerObjectType": 8,
+    "Value": 2,
+    "Description": "Библиотека",
+    "Id": {
+      "Id": 6
+    }
+  },
+  {
+    "BunkerObjectType": 2,
+    "Value": 4.5,
+    "Description": "Склад с оружием",
+    "Id": {
+      "Id": 13
+    }
+  },
+  {
+    "BunkerObjectType": 1,
+    "Value": 1,
+    "Description": "Оборудованное помещение для мастурбации",
+    "Id": {
+      "Id": 16
+    }
+  },
+  {
+    "BunkerObjectType": 1,
+    "Value": -1,
+    "Description": "Разрушенный отсек",
+    "Id": {
+      "Id": 17
+    }
+  },
+  {
+    "BunkerObjectType": 1,
+    "Value": -4,
+    "Description": "Морг с трупами",
+    "Id": {
+      "Id": 1
+    }
+  },
+  {
+    "BunkerObjectType": 0,
+    "Value": 4,
+    "Description": "Медкабинет",
+    "Id": {
+      "Id": 4
+    }
+  },
+  {
+    "BunkerObjectType": 3,
+    "Value": 3.5,
+    "Description": "Гараж с машиной",
+    "Id": {
+      "Id": 11
+    }
+  },
+  {
+    "BunkerObjectType": 1,
+    "Value": 2,
+    "Description": "Кухня-столовая",
+    "Id": {
+      "Id": 15
+    }
+  },
+  {
+    "BunkerObjectType": 4,
+    "Value": 4,
+    "Description": "Теплица",
+    "Id": {
+      "Id": 3
+    }
+  },
+  {
+    "BunkerObjectType": 5,
+    "Value": 3,
+    "Description": "Тренажерный зал",
+    "Id": {
+      "Id": 2
+    }
+  },
+  {
+    "BunkerObjectType": 8,
+    "Value": 2.5,
+    "Description": "Школьный класс",
+    "Id": {
+      "Id": 9
+    }
+  },
+  {
+    "BunkerObjectType": 1,
+    "Value": -5,
+    "Description": "Склад с гнилыми животными",
+    "Id": {
+      "Id": 18
+    }
+  }
+]

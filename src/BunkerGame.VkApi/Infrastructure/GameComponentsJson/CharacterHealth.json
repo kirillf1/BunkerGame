@@ -1,0 +1,666 @@
+﻿[
+  {
+    "HealthType": 2,
+    "Value": -2,
+    "Description": "Сифилис",
+    "Id": {
+      "Id": 11
+    }
+  },
+  {
+    "HealthType": 2,
+    "Value": -3,
+    "Description": "Собачий трипер",
+    "Id": {
+      "Id": 2
+    }
+  },
+  {
+    "HealthType": 2,
+    "Value": -5,
+    "Description": "СOVID-19",
+    "Id": {
+      "Id": 9
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -2,
+    "Description": "Дифаллия",
+    "Id": {
+      "Id": 39
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -1,
+    "Description": "Травма глаза",
+    "Id": {
+      "Id": 10
+    }
+  },
+  {
+    "HealthType": 0,
+    "Value": -5,
+    "Description": "Рак лёгкого",
+    "Id": {
+      "Id": 7
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -1,
+    "Description": "Косоглазие",
+    "Id": {
+      "Id": 67
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -1.5,
+    "Description": "Немой",
+    "Id": {
+      "Id": 17
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -1,
+    "Description": "Полидактилия",
+    "Id": {
+      "Id": 8
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -1,
+    "Description": "Глухой на одно ухо",
+    "Id": {
+      "Id": 12
+    }
+  },
+  {
+    "HealthType": 1,
+    "Value": -5,
+    "Description": "Психопатия",
+    "Id": {
+      "Id": 13
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -2,
+    "Description": "Волосатость зубов",
+    "Id": {
+      "Id": 38
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -2,
+    "Description": "Дальтонизм",
+    "Id": {
+      "Id": 83
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -2,
+    "Description": "Эпилепсия",
+    "Id": {
+      "Id": 3
+    }
+  },
+  {
+    "HealthType": 1,
+    "Value": -4,
+    "Description": "Шизофрения",
+    "Id": {
+      "Id": 4
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -3,
+    "Description": "Цинга",
+    "Id": {
+      "Id": 5
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -5,
+    "Description": "Слепота",
+    "Id": {
+      "Id": 6
+    }
+  },
+  {
+    "HealthType": 0,
+    "Value": -5,
+    "Description": "Умственная отсталость",
+    "Id": {
+      "Id": 1
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -1,
+    "Description": "Простужен",
+    "Id": {
+      "Id": 14
+    }
+  },
+  {
+    "HealthType": 1,
+    "Value": -3,
+    "Description": "Депрессия",
+    "Id": {
+      "Id": 15
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -4,
+    "Description": "Абсолютно глухой",
+    "Id": {
+      "Id": 16
+    }
+  },
+  {
+    "HealthType": 1,
+    "Value": -2,
+    "Description": "Синдром туретта",
+    "Id": {
+      "Id": 18
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -1.5,
+    "Description": "Ячмень",
+    "Id": {
+      "Id": 23
+    }
+  },
+  {
+    "HealthType": 0,
+    "Value": -5,
+    "Description": "Синдром Дауна",
+    "Id": {
+      "Id": 25
+    }
+  },
+  {
+    "HealthType": 1,
+    "Value": -5,
+    "Description": "Паранойя (сильная)",
+    "Id": {
+      "Id": 27
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -5,
+    "Description": "Отсутствие ноги",
+    "Id": {
+      "Id": 29
+    }
+  },
+  {
+    "HealthType": 1,
+    "Value": -2.9,
+    "Description": "Некрофилия",
+    "Id": {
+      "Id": 31
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -3,
+    "Description": "Анальный глаз",
+    "Id": {
+      "Id": 34
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -3,
+    "Description": "Назальный гельментоз",
+    "Id": {
+      "Id": 35
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -2.5,
+    "Description": "Кровавый понос",
+    "Id": {
+      "Id": 37
+    }
+  },
+  {
+    "HealthType": 1,
+    "Value": -4,
+    "Description": "Педофилия",
+    "Id": {
+      "Id": 40
+    }
+  },
+  {
+    "HealthType": 1,
+    "Value": -3,
+    "Description": "Аутизм",
+    "Id": {
+      "Id": 41
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -0.5,
+    "Description": "Кариес",
+    "Id": {
+      "Id": 42
+    }
+  },
+  {
+    "HealthType": 0,
+    "Value": -5,
+    "Description": "Цирроз печени",
+    "Id": {
+      "Id": 47
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -3,
+    "Description": "Остеохондроз",
+    "Id": {
+      "Id": 48
+    }
+  },
+  {
+    "HealthType": 1,
+    "Value": -3.5,
+    "Description": "Паранойя",
+    "Id": {
+      "Id": 49
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -3,
+    "Description": "Сахарный диабет первого типа",
+    "Id": {
+      "Id": 56
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -3,
+    "Description": "Тропическая гемангиома Мовсесяна",
+    "Id": {
+      "Id": 57
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -3,
+    "Description": "Синдром д\u0027Акосты",
+    "Id": {
+      "Id": 58
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -2,
+    "Description": "Мигрень",
+    "Id": {
+      "Id": 65
+    }
+  },
+  {
+    "HealthType": 2,
+    "Value": -3,
+    "Description": "Ангина",
+    "Id": {
+      "Id": 69
+    }
+  },
+  {
+    "HealthType": 0,
+    "Value": -5,
+    "Description": "Рак (начальная стадия)",
+    "Id": {
+      "Id": 71
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -3,
+    "Description": "Перелом руки (правой)",
+    "Id": {
+      "Id": 72
+    }
+  },
+  {
+    "HealthType": 1,
+    "Value": -2,
+    "Description": "Алкоголизм",
+    "Id": {
+      "Id": 74
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -3,
+    "Description": "Аллергия на животных",
+    "Id": {
+      "Id": 75
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -2,
+    "Description": "Астма",
+    "Id": {
+      "Id": 76
+    }
+  },
+  {
+    "HealthType": 1,
+    "Value": -1,
+    "Description": "Заикание",
+    "Id": {
+      "Id": 84
+    }
+  },
+  {
+    "HealthType": 0,
+    "Value": -5,
+    "Description": "Гемофилия",
+    "Id": {
+      "Id": 85
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -3,
+    "Description": "Гастрит",
+    "Id": {
+      "Id": 86
+    }
+  },
+  {
+    "HealthType": 0,
+    "Value": -5,
+    "Description": "Анальный разрыв",
+    "Id": {
+      "Id": 33
+    }
+  },
+  {
+    "HealthType": 0,
+    "Value": -5,
+    "Description": "Инсульт (нарушение кровообращения в мозгу)",
+    "Id": {
+      "Id": 44
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -3,
+    "Description": "Сколиоз",
+    "Id": {
+      "Id": 20
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -0.7,
+    "Description": "Плоскостопие",
+    "Id": {
+      "Id": 50
+    }
+  },
+  {
+    "HealthType": 2,
+    "Value": -4,
+    "Description": "Ветрянка",
+    "Id": {
+      "Id": 81
+    }
+  },
+  {
+    "HealthType": 0,
+    "Value": -5,
+    "Description": "Болезнь альцгеймера",
+    "Id": {
+      "Id": 78
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -1,
+    "Description": "Увечье лица",
+    "Id": {
+      "Id": 46
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -1.4,
+    "Description": "Гайморит",
+    "Id": {
+      "Id": 80
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -3,
+    "Description": "Анальное кровотечение",
+    "Id": {
+      "Id": 36
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -3,
+    "Description": "Диарея",
+    "Id": {
+      "Id": 82
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -1,
+    "Description": "Цистит (воспаление мочевого пузыря)",
+    "Id": {
+      "Id": 63
+    }
+  },
+  {
+    "HealthType": 2,
+    "Value": -5,
+    "Description": "СПИД",
+    "Id": {
+      "Id": 30
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -5,
+    "Description": "Анальный свищ",
+    "Id": {
+      "Id": 32
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -3,
+    "Description": "Авитаминоз",
+    "Id": {
+      "Id": 73
+    }
+  },
+  {
+    "HealthType": 2,
+    "Value": -3,
+    "Description": "Птичий грипп",
+    "Id": {
+      "Id": 66
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -1,
+    "Description": "Псориаз",
+    "Id": {
+      "Id": 53
+    }
+  },
+  {
+    "HealthType": 0,
+    "Value": -5,
+    "Description": "Рак крови",
+    "Id": {
+      "Id": 54
+    }
+  },
+  {
+    "HealthType": 2,
+    "Value": -3.5,
+    "Description": "Пневмония",
+    "Id": {
+      "Id": 51
+    }
+  },
+  {
+    "HealthType": 2,
+    "Value": -4,
+    "Description": "Желтуха",
+    "Id": {
+      "Id": 79
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -4,
+    "Description": "Грыжа",
+    "Id": {
+      "Id": 21
+    }
+  },
+  {
+    "HealthType": 1,
+    "Value": -3,
+    "Description": "Синдром Агасфера",
+    "Id": {
+      "Id": 59
+    }
+  },
+  {
+    "HealthType": 1,
+    "Value": -2.5,
+    "Description": "Бессонница",
+    "Id": {
+      "Id": 77
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -2,
+    "Description": "Отит (воспаление уха)",
+    "Id": {
+      "Id": 24
+    }
+  },
+  {
+    "HealthType": 1,
+    "Value": -3.5,
+    "Description": "Биполярное расстройство",
+    "Id": {
+      "Id": 43
+    }
+  },
+  {
+    "HealthType": 4,
+    "Value": 3,
+    "Description": "Полностью здоров",
+    "Id": {
+      "Id": 87
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -3,
+    "Description": "Медвежья болезнь (Непроизвольное выделение мочи)",
+    "Id": {
+      "Id": 45
+    }
+  },
+  {
+    "HealthType": 0,
+    "Value": -5,
+    "Description": "ДЦП",
+    "Id": {
+      "Id": 26
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -4,
+    "Description": "Межпозвоночная грыжа",
+    "Id": {
+      "Id": 68
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -0.5,
+    "Description": "Мочекаменная болезнь",
+    "Id": {
+      "Id": 64
+    }
+  },
+  {
+    "HealthType": 2,
+    "Value": -4,
+    "Description": "Туберкулёз",
+    "Id": {
+      "Id": 28
+    }
+  },
+  {
+    "HealthType": 1,
+    "Value": -2,
+    "Description": "Паранойя (лёгкая)",
+    "Id": {
+      "Id": 19
+    }
+  },
+  {
+    "HealthType": 2,
+    "Value": -1.2,
+    "Description": "Простуда",
+    "Id": {
+      "Id": 52
+    }
+  },
+  {
+    "HealthType": 3,
+    "Value": -3,
+    "Description": "Сахарный диабет второго типа",
+    "Id": {
+      "Id": 55
+    }
+  },
+  {
+    "HealthType": 0,
+    "Value": -5,
+    "Description": "Поражение сердечной мышцы",
+    "Id": {
+      "Id": 22
+    }
+  }
+]

@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BunkerGame.Domain.Characters.CharacterComponents
+﻿namespace BunkerGame.Domain.Characters.CharacterComponents
 {
-    public class Size : CharacterComponent
+    public class Size : Value<Size>
     {
         public Size()
         {
@@ -23,7 +17,7 @@ namespace BunkerGame.Domain.Characters.CharacterComponents
         public double Height
         {
             get => height;
-            set
+            private set
             {
                 height = value;
                 if (height > 210)
@@ -35,7 +29,7 @@ namespace BunkerGame.Domain.Characters.CharacterComponents
         public double Weight
         {
             get => weight;
-            set
+            private set
             {
                 weight = value;
                 if (weight > 230)

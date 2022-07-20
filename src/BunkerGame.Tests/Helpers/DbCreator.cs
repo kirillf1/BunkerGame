@@ -1,4 +1,4 @@
-﻿using BunkerGame.Infrastructure.Database;
+﻿using BunkerGame.VkApi.Infrastructure.Database.GameDbContext;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.Extensions.DependencyInjection;
@@ -13,7 +13,7 @@ namespace BunkerGame.Tests.Helpers
     public static class DbCreator
     {
 
-        public static BunkerGameDbContext CreateLocalContext()
+        public static BunkerGameDbContext CreateGameLocalContext()
         {
             var random = new Random();
             string databaseName = "database_" + random.Next(0, 100000);
@@ -22,7 +22,7 @@ namespace BunkerGame.Tests.Helpers
             context.Database.EnsureCreated();
             return context;
         }
-        public static BunkerGameDbContext CreateInMemoryContext()
+        public static BunkerGameDbContext CreateGameInMemoryContext()
         {
             var name = $"{DateTime.Now.Millisecond}";
             var context = new BunkerGameDbContext(new DbContextOptionsBuilder<BunkerGameDbContext>().UseInMemoryDatabase(name, new InMemoryDatabaseRoot()).Options);

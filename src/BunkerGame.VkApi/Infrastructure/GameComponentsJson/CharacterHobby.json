@@ -1,0 +1,1394 @@
+﻿[
+  {
+    "HobbyType": 1,
+    "Value": 1,
+    "Description": "Фотография и фотокниги",
+    "Id": {
+      "Id": 1
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 1,
+    "Description": "Мода",
+    "Id": {
+      "Id": 2
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2,
+    "Description": "Гадание на картах",
+    "Id": {
+      "Id": 4
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 1,
+    "Description": "Наблюдение за птицами",
+    "Id": {
+      "Id": 5
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 3.5,
+    "Description": "Стрельба из лука",
+    "Id": {
+      "Id": 72
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": -1.5,
+    "Description": "Нудизм",
+    "Id": {
+      "Id": 171
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": -3,
+    "Description": "Собачий кайф",
+    "Id": {
+      "Id": 172
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": -2,
+    "Description": "Прыжки через детей",
+    "Id": {
+      "Id": 173
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": -2,
+    "Description": "Имитация смерти",
+    "Id": {
+      "Id": 174
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": -2,
+    "Description": "Трейнсерфинг (проезд снаружи поездов) ",
+    "Id": {
+      "Id": 176
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": -2,
+    "Description": "Коллекционирование черепов людей",
+    "Id": {
+      "Id": 168
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2,
+    "Description": "Настольные игры",
+    "Id": {
+      "Id": 108
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": -1,
+    "Description": "Собирание пупочного пуха",
+    "Id": {
+      "Id": 175
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": -3,
+    "Description": "Сатанизм",
+    "Id": {
+      "Id": 169
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": -2.5,
+    "Description": "Мазахизм",
+    "Id": {
+      "Id": 170
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 1.7,
+    "Description": "Ребусы",
+    "Id": {
+      "Id": 3
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 2,
+    "Description": "Футбол",
+    "Id": {
+      "Id": 9
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2,
+    "Description": "Стекло (изготовление украшений и предметов интерьера)",
+    "Id": {
+      "Id": 17
+    }
+  },
+  {
+    "HobbyType": 8,
+    "Value": 4,
+    "Description": "Садоводство",
+    "Id": {
+      "Id": 32
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 3,
+    "Description": "Музыка",
+    "Id": {
+      "Id": 31
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2,
+    "Description": "Чтение книг",
+    "Id": {
+      "Id": 6
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 1,
+    "Description": "Татуировки и пирсинг",
+    "Id": {
+      "Id": 11
+    }
+  },
+  {
+    "HobbyType": 7,
+    "Value": 3,
+    "Description": "Стрельба",
+    "Id": {
+      "Id": 16
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 1,
+    "Description": "Спорт-фанат",
+    "Id": {
+      "Id": 18
+    }
+  },
+  {
+    "HobbyType": 12,
+    "Value": 3,
+    "Description": "Собирание грибов и ягод",
+    "Id": {
+      "Id": 19
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 4,
+    "Description": "Каратэ",
+    "Id": {
+      "Id": 20
+    }
+  },
+  {
+    "HobbyType": 5,
+    "Value": 3.9,
+    "Description": "Оброботка металла",
+    "Id": {
+      "Id": 26
+    }
+  },
+  {
+    "HobbyType": 6,
+    "Value": 2,
+    "Description": "Изучение психологии",
+    "Id": {
+      "Id": 27
+    }
+  },
+  {
+    "HobbyType": 3,
+    "Value": 3,
+    "Description": "Занимается изучением медицины",
+    "Id": {
+      "Id": 29
+    }
+  },
+  {
+    "HobbyType": 7,
+    "Value": 4,
+    "Description": "Стрелять из оружия",
+    "Id": {
+      "Id": 71
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 4,
+    "Description": "Теквандо",
+    "Id": {
+      "Id": 22
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2,
+    "Description": "Фейерверки",
+    "Id": {
+      "Id": 21
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 4,
+    "Description": "Бодибилдинг",
+    "Id": {
+      "Id": 24
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 1.5,
+    "Description": "Изготовлять куклы",
+    "Id": {
+      "Id": 97
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2,
+    "Description": "Театр (театральный кружок)",
+    "Id": {
+      "Id": 14
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 1,
+    "Description": "Битбокс",
+    "Id": {
+      "Id": 25
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2,
+    "Description": "Фокусы",
+    "Id": {
+      "Id": 10
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 1,
+    "Description": "Файер-шоу",
+    "Id": {
+      "Id": 12
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 3,
+    "Description": "Шитье и вышивание",
+    "Id": {
+      "Id": 8
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2,
+    "Description": "Танцы и балет",
+    "Id": {
+      "Id": 15
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 2,
+    "Description": "Теннис",
+    "Id": {
+      "Id": 13
+    }
+  },
+  {
+    "HobbyType": 8,
+    "Value": 3,
+    "Description": "Флористика",
+    "Id": {
+      "Id": 7
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 2,
+    "Description": "Сноуборд",
+    "Id": {
+      "Id": 23
+    }
+  },
+  {
+    "HobbyType": 8,
+    "Value": 2,
+    "Description": "Изучение почвоведения",
+    "Id": {
+      "Id": 28
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 4,
+    "Description": "Кунг-Фу",
+    "Id": {
+      "Id": 30
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": -2,
+    "Description": "Бить женщин",
+    "Id": {
+      "Id": 81
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 3,
+    "Description": "Скалолазание",
+    "Id": {
+      "Id": 40
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 1.5,
+    "Description": "Моделирование",
+    "Id": {
+      "Id": 104
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 2,
+    "Description": "Арктические экспедиции",
+    "Id": {
+      "Id": 42
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 1.5,
+    "Description": "Карточное шулерство",
+    "Id": {
+      "Id": 43
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 3,
+    "Description": "Силовые тренировки",
+    "Id": {
+      "Id": 45
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 1.7,
+    "Description": "Астрономия",
+    "Id": {
+      "Id": 53
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": -2.5,
+    "Description": "Плевать другим людям в рот",
+    "Id": {
+      "Id": 47
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 1.7,
+    "Description": "Открытки (изготовление своими руками/обмен (посткроссинг))",
+    "Id": {
+      "Id": 111
+    }
+  },
+  {
+    "HobbyType": 10,
+    "Value": 3.6,
+    "Description": "Математика",
+    "Id": {
+      "Id": 77
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": -1,
+    "Description": "Диггерство",
+    "Id": {
+      "Id": 103
+    }
+  },
+  {
+    "HobbyType": 12,
+    "Value": 2,
+    "Description": "Пчеловодство",
+    "Id": {
+      "Id": 127
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 1,
+    "Description": "Батут",
+    "Id": {
+      "Id": 54
+    }
+  },
+  {
+    "HobbyType": 2,
+    "Value": 2.8,
+    "Description": "Автомобили",
+    "Id": {
+      "Id": 52
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2,
+    "Description": "Вязание",
+    "Id": {
+      "Id": 64
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 2.8,
+    "Description": "Дайвинг",
+    "Id": {
+      "Id": 57
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 2,
+    "Description": "Горные лыжи",
+    "Id": {
+      "Id": 59
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2,
+    "Description": "Головоломки",
+    "Id": {
+      "Id": 61
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 2,
+    "Description": "Волейбол",
+    "Id": {
+      "Id": 88
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 1.5,
+    "Description": "Видеомонтаж",
+    "Id": {
+      "Id": 65
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 2,
+    "Description": "Парусный спорт",
+    "Id": {
+      "Id": 39
+    }
+  },
+  {
+    "HobbyType": 4,
+    "Value": 2.5,
+    "Description": "Сыроварение",
+    "Id": {
+      "Id": 37
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 1,
+    "Description": "Коллекционирует монеты",
+    "Id": {
+      "Id": 93
+    }
+  },
+  {
+    "HobbyType": 4,
+    "Value": 4,
+    "Description": "Готовка",
+    "Id": {
+      "Id": 91
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 3.6,
+    "Description": "Картография",
+    "Id": {
+      "Id": 74
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2,
+    "Description": "Дерево (выжигание и резьба)",
+    "Id": {
+      "Id": 107
+    }
+  },
+  {
+    "HobbyType": 10,
+    "Value": 3.6,
+    "Description": "Программирование",
+    "Id": {
+      "Id": 78
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 3,
+    "Description": "Писательство",
+    "Id": {
+      "Id": 79
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2,
+    "Description": "Рисование",
+    "Id": {
+      "Id": 80
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2,
+    "Description": "Гольф",
+    "Id": {
+      "Id": 60
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 3,
+    "Description": "Боевые искусства",
+    "Id": {
+      "Id": 67
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 3.6,
+    "Description": "Бег",
+    "Id": {
+      "Id": 86
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 2,
+    "Description": "Верховая езда",
+    "Id": {
+      "Id": 87
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2,
+    "Description": "Плетение корзин из любых веток",
+    "Id": {
+      "Id": 96
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 1.8,
+    "Description": "Граффити",
+    "Id": {
+      "Id": 58
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2,
+    "Description": "Дартс",
+    "Id": {
+      "Id": 84
+    }
+  },
+  {
+    "HobbyType": 10,
+    "Value": 1.4,
+    "Description": "Разрабатывание сайтов",
+    "Id": {
+      "Id": 63
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 2.5,
+    "Description": "Скейтборд",
+    "Id": {
+      "Id": 83
+    }
+  },
+  {
+    "HobbyType": 12,
+    "Value": 3.5,
+    "Description": "Сбор грибов",
+    "Id": {
+      "Id": 33
+    }
+  },
+  {
+    "HobbyType": 8,
+    "Value": 3.6,
+    "Description": "Биология",
+    "Id": {
+      "Id": 73
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2,
+    "Description": "Музыка (написание ремиксы)",
+    "Id": {
+      "Id": 106
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 3,
+    "Description": "Альпинизм",
+    "Id": {
+      "Id": 90
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 2,
+    "Description": "Серфинг",
+    "Id": {
+      "Id": 110
+    }
+  },
+  {
+    "HobbyType": 7,
+    "Value": 4,
+    "Description": "Охота",
+    "Id": {
+      "Id": 112
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2,
+    "Description": "Пазлы",
+    "Id": {
+      "Id": 113
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 2,
+    "Description": "Парашютный спорт",
+    "Id": {
+      "Id": 114
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 1,
+    "Description": "Декупаж",
+    "Id": {
+      "Id": 101
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 1,
+    "Description": "Косметология",
+    "Id": {
+      "Id": 34
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2.5,
+    "Description": "Пение и караоке",
+    "Id": {
+      "Id": 117
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 2,
+    "Description": "Пилатес",
+    "Id": {
+      "Id": 120
+    }
+  },
+  {
+    "HobbyType": 10,
+    "Value": 3.6,
+    "Description": "Робототехника",
+    "Id": {
+      "Id": 124
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2,
+    "Description": "Оригами",
+    "Id": {
+      "Id": 109
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 1.5,
+    "Description": "Космология",
+    "Id": {
+      "Id": 35
+    }
+  },
+  {
+    "HobbyType": 11,
+    "Value": 3,
+    "Description": "Увлекается иностранными языками",
+    "Id": {
+      "Id": 70
+    }
+  },
+  {
+    "HobbyType": 4,
+    "Value": 2,
+    "Description": "Домохозяйство",
+    "Id": {
+      "Id": 36
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 2.6,
+    "Description": "Предпринимательство",
+    "Id": {
+      "Id": 129
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 3,
+    "Description": "Писательская деятельность и журналистика",
+    "Id": {
+      "Id": 133
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2,
+    "Description": "Каллиграфия",
+    "Id": {
+      "Id": 152
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2,
+    "Description": "Кроссворды (составление и разгадывание)",
+    "Id": {
+      "Id": 156
+    }
+  },
+  {
+    "HobbyType": 11,
+    "Value": 3,
+    "Description": "Иностранные языки",
+    "Id": {
+      "Id": 148
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 1,
+    "Description": "Карвинг",
+    "Id": {
+      "Id": 166
+    }
+  },
+  {
+    "HobbyType": 10,
+    "Value": 1.9,
+    "Description": "Компьютерная графика",
+    "Id": {
+      "Id": 167
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 2.5,
+    "Description": "Клоунада",
+    "Id": {
+      "Id": 157
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 2,
+    "Description": "Кайтинг",
+    "Id": {
+      "Id": 155
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 1,
+    "Description": "Блоггерство",
+    "Id": {
+      "Id": 56
+    }
+  },
+  {
+    "HobbyType": 7,
+    "Value": 3,
+    "Description": "Страйкбол",
+    "Id": {
+      "Id": 44
+    }
+  },
+  {
+    "HobbyType": 9,
+    "Value": 2,
+    "Description": "Разводить животных",
+    "Id": {
+      "Id": 48
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 3,
+    "Description": "Спорт",
+    "Id": {
+      "Id": 50
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 0,
+    "Description": "Дрочка",
+    "Id": {
+      "Id": 51
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 2,
+    "Description": "Велосипед",
+    "Id": {
+      "Id": 66
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 1,
+    "Description": "Бодиарт",
+    "Id": {
+      "Id": 68
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 1.4,
+    "Description": "Интересуется светскими новостями",
+    "Id": {
+      "Id": 75
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 3,
+    "Description": "Танцы",
+    "Id": {
+      "Id": 76
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 1,
+    "Description": "Делать мозайки",
+    "Id": {
+      "Id": 92
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 1,
+    "Description": "Музеи и выставки",
+    "Id": {
+      "Id": 105
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2,
+    "Description": "Переписка по обычной почте",
+    "Id": {
+      "Id": 118
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2,
+    "Description": "Пикап",
+    "Id": {
+      "Id": 119
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 2,
+    "Description": "Массаж",
+    "Id": {
+      "Id": 126
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 3,
+    "Description": "Плавание",
+    "Id": {
+      "Id": 132
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 2,
+    "Description": "Путешествия",
+    "Id": {
+      "Id": 134
+    }
+  },
+  {
+    "HobbyType": 4,
+    "Value": 3,
+    "Description": "Мыловарение",
+    "Id": {
+      "Id": 135
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2.4,
+    "Description": "Коллекционирует сушеных насекомых",
+    "Id": {
+      "Id": 102
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 3,
+    "Description": "Йога",
+    "Id": {
+      "Id": 149
+    }
+  },
+  {
+    "HobbyType": 13,
+    "Value": 0,
+    "Description": "Мастурбация двойным хватом",
+    "Id": {
+      "Id": 141
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 1,
+    "Description": "Гербарий",
+    "Id": {
+      "Id": 62
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2,
+    "Description": "Дизайн одежды",
+    "Id": {
+      "Id": 138
+    }
+  },
+  {
+    "HobbyType": 9,
+    "Value": 3,
+    "Description": "Животноводство",
+    "Id": {
+      "Id": 95
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2,
+    "Description": "Лепит горшки и посуду из глины",
+    "Id": {
+      "Id": 46
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 1.2,
+    "Description": "Делать украшения из бисера",
+    "Id": {
+      "Id": 85
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 1.5,
+    "Description": "Коллекционирование",
+    "Id": {
+      "Id": 161
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 3,
+    "Description": "Паркур",
+    "Id": {
+      "Id": 115
+    }
+  },
+  {
+    "HobbyType": 4,
+    "Value": 5,
+    "Description": "Кулинария",
+    "Id": {
+      "Id": 154
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 1,
+    "Description": "Бильярд",
+    "Id": {
+      "Id": 55
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2.5,
+    "Description": "Получение научных званий и степеней",
+    "Id": {
+      "Id": 130
+    }
+  },
+  {
+    "HobbyType": 8,
+    "Value": 3,
+    "Description": "Выращивание растений и цветов",
+    "Id": {
+      "Id": 69
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2,
+    "Description": "Лепка",
+    "Id": {
+      "Id": 136
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 1.5,
+    "Description": "Игры на компьютерах и приставках",
+    "Id": {
+      "Id": 144
+    }
+  },
+  {
+    "HobbyType": 8,
+    "Value": 3,
+    "Description": "Выращивание растений",
+    "Id": {
+      "Id": 94
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 1.5,
+    "Description": "Косплей",
+    "Id": {
+      "Id": 158
+    }
+  },
+  {
+    "HobbyType": 6,
+    "Value": 2.5,
+    "Description": "Психология и тренинги",
+    "Id": {
+      "Id": 128
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2.5,
+    "Description": "Шутки шутить",
+    "Id": {
+      "Id": 98
+    }
+  },
+  {
+    "HobbyType": 5,
+    "Value": 3,
+    "Description": "Самодельные вещи: одежда обувь аксессуары",
+    "Id": {
+      "Id": 121
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 1.5,
+    "Description": "Коньки и ролики",
+    "Id": {
+      "Id": 160
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 1,
+    "Description": "Икебана",
+    "Id": {
+      "Id": 147
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2,
+    "Description": "Азартные игры",
+    "Id": {
+      "Id": 99
+    }
+  },
+  {
+    "HobbyType": 12,
+    "Value": 2,
+    "Description": "Рыбалка",
+    "Id": {
+      "Id": 122
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2.5,
+    "Description": "Квест-комнаты",
+    "Id": {
+      "Id": 164
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2,
+    "Description": "Исторические реконструкции",
+    "Id": {
+      "Id": 150
+    }
+  },
+  {
+    "HobbyType": 5,
+    "Value": 4,
+    "Description": "Изделия из металла и кузнечное дело",
+    "Id": {
+      "Id": 145
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 1.5,
+    "Description": "Лечебное голодание",
+    "Id": {
+      "Id": 82
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2.5,
+    "Description": "Плетение",
+    "Id": {
+      "Id": 131
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 3,
+    "Description": "Плаванье",
+    "Id": {
+      "Id": 49
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 1.5,
+    "Description": "Жонглирование",
+    "Id": {
+      "Id": 140
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 2,
+    "Description": "Лазертаг",
+    "Id": {
+      "Id": 153
+    }
+  },
+  {
+    "HobbyType": 2,
+    "Value": 3.5,
+    "Description": "Картинг и квадроциклы",
+    "Id": {
+      "Id": 165
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 1,
+    "Description": "Концерты (посещение)",
+    "Id": {
+      "Id": 159
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2,
+    "Description": "Пранки",
+    "Id": {
+      "Id": 41
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2,
+    "Description": "Дизайн интерьера",
+    "Id": {
+      "Id": 137
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 2.5,
+    "Description": "Клубный отдых",
+    "Id": {
+      "Id": 162
+    }
+  },
+  {
+    "HobbyType": 7,
+    "Value": 3,
+    "Description": "Пейнтбол",
+    "Id": {
+      "Id": 116
+    }
+  },
+  {
+    "HobbyType": 5,
+    "Value": 3,
+    "Description": "Рукоделия из кожи (одежда аксессуары)",
+    "Id": {
+      "Id": 123
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 3,
+    "Description": "Игра на музыкальных инструментах",
+    "Id": {
+      "Id": 142
+    }
+  },
+  {
+    "HobbyType": 10,
+    "Value": 3,
+    "Description": "Изучение новых компьютерных программ",
+    "Id": {
+      "Id": 151
+    }
+  },
+  {
+    "HobbyType": 11,
+    "Value": 2,
+    "Description": "Радиовещание",
+    "Id": {
+      "Id": 125
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 2,
+    "Description": "Баскетбол",
+    "Id": {
+      "Id": 89
+    }
+  },
+  {
+    "HobbyType": 0,
+    "Value": 1,
+    "Description": "Игрушки и куклы",
+    "Id": {
+      "Id": 143
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 1.7,
+    "Description": "Викторины",
+    "Id": {
+      "Id": 38
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 1.3,
+    "Description": "Занимается ювелирством",
+    "Id": {
+      "Id": 100
+    }
+  },
+  {
+    "HobbyType": 1,
+    "Value": 3,
+    "Description": "Кладоискательство и археология",
+    "Id": {
+      "Id": 163
+    }
+  }
+]

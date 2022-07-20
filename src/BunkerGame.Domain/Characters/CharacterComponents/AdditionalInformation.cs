@@ -1,46 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
+﻿using BunkerGame.GameTypes.CharacterTypes;
 
 namespace BunkerGame.Domain.Characters.CharacterComponents
 {
-    public class AdditionalInformation : CharacterEntity
+    public class AdditionalInformation : CharacterComponent<AdditionalInformation>
     {
-        
-        public AdditionalInformation(string description, bool isBalance, AddInfType addInfType = AddInfType.Useless) : base(description, isBalance)
-        {
-           AddInfType = addInfType;
-        }
-        public AddInfType AddInfType { get; set; }
-        public void UpdateAddInfType(AddInfType addInfType)
+        private AdditionalInformation() { }
+        public static AdditionalInformation DefaultAdditionalInformation = new AdditionalInformation("unknown", 0, AddInfType.Useless);
+        public AdditionalInformation(string description, double value, AddInfType addInfType) : base(description, value)
         {
             AddInfType = addInfType;
         }
-        // to 2
-        
+        public AddInfType AddInfType { get; set; }
+        public override string ToString()
+        {
+            return "Дополнительная информация: " + Description;
+        }
+    }
 
-        //public List<Character> Characters { get; set; }
-        //public override string ToString()
-        //{
-        //    return "Дополнительная информация: " + Description;
-        //}
-    }
-    public enum AddInfType
-    {
-        Surviving,
-        Entertainment,
-        Driving,
-        Healing,
-        Cooking,
-        Repairing,
-        HealingPhobia,
-        Shooting,
-        Planting,
-        AnimalBreeding,
-        Programming,
-        Communication,
-        Useless
-    }
 }

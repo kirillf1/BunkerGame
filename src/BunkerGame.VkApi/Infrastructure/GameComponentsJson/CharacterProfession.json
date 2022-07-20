@@ -1,0 +1,1674 @@
+﻿[
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 7,
+    "Description": "Снайпер",
+    "Id": {
+      "Id": 70
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 1,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": "Преподаватель мед. училища",
+    "Id": {
+      "Id": 72
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 2,
+    "Description": " Уборщик говна ",
+    "Id": {
+      "Id": 47
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 5,
+    "Description": " Художник",
+    "Id": {
+      "Id": 96
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 5,
+    "Description": " Режиссёр",
+    "Id": {
+      "Id": 98
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 3,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": " Инженер",
+    "Id": {
+      "Id": 103
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 5,
+    "Description": "Фитнес-тренер",
+    "Id": {
+      "Id": 107
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": "Исполнитель музыки в жанре шансон",
+    "Id": {
+      "Id": 114
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 5,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 8,
+    "Description": "Полковник запаса",
+    "Id": {
+      "Id": 121
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 8,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 3,
+    "Description": " Бомж",
+    "Id": {
+      "Id": 124
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 8,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 5,
+    "Description": " Браконьер",
+    "Id": {
+      "Id": 127
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 5,
+    "Description": " Шахтер ",
+    "Id": {
+      "Id": 129
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 4,
+    "Description": "Блогер",
+    "Id": {
+      "Id": 131
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 4,
+    "Description": " Грузчик",
+    "Id": {
+      "Id": 135
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 5,
+    "Description": " Порноактрер ",
+    "Id": {
+      "Id": 137
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 4,
+    "Description": " Гробовщик",
+    "Id": {
+      "Id": 138
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 4,
+    "Description": " Игрок казино",
+    "Id": {
+      "Id": 139
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 11,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 9.9,
+    "Description": " Президент",
+    "Id": {
+      "Id": 143
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 11,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 8,
+    "Description": " Дипломат",
+    "Id": {
+      "Id": 144
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 7,
+    "Description": " Учитель",
+    "Id": {
+      "Id": 145
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 4,
+    "Description": " Стриптизёр",
+    "Id": {
+      "Id": 146
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": "Тюремный надзиратель",
+    "Id": {
+      "Id": 67
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 7,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 3,
+    "Description": "Дрессировщик свиней",
+    "Id": {
+      "Id": 111
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 2,
+    "Description": "Главный по открыванию двери",
+    "Id": {
+      "Id": 150
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 4,
+    "Description": "Актер-аниматор Шрека",
+    "Id": {
+      "Id": 76
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 5,
+    "Description": " Бармен",
+    "Id": {
+      "Id": 136
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 4,
+    "Description": "Гейша",
+    "Id": {
+      "Id": 81
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 4,
+    "Description": "Диджей",
+    "Id": {
+      "Id": 90
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 1,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": "Химик",
+    "Id": {
+      "Id": 1
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 1,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": " Акушер",
+    "Id": {
+      "Id": 142
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": "Куртизанка",
+    "Id": {
+      "Id": 109
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 3,
+    "Description": "Модель",
+    "Id": {
+      "Id": 92
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 1,
+    "Description": "Переворачиватель пингвинов",
+    "Id": {
+      "Id": 152
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 6,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 7,
+    "Description": "Ботаник",
+    "Id": {
+      "Id": 2
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 0,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 7,
+    "Description": "Военный лётчик",
+    "Id": {
+      "Id": 141
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 2,
+    "Description": " Кассир",
+    "Id": {
+      "Id": 95
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 7,
+    "Description": "Аналитик военный",
+    "Id": {
+      "Id": 130
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": " Писатель",
+    "Id": {
+      "Id": 99
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": "Педагог",
+    "Id": {
+      "Id": 65
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 7,
+    "Description": "Сомалийский пират",
+    "Id": {
+      "Id": 77
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 1,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 7,
+    "Description": "Терапевт",
+    "Id": {
+      "Id": 132
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 3,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 5,
+    "Description": "Автоэлектрик",
+    "Id": {
+      "Id": 5
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 2,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 4,
+    "Description": "Технолог пищевой промышленности",
+    "Id": {
+      "Id": 6
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 4,
+    "Description": "Фотомодель",
+    "Id": {
+      "Id": 73
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": " Священник ",
+    "Id": {
+      "Id": 140
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 7,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": "Зоолог",
+    "Id": {
+      "Id": 3
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 5,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 8,
+    "Description": "Командир полка",
+    "Id": {
+      "Id": 69
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 5,
+    "Description": "Предприниматель",
+    "Id": {
+      "Id": 97
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 1,
+    "Description": "Экстрасенс для животных",
+    "Id": {
+      "Id": 149
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 5.5,
+    "Description": "Журналист",
+    "Id": {
+      "Id": 91
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 2,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 5,
+    "Description": "Кондитер",
+    "Id": {
+      "Id": 66
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 1,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 7,
+    "Description": "Врач-венеролог",
+    "Id": {
+      "Id": 110
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 3,
+    "Description": "Визажист",
+    "Id": {
+      "Id": 89
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 5,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 10,
+    "Description": " Агент ФБР",
+    "Id": {
+      "Id": 104
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 11,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 5,
+    "Description": " Переводчик",
+    "Id": {
+      "Id": 133
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": "Аниматор",
+    "Id": {
+      "Id": 128
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 5,
+    "Description": "Сапожник",
+    "Id": {
+      "Id": 119
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 4,
+    "Description": "Банкир",
+    "Id": {
+      "Id": 102
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 1,
+    "Description": "Стояльщик в очереди",
+    "Id": {
+      "Id": 151
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 3,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 5,
+    "Description": " Охранник",
+    "Id": {
+      "Id": 105
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 6.5,
+    "Description": "Каскадёр",
+    "Id": {
+      "Id": 64
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 4,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 8,
+    "Description": " Психолог",
+    "Id": {
+      "Id": 100
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 5,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 7,
+    "Description": "Военный",
+    "Id": {
+      "Id": 122
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 11,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": " Адвокат",
+    "Id": {
+      "Id": 123
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 3,
+    "Description": "Татуировщик",
+    "Id": {
+      "Id": 93
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 11,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": "Депутат  ",
+    "Id": {
+      "Id": 106
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 4,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": " Гендерный учёный",
+    "Id": {
+      "Id": 118
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 3,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": " Строитель",
+    "Id": {
+      "Id": 125
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 10,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 7,
+    "Description": "Робототехник",
+    "Id": {
+      "Id": 4
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": "Менеджер",
+    "Id": {
+      "Id": 8
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": " Парикмахер",
+    "Id": {
+      "Id": 44
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 5,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 9,
+    "Description": " Полицейский",
+    "Id": {
+      "Id": 18
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 3,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": " Сварщик",
+    "Id": {
+      "Id": 30
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 8,
+    "Description": "Самбист",
+    "Id": {
+      "Id": 23
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 1,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 7,
+    "Description": " Нейрохирург",
+    "Id": {
+      "Id": 28
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 7,
+    "Description": "Историк",
+    "Id": {
+      "Id": 34
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 5,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 7,
+    "Description": "Конструктор вооружения",
+    "Id": {
+      "Id": 36
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 10,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 4,
+    "Description": " Программист",
+    "Id": {
+      "Id": 25
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 3,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": "Сантехник",
+    "Id": {
+      "Id": 42
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": "Продавец",
+    "Id": {
+      "Id": 48
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 11,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 5,
+    "Description": "Лингвист",
+    "Id": {
+      "Id": 33
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 5,
+    "Description": "Прораб",
+    "Id": {
+      "Id": 46
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": "Инкассатор",
+    "Id": {
+      "Id": 49
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 4,
+    "Description": "Метеоролог",
+    "Id": {
+      "Id": 32
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 4,
+    "Description": "Аквалангист",
+    "Id": {
+      "Id": 45
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 1,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 10,
+    "Description": " Военный врач",
+    "Id": {
+      "Id": 31
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 10,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 4,
+    "Description": " Хакер",
+    "Id": {
+      "Id": 20
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 2,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 10,
+    "Description": " Повар",
+    "Id": {
+      "Id": 24
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 2,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 10,
+    "Description": "Пекарь",
+    "Id": {
+      "Id": 9
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 8,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 7,
+    "Description": "Охотник на обезьян",
+    "Id": {
+      "Id": 37
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 5,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 10,
+    "Description": "Боец секретного армейского спецназа",
+    "Id": {
+      "Id": 21
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 1,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": "Анестезиолог ",
+    "Id": {
+      "Id": 51
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 3,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": "Монтажник",
+    "Id": {
+      "Id": 40
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 3,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 5,
+    "Description": "Машинист",
+    "Id": {
+      "Id": 38
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 3,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": " Физик",
+    "Id": {
+      "Id": 19
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 10,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 4,
+    "Description": "Специалист по кибернетике",
+    "Id": {
+      "Id": 22
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 3,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": " Электрик",
+    "Id": {
+      "Id": 15
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 9,
+    "Description": " Матрос",
+    "Id": {
+      "Id": 17
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 9,
+    "Description": "Поэт",
+    "Id": {
+      "Id": 14
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 3,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 8,
+    "Description": " Плотник",
+    "Id": {
+      "Id": 29
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 5,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 9,
+    "Description": " Спецназовец",
+    "Id": {
+      "Id": 27
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 10,
+    "Description": " Космонавт",
+    "Id": {
+      "Id": 26
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 1,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 7,
+    "Description": "Врач скорой помощи",
+    "Id": {
+      "Id": 7
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 11,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 5,
+    "Description": "Нацистский пропагандист",
+    "Id": {
+      "Id": 39
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 0,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 10,
+    "Description": "Лётчик",
+    "Id": {
+      "Id": 13
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 7,
+    "Description": " Логист",
+    "Id": {
+      "Id": 16
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 5,
+    "Description": "Экономист ",
+    "Id": {
+      "Id": 50
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 4,
+    "Description": "Знаток анимэ",
+    "Id": {
+      "Id": 43
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 3,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": "Радиомеханик",
+    "Id": {
+      "Id": 41
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": "Географ",
+    "Id": {
+      "Id": 35
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 6,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 4,
+    "Description": "Агроном",
+    "Id": {
+      "Id": 10
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 8,
+    "Description": "Военнослужащий",
+    "Id": {
+      "Id": 11
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 9,
+    "Description": "Пожарный",
+    "Id": {
+      "Id": 12
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 3,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": "Архитектор",
+    "Id": {
+      "Id": 126
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 1,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": "Гастроэнтеролог ",
+    "Id": {
+      "Id": 53
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 3,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": "Токарь",
+    "Id": {
+      "Id": 82
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 7,
+    "Description": "Водолаз",
+    "Id": {
+      "Id": 68
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 2,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 4,
+    "Description": "Официант",
+    "Id": {
+      "Id": 60
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 4,
+    "Description": "Проводник (ЖД)",
+    "Id": {
+      "Id": 86
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 6,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 5,
+    "Description": "Эколог",
+    "Id": {
+      "Id": 113
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 5,
+    "Description": "Фотограф",
+    "Id": {
+      "Id": 74
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 3,
+    "Description": "Кондуктор",
+    "Id": {
+      "Id": 85
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": "Экспедитор",
+    "Id": {
+      "Id": 87
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 4,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 7,
+    "Description": "Гипнотезер",
+    "Id": {
+      "Id": 78
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 10,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 4,
+    "Description": "Разработчик Warcraft",
+    "Id": {
+      "Id": 80
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 8,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": "Укротитель зверей",
+    "Id": {
+      "Id": 55
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 11,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": "Диспетчер",
+    "Id": {
+      "Id": 84
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 7,
+    "Description": "Няня",
+    "Id": {
+      "Id": 58
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 5,
+    "Description": "Звукооператор",
+    "Id": {
+      "Id": 134
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 4,
+    "Description": " Дегустатор",
+    "Id": {
+      "Id": 94
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 3,
+    "Description": "Дворник ",
+    "Id": {
+      "Id": 61
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 5,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 4,
+    "Description": " Продавец оружия ",
+    "Id": {
+      "Id": 101
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 2,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 5,
+    "Description": "Горничная",
+    "Id": {
+      "Id": 57
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 5,
+    "Description": "Швея",
+    "Id": {
+      "Id": 83
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 7,
+    "Description": "Воспитатель",
+    "Id": {
+      "Id": 63
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 5,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 4,
+    "Description": "Конструктор ворот и дверей",
+    "Id": {
+      "Id": 79
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 2,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": "Пивовар",
+    "Id": {
+      "Id": 116
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 3,
+    "Description": "Тестер презервативов",
+    "Id": {
+      "Id": 108
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 0,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": "Танкист",
+    "Id": {
+      "Id": 71
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 6,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": "Флорист",
+    "Id": {
+      "Id": 75
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 5.5,
+    "Description": "Стюардесса",
+    "Id": {
+      "Id": 88
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 4,
+    "Description": "Дезинсектор",
+    "Id": {
+      "Id": 112
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 2,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": " Винодел ",
+    "Id": {
+      "Id": 117
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 7,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 5,
+    "Description": "Кинолог",
+    "Id": {
+      "Id": 120
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 6,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 4,
+    "Description": "Садовник",
+    "Id": {
+      "Id": 62
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 1,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": "Вирусолог",
+    "Id": {
+      "Id": 52
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 1,
+    "ProfessionType": 1,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": "Хирург ",
+    "Id": {
+      "Id": 54
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 6,
+    "Description": "Библиотекарь",
+    "Id": {
+      "Id": 56
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 4,
+    "Description": "Оператор колл-центра",
+    "Id": {
+      "Id": 59
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 4,
+    "Description": "Вор",
+    "Id": {
+      "Id": 115
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 2,
+    "CharacterItem": null,
+    "Value": 7,
+    "Description": "Гид",
+    "Id": {
+      "Id": 148
+    }
+  },
+  {
+    "Card": null,
+    "ProfessionSkill": 12,
+    "ProfessionType": 0,
+    "CharacterItem": null,
+    "Value": 5,
+    "Description": " Владелец гей-клуба",
+    "Id": {
+      "Id": 147
+    }
+  }
+]

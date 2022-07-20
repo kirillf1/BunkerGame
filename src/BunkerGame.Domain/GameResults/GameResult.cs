@@ -1,33 +1,33 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace BunkerGame.Domain.GameResults
 {
-    public class GameResult
+    public class GameResult : AggregateRoot<GameSessionId>
     {
-        /// <summary>
-        /// Id must be like gameSessionId
-        /// </summary>
-        /// <param name="id"></param>
-        /// <param name="conversationName"></param>
-        public GameResult(long id, string conversationName)
+        public GameResult(GameSessionId id, string conversationName)
         {
             Id = id;
             ConversationName = conversationName;
+            WinGames = 0;
+            LostGames = 0;
+            AddEvent(new Events.GameResultCreated(this));
         }
-        public GameResult()
+        public string ConversationName { get; }
+        public int WinGames { get; private set; }
+        public int LostGames { get; private set; }
+        public long GetGamesCount()
         {
-            ConversationName = "Unknown";
+            return WinGames + LostGames;
         }
-        public long Id { get; set; }
-        public long GamesCount { get { return WinGames + LostGames; } }
-        [MaxLength(256)]
-        public string ConversationName { get; set; }
-        public long WinGames { get; set; }
-        public long LostGames { get; set; }
+        public void LoseGame()
+        {
+            LostGames++;
+            AddEvent(new Events.GameLost(Id, WinGames));
+        }
+        public void WinGame()
+        {
+            WinGames++;
+            AddEvent(new Events.GameWon(Id, WinGames));
+        }
     }
 }

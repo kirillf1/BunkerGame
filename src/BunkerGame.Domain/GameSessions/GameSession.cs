@@ -1,141 +1,157 @@
-﻿using BunkerGame.Domain.Bunkers;
-using BunkerGame.Domain.Catastrophes;
-using BunkerGame.Domain.Characters;
-using BunkerGame.Domain.GameSessions.ExternalSurroundings;
+﻿using BunkerGame.Domain.GameSessions.Bunkers;
 
 namespace BunkerGame.Domain.GameSessions
 {
-    public class GameSession
+    public class GameSession : AggregateRoot<GameSessionId>
     {
-        public const int MinCharactersInGame = 6;
-        public const int MaxCharactersInGame = 12; 
-#pragma warning disable CS8618
-        private GameSession()
-#pragma warning restore CS8618 
+        public const byte MaxCharactersInGame = 12;
+        public const byte MinCharactersInGame = 5;
+        private GameSession() { }
+        public GameSession(GameSessionId id, PlayerId creator) 
         {
-
-        }
-        public GameSession(string gameName, Bunker bunker, Catastrophe catastrophe, List<Character> characters)
-        {
-            if (characters.Count != 0 && (characters.Count > MaxCharactersInGame || characters.Count < MinCharactersInGame))
-            {
-                throw new ArgumentOutOfRangeException("Characters must be less than 13. Maybe need clear characters from " + nameof(GameSession));
-            }
-            Bunker = bunker;
-            Catastrophe = catastrophe;
-            GameState = GameState.Preparation;
-            Characters = characters;
-            GameName = gameName;
-            externalSurroundings = new List<ExternalSurrounding>();
-        }
-        public GameSession(long id, string gameName, Bunker bunker, Catastrophe catastrophe, List<Character> characters)
-        {
-            if(characters.Count != 0 && ( characters.Count > MaxCharactersInGame || characters.Count< MinCharactersInGame))
-            {
-                throw new ArgumentOutOfRangeException("Characters must be less than 13. Maybe need clear characters from " + nameof(GameSession));
-            }
-            Bunker = bunker;
-            RefreshFreePlaceSize(bunker.BunkerSize.Value);
-            Catastrophe = catastrophe;
-            GameState = GameState.Preparation;
-            Characters = characters;
             Id = id;
-            GameName = gameName;
-            externalSurroundings = new List<ExternalSurrounding>();
+            CreatorId = creator;
+            Catastrophe = Catastrophe.DefaultCatastrophe;
+            Bunker = Bunker.DefaultBunker;
+            Name = "unknown";
+            characters = new();
+            GameState = GameState.Preparation;
+            Difficulty = Difficulty.Easy;
+            FreePlaceSize = new FreeSeatsSize(3,0);
+            externalSurroundings = new();
+            CurrentMaxCharactersInGame = MinCharactersInGame;
+            AddEvent(new Events.GameCreated(Id, CreatorId));
         }
-        public byte FreePlaceSize { get; private set; }
-        public byte ChangedPlaceSize { get; private set; }
-        public string GameName { get; private set; }
-        public long Id { get; private set; }
+        public byte CurrentMaxCharactersInGame { get; private set; }
+        public string Name { get; private set; }
+        public IReadOnlyCollection<ExternalSurrounding> ExternalSurroundings => externalSurroundings;
+        private readonly List<ExternalSurrounding> externalSurroundings;
+        public IReadOnlyCollection<CharacterGame> Characters => characters;
+        private readonly List<CharacterGame> characters;
+        public PlayerId CreatorId { get; }
         public Catastrophe Catastrophe { get; private set; }
-        public List<Character> Characters { get; set; }
-        //public int CatastropheId { get; set; }
-        public GameState GameState { get; private set; }
         public Bunker Bunker { get; private set; }
-        public Difficulty Difficulty { get; private set; } = Difficulty.Easy;
-        public IReadOnlyCollection<ExternalSurrounding> ExternalSurroundings { get => externalSurroundings; }
-        private List<ExternalSurrounding> externalSurroundings;
+        public GameState GameState { get; private set; }
+        public Difficulty Difficulty { get; private set; }
+        public FreeSeatsSize FreePlaceSize { get; private set; }
+        private int NotKickedCharactersCount => characters.Count(c => !c.IsKicked);
 
-        public void UpdateDifficulty(Difficulty difficulty)
+        public void AddCharacter(CharacterGame character)
         {
-            Difficulty = difficulty;
-        }
-        public async Task<ResultGameReport> EndGame(IGameResultCounter resultCounter)
-        {
-            GameState = GameState.Ended;
-            return await resultCounter.CalculateResult();
-        }
-        public void ClearCharacters()
-        {
-            Characters.Clear();
-        }
-        
-        public void RemoveCharacterFromGame(Character character)
-        {
-            var characterForDelelete = Characters.FirstOrDefault(c => c.Id == character.Id);
-            if (characterForDelelete != null)
-                Characters.Remove(characterForDelelete);
+            if (GameState != GameState.Preparation)
+                return;
+            if (characters.Any(c => c.Id == character.Id))
+                return;
+            if (characters.Count > CurrentMaxCharactersInGame)
+                return;
+            var characterNumber = Characters.Count == 0 ? (byte)0 : Characters.Max(c => c.CharacterNumber);
+            character.SetCharacterNumber(++characterNumber);
+            characters.Add(character);
+            AddEvent(new Events.CharacterAdded(base.Id, character.Id));
         }
         public void AddFreePlace()
         {
-            FreePlaceSize++;
-            ChangedPlaceSize++;
+            if (GameState == GameState.Ended)
+                return;
+            UpdateFreePlaceSize(FreePlaceSize.Add());
         }
         public void RemoveFreePlace()
         {
-            if (FreePlaceSize > 1)
-                FreePlaceSize--;
-            ChangedPlaceSize--;
+            if (GameState == GameState.Ended)
+                return;
+            UpdateFreePlaceSize(FreePlaceSize.Subtract());
         }
-        public void RefreshFreePlaceSize(double bunkerSize)
+        private void UpdateFreePlaceSize(FreeSeatsSize freePlaceSize)
         {
-            FreePlaceSize = bunkerSize switch
-            {
-                double size when size > 400 => 4,
-                _ => 3
-            };
-            FreePlaceSize += ChangedPlaceSize;
+            FreePlaceSize = freePlaceSize;
+            AddEvent(new Events.FreeSeatsChanged(Id, FreePlaceSize.FreeSeats));
+            if (FreePlaceSize.FreeSeatsFilled(NotKickedCharactersCount))
+                AddEvent(new Events.SeatsFilled(Id));
         }
-        public void AddCharactersInGame(IEnumerable<Character> characters)
+        public void UpdateBunker(Bunker bunker)
         {
-            var totalCharactersCount = characters.Count() + Characters.Count;
-            if (totalCharactersCount > MaxCharactersInGame || totalCharactersCount < MinCharactersInGame)
-                throw new ArgumentOutOfRangeException("Characters must be less than 13 or more then 5. Maybe need clear characters from " + nameof(GameSession));
-            foreach (var character in characters)
-            {
-                Characters.Add(character);
-                character.RegisterCharacterInGame((byte)Characters.Count, Id);
-            }
+            if (GameState == GameState.Ended)
+                return;
+            Bunker = bunker;
+            AddEvent(new Events.BunkerUpdated(Id, bunker));
+            var newFreePlaceSize = new FreeSeatsSize(bunker.Size);
+            if (newFreePlaceSize != FreePlaceSize)
+                UpdateFreePlaceSize(FreePlaceSize);
         }
-
-        public void ChangeGameName(string name)
+        public void UpdateCatastrophe(Catastrophe catastrophe)
+        {
+            Catastrophe = catastrophe;
+            AddEvent(new Events.CatastropheChanged(Id, Catastrophe));
+        }
+        public void AddExternalSurrounding(ExternalSurrounding externalSurrounding)
+        {
+            externalSurroundings.Add(externalSurrounding);
+            AddEvent(new Events.ExternalSurroundigAdded(Id, externalSurrounding));
+        }
+        public void ChangeDifficulty(Difficulty difficulty)
+        {
+            Difficulty = difficulty;
+            AddEvent(new Events.DifficultyChanged(Id, Difficulty));
+        }
+        public void StartGame()
+        {
+            if (!CanStartGame())
+                return;
+            GameState = GameState.Started;
+            AddEvent(new Events.GameStarted(this));
+        }
+        public void KickCharacter(CharacterId characterId)
+        {
+            if (GameState != GameState.Started)
+                return;
+            var character = Characters.FirstOrDefault(c => c.Id == characterId);
+            if (character == null || character.IsKicked)
+                return;
+            character.Kick();
+            AddEvent(new Events.CharacterKicked(Id, characterId));
+            if (FreePlaceSize.FreeSeatsFilled(NotKickedCharactersCount))
+                AddEvent(new Events.SeatsFilled(Id));
+        }
+        public void EndGame()
+        {
+            if (GameState != GameState.Started)
+                return;
+            GameState = GameState.Ended;
+            AddEvent(new Events.GameEnded(Id));
+        }
+        private bool CanStartGame()
+        {
+            if (Characters.Count < MinCharactersInGame || Characters.Count > MaxCharactersInGame || GameState != GameState.Preparation)
+                return false;
+            return true;
+        }
+        public void ChangeName(string name)
         {
             if (string.IsNullOrEmpty(name))
             {
                 throw new ArgumentException($"\"{nameof(name)}\" не может быть неопределенным или пустым.", nameof(name));
             }
-
-            GameName = name;
+            Name = name;
+            AddEvent(new Events.NameChanged(Id, Name));
         }
-        public void UpdateBunker(Bunker bunker)
+        public void ChangeMaxCharactersInGame(byte count)
         {
-            Bunker = bunker ?? throw new ArgumentNullException();
-            Bunker.RegisterBunkerInGame(Id);
-            RefreshFreePlaceSize(bunker.BunkerSize.Value);
-
+            if (GameState != GameState.Preparation)
+                return;
+            if (count > MaxCharactersInGame || count < MinCharactersInGame)
+                throw new ArgumentOutOfRangeException($"Characters must be less than {MaxCharactersInGame +1} or more then {MinCharactersInGame}. {nameof(GameSession)}");
+            CurrentMaxCharactersInGame = count;
+            AddEvent(new Events.MaxCharacterCountChanged(Id, CurrentMaxCharactersInGame));
         }
-        public void UpdateСatastrophe(Catastrophe catastrophe)
+        public void Restart()
         {
-            Catastrophe = catastrophe ?? throw new ArgumentNullException();
-        }
-        public void AddSurrounding(ExternalSurrounding externalSurrounding)
-        {
-            if (externalSurrounding is null)
-            {
-                throw new ArgumentNullException(nameof(externalSurrounding));
-            }
-
-            externalSurroundings.Add(externalSurrounding);
+            Catastrophe = Catastrophe.DefaultCatastrophe;
+            Bunker = Bunker.DefaultBunker;
+            characters.Clear();
+            GameState = GameState.Preparation;
+            FreePlaceSize = new FreeSeatsSize(3, 0);
+            externalSurroundings.Clear();
+            AddEvent(new Events.GameRestarted(Id));
         }
     }
     public enum GameState
@@ -143,7 +159,6 @@ namespace BunkerGame.Domain.GameSessions
         Preparation,
         Started,
         Ended
-
     }
     public enum Difficulty
     {
@@ -152,4 +167,3 @@ namespace BunkerGame.Domain.GameSessions
         Hard
     }
 }
-
