@@ -1,6 +1,6 @@
 ﻿namespace BunkerGameComponents.Domain
 {
-    public class ComponentId : Value<ComponentId>
+    public record ComponentId : Value<ComponentId>
     {
         public ComponentId(int id)
         {

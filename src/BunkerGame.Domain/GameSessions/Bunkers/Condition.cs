@@ -2,7 +2,7 @@
 
 namespace BunkerGame.Domain.GameSessions.Bunkers
 {
-    public class Condition : BunkerComponentValue<Condition>
+    public record Condition : BunkerComponentValue<Condition>
     {
         private Condition() { }
         public Condition(double value, string description, BunkerState bunkerState = BunkerState.Unbroken) : base(description, value)

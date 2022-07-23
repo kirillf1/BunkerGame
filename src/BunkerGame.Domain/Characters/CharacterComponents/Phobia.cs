@@ -2,7 +2,7 @@
 
 namespace BunkerGame.Domain.Characters.CharacterComponents
 {
-    public class Phobia : CharacterComponent<Phobia>
+    public record Phobia : CharacterComponent<Phobia>
     {
         private Phobia() { }
         public static readonly Phobia DefaultPhobia = new Phobia("unknown", 0, PhobiaDebuffType.None);

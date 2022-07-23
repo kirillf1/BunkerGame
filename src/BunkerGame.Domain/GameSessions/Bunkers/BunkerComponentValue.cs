@@ -1,6 +1,6 @@
 ﻿namespace BunkerGame.Domain.GameSessions.Bunkers
 {
-    public abstract class BunkerComponentValue<T> : Value<T> where T : Value<T>
+    public abstract record BunkerComponentValue<T> : Value<T> where T : Value<T>
     {
         protected BunkerComponentValue() { }
         protected BunkerComponentValue(string description, double value)

@@ -1,6 +1,6 @@
 ﻿namespace BunkerGame.Domain.Characters.Cards
 {
-    public class Card : Value<Card>
+    public record Card : Value<Card>
     {
 #pragma warning disable CS8618 
         private Card() { }

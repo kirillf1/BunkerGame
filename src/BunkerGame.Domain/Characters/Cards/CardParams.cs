@@ -1,6 +1,6 @@
 ﻿namespace BunkerGame.Domain.Characters.Cards
 {
-    public class CardParams : Value<CardParams>
+    public record CardParams : Value<CardParams>
     {
         public CardParams(CharacterId cardUserId, GameSessionId gameSessionId, CharacterId? targetCharacter = null)
         {

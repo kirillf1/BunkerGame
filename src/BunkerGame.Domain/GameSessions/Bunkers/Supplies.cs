@@ -1,6 +1,6 @@
 ﻿namespace BunkerGame.Domain.GameSessions.Bunkers
 {
-    public class Supplies : Value<Supplies>
+    public record Supplies : Value<Supplies>
     {
         private Supplies() { }
         public Supplies(int suplliesYears)

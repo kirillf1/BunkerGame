@@ -1,6 +1,6 @@
 ﻿namespace BunkerGame.Domain.Characters
 {
-    public abstract class CharacterComponent<T> : Value<T> where T : Value<T>
+    public record class CharacterComponent<T> : Value<T> where T : Value<T>
     {
         protected CharacterComponent(){}
         public CharacterComponent(string description, double value)

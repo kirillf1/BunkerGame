@@ -2,7 +2,7 @@
 
 namespace BunkerGame.Domain.GameSessions
 {
-    public class FreeSeatsSize : Value<FreeSeatsSize>
+    public record FreeSeatsSize : Value<FreeSeatsSize>
     {
         private FreeSeatsSize()
         {

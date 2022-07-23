@@ -14,7 +14,7 @@
             IsUsed = true;
         }
     }
-    public class CardStateId : Value<CardStateId>
+    public record CardStateId : Value<CardStateId>
     {
         public byte Value { get; }
         public CardStateId(byte value)

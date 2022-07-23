@@ -2,7 +2,7 @@
 
 namespace BunkerGame.Domain.GameSessions
 {
-    public class ExternalSurrounding : Value<ExternalSurrounding>
+    public record ExternalSurrounding : Value<ExternalSurrounding>
     {
         private ExternalSurrounding() { }
         public ExternalSurrounding(string description, double value = 0, SurroundingType surroundingType = SurroundingType.Unknown)

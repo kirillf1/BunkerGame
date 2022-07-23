@@ -1,6 +1,6 @@
 ﻿namespace BunkerGame.Domain.GameSessions.Bunkers
 {
-    public class Size : Value<Size>
+    public record Size : Value<Size>
     {
         private Size() { }
         public Size(double value)
