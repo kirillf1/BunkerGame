@@ -2,7 +2,7 @@
 
 namespace BunkerGame.Domain.Characters.CharacterComponents
 {
-    public class Item : CharacterComponent<Item>
+    public record Item : CharacterComponent<Item>
     {
         private Item() { }
         public Item(string description, double value, CharacterItemType characterItemType, bool fromProfession)

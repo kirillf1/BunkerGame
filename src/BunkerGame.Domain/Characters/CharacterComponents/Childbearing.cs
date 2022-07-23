@@ -1,6 +1,6 @@
 ﻿namespace BunkerGame.Domain.Characters.CharacterComponents
 {
-    public class Childbearing : Value<Childbearing>
+    public record Childbearing : Value<Childbearing>
     {
         private Childbearing()
         {

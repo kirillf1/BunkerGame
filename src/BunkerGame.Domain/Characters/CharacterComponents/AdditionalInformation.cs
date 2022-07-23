@@ -2,7 +2,7 @@
 
 namespace BunkerGame.Domain.Characters.CharacterComponents
 {
-    public class AdditionalInformation : CharacterComponent<AdditionalInformation>
+    public record AdditionalInformation : CharacterComponent<AdditionalInformation>
     {
         private AdditionalInformation() { }
         public static AdditionalInformation DefaultAdditionalInformation = new AdditionalInformation("unknown", 0, AddInfType.Useless);

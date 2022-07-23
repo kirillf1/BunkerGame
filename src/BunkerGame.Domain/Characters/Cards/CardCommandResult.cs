@@ -2,7 +2,7 @@
 
 namespace BunkerGame.Domain.Characters.Cards
 {
-    public class CardCommandResult : Value<CardCommandResult>
+    public  record CardCommandResult : Value<CardCommandResult>
     {
         internal CardCommandResult(List<CardExecuteError> errors, IRequest? command)
         {

@@ -3,7 +3,7 @@ using BunkerGame.GameTypes.CharacterTypes;
 
 namespace BunkerGame.Domain.Characters.Cards
 {
-    public class CardMethod : Value<CardMethod>
+    public record CardMethod : Value<CardMethod>
     {
         public CardMethod(MethodType methodType, MethodDirection methodDirection, object? item)
         {

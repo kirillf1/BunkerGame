@@ -2,7 +2,7 @@
 
 namespace BunkerGame.Domain.Characters.CharacterComponents
 {
-    public class Hobby : CharacterComponent<Hobby>
+    public record Hobby : CharacterComponent<Hobby>
     {
         
         public static readonly Hobby DefaultHobby = new Hobby("unknown", 0, HobbyType.Useless, 0);

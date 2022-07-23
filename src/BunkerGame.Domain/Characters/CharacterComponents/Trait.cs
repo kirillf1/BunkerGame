@@ -2,7 +2,7 @@
 
 namespace BunkerGame.Domain.Characters.CharacterComponents
 {
-    public class Trait : CharacterComponent<Trait>
+    public record Trait : CharacterComponent<Trait>
     {
         public static Trait DefaultTrait = new Trait("unknown", 0, TraitType.Negative);
         private Trait() { }

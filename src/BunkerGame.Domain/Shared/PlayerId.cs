@@ -1,6 +1,6 @@
 ﻿namespace BunkerGame.Domain.Shared
 {
-    public class PlayerId : Value<PlayerId>
+    public record PlayerId : Value<PlayerId>
     {
         private PlayerId() { }
         public Guid Value { get; }

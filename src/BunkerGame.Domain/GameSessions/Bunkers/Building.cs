@@ -1,10 +1,8 @@
-﻿
-
-using BunkerGame.GameTypes.BunkerTypes;
+﻿using BunkerGame.GameTypes.BunkerTypes;
 
 namespace BunkerGame.Domain.GameSessions.Bunkers
 {
-    public class Building : BunkerComponentValue<Building>
+    public record Building : BunkerComponentValue<Building>
     {
         private Building() { }
         public Building(double value, string description, BunkerObjectType bunkerObjectType) : base(description, value)

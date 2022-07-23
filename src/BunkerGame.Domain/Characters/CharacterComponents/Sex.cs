@@ -1,6 +1,6 @@
 ﻿namespace BunkerGame.Domain.Characters.CharacterComponents
 {
-    public class Sex : Value<Sex>
+    public record Sex : Value<Sex>
     {
         /// <summary>
         /// sex will be "мужчина"

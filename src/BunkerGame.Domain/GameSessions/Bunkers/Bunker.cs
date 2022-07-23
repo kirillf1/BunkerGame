@@ -1,6 +1,6 @@
 ﻿namespace BunkerGame.Domain.GameSessions.Bunkers
 {
-    public class Bunker : Value<Bunker>
+    public record Bunker : Value<Bunker>
     {
         public static Bunker DefaultBunker = new BunkerBuilder().Build();
         private Bunker() { }

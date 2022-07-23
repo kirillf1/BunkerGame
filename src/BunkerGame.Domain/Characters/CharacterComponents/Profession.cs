@@ -2,7 +2,7 @@
 
 namespace BunkerGame.Domain.Characters.CharacterComponents
 {
-    public class Profession : CharacterComponent<Profession>
+    public record Profession : CharacterComponent<Profession>
     {
         private Profession() { }
         public static readonly Profession DefaultProfession = new Profession("unknown", 0, ProfessionSkill.None, ProfessionType.Unknown, 0);

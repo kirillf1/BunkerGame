@@ -1,6 +1,6 @@
 ﻿namespace BunkerGame.Domain.Shared
 {
-    public class GameSessionId : Value<GameSessionId>
+    public record GameSessionId : Value<GameSessionId>
     {
         public Guid Value { get; private set; }
         public GameSessionId(Guid value)

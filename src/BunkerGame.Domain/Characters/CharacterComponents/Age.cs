@@ -1,6 +1,6 @@
 ﻿namespace BunkerGame.Domain.Characters.CharacterComponents
 {
-    public class Age : Value<Age>
+    public record Age : Value<Age>
     {
         public Age()
         {

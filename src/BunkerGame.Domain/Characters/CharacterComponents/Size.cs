@@ -1,6 +1,6 @@
 ﻿namespace BunkerGame.Domain.Characters.CharacterComponents
 {
-    public class Size : Value<Size>
+    public record Size : Value<Size>
     {
         public Size()
         {

@@ -3,7 +3,7 @@ using System.Text;
 
 namespace BunkerGame.Domain.GameSessions
 {
-    public class Catastrophe : Value<Catastrophe>
+    public record Catastrophe : Value<Catastrophe>
     {
         public static readonly Catastrophe DefaultCatastrophe = new(CatastropheType.None, 10, 10, "unknown", 10, 10);
         private Catastrophe() { }

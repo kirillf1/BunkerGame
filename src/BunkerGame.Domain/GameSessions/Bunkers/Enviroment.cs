@@ -1,10 +1,8 @@
-﻿
-
-using BunkerGame.GameTypes.BunkerTypes;
+﻿using BunkerGame.GameTypes.BunkerTypes;
 
 namespace BunkerGame.Domain.GameSessions.Bunkers
 {
-    public class Enviroment : BunkerComponentValue<Enviroment>
+    public record Enviroment : BunkerComponentValue<Enviroment>
     {
         private Enviroment() { }
         public Enviroment(string description, double value, EnviromentBehavior enviromentBehavior,

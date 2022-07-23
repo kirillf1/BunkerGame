@@ -2,7 +2,7 @@
 
 namespace BunkerGame.Domain.GameSessions.Bunkers
 {
-    public class Item : BunkerComponentValue<Item>
+    public record Item : BunkerComponentValue<Item>
     {
         private Item() { }
         public Item(double value, string description, ItemBunkerType itemBunkerType = ItemBunkerType.Useless) : base(description, value)
