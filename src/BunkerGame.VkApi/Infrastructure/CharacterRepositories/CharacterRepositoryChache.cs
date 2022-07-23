@@ -1,6 +1,7 @@
 ﻿using BunkerGame.Domain.Characters;
 using BunkerGame.Domain.Shared;
 using Microsoft.Extensions.Caching.Memory;
+using System.Collections.Concurrent;
 using System.Linq.Expressions;
 
 namespace BunkerGame.VkApi.Infrastructure.CharacterRepositories
@@ -16,17 +17,14 @@ namespace BunkerGame.VkApi.Infrastructure.CharacterRepositories
         }
         public Task AddCharacter(Character character)
         {
-            List<Character> characters;
+            ConcurrentDictionary<CharacterId, Character> characters;
             if (memoryCache.TryGetValue(_СharactersKey, out characters))
             {
-                var oldCharacter = characters.Find(c => c.Id == character.Id);
-                if (oldCharacter != null)
-                    return Task.CompletedTask;
-                characters.Add(character);
+                characters.TryAdd(character.Id, character);
                 return Task.CompletedTask;
             }
-            characters = new List<Character>();
-            characters.Add(character);
+            characters = new ConcurrentDictionary<CharacterId, Character>();
+            characters.TryAdd(character.Id, character);
             memoryCache.Set(_СharactersKey, characters);
             return Task.CompletedTask;
         }
@@ -35,9 +33,9 @@ namespace BunkerGame.VkApi.Infrastructure.CharacterRepositories
         {
             return await Task.Run(() =>
              {
-                 if (memoryCache.TryGetValue(_СharactersKey, out List<Character> characters))
+                 if (memoryCache.TryGetValue(_СharactersKey, out ConcurrentDictionary<CharacterId, Character> characters))
                  {
-                     var character = characters.Find(c => c.Id == characterId);
+                     characters.TryGetValue(characterId, out var character);
                      if (character != null)
                          return character;
                  }
@@ -49,10 +47,10 @@ namespace BunkerGame.VkApi.Infrastructure.CharacterRepositories
         {
             return await Task.Run(() =>
             {
-                if (memoryCache.TryGetValue(_СharactersKey, out List<Character> characters))
+                if (memoryCache.TryGetValue(_СharactersKey, out ConcurrentDictionary<CharacterId, Character> characters))
                 {
-                    var query = characters.AsQueryable();
-                    if(predicate != null)
+                    var query = characters.Select(c => c.Value).AsQueryable();
+                    if (predicate != null)
                         query = query.Where(predicate);
                     return query;
                 }
@@ -62,20 +60,20 @@ namespace BunkerGame.VkApi.Infrastructure.CharacterRepositories
 
         public Task RemoveCharacter(Character character)
         {
-            if (memoryCache.TryGetValue(_СharactersKey, out List<Character> characters))
+            if (memoryCache.TryGetValue(_СharactersKey, out ConcurrentDictionary<CharacterId, Character> characters))
             {
-                characters.Remove(character);
+                characters.TryRemove(character.Id, out _);
             }
             return Task.CompletedTask;
         }
 
         public Task RemoveCharacters(IEnumerable<Character> characters)
         {
-            if (memoryCache.TryGetValue(_СharactersKey, out List<Character> charactersList))
+            if (memoryCache.TryGetValue(_СharactersKey, out ConcurrentDictionary<CharacterId, Character> charactersDict))
             {
                 foreach (var character in characters)
                 {
-                    charactersList.Remove(character);
+                    charactersDict.TryRemove(character.Id, out _);
                 }
             }
             return Task.CompletedTask;

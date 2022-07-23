@@ -4,7 +4,7 @@ using BunkerGame.VkApi.Infrastructure.Database.GameDbContext;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
-namespace BunkerGame.VkApi.Infrastructure.GameResults
+namespace BunkerGame.VkApi.Infrastructure.GameResultRepositories
 {
     public sealed class GameResultRepositoryEf : IGameResultRepository
     {

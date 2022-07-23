@@ -1,20 +1,23 @@
 ﻿using BunkerGame.Framework;
 using MediatR;
+using System.Collections.Concurrent;
 
 namespace BunkerGame.VkApi.Infrastructure.EventStores
 {
     public class EnventStoreInMemory : IEventStore
     {
-        List<INotification> Notifications;
+        readonly ConcurrentBag<INotification> Notifications;
+        private object syncObj = new object();
         public EnventStoreInMemory()
         {
             Notifications = new();
+            
         }
         public async Task<IEnumerable<INotification>> ExtractNotifications()
         {
             return await Task.Run(() =>
              {
-                 var notifications = Notifications.GetRange(0, Notifications.Count);
+                 var notifications = Notifications.ToArray();
                  Notifications.Clear();
                  return notifications;
 
@@ -22,9 +25,15 @@ namespace BunkerGame.VkApi.Infrastructure.EventStores
         }
         public Task Save<TId>(AggregateRoot<TId> aggregate)
         {
-            Notifications.AddRange(aggregate.GetEvents());
-            aggregate.ClearEvents();
-            return Task.CompletedTask;
+            lock (syncObj)
+            {
+                foreach (var notification in aggregate.GetEvents())
+                {
+                    Notifications.Add(notification);
+                }
+                aggregate.ClearEvents();
+                return Task.CompletedTask;
+            }
         }
     }
 }
