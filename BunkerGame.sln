@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BunkerGameComponents.Domain
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BunkerGameComponents.Infrastructure", "src\BunkerGameComponents.Infrastructure\BunkerGameComponents.Infrastructure.csproj", "{D44EB8AC-1FB9-42A3-ABB3-83F34F618454}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BunkerGame.VkApi.IntegrationTests", "src\BunkerGame.VkApi.IntegrationTests\BunkerGame.VkApi.IntegrationTests.csproj", "{3D0D1BC2-442F-466D-9189-197D42394C87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BunkerGame.VkApi.IntegrationTests", "src\BunkerGame.VkApi.IntegrationTests\BunkerGame.VkApi.IntegrationTests.csproj", "{3D0D1BC2-442F-466D-9189-197D42394C87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BunkerGame.VkApi.LoadTests", "BunkerGame.VkApi.LoadTests\BunkerGame.VkApi.LoadTests.csproj", "{EBA26D02-F818-40AE-90E9-85E9E36AFA3A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{3D0D1BC2-442F-466D-9189-197D42394C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D0D1BC2-442F-466D-9189-197D42394C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D0D1BC2-442F-466D-9189-197D42394C87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBA26D02-F818-40AE-90E9-85E9E36AFA3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA26D02-F818-40AE-90E9-85E9E36AFA3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBA26D02-F818-40AE-90E9-85E9E36AFA3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA26D02-F818-40AE-90E9-85E9E36AFA3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

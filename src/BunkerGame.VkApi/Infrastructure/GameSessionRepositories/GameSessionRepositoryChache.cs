@@ -24,9 +24,9 @@ namespace BunkerGame.VkApi.Infrastructure.GameSessionRepositories
             return Task.CompletedTask;
         }
 
-        public async Task<GameSession> GetGameSession(GameSessionId gameSessionId)
+        public Task<GameSession> GetGameSession(GameSessionId gameSessionId)
         {
-            return await Task.Run(() => memoryCache.Get<GameSession>(gameSessionId));
+            return Task.FromResult(memoryCache.Get<GameSession>(gameSessionId));
         }
 
         public Task RemoveGameSession(GameSession gameSession)

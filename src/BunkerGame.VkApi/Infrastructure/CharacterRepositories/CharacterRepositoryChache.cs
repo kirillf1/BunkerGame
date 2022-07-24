@@ -17,8 +17,7 @@ namespace BunkerGame.VkApi.Infrastructure.CharacterRepositories
         }
         public Task AddCharacter(Character character)
         {
-            ConcurrentDictionary<CharacterId, Character> characters;
-            if (memoryCache.TryGetValue(_СharactersKey, out characters))
+            if (memoryCache.TryGetValue(_СharactersKey, out ConcurrentDictionary<CharacterId, Character> characters))
             {
                 characters.TryAdd(character.Id, character);
                 return Task.CompletedTask;
@@ -29,54 +28,50 @@ namespace BunkerGame.VkApi.Infrastructure.CharacterRepositories
             return Task.CompletedTask;
         }
 
-        public async Task<Character> GetCharacter(CharacterId characterId)
+        public Task<Character> GetCharacter(CharacterId characterId)
         {
-            return await Task.Run(() =>
-             {
-                 if (memoryCache.TryGetValue(_СharactersKey, out ConcurrentDictionary<CharacterId, Character> characters))
-                 {
-                     characters.TryGetValue(characterId, out var character);
-                     if (character != null)
-                         return character;
-                 }
-                 throw new ArgumentNullException(nameof(Character));
-             });
-        }
 
-        public async Task<IEnumerable<Character>> GetCharacters(Expression<Func<Character, bool>>? predicate = null)
-        {
-            return await Task.Run(() =>
-            {
-                if (memoryCache.TryGetValue(_СharactersKey, out ConcurrentDictionary<CharacterId, Character> characters))
-                {
-                    var query = characters.Select(c => c.Value).AsQueryable();
-                    if (predicate != null)
-                        query = query.Where(predicate);
-                    return query;
-                }
-                throw new ArgumentNullException(nameof(Character));
-            });
-        }
-
-        public Task RemoveCharacter(Character character)
-        {
             if (memoryCache.TryGetValue(_СharactersKey, out ConcurrentDictionary<CharacterId, Character> characters))
             {
-                characters.TryRemove(character.Id, out _);
+                characters.TryGetValue(characterId, out var character);
+                if (character != null)
+                    return Task.FromResult(character);
             }
-            return Task.CompletedTask;
+            throw new ArgumentNullException(nameof(Character));
         }
 
-        public Task RemoveCharacters(IEnumerable<Character> characters)
+        public Task<IEnumerable<Character>> GetCharacters(Expression<Func<Character, bool>>? predicate = null)
         {
-            if (memoryCache.TryGetValue(_СharactersKey, out ConcurrentDictionary<CharacterId, Character> charactersDict))
+
+            if (memoryCache.TryGetValue(_СharactersKey, out ConcurrentDictionary<CharacterId, Character> characters))
             {
-                foreach (var character in characters)
-                {
-                    charactersDict.TryRemove(character.Id, out _);
-                }
+                var query = characters.Select(c => c.Value).AsQueryable();
+                if (predicate != null)
+                    query = query.Where(predicate);
+                return Task.FromResult(query.AsEnumerable());
             }
-            return Task.CompletedTask;
+            throw new ArgumentNullException(nameof(Character));
         }
+
+    public Task RemoveCharacter(Character character)
+    {
+        if (memoryCache.TryGetValue(_СharactersKey, out ConcurrentDictionary<CharacterId, Character> characters))
+        {
+            characters.TryRemove(character.Id, out _);
+        }
+        return Task.CompletedTask;
     }
+
+    public Task RemoveCharacters(IEnumerable<Character> characters)
+    {
+        if (memoryCache.TryGetValue(_СharactersKey, out ConcurrentDictionary<CharacterId, Character> charactersDict))
+        {
+            foreach (var character in characters)
+            {
+                charactersDict.TryRemove(character.Id, out _);
+            }
+        }
+        return Task.CompletedTask;
+    }
+}
 }
