@@ -7,7 +7,6 @@ namespace BunkerGame.VkApi.Infrastructure.ConversationRepositories
     public class ConversationRepositoryInMemory : IConversationRepository
     {
         private ConcurrentDictionary<long, Conversation> _conversations;
-        object syncObj = new object();
         public ConversationRepositoryInMemory()
         {
             _conversations = new ConcurrentDictionary<long, Conversation>();
@@ -27,32 +26,28 @@ namespace BunkerGame.VkApi.Infrastructure.ConversationRepositories
 
         public Task<Conversation?> GetConversation(string name)
         {
-            return Task.Run(() => _conversations.Select(c => c.Value).FirstOrDefault(c => c.ConversationName.Contains(name, StringComparison.OrdinalIgnoreCase)));
+            return Task.FromResult(_conversations.Select(c => c.Value).FirstOrDefault(c => c.ConversationName.Contains(name, StringComparison.OrdinalIgnoreCase)));
         }
 
         public Task<Conversation?> GetConversation(long id)
         {
-            return Task.Run(() =>
-            {
-                if (_conversations.TryGetValue(id, out var conversation))
-                    return conversation;
-                return null;
-            });
+            _conversations.TryGetValue(id, out var conversation);
+            return Task.FromResult(conversation);
         }
 
         public Task<Conversation?> GetConversation(GameSessionId gameSessionId)
         {
-            return Task.Run(() => _conversations.Select(c => c.Value).FirstOrDefault(c => c.GameSessionId == gameSessionId));
+            return Task.FromResult(_conversations.Select(c => c.Value).FirstOrDefault(c => c.GameSessionId == gameSessionId));
         }
 
         public Task<Conversation?> GetConversationByCharacterId(CharacterId characterId)
         {
-            return Task.Run(() => _conversations.Select(c => c.Value).FirstOrDefault(c => c.Users.Any(c => c.CharacterId == characterId)));
+            return Task.FromResult(_conversations.Select(c => c.Value).FirstOrDefault(c => c.Users.Any(c => c.CharacterId == characterId)));
         }
 
         public Task<IEnumerable<Conversation>> GetConversationsByUserId(long userId)
         {
-            return Task.Run(() => _conversations.Select(c => c.Value).Where(c => c.Users.Any(c => c.UserId == userId)));
+            return Task.FromResult(_conversations.Select(c => c.Value).Where(c => c.Users.Any(c => c.UserId == userId)));
         }
 
         public Task UpdateConversation(Conversation conversation)

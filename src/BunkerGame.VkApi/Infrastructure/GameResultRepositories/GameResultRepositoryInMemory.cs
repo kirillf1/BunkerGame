@@ -24,22 +24,16 @@ namespace BunkerGame.VkApi.Infrastructure.GameResultRepositories
             return Task.CompletedTask;
         }
 
-        public async Task<GameResult?> GetGameResult(GameSessionId id)
+        public Task<GameResult?> GetGameResult(GameSessionId id)
         {
-            return await Task.Run(() =>
-            {
-                GameResult? gameResult = null;
-                memoryCache.TryGetValue(GetGameResultKey(id), out gameResult);
-                return gameResult;
-                
-            });
+            GameResult? gameResult = null;
+            memoryCache.TryGetValue(GetGameResultKey(id), out gameResult);
+            return Task.FromResult(gameResult);
         }
-        public async Task RemoveGameResult(GameResult gameResult)
+        public Task RemoveGameResult(GameResult gameResult)
         {
-            await Task.Run(() =>
-            {
-                memoryCache.Remove(GetGameResultKey(gameResult.Id));
-            });
+            memoryCache.Remove(GetGameResultKey(gameResult.Id));
+            return Task.CompletedTask;
         }
         private static string GetGameResultKey(GameSessionId gameSessionId) => gameResultKey + gameSessionId.Value.ToString();
     }

@@ -39,31 +39,27 @@ namespace BunkerGame.VkApi.Infrastructure.UserOperationRepositories
 
         public Task<string?> GetUserOperationValue(long userId, UserOperationType userOperationType)
         {
-            return Task.Run(() =>
-            {
-                var userOpKey = $"{UserOperationStorageName}{userId}";
-                if (!memoryCache.TryGetValue(userOpKey, out List<UserOperation> operations))
-                {
-                    return default;
-                }
-                var operation = operations.FirstOrDefault(c => c.UserOperationType == userOperationType);
-                if (operation == null)
-                    return default;
-                return operation.Value;
-            });
-        }
-
-        public Task RemoveOperationState(long userId, UserOperationType userOperationType)
-        {
             var userOpKey = $"{UserOperationStorageName}{userId}";
             if (!memoryCache.TryGetValue(userOpKey, out List<UserOperation> operations))
             {
-                return Task.CompletedTask;
+                return Task.FromResult<string?>(null);
             }
-            var operation = operations.FirstOrDefault(c => c.UserOperationType == userOperationType);
-            if (operation != null)
-                operations.Remove(operation);
+            var operation = operations.Find(c => c.UserOperationType == userOperationType);
+            return Task.FromResult(operation?.Value);
+       
+        }
+
+    public Task RemoveOperationState(long userId, UserOperationType userOperationType)
+    {
+        var userOpKey = $"{UserOperationStorageName}{userId}";
+        if (!memoryCache.TryGetValue(userOpKey, out List<UserOperation> operations))
+        {
             return Task.CompletedTask;
         }
+        var operation = operations.Find(c => c.UserOperationType == userOperationType);
+        if (operation != null)
+            operations.Remove(operation);
+        return Task.CompletedTask;
     }
+}
 }

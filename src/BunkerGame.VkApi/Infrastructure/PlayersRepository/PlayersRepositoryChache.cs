@@ -31,73 +31,63 @@ namespace BunkerGame.VkApi.Infrastructure.PlayersRepository
             return Task.CompletedTask;
         }
 
-        public async Task<Player> GetPlayer(PlayerId playerId)
+        public Task<Player> GetPlayer(PlayerId playerId)
         {
-            return await Task.Run(() =>
+
+            if (memoryChache.TryGetValue(_PlayersKey, out ConcurrentBag<Player> players))
             {
-                if (memoryChache.TryGetValue(_PlayersKey, out ConcurrentBag<Player> players))
-                {
-                    var player = players.FirstOrDefault(c => c.Id == playerId);
-                    if (player != null)
-                        return player;
-                }
-                throw new ArgumentNullException(nameof(Player));
-            });
+                var player = players.FirstOrDefault(c => c.Id == playerId);
+                if (player != null)
+                    return Task.FromResult(player);
+            }
+            throw new ArgumentNullException(nameof(Player));
+
         }
 
-        public async Task<Player> GetPlayer(string firstName, string? lastName)
+        public Task<Player> GetPlayer(string firstName, string? lastName)
         {
-            return await Task.Run(() =>
+
+            if (memoryChache.TryGetValue(_PlayersKey, out ConcurrentBag<Player> players))
             {
-                if (memoryChache.TryGetValue(_PlayersKey, out ConcurrentBag<Player> players))
-                {
-                    var player = players.FirstOrDefault(c => c.FirstName == firstName && c.LastName == lastName);
-                    if (player != null)
-                        return player;
-                }
-                throw new ArgumentNullException(nameof(Player));
-            });
+                var player = players.FirstOrDefault(c => c.FirstName == firstName && c.LastName == lastName);
+                if (player != null)
+                    return Task.FromResult(player);
+            }
+            throw new ArgumentNullException(nameof(Player));
+
         }
 
-        public async Task<IEnumerable<Player>> GetPlayers(int skipCount, int count, Expression<Func<Player, bool>>? predicate = null)
+        public Task<IEnumerable<Player>> GetPlayers(int skipCount, int count, Expression<Func<Player, bool>>? predicate = null)
         {
-            return await Task.Run(() =>
+
+            if (memoryChache.TryGetValue(_PlayersKey, out ConcurrentBag<Player> players))
             {
-                if (memoryChache.TryGetValue(_PlayersKey, out ConcurrentBag<Player> players))
-                {
-                    var query = players.AsQueryable();
-                    if (predicate != null)
-                        query = query.Where(predicate);
-                    return query.Skip(skipCount).Take(count);
-                }
-                throw new ArgumentNullException(nameof(Player));
-            });
+                var query = players.AsQueryable();
+                if (predicate != null)
+                    query = query.Where(predicate);
+                return Task.FromResult(query.Skip(skipCount).Take(count).AsEnumerable());
+            }
+            throw new ArgumentNullException(nameof(Player));
         }
 
-        public async Task<bool> IsUniqueName(string firstName, string? lastName)
+        public Task<bool> IsUniqueName(string firstName, string? lastName)
         {
-            return await Task.Run(() =>
+            if (memoryChache.TryGetValue(_PlayersKey, out ConcurrentBag<Player> players))
             {
-                if (memoryChache.TryGetValue(_PlayersKey, out ConcurrentBag<Player> players))
-                {
-                    var player = players.FirstOrDefault(c => c.FirstName == firstName && c.LastName == lastName);
-                    if (player != null)
-                        return true;
-                    return false;
-                }
-                return true;
-            });
-        }
+                var player = players.FirstOrDefault(c => c.FirstName == firstName && c.LastName == lastName);
+                if (player == null)
+                    return Task.FromResult(false);
+            }
+            return Task.FromResult(true);
 
-        public async Task RemovePlayer(Player player)
+        }
+        public  Task RemovePlayer(Player player)
         {
-            await Task.Run(() =>
-           {
-               if (memoryChache.TryGetValue(_PlayersKey,out ConcurrentBag<Player> players))
-               {
-                   players.TryTake(out player);
-               }
-           });
+            if (memoryChache.TryGetValue(_PlayersKey, out ConcurrentBag<Player> players))
+            {
+                players.TryTake(out player);
+            }
+            return Task.CompletedTask;
         }
     }
 }
