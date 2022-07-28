@@ -80,11 +80,15 @@ namespace BunkerGame.Domain.GameSessions
         }
         public void UpdateCatastrophe(Catastrophe catastrophe)
         {
+            if (GameState == GameState.Ended)
+                return;
             Catastrophe = catastrophe;
             AddEvent(new Events.CatastropheChanged(Id, Catastrophe));
         }
         public void AddExternalSurrounding(ExternalSurrounding externalSurrounding)
         {
+            if (GameState != GameState.Started)
+                return;
             externalSurroundings.Add(externalSurrounding);
             AddEvent(new Events.ExternalSurroundigAdded(Id, externalSurrounding));
         }
