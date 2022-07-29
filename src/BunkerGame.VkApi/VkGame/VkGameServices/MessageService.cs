@@ -1,15 +1,13 @@
-﻿using BunkerGame.Domain.Players;
-using BunkerGame.Domain.Shared;
-using BunkerGame.VkApi.VkGame.VKCommands;
+﻿using BunkerGame.VkApi.VkGame.VKCommands;
 using BunkerGame.VkApi.VkGame.VKCommands.ConversationCommands;
 using BunkerGame.VkApi.VkGame.VKCommands.ConversationCommands.CharacterCountCommands;
 using BunkerGame.VkApi.VkGame.VKCommands.ConversationCommands.SetDifficultyCommands;
 using BunkerGame.VkApi.VkGame.VKCommands.ConversationCommands.SetTargetConversationCommands;
 using BunkerGame.VkApi.VkGame.VKCommands.PersonalCommands;
 using BunkerGame.VkApi.VkGame.VKCommands.PersonalCommands.CardCommands;
+using BunkerGame.VkApi.VkGame.VkGameServices.ActionServices;
 using System.Diagnostics;
 using System.Text.RegularExpressions;
-using VkNet.Abstractions;
 using VkNet.Model;
 
 namespace BunkerGame.VkApi.VkGame.VkGameServices
@@ -37,14 +35,17 @@ namespace BunkerGame.VkApi.VkGame.VkGameServices
         {
             if (message.Action == null)
                 await Answer(message);
+            else if (message.Action.Type.ToString() == "chat_kick_user")
+                await KickUser(message.PeerId!.Value, message.Action.MemberId!.Value);
+            else if (message.Action.Type.ToString() == "chat_invite_user" && message.Action.MemberId.GetValueOrDefault() < 0)
+                await SendGreteengsToConversation(message.PeerId!.Value);
+            else if (message.Action.Type.ToString() == "chat_invite_user")
+                await AddUser(message.PeerId!.Value, message.Action.MemberId!.Value);
             else if (message.Action.Type.ToString() == "chat_title_update")
-                await UpdateConversationName(message.FromId!.Value);
-            else if (message.Action.Type.ToString() == "chat_kick_user" || message.Action.Type.ToString() == "chat_invite_user")
-                await UpdateConversationUsers(message.FromId!.Value);
+                await UpdateConversationName(message.PeerId!.Value, message.Action.Text);
         }
         private async Task Answer(Message message)
         {
-           
             message.Text = Regex.Replace(message.Text, @"\[.+\]", "").TrimStart();
             bool isConversation = message.PeerId > 2000000000;
             var vkCommandType = FindVkCommandType(message.Text, isConversation);
@@ -90,40 +91,33 @@ namespace BunkerGame.VkApi.VkGame.VkGameServices
             return null;
 
         }
-        private async Task UpdateConversationUsers(long peerId)
+        private async Task SendGreteengsToConversation(long peerId)
         {
             using var serviceScope = serviceFactory.CreateScope();
             var provider = serviceScope.ServiceProvider;
-            var conversationRepository = provider.GetRequiredService<IConversationRepository>();
-            var conversation = await conversationRepository.GetConversation(peerId);
-            if (conversation == null)
-                return;
-            var vkApi = provider.GetRequiredService<IVkApi>();
-            var users = await vkApi.Messages.GetConversationMembersAsync(peerId);
-            var playerRepository = provider.GetRequiredService<IPlayerRepository>();
-            foreach (var user in users.Profiles)
-            {
-                if (!conversation.Users.Any(c => c.UserId == user.Id))
-                {
-                    var playerId = new PlayerId(Guid.NewGuid());
-                    await playerRepository.AddPlayer(new Player(playerId, user.FirstName) { LastName = user.LastName });
-                    conversation.AddUser(new User(user.Id, playerId));
-                }
-            }
-            await conversationRepository.UpdateConversation(conversation);
+            var service = provider.GetRequiredService<InvitedInConversationService>();
+            await service.SendGreeting(peerId);
         }
-        private async Task UpdateConversationName(long peerId)
+        private async Task AddUser(long peerId,long userId)
         {
             using var serviceScope = serviceFactory.CreateScope();
             var provider = serviceScope.ServiceProvider;
-            var conversationRepository = provider.GetRequiredService<IConversationRepository>();
-            var conversation = await conversationRepository.GetConversation(peerId);
-            if (conversation == null)
-                return;
-            var vkApi = provider.GetRequiredService<IVkApi>();
-            var convResult = await vkApi.Messages.GetConversationsByIdAsync(new List<long> { peerId });
-            conversation.ConversationName = convResult.Items.First().ChatSettings.Title;
-            await conversationRepository.UpdateConversation(conversation);
+            var service = provider.GetRequiredService<AddToConversationUserService>();
+            await service.AddInConversation(peerId, userId);
+        }
+        private async Task KickUser(long peerId,long userId)
+        {
+            using var serviceScope = serviceFactory.CreateScope();
+            var provider = serviceScope.ServiceProvider;
+            var service = provider.GetRequiredService<KickFromConversationService>();
+            await service.KickFromConversation(peerId, userId);
+        }
+        private async Task UpdateConversationName(long peerId, string newName)
+        {
+            using var serviceScope = serviceFactory.CreateScope();
+            var provider = serviceScope.ServiceProvider;
+            var service = provider.GetRequiredService<UpdateConversationNameService>();
+            await service.UpdateName(newName,peerId);
         }
         private void StartRecordTime()
         {
