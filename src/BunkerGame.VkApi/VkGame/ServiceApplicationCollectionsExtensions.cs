@@ -9,6 +9,7 @@ using BunkerGame.VkApi.VkGame.GameSessions.CommandHandlers;
 using BunkerGame.VkApi.VkGame.GameSessions.ResultCounters;
 using BunkerGame.VkApi.VkGame.VKCommands;
 using BunkerGame.VkApi.VkGame.VkGameServices;
+using BunkerGame.VkApi.VkGame.VkGameServices.ActionServices;
 using MediatR;
 using System.Reflection;
 using VkNet.Abstractions;
@@ -42,6 +43,10 @@ namespace BunkerGame.VkApi.VkGame
             serviceCollection.AddScoped<CharacterService>();
             serviceCollection.AddScoped<VkSenderByCharacter>();
             serviceCollection.AddScoped<ConversationService>();
+            serviceCollection.AddScoped<KickFromConversationService>();
+            serviceCollection.AddScoped<InvitedInConversationService>();
+            serviceCollection.AddScoped<AddToConversationUserService>();
+            serviceCollection.AddScoped<KickFromConversationService>();
         }
         private static void AddFactories(IServiceCollection serviceCollection)
         {
