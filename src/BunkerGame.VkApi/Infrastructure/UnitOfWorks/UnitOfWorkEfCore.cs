@@ -1,7 +1,9 @@
 ﻿using BunkerGame.Domain;
 using BunkerGame.Framework;
+using BunkerGameComponents.Domain;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
+using IUnitOfWork = BunkerGame.Domain.IUnitOfWork;
 
 namespace BunkerGame.VkApi.Infrastructure.UnitOfWorks
 {

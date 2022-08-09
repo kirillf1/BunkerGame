@@ -1,7 +1,9 @@
 ﻿using BunkerGame.Domain;
 using BunkerGame.Domain.GameSessions;
 using BunkerGame.Framework;
+using BunkerGameComponents.Domain;
 using MediatR;
+using IUnitOfWork = BunkerGame.Domain.IUnitOfWork;
 
 namespace BunkerGame.VkApi.VkGame.GameSessions
 {

@@ -22,7 +22,7 @@ namespace BunkerGame.VkApi.Infrastructure
         public static IServiceCollection AddInfrastructure(this IServiceCollection serviceCollection, IConfiguration configuration)
         {
             serviceCollection.AddMemoryCache();
-            serviceCollection.AddScoped<IUnitOfWork, UnitOfWorkInMemory>();
+            serviceCollection.AddScoped<Domain.IUnitOfWork, UnitOfWorkInMemory>();
             serviceCollection.AddScoped<IEventStore, EnventStoreInMemory>();
             serviceCollection.AddScoped(c => new GameComponentJsonContext(Path.Combine(Directory.GetCurrentDirectory(), "Infrastructure", "GameComponentsJson")));
             AddRepositories(serviceCollection);
