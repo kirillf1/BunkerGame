@@ -28,44 +28,36 @@ namespace BunkerGameComponents.Infrastructure.Domain
 
         public Task<T> GetComponent(ComponentId id)
         {
-            return Task.Run(() =>
-            {
-                var component = Components.Find(c => c.Id == id);
-                if (component == null)
-                    throw new ArgumentNullException(nameof(T));
-                return component;
-            });
+            var component = Components.Find(c => c.Id == id);
+            if (component == null)
+                throw new ArgumentNullException(nameof(T));
+            return Task.FromResult(component);
         }
 
         public Task<T> GetComponent(bool needShuffle, Expression<Func<T, bool>>? predicate = null)
         {
-            return Task.Run(() =>
-            {
-                var query = Components.AsQueryable();
-                if (predicate != null)
-                    query = query.Where(predicate);
-                if (needShuffle)
-                    query = query.OrderBy(c => Guid.NewGuid());
-                return query.First();
-            });
+            var query = Components.AsQueryable();
+            if (predicate != null)
+                query = query.Where(predicate);
+            if (needShuffle)
+                query = query.OrderBy(c => Guid.NewGuid());
+            return Task.FromResult(query.First());
         }
 
         public Task<IEnumerable<T>> GetComponents(int skipCount, int count, bool needShuffle, Expression<Func<T, bool>>? predicate = null)
         {
-            return Task.Run(() =>
-            {
-                var query = Components.AsQueryable();
-                if (predicate != null)
-                    query = query.Where(predicate);
-                if (needShuffle)
-                    query = query.OrderBy(c => Guid.NewGuid());
-                return query.Skip(skipCount).Take(count).AsEnumerable();
-            });
+            var query = Components.AsQueryable();
+            if (predicate != null)
+                query = query.Where(predicate);
+            if (needShuffle)
+                query = query.OrderBy(c => Guid.NewGuid());
+            return Task.FromResult(query.Skip(skipCount).Take(count).AsEnumerable());
         }
 
         public Task RemoveComponent(T component)
         {
-            return Task.Run(() => Components.Remove(component));
+            Components.Remove(component);
+            return Task.CompletedTask;
         }
     }
 }

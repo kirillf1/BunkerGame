@@ -1,7 +1,9 @@
 ﻿using BunkerGame.Domain;
 using BunkerGame.Domain.Players;
 using BunkerGame.Domain.Shared;
+using BunkerGameComponents.Domain;
 using VkNet.Abstractions;
+using IUnitOfWork = BunkerGame.Domain.IUnitOfWork;
 
 namespace BunkerGame.VkApi.VkGame.VkGameServices.ActionServices
 {

@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace BunkerGameComponents.Domain.BunkerComponents
 {
-    public class ItemBunker : AggregateRoot<ComponentId>, IGameComponent
+    public class ItemBunker : IGameComponent
     {
 
         public ItemBunker(ComponentId id)
@@ -14,11 +14,14 @@ namespace BunkerGameComponents.Domain.BunkerComponents
             ItemBunkerType = ItemBunkerType.Useless;
         }
         [JsonInclude]
-        public ItemBunkerType ItemBunkerType { get; private set; }
+        public ItemBunkerType ItemBunkerType { get; set; }
         [JsonInclude]
-        public double Value { get; private set; }
+        public double Value { get; set; }
         [JsonInclude]
-        public string Description { get; private set; }
+        public string Description { get; set; }
+
+        public ComponentId Id { get; }
+
         public void UpdateType(ItemBunkerType bunkerType)
         {
             ItemBunkerType = bunkerType;

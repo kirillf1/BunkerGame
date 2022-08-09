@@ -3,16 +3,16 @@ using System.Text.Json.Serialization;
 
 namespace BunkerGameComponents.Domain.CharacterComponents.Cards
 {
-    public class CharacterCard : CharacterComponentAggregate
+    public class CharacterCard : CharacterComponentBase
     {
         public CharacterCard(ComponentId id) : base(id)
         {
             CardMethod = new Method();
         }
         [JsonInclude]
-        public Method CardMethod { get; private set; }
+        public Method CardMethod { get; set; }
         [JsonInclude]
-        public bool IsSpecial { get; private set; }
+        public bool IsSpecial { get;  set; }
         public void UpdateSpeciality(bool isSpecial)
         {
             IsSpecial = isSpecial;

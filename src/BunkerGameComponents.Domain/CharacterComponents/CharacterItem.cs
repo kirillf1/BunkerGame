@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace BunkerGameComponents.Domain.CharacterComponents
 {
-    public class CharacterItem : CharacterComponentAggregate
+    public class CharacterItem : CharacterComponentBase
     {
         public CharacterItem(ComponentId id) : base(id)
         {

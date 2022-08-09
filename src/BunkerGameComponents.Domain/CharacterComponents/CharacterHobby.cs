@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace BunkerGameComponents.Domain.CharacterComponents
 {
-    public class CharacterHobby : CharacterComponentAggregate
+    public class CharacterHobby : CharacterComponentBase
     {
         public CharacterHobby(ComponentId id) : base(id)
         {
@@ -14,6 +14,6 @@ namespace BunkerGameComponents.Domain.CharacterComponents
             HobbyType = hobbyType;
         }
         [JsonInclude]
-        public HobbyType HobbyType { get; private set; }
+        public HobbyType HobbyType { get; set; }
     }
 }

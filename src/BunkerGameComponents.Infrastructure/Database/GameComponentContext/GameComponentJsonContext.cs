@@ -9,24 +9,31 @@ namespace BunkerGameComponents.Infrastructure.Database.GameComponentContext
     public class GameComponentJsonContext
     {
         private readonly string path;
-        JsonSerializerOptions Options;
+        JsonSerializerOptions options;
+        private Dictionary<string, object> components;
         public GameComponentJsonContext(string jsonPath)
         {
-            Options = new JsonSerializerOptions
+            options = new JsonSerializerOptions
             {
                 Encoder = JavaScriptEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Cyrillic),
                 WriteIndented = true
             };
             path = jsonPath;
+            components = new();
         }
         public List<T> Set<T>() where T : IGameComponent
         {
             var docName = Path.Combine(path, $"{typeof(T).Name}.json");
-
+            if (TryGetComponentsInMemory<T>(docName, out var gameComponents))
+            {
+                return gameComponents;
+            }
             if (File.Exists(docName))
             {
-                using var stream = File.Open(docName, FileMode.Open, FileAccess.Read,FileShare.Read);
-                return JsonSerializer.Deserialize<List<T>>(stream, Options)!;
+                using var stream = File.Open(docName, FileMode.Open, FileAccess.Read, FileShare.Read);
+                gameComponents = JsonSerializer.Deserialize<List<T>>(stream, options)!;
+                components[docName] = gameComponents;
+                return gameComponents;
             }
             else
             {
@@ -36,20 +43,24 @@ namespace BunkerGameComponents.Infrastructure.Database.GameComponentContext
                 return Set<T>();
             }
         }
-        public bool SaveChanges<T>(List<T> entities) where T : IGameComponent
+        public bool SaveChanges()
         {
-            if (entities == null)
-                return true;
-            try
+            foreach (var gameComponents in components)
             {
-                var docName = Path.Combine(path, $"{typeof(T).Name}.json");
-                File.WriteAllText(docName, JsonSerializer.Serialize(entities, Options), Encoding.UTF8);
+                var docName = gameComponents.Key;
+                File.WriteAllText(docName, JsonSerializer.Serialize(gameComponents.Value, options), Encoding.UTF8);
+            }
+            return true;
+        }
+        private bool TryGetComponentsInMemory<T>(string key, out List<T> gameComponents) where T : IGameComponent
+        {
+            if (components.TryGetValue(key, out var collection) && collection is List<T> newComponents)
+            {
+                gameComponents = newComponents;
                 return true;
             }
-            catch
-            {
-                return false;
-            }
+            gameComponents = null;
+            return false;
         }
     }
 }

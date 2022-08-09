@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace BunkerGameComponents.Domain.BunkerComponents
 {
-    public class BunkerEnviroment : AggregateRoot<ComponentId>, IGameComponent
+    public class BunkerEnviroment : IGameComponent
     {
         public BunkerEnviroment(ComponentId id)
         {
@@ -14,13 +14,15 @@ namespace BunkerGameComponents.Domain.BunkerComponents
             EnviromentType = EnviromentType.Unknown;
         }
         [JsonInclude]
-        public EnviromentBehavior EnviromentBehavior { get; private set; }
+        public EnviromentBehavior EnviromentBehavior { get;  set; }
         [JsonInclude]
-        public EnviromentType EnviromentType { get; private set; }
+        public EnviromentType EnviromentType { get; set; }
         [JsonInclude]
-        public double Value { get; private set; }
+        public double Value { get; set; }
         [JsonInclude]
-        public string Description { get; private set; }
+        public string Description { get; set; }
+
+        public ComponentId Id { get; }
 
         public void UpdateEnviromentBehavior(EnviromentBehavior enviromentBehavior)
         {

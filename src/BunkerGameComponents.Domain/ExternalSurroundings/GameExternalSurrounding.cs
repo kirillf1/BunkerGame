@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace BunkerGameComponents.Domain.ExternalSurroundings
 {
-    public class GameExternalSurrounding : AggregateRoot<ComponentId>, IGameComponent
+    public class GameExternalSurrounding : IGameComponent
     {
         public GameExternalSurrounding(ComponentId id)
         {
@@ -13,11 +13,14 @@ namespace BunkerGameComponents.Domain.ExternalSurroundings
             SurroundingType = SurroundingType.Unknown;
         }
         [JsonInclude]
-        public string Description { get; private set; }
+        public string Description { get; set; }
         [JsonInclude]
-        public double Value { get; private set; }
+        public double Value { get; set; }
         [JsonInclude]
-        public SurroundingType SurroundingType { get; private set; }
+        public SurroundingType SurroundingType { get; set; }
+
+        public ComponentId Id { get; }
+
         public void UpdateSurroundingType(SurroundingType surroundingType)
         {
             SurroundingType = surroundingType;

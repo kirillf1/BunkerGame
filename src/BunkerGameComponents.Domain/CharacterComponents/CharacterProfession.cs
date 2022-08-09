@@ -5,7 +5,7 @@ using System.Text.Json.Serialization;
 
 namespace BunkerGameComponents.Domain.CharacterComponents
 {
-    public class CharacterProfession : CharacterComponentAggregate
+    public class CharacterProfession : CharacterComponentBase
     {
         public CharacterProfession(ComponentId id) : base(id)
         {
@@ -13,13 +13,13 @@ namespace BunkerGameComponents.Domain.CharacterComponents
             ProfessionType = ProfessionType.Unknown;
         }
         [JsonInclude]
-        public CharacterCard? Card { get; private set; }
+        public CharacterCard? Card { get;  set; }
         [JsonInclude]
-        public ProfessionSkill ProfessionSkill { get; private set; }
+        public ProfessionSkill ProfessionSkill { get; set; }
         [JsonInclude]
-        public ProfessionType ProfessionType { get; private set; }
+        public ProfessionType ProfessionType { get; set; }
         [JsonInclude]
-        public CharacterItem? CharacterItem { get; private set; }
+        public CharacterItem? CharacterItem { get; set; }
 
         public void UpdateProfessionSkill(ProfessionSkill professionSkill)
         {

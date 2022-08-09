@@ -4,7 +4,7 @@ using System.Text.Json.Serialization;
 
 namespace BunkerGameComponents.Domain.Catastrophes
 {
-    public class GameCatastrophe : AggregateRoot<ComponentId>, IGameComponent
+    public class GameCatastrophe : IGameComponent
     {
         public GameCatastrophe(ComponentId id)
         {
@@ -16,13 +16,16 @@ namespace BunkerGameComponents.Domain.Catastrophes
         [JsonInclude]
         public CatastropheType CatastropheType { get; set; } = CatastropheType.None;
         [JsonInclude]
-        public int HidingTerm { get; set; }
+        public int HidingTerm { get;  set; }
         [JsonInclude]
-        public short DestructionPercent { get; set; }
+        public short DestructionPercent { get;  set; }
         [JsonInclude]
         public short SurvivedPopulationPercent { get; set; }
         [JsonInclude]
         public double Value { get; set; } = -10;
+
+        public ComponentId Id { get; }
+
         public override string ToString()
         {
             var builder = new StringBuilder();
@@ -33,9 +36,27 @@ namespace BunkerGameComponents.Domain.Catastrophes
             return builder.ToString();
 
         }
-        public void UpdateDestructionPercent()
+        public void UpdateCatastropheType(CatastropheType catastropheType)
         {
-
+            CatastropheType = catastropheType;
+        }
+        public void UpdateHidingTerm(int term)
+        {
+             if(term < 0)
+                throw new ArgumentException(nameof(term));
+            HidingTerm = term;
+        }
+        public void UpdateSurvivedPopulationPercent(short percent)
+        {
+            if(percent < 0)
+                throw new ArgumentException(nameof(percent));
+            SurvivedPopulationPercent = percent;
+        }
+        public void UpdateDestructionPercent(short percent)
+        {
+            if (percent < 0)
+                throw new ArgumentException(nameof(percent));
+            DestructionPercent = percent;
         }
         public void UpdateValue(double value)
         {

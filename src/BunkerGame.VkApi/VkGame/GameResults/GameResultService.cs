@@ -1,6 +1,8 @@
 ﻿using BunkerGame.Domain;
 using BunkerGame.Framework;
+using BunkerGameComponents.Domain;
 using MediatR;
+using IUnitOfWork = BunkerGame.Domain.IUnitOfWork;
 
 namespace BunkerGame.VkApi.VkGame.GameResults
 {

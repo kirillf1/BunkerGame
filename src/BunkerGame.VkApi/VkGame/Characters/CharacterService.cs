@@ -3,7 +3,9 @@ using BunkerGame.Domain.Characters;
 using BunkerGame.Domain.Shared;
 using BunkerGame.Framework;
 using BunkerGame.VkApi.VkGame.Characters.CommandHandlers;
+using BunkerGameComponents.Domain;
 using MediatR;
+using IUnitOfWork = BunkerGame.Domain.IUnitOfWork;
 
 namespace BunkerGame.VkApi.VkGame.Characters
 {

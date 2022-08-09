@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BunkerGameComponetns.Editor.View.CatastropheDetails"
+              xmlns:viewmodel="clr-namespace:BunkerGameComponetns.Editor.ViewModel.DetailsModels"
+             x:DataType="viewmodel:CatastropheDetailsViewModel"
+             Title="{Binding Title}">
+    <ScrollView>
+        <Grid ColumnDefinitions="*" RowDefinitions="Auto, Auto" RowSpacing="10">
+
+            <VerticalStackLayout Grid.Row="0">
+                <Label Text="Изменить описание"></Label>
+                <Editor Text="{Binding GameComponent.Description}" HeightRequest="300" />
+            </VerticalStackLayout>
+            <Frame Grid.Row="1" Margin="10,10,10,10">
+                <Grid RowDefinitions="Auto,Auto,Auto" ColumnDefinitions="Auto,Auto">
+                    <VerticalStackLayout  Grid.Row="0" Grid.Column="0" HorizontalOptions="StartAndExpand">
+                        <Label Text="Тип катастрофы"></Label>
+                        <Picker SelectedItem="{Binding GameComponent.CatastropheType}" ItemsSource="{Binding CatastropheTypes}"></Picker>
+                    </VerticalStackLayout>
+                    <VerticalStackLayout Grid.Row="0" Grid.Column="1" HorizontalOptions="StartAndExpand">
+                        <Label Text="Значение"></Label>
+                        <Entry Keyboard="Numeric" Text="{Binding GameComponent.Value}"></Entry>
+                    </VerticalStackLayout>
+                    <VerticalStackLayout Grid.Row="1" Grid.Column="0" HorizontalOptions="StartAndExpand">
+                        <Label Text="Срок катаклизма"></Label>
+                        <Entry Keyboard="Numeric" Text="{Binding GameComponent.HidingTerm}"></Entry>
+                    </VerticalStackLayout >
+                    <VerticalStackLayout  Grid.Row="1" Grid.Column="1">
+                        <Label Text="Процент разрушения"></Label>
+                        <Entry Keyboard="Numeric" Text="{Binding GameComponent.HidingTerm}"></Entry>
+                    </VerticalStackLayout>
+                    <VerticalStackLayout  Grid.Row="2" Grid.ColumnSpan="1">
+                        <Label Text="Процент выжевшего населения"></Label>
+                        <Entry Keyboard="Numeric" Text="{Binding GameComponent.SurvivedPopulationPercent}"></Entry>
+                    </VerticalStackLayout>
+                </Grid>
+            </Frame>
+        </Grid>
+    </ScrollView>
+</ContentPage>

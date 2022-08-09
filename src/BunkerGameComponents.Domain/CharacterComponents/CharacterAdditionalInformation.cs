@@ -4,14 +4,14 @@ using System.Text.Json.Serialization;
 
 namespace BunkerGameComponents.Domain.CharacterComponents
 {
-    public class CharacterAdditionalInformation : CharacterComponentAggregate
+    public class CharacterAdditionalInformation : CharacterComponentBase
     {
         public CharacterAdditionalInformation(ComponentId id) : base(id)
         {
             AddInfType = AddInfType.Useless;
         }
         [JsonInclude]
-        public AddInfType AddInfType { get; private set; }
+        public AddInfType AddInfType { get;  set; }
         public void UpdateAddInfType(AddInfType addInfType)
         {
             AddInfType = addInfType;
