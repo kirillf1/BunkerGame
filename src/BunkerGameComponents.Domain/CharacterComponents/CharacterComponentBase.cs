@@ -3,18 +3,20 @@ using System.Text.Json.Serialization;
 
 namespace BunkerGameComponents.Domain.CharacterComponents
 {
-    public abstract class CharacterComponentAggregate : AggregateRoot<ComponentId>, IGameComponent
+    public abstract class CharacterComponentBase : IGameComponent
     {
-        protected CharacterComponentAggregate(ComponentId id)
+        protected CharacterComponentBase(ComponentId id)
         {
             Id = id;
             Value = 0;
             Description = "unknown";
         }
         [JsonInclude]
-        public double Value { get; private set; }
+        public double Value { get; set; }
         [JsonInclude]
-        public string Description { get; private set; }
+        public string Description { get; set; }
+
+        public ComponentId Id { get; }
 
         public virtual void UpdateDescription(string description)
         {

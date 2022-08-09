@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace BunkerGameComponents.Domain.CharacterComponents
 {
-    public class CharacterTrait : CharacterComponentAggregate
+    public class CharacterTrait : CharacterComponentBase
     {
         public CharacterTrait(ComponentId id) : base(id)
         {
@@ -11,7 +11,7 @@ namespace BunkerGameComponents.Domain.CharacterComponents
         }
 
         [JsonInclude]
-        public TraitType TraitType { get; private set; }
+        public TraitType TraitType { get; set; }
         public void UpdateTraitType(TraitType traitType) => TraitType = traitType; 
     }
 }
