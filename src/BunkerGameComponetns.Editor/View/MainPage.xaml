@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BunkerGameComponetns.Editor.MainPage"
+             xmlns:viewmodel="clr-namespace:BunkerGameComponetns.Editor.ViewModel"
+             x:DataType="viewmodel:GameComponentsViewModel"
+             Title="{Binding GameComponentType}"
+             xmlns:model="clr-namespace:BunkerGameComponents.Domain;assembly=BunkerGameComponents.Domain">
+    <Grid
+        ColumnDefinitions="*,*"
+        RowDefinitions="Auto,*,Auto"
+        RowSpacing="0">
+        <Picker 
+            Grid.Column="0" IsEnabled="{Binding IsNotBusy}"
+            Grid.Row="0" 
+            ItemsSource="{Binding ComponentTypes}"
+            Title="Выбрать компонент" 
+            HorizontalOptions="FillAndExpand" 
+            SelectedItem="{Binding GameComponentType}" 
+            FontSize="{OnIdiom  Desktop=Medium, Default=Small}" Margin="20,0,0,0"
+            SelectedIndexChanged="OnPickerSelectedIndexChanged"
+            />
+        <HorizontalStackLayout Spacing="{OnIdiom  Desktop=10, Default=0}"  Grid.Column="1"  Grid.Row="0" 
+                               HorizontalOptions="{OnIdiom Desktop=EndAndExpand, Phone=CenterAndExpand}">
+            <VerticalStackLayout>
+                <Label FontSize="{OnIdiom  Desktop=Medium, Default=Small}" Text="Поиск"></Label>
+                <Entry Placeholder="Поиск по описанию"  Text="{Binding DescriptionQuery}" 
+                       FontSize="{OnIdiom Desktop=Medium, Default=Small}" MinimumWidthRequest="60" />
+        </VerticalStackLayout>
+        <Button HeightRequest="50" 
+                Text="Добавить" Command="{Binding AddComponentCommand}"></Button>
+        </HorizontalStackLayout>
+        <CollectionView IsVisible="{Binding IsNotBusy}"
+            ItemsSource="{Binding GameComponents}"
+            SelectionMode="None" Grid.ColumnSpan="3" Grid.Row="1">
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Orientation="Vertical" VerticalItemSpacing="0"  HorizontalItemSpacing="0"  Span="{OnIdiom Desktop=2,Default=1}"></GridItemsLayout>
+            </CollectionView.ItemsLayout>
+            <CollectionView.EmptyView>
+                <StackLayout VerticalOptions="Center" HorizontalOptions="Center"
+                                 WidthRequest="200"
+                                 HeightRequest="200">
+                    <Label>Not Found</Label>
+                </StackLayout>
+            </CollectionView.EmptyView>
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:IGameComponent">
+                    <Grid Padding="10" RowSpacing="10" HeightRequest="150" ColumnDefinitions="*,Auto">
+                        <Frame Margin="0,0,0,10">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer
+                                    CommandParameter="{Binding .}"
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:GameComponentsViewModel}},Path=GoToDetailsCommand}">
+                                </TapGestureRecognizer>
+                                <SwipeGestureRecognizer Direction="Left"  CommandParameter="{Binding . }" Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:GameComponentsViewModel}},Path=RemoveComponentCommand}"/>
+                            </Frame.GestureRecognizers>
+                            <Grid Padding="0" ColumnDefinitions="*,50" RowDefinitions="*,*">
+                                <VerticalStackLayout Grid.ColumnSpan="2" Grid.RowSpan="1"
+                                    Spacing="10">
+                                    <Label Text="{Binding Id.Id, StringFormat='Id: {0}'}" />
+                                    <Label Text="{Binding Description, StringFormat='Описание: {0}'}" />
+                                    <Label Text="{Binding Value, StringFormat='Значение: {0}'}" />
+                                </VerticalStackLayout>
+                                <Button Text="x" Grid.Column="1" Grid.Row="0"  HeightRequest="40"
+                                        HorizontalOptions="End" VerticalOptions="StartAndExpand"
+                                        CommandParameter="{Binding . }"
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:GameComponentsViewModel}},Path=RemoveComponentCommand}"
+                                        IsEnabled="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:GameComponentsViewModel}},Path=IsNotBusy}"/>
+                            </Grid>
+                        </Frame>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Button Text="Получить компоненты" 
+                Command="{Binding GetComponentsCommand}"
+                IsEnabled="{Binding IsNotBusy}"
+                Grid.Row="2"
+                Grid.Column="0"
+                Margin="8"/>
+        <Button Text="Сохранить изменения" 
+                Command="{Binding SaveChangesCommand}"
+                IsEnabled="{Binding CanSave}"
+                Grid.Row="2"
+                Grid.Column="1"
+                Margin="8"/>
+        <ActivityIndicator IsVisible="{Binding IsBusy}" 
+                           IsRunning="{Binding IsBusy}"
+                           HorizontalOptions="FillAndExpand"
+                           VerticalOptions="CenterAndExpand"
+                           Grid.ColumnSpan="2"
+                           Grid.RowSpan="2"/>
+    </Grid>
+</ContentPage>
