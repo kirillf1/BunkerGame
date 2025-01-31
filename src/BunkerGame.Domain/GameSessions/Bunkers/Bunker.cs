@@ -14,6 +14,7 @@
             Buildings = new List<Building>(buildings);
             Enviroment = enviroment ?? throw new ArgumentNullException(nameof(enviroment));
         }
+
         public Size Size { get; }
         public Supplies Supplies { get; }
         public Condition Condition { get; }
